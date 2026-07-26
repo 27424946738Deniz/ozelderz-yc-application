@@ -1,0 +1,36 @@
+{
+  "bucket": "ozelderz-basvuru",
+  "uploadedAt": "2026-07-25T04:32:07.000Z",
+  "lessons": [
+    {
+      "meetCode": "cqi-brqh-evi",
+      "key": "lessons/cqi-brqh-evi.mp4",
+      "localPath": "/Users/bourbaki/Downloads/cqi-brqh-evi (2026-07-24 07_55 GMT).mp4",
+      "sizeMb": 679.2
+    },
+    {
+      "meetCode": "iaw-bhar-hai",
+      "key": "lessons/iaw-bhar-hai.mp4",
+      "localPath": "/Users/bourbaki/Downloads/iaw-bhar-hai (2026-07-24 11_55 GMT).mp4",
+      "sizeMb": 634.1
+    },
+    {
+      "meetCode": "iga-bbew-mbw",
+      "key": "lessons/iga-bbew-mbw.mp4",
+      "localPath": "/Users/bourbaki/Downloads/iga-bbew-mbw (2026-07-24 13_56 GMT).mp4",
+      "sizeMb": 577.3
+    },
+    {
+      "meetCode": "jhx-xgqp-uis",
+      "key": "lessons/jhx-xgqp-uis.mp4",
+      "localPath": "/Users/bourbaki/Downloads/jhx-xgqp-uis (2026-07-23 09_56 GMT).mp4",
+      "sizeMb": 694.6
+    },
+    {
+      "meetCode": "tpk-tohs-mif",
+      "key": "lessons/tpk-tohs-mif.mp4",
+      "localPath": "/Users/bourbaki/Downloads/tpk-tohs-mif (2026-07-23 16_56 GMT).mp4",
+      "sizeMb": 505.5
+    }
+  ]
+}

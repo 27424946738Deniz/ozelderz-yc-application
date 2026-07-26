@@ -33,6 +33,12 @@ yarn-error.log*
 # env files (can opt-in for committing if needed)
 .env*
 
+# local transcription cache (large binaries)
+data/audio-cache/
+
+# local logs
+data/*.log
+
 # vercel
 .vercel
 

@@ -1,0 +1,7 @@
+{
+  "bucket": "ozelderz-basvuru",
+  "key": "lessons/tpk-tohs-mif.mp4",
+  "localPath": "/Users/bourbaki/Downloads/tpk-tohs-mif (2026-07-23 16_56 GMT).mp4",
+  "presignedUrl": "https://ozelderz-basvuru.02f65dd7143d3c26e252b97abc8ca803.r2.cloudflarestorage.com/lessons/tpk-tohs-mif.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=b381b8ebc2fc4984cb754eceef51f5c2%2F20260725%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260725T043207Z&X-Amz-Expires=86400&X-Amz-Signature=7dfc8caefd570d745b1aee6165374ab86e68bae4e6bcd35e8ed5940221b04c52&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+  "uploadedAt": "2026-07-25T04:32:07.272Z"
+}
