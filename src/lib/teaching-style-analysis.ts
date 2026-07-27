@@ -51,6 +51,10 @@ export function buildTeachingStyleAnalysis(
     teacherQuestions: number;
     avgGap: number;
     studentLongTurns: number;
+    excelsWith?: TeachingStyleAnalysis["excelsWith"];
+    lessSuitedFor?: TeachingStyleAnalysis["lessSuitedFor"];
+    matchingGuide?: TeachingStyleAnalysis["matchingGuide"];
+    overview?: string;
   }
 ): TeachingStyleAnalysis {
   const {
@@ -162,7 +166,10 @@ export function buildTeachingStyleAnalysis(
   const primaryStyle = dimensions[0]?.label ?? "Karma Öğretmen";
   const secondaryStyle = dimensions[1]?.label ?? "Yapılandırılmış Anlatım";
 
-  const excelsWith = [
+  const excelsWith =
+    metrics.excelsWith && metrics.excelsWith.length > 0
+      ? metrics.excelsWith
+      : ([
     structureScore >= 55
       ? {
           type: "Yapı ve plan arayan öğrenciler",
@@ -200,9 +207,12 @@ export function buildTeachingStyleAnalysis(
             "Sık \"tamam mı?\" kontrolü ve destekleyici dil — adım adım ilerlemek isteyenlerle iyi eşleşir",
         }
       : null,
-  ].filter(Boolean) as TeachingStyleAnalysis["excelsWith"];
+  ].filter(Boolean) as TeachingStyleAnalysis["excelsWith"]);
 
-  const lessSuitedFor = [
+  const lessSuitedFor =
+    metrics.lessSuitedFor && metrics.lessSuitedFor.length > 0
+      ? metrics.lessSuitedFor
+      : ([
     talkRatioPct > 75
       ? {
           type: "Yüksek katılım isteyen tartışmacı öğrenciler",
@@ -236,9 +246,12 @@ export function buildTeachingStyleAnalysis(
           alternative: "Ekran/harita/etkinlik ağırlıklı profil",
         }
       : null,
-  ].filter(Boolean) as TeachingStyleAnalysis["lessSuitedFor"];
+  ].filter(Boolean) as TeachingStyleAnalysis["lessSuitedFor"]);
 
-  const matchingGuide: TeachingStyleAnalysis["matchingGuide"] = [
+  const matchingGuide =
+    metrics.matchingGuide && metrics.matchingGuide.length > 0
+      ? metrics.matchingGuide
+      : [
     {
       when: "Öğrenci LGS hazırlığına yeni başlıyorsa",
       recommend: `${teacherFirst}'ya yönlendirin — müfredat haritası ve sınav çerçevesi kurar`,
@@ -274,7 +287,12 @@ export function buildTeachingStyleAnalysis(
 
   const bestQuote = teacherSegs.find((s) => s.text.length > 60)?.text;
 
-  const overview = `${teacherFirst}, transkriptte **${primaryStyle.toLowerCase()}** ve **${secondaryStyle.toLowerCase()}** ile öne çıkıyor. Güçlü yönleri yapılandırma, sınav stratejisi ve materyal planlaması; gelişim alanı öğrenciyi aktif konuşturma. ${bestQuote ? `Örnek: "${bestQuote.slice(0, 85)}…"` : ""} Bu profildeki hoca, plan ve hedef arayan öğrencilere yönlendirilmelidir.`;
+  const overview =
+    metrics.overview?.trim() ||
+    `${teacherFirst}, transkriptte **${primaryStyle.toLowerCase()}** ve **${secondaryStyle.toLowerCase()}** ile öne çıkıyor. Güçlü yönleri yapılandırma, sınav stratejisi ve materyal planlaması; gelişim alanı öğrenciyi aktif konuşturma. ${bestQuote ? `Örnek: "${bestQuote.slice(0, 85)}…"` : ""} Bu profildeki hoca, plan ve hedef arayan öğrencilere yönlendirilmelidir.`.replace(
+      /\*\*/g,
+      ""
+    );
 
   return {
     primaryStyle,

@@ -1,0 +1,2310 @@
+{
+  "version": 1,
+  "guides": {
+    "bao-wvxv-ksx": {
+      "meetCode": "bao-wvxv-ksx",
+      "studentName": "Ali Kayra Karataş",
+      "teacherName": "Mehmet Alioğlu",
+      "subject": "Matematik",
+      "approachGuide": [
+        {
+          "title": "Kavram Haritaları Kullanma",
+          "gap": "Ali rasyonel sayılar konusunda takıldığını belirtti; derste bu boşluk tam kapanmamış olabilir.",
+          "tactic": "Rasyonel sayılar konusunu daha iyi anlaması için kavram haritaları kullanılabilir. Ali'nin konular arasındaki ilişkileri görselleştirmesi, eksik kavramları daha hızlı kapatmasına yardımcı olabilir."
+        }
+      ],
+      "understandsBetter": [
+        {
+          "area": "Tek ve Çift Sayılar",
+          "reason": "Öğrenci, tek ve çift sayıların kurallarını hızlıca kavrayıp doğru cevaplar veriyor.",
+          "example": "Çiftle çifti toplarsam sonuç ne olacak? Çift olacak. Çift olur."
+        },
+        {
+          "area": "Rasyonel ve İrrasyonel Sayılar",
+          "reason": "Öğrenci, rasyonel ve irrasyonel sayıların tanımını ve örneklerini doğru bir şekilde anlıyor.",
+          "example": "İrasyonel İrasyonel. Nasıl örnek vereyim? Ya rasyonel olmayan sayılar. Mesela... Yani mesela pi sayısı..."
+        }
+      ],
+      "understandsLess": [
+        {
+          "area": "Kesirli Denklemler",
+          "reason": "Öğrenci, kesirli denklemlerin çözümünde karışıklık yaşıyor gibi görünüyor.",
+          "alternative": "Kesirli denklemleri çözmek için daha fazla adım adım örnek gösterilebilir."
+        },
+        {
+          "area": "Basamak Analizi",
+          "reason": "Öğrenci, basamak analizini anlamakta zorluk çekiyor olabilir; çünkü öğretmen bu konuyu daha fazla açıklama gereği duyuyor.",
+          "alternative": "Basamak analizi ile ilgili daha fazla pratik soru çözülerek kavrayış geliştirilebilir."
+        }
+      ],
+      "generatedAt": "2026-07-26T23:57:53.176Z"
+    },
+    "bji-jxik-vzq": {
+      "meetCode": "bji-jxik-vzq",
+      "studentName": "Muhammed Bingöl",
+      "teacherName": "Mustafa Ardahan Dirlik",
+      "subject": "Matematik",
+      "approachGuide": [
+        {
+          "title": "Kavram Haritası Kullanımı",
+          "gap": "Muhammed geometri konusunda takıldığını belirtti; derste bu boşluk tam kapanmamış olabilir.",
+          "tactic": "Gelecek derste, geometri kavramlarını bir kavram haritası üzerinde göstermeyi planlayın. Bu, öğrencinin hangi kavramlarda zorluk yaşadığını daha net anlamanıza ve eksiklikleri hedef almanıza yardımcı olacaktır."
+        },
+        {
+          "title": "Öğrenci Katılımını Artırma",
+          "gap": "Konuşmanın %72'i öğretmende; öğrenci fikir üretme fırsatı sınırlı.",
+          "tactic": "Dersin belirli bölümlerinde öğrencinin aktif katılımını teşvik etmek için açık uçlu sorular sormaya ve öğrenciye problem çözme fırsatları sunmaya odaklanın. Bu, öğrencinin derse daha fazla katılım sağlamasına ve kendi fikirlerini geliştirmesine yardımcı olabilir."
+        },
+        {
+          "title": "Görsel Araçların Entegrasyonu",
+          "gap": "Matematik dersinde sayı doğrusu, tablo veya grafik gibi görsel araçlar yeterince kullanılmamış.",
+          "tactic": "Ders sırasında sayı doğruları, grafikler ve tablolar gibi görsel araçları daha sık kullanarak konuları somutlaştırın. Bu, soyut matematiksel kavramların daha iyi anlaşılmasına katkı sağlayabilir."
+        }
+      ],
+      "understandsBetter": [],
+      "understandsLess": [
+        {
+          "area": "Okuduğunu Anlama",
+          "reason": "Muhammed'in okuduğunu anlamada zorlandığı belirtiliyor. Öğrencinin metni yüzeysel okuma eğiliminde olduğu ve detayları kaçırdığı gözlemleniyor.",
+          "alternative": "Öğrencinin okuma alışkanlıklarını geliştirmek için kısa ve ilgi çekici metinlerle çalışarak, ardından metinle ilgili sorularla okuduğunu anlama becerisini pekiştirmek faydalı olabilir."
+        },
+        {
+          "area": "Derse Odaklanma",
+          "reason": "Derse odaklanma konusunda sorun yaşadığı, dikkatinin dağıldığı ve ders sonrası tekrar yapmadığı belirtiliyor.",
+          "alternative": "Ders sırasında dikkatini toplamak için kısa süreli odaklanma egzersizleri ve ders sonrası tekrarlar için bir rutin oluşturulması önerilebilir."
+        },
+        {
+          "area": "Motivasyon Eksikliği",
+          "reason": "Muhammed'in motivasyon eksikliği çektiği ve ders çalışmak için dışsal ödüllere ihtiyaç duyduğu aktarılıyor.",
+          "alternative": "Öğrencinin içsel motivasyonunu artırmak için ilgi alanlarına yönelik projeler ve küçük hedeflerle başarı duygusunu tatmasını sağlamak yararlı olabilir."
+        }
+      ],
+      "generatedAt": "2026-07-26T23:57:55.963Z"
+    },
+    "cev-xgmd-fjw": {
+      "meetCode": "cev-xgmd-fjw",
+      "studentName": "İlke İlke",
+      "teacherName": "Büşra Çelik",
+      "subject": "Matematik",
+      "approachGuide": [
+        {
+          "title": "Sokratik Yöntem",
+          "gap": "Konuşma süresinin yalnızca %10'i öğrencide; ders öğretmen monoloğuna kaymış.",
+          "tactic": "Öğrenciyi daha aktif hale getirmek için Sokratik yöntemle sorular sorarak dersin seyrini onun katılımıyla yönlendirin. Böylece öğrenci düşünmeye ve konuşmaya teşvik edilecektir."
+        },
+        {
+          "title": "Farklı Anlatım Teknikleri",
+          "gap": "İlke rasyonel sayılar konusunda takıldığını belirtti; derste bu boşluk tam kapanmamış olabilir.",
+          "tactic": "Rasyonel sayılar konusunu pekiştirmek için farklı anlatım teknikleri kullanın, örneğin somut örnekler veya görsel materyallerle konuyu pekiştirin. Öğrencinin anlamadığı noktaları yeniden açıklamak için zaman ayırın."
+        },
+        {
+          "title": "Sınav Kaygısını Azaltma Egzersizleri",
+          "gap": "Performans endişesi dile getirildi — öğrenme motivasyonu kaygıyla bloke olabilir.",
+          "tactic": "Sınav öncesi rahatlama teknikleri ve nefes egzersizleri üzerine kısa seanslar düzenleyin. Ayrıca, küçük adımlar halinde sınav pratiği yaparak özgüvenini artırmaya çalışın."
+        },
+        {
+          "title": "Hedefle İlişkilendirme",
+          "gap": "Ders boyunca LGS/hedef referansı yok — öğrenci \"neden öğreniyorum\" sorusuna yanıt almamış olabilir.",
+          "tactic": "Dersin başında veya sonunda konunun LGS'deki öneminden ve günlük hayatta nasıl kullanılabileceğinden bahsedin. Öğrencinin bu bilgiyi neden öğrendiğini anlamasına yardımcı olun."
+        }
+      ],
+      "understandsBetter": [
+        {
+          "area": "Denklem Çözme",
+          "reason": "Öğrenci, denklemleri çözme konusunda kendine güvendiğini gösterdi ve doğru sonuçlar elde etti.",
+          "example": "O eşittir doksan sekiz, yirmi dört x eşittir doksan altı oluyor. X de dört oluyor."
+        },
+        {
+          "area": "Ters Orantı Problemleri",
+          "reason": "Ters orantı problemlerini çözme konusunda doğru adımları takip etti ve sonucu doğru hesapladı.",
+          "example": "Ters orantı olduğu için on beşle altıyı çarptım. Doksan, doksan dokuza böldüm. On ama kaç işçiye daha ihtiyaç vardır dediği için ondan altı çıkarttım dört."
+        }
+      ],
+      "understandsLess": [
+        {
+          "area": "Eşitliğin Korunumu",
+          "reason": "Öğrenci, eşitliklerin korunumu konusunda zorlandığını belirtti.",
+          "alternative": "Öğrenciye eşitliğin korunumu ile ilgili daha fazla pratik yapması için örnekler verin ve bu konuyu pekiştirmek için görsel materyaller kullanın."
+        },
+        {
+          "area": "İki Bilinmeyenli Denklemler",
+          "reason": "Öğrenci, iki bilinmeyenli denklemleri çözme konusunda eksiklik hissettiğini belirtti.",
+          "alternative": "İki bilinmeyenli denklemlerle ilgili adım adım çözüm örnekleri sunarak ve öğrencinin bağımsız olarak çözmesini sağlayarak bu konuyu pekiştirmesine yardımcı olun."
+        }
+      ],
+      "generatedAt": "2026-07-26T23:57:59.161Z"
+    },
+    "ckn-yurm-vyd": {
+      "meetCode": "ckn-yurm-vyd",
+      "studentName": "Hiranur Ayşe Kaya",
+      "teacherName": "Yaren Yalım",
+      "subject": "Matematik",
+      "approachGuide": [
+        {
+          "title": "Kavram Haritası Kullanımı",
+          "gap": "Hiranur ondalık gösterim konusunda takıldığını belirtti; derste bu boşluk tam kapanmamış olabilir.",
+          "tactic": "Ondalık gösterim konusunu daha iyi anlaması için bir kavram haritası oluştur. Harita, ondalık gösterimle ilgili temel kavramları ve bu kavramların birbirleriyle olan ilişkilerini görsel olarak sunarak Hiranur'un anlamlandırmasına yardımcı olabilir."
+        },
+        {
+          "title": "Derinlemesine Soru Sorma",
+          "gap": "42 soru sormasına rağmen çoğu yanıt kısa — sorular mekanik, içselleştirme takip etmiyor.",
+          "tactic": "Sonraki derslerde, Hiranur'un düşünme sürecini derinleştirecek açık uçlu sorular sormaya odaklan. Örneğin, 'Bu problemi nasıl çözdün?' yerine 'Bu problemi çözerken hangi stratejileri kullandın ve neden?' gibi sorular sorarak daha detaylı düşünmesini sağlayabilirsin."
+        }
+      ],
+      "understandsBetter": [
+        {
+          "area": "Kesirlerin Çarpılması",
+          "reason": "Öğrenci, kesirlerin çarpılması ve sadeleştirme işlemlerinde daha rahat görünüyor.",
+          "example": "iki ile beşle çarparım. On on paydaları eşitlerim."
+        }
+      ],
+      "understandsLess": [
+        {
+          "area": "Ondalık Gösterim ve Kesir Dönüşümü",
+          "reason": "Öğrenci, kesirleri ondalık sayılara dönüştürme konusunda karışıklık yaşıyor.",
+          "alternative": "Öğrenciye kesirleri ondalık sayılara dönüştürme işlemini adım adım gösteren bir görsel materyal sunulabilir."
+        },
+        {
+          "area": "Karışık Problemlerle Başa Çıkma",
+          "reason": "Öğrenci, karışık problemlerde ve birden fazla adım içeren sorularda zorlanıyor.",
+          "alternative": "Öğrenciye her bir adımı ayrı ayrı çözmesi ve not alması için teşvik edici bir yöntem önerilebilir."
+        },
+        {
+          "area": "Terimler ve Kavramlar Arasındaki Farklar",
+          "reason": "Öğrenci, matematik terimlerini ve kavramları karıştırıyor gibi görünüyor.",
+          "alternative": "Öğrenci için terimlerin ve kavramların kısa tanımlarını içeren bir referans kartı hazırlanabilir."
+        }
+      ],
+      "generatedAt": "2026-07-26T23:58:01.985Z"
+    },
+    "cqi-brqh-evi": {
+      "meetCode": "cqi-brqh-evi",
+      "studentName": "Nisa Kurtuldu",
+      "teacherName": "Ceren Nur Sarıkavak",
+      "subject": "Matematik",
+      "approachGuide": [
+        {
+          "title": "Kavram Haritası Kullanımı",
+          "gap": "Nisa rasyonel sayılar konusunda takıldığını belirtti; derste bu boşluk tam kapanmamış olabilir.",
+          "tactic": "Bir sonraki derste, rasyonel sayılar konusunu kavram haritası kullanarak işle. Bu harita, Nisa'nın kafasında konunun ana hatlarını ve ilişkili kavramları netleştirmesine yardımcı olabilir."
+        },
+        {
+          "title": "Etkileşimli Soru-Cevap Seansları",
+          "gap": "Katılım %19 — öğrenci dinleyici konumunda kalmış, aktif üretim az.",
+          "tactic": "Ders sırasında Nisa'yı daha fazla soru sormaya veya kendi çözümlerini açıklamaya teşvik et. Etkileşimli soru-cevap seansları düzenleyerek, öğrencinin derse katılımını artırabilir ve kavrayışını derinleştirebilirsin."
+        }
+      ],
+      "understandsBetter": [
+        {
+          "area": "Temel İşlemler",
+          "reason": "Nisa, toplama ve çarpma işlemlerinde genel olarak rahat olduğunu belirtiyor.",
+          "example": "işlemler yani toplama çarpma olarak pek bir sıkıntım yok."
+        },
+        {
+          "area": "Denklemler",
+          "reason": "Denklemler konusunda kendine güvendiğini ifade ediyor.",
+          "example": "Denklemlerle aram iyi."
+        }
+      ],
+      "understandsLess": [
+        {
+          "area": "Ondalık ve Devirli Sayılar",
+          "reason": "Ondalık sayılar ve devirli sayılar konusunda zorlandığını belirtiyor.",
+          "alternative": "Ondalık ve devirli sayılar üzerinde daha fazla pratik yaparak ve görsel materyaller kullanarak konuyu pekiştirebilir."
+        },
+        {
+          "area": "Oran ve Orantı",
+          "reason": "Oran ve orantı konularının daha zor geldiğini ifade ediyor.",
+          "alternative": "Oran ve orantı konularını günlük yaşamdan örneklerle ilişkilendirerek çalışabilir."
+        }
+      ],
+      "generatedAt": "2026-07-26T23:58:04.188Z"
+    },
+    "cup-ebmb-nwm": {
+      "meetCode": "cup-ebmb-nwm",
+      "studentName": "Muhammed Said Kayalı",
+      "teacherName": "Mehmet Alioğlu",
+      "subject": "Matematik",
+      "approachGuide": [
+        {
+          "title": "Soru-Cevap Tekniği",
+          "gap": "Konuşma süresinin yalnızca %6'i öğrencide; ders öğretmen monoloğuna kaymış.",
+          "tactic": "Öğrenciyi daha fazla katılıma teşvik etmek için ders boyunca açık uçlu sorular sor. Her konunun sonunda öğrenciye özet yaptırarak ve kendi düşüncelerini paylaşmasını isteyerek katılımını artır."
+        },
+        {
+          "title": "Düşünme Sürecini Modelle",
+          "gap": "Muhammed kendi cümleleriyle uzun açıklama yapmadı (1 uzun yanıt) — düşünme sürecini dışa vurma pratiği yok.",
+          "tactic": "Öğrenciye bir problem üzerinde düşünmesini sağlayarak, kendi düşüncelerini sesli bir şekilde ifade etmesini iste. Örneğin, bir problem çözerken önce adım adım nasıl düşündüğünü anlatmasını teşvik et, ardından bu süreç üzerinden tartışma yap."
+        }
+      ],
+      "understandsBetter": [
+        {
+          "area": "Trigonometri Terimleri ve Oranlar",
+          "reason": "Öğrenci, trigonometri terimleri ve oranlarını doğru bir şekilde tekrar edebilmekte ve bu konularda kendine güven duymaktadır.",
+          "example": "Karşı bölü hipotenüs. Dört."
+        },
+        {
+          "area": "Pratik Uygulamalar",
+          "reason": "Öğrenci, teorik bilgileri pratik uygulamalara dökme konusunda rahat hissetmektedir.",
+          "example": "Ters çevirip çarpabiliriz."
+        }
+      ],
+      "understandsLess": [
+        {
+          "area": "Karmaşık Problem Çözümü",
+          "reason": "Öğrenci, daha karmaşık problem çözümlerinde ve işlem adımlarında zorlanıyor gibi görünmektedir.",
+          "alternative": "Karmaşık problemleri daha basit adımlara bölerek ve her adımda rehberlik ederek çözüm sürecini kolaylaştırabilirsiniz."
+        },
+        {
+          "area": "Not Alma ve Takip Etme",
+          "reason": "Öğrenci, not alma ve ders materyalini takip etme konusunda zorluk yaşamaktadır.",
+          "alternative": "Öğrenciye not alma konusunda daha fazla zaman tanıyabilir veya önemli noktaları özetleyen bir yazılı materyal sunabilirsiniz."
+        }
+      ],
+      "generatedAt": "2026-07-26T23:58:07.901Z"
+    },
+    "dkk-jbjc-uvf": {
+      "meetCode": "dkk-jbjc-uvf",
+      "studentName": "Zeynep Sude Mercanlı",
+      "teacherName": "Emine Nur Pınar",
+      "subject": "Matematik",
+      "approachGuide": [
+        {
+          "title": "Hedefli Kavram Pekiştirme",
+          "gap": "Zeynep rasyonel sayılar konusunda takıldığını belirtti; derste bu boşluk tam kapanmamış olabilir.",
+          "tactic": "Bir sonraki derste, rasyonel sayılar konusuna odaklanarak örnek problemler çözün ve Zeynep'e bu konuda ek alıştırmalar verin. Ayrıca, kavramın temel prensiplerini anlaması için görsel materyaller kullanarak konuyu pekiştirin."
+        },
+        {
+          "title": "Motivasyon ve Duygu Yönetimi",
+          "gap": "Performans endişesi dile getirildi — öğrenme motivasyonu kaygıyla bloke olabilir.",
+          "tactic": "Zeynep'in özgüvenini artırmak için dersin başlangıcında küçük başarılar elde edebileceği basit sorularla başlayın. Ayrıca, kaygısını yönetebilmesi için nefes alma teknikleri ve pozitif düşünme alışkanlıkları üzerine kısa süreli etkinlikler düzenleyin."
+        }
+      ],
+      "understandsBetter": [
+        {
+          "area": "İşlem Önceliği Konusunda Adım Adım İlerleme",
+          "reason": "Öğrenci, işlem önceliğini adım adım takip ederken daha rahat görünüyor ve bu adımların sırasını sorguluyor.",
+          "example": "Parantezden sonra neydi? Ön çarpma veya bölme. Zaten tek bir işlemim kaldı. Onu da yapabilirim."
+        }
+      ],
+      "understandsLess": [
+        {
+          "area": "Çarpım Tablosu ve Temel Çarpma İşlemleri",
+          "reason": "Öğrenci çarpım tablosuna hakim olmadığını belirtiyor ve çarpma işlemlerinde zorlanıyor.",
+          "alternative": "Öğrenciye çarpım tablosunu ezberlemesi ve temel çarpma işlemleri için pratik yapması için çalışma kağıtları verilebilir."
+        },
+        {
+          "area": "Üslü Sayılar",
+          "reason": "Öğrenci üslü sayıların mantığını anlamakta zorlanıyor ve öğretmen sıkça bu konuyu tekrar ediyor.",
+          "alternative": "Üslü sayıların görselleştirilmesi için görsel materyaller ve interaktif uygulamalar kullanılabilir."
+        }
+      ],
+      "generatedAt": "2026-07-26T23:58:10.387Z"
+    },
+    "dpj-rpde-pft": {
+      "meetCode": "dpj-rpde-pft",
+      "studentName": "Muhammed Miraç Günay",
+      "teacherName": "Mustafa Enes Kırtış",
+      "subject": "Matematik",
+      "approachGuide": [
+        {
+          "title": "Kavram Haritası Kullanımı",
+          "gap": "Muhammed geometri konusunda takıldığını belirtti; derste bu boşluk tam kapanmamış olabilir.",
+          "tactic": "Gelecek derslerde, geometri kavramlarını birbirine bağlayan kavram haritaları kullanarak öğrencinin daha iyi anlamasını kolaylaştırabilirsiniz. Ayrıca, Muhammed'in zorlandığı spesifik konular üzerinde daha fazla vakit ayırarak, örneklerle pekiştirme yapabilirsiniz."
+        },
+        {
+          "title": "Görsel Araçlarla Destek",
+          "gap": "Matematik dersinde sayı doğrusu, tablo veya grafik gibi görsel araçlar yeterince kullanılmamış.",
+          "tactic": "Derslere sayı doğrusu, grafik ve şekiller gibi görsel araçlar ekleyerek, öğrenciye konuları daha somut hale getirebilirsiniz. Özellikle geometri derslerinde, üç boyutlu modeller veya yazılımlar kullanarak konuların daha iyi anlaşılmasını sağlayabilirsiniz."
+        }
+      ],
+      "understandsBetter": [
+        {
+          "area": "Deneme ve Yanılma Üzerinden Öğrenme",
+          "reason": "Öğrenci, deneme ve yanılma yoluyla öğrenme sürecine aşina ve bu konuda olumlu bir tutum sergiliyor.",
+          "example": "Yüzlerce binlerce deneme yaptın değil mi? Evet hocam."
+        },
+        {
+          "area": "Bağlam ve Uygulama Üzerinden Kavrama",
+          "reason": "Öğrenci, konuları günlük yaşamdaki örneklerle ilişkilendirerek daha iyi anlıyor.",
+          "example": "Arkamdaki köpek varken hocam."
+        }
+      ],
+      "understandsLess": [
+        {
+          "area": "Çarpanlar ve Bölenler Konusu",
+          "reason": "Öğrenci, çarpanlar ve bölenler konusundaki sorularda zorlanıyor ve kavramlar arasında karışıklık yaşıyor.",
+          "alternative": "Öğretmen, bu konuyu daha somut örnekler ve görsellerle destekleyerek anlatabilir."
+        },
+        {
+          "area": "Sayıların Eşleştirilmesi ve Çarpımı",
+          "reason": "Öğrenci, sayıların eşleştirilmesi ve çarpımı konularında kafa karışıklığı yaşıyor.",
+          "alternative": "Öğretmen, daha basit ve adım adım ilerleyen örneklerle konuyu pekiştirebilir."
+        }
+      ],
+      "generatedAt": "2026-07-26T23:58:12.988Z"
+    },
+    "dve-naye-uxc": {
+      "meetCode": "dve-naye-uxc",
+      "studentName": "Eslem Bekret",
+      "teacherName": "Fatma Nur Yıldırım",
+      "subject": "Matematik",
+      "approachGuide": [
+        {
+          "title": "Soru-cevap etkileşimi",
+          "gap": "Eslem derste 0 kez konuştu — diarizasyon veya katılım sorunu; öğretmen neredeyse tek başına ilerledi.",
+          "tactic": "Öğrenciyi daha fazla konuşmaya teşvik etmek için ders sırasında sık sık soru sorarak Eslem'in katılımını artır. Her konuyu anlatırken Eslem'e anlaşılır olup olmadığını sor ve ona küçük problemler çözmesi için fırsatlar ver. Ayrıca, dersin başında veya sonunda kısa bir tartışma veya değerlendirme bölümü ekleyerek öğrencinin düşüncelerini ve sorularını paylaşmasını sağla."
+        }
+      ],
+      "understandsBetter": [],
+      "understandsLess": [],
+      "generatedAt": "2026-07-26T23:58:13.011Z"
+    },
+    "eks-qgow-why": {
+      "meetCode": "eks-qgow-why",
+      "studentName": "Emine Gül İkbal",
+      "teacherName": "Mehmet Alioğlu",
+      "subject": "Matematik",
+      "approachGuide": [
+        {
+          "title": "Soru-Cevap Etkileşimi",
+          "gap": "Konuşma süresinin yalnızca %4'i öğrencide; ders öğretmen monoloğuna kaymış.",
+          "tactic": "Ders boyunca daha fazla soru sorarak öğrenciyi düşünmeye ve katılım sağlamaya teşvik et. Açık uçlu sorularla öğrencinin kendi düşüncelerini ifade etmesi için fırsatlar yarat."
+        },
+        {
+          "title": "Öğrenci Merkezli Kavram Keşfi",
+          "gap": "Emine rasyonel sayılar konusunda takıldığını belirtti; derste bu boşluk tam kapanmamış olabilir.",
+          "tactic": "Rasyonel sayılar konusunu yeniden ele alırken, Emine'nin aktif katılımını sağlayacak problem çözme etkinlikleri düzenle. Öğrencinin kendi çözüm yollarını bulmasına yardımcı olacak rehberlik sağla."
+        },
+        {
+          "title": "Açıklayıcı Yanıtlar Teşviki",
+          "gap": "Yanıtların %64'i tek kelimelik onay — içerik özümseme sinyali zayıf.",
+          "tactic": "Öğrenciden daha uzun ve açıklayıcı yanıtlar almak için, 'Neden?' ve 'Nasıl?' sorularını kullanarak düşüncelerini açmalarını iste. Yanıtların detaylandırılmasına yönelik geri bildirim ver."
+        },
+        {
+          "title": "Anlama Kontrolü İçin Geri Bildirim",
+          "gap": "Test/ödev konuşması yoğun (22 referans) ama öğrencinin anladığını gösteren derin yanıt az.",
+          "tactic": "Her test veya ödevden sonra, Emine'nin anladığını kontrol etmek için kısa bir tartışma yap. Öğrencinin çözümlerini anlatmasını isteyerek yanlış anlamaları tespit et."
+        },
+        {
+          "title": "Görsel Araçların Kullanımı",
+          "gap": "Matematik dersinde sayı doğrusu, tablo veya grafik gibi görsel araçlar yeterince kullanılmamış.",
+          "tactic": "Ders içeriğini desteklemek için sayı doğrusu, grafik veya tablolar gibi görsel materyaller kullan. Bu materyalleri konularla ilişkilendirerek somutlaştırma yap ve öğrencinin kavramsal anlamasını kolaylaştır."
+        }
+      ],
+      "understandsBetter": [
+        {
+          "area": "Tekrar ve Onaylama",
+          "reason": "Öğrenci, öğretmenin söylediklerini sık sık 'evet' ve 'hıhı' gibi ifadelerle onaylıyor, bu da konuyu anladığını ve takip ettiğini gösteriyor.",
+          "example": "Evet, zaten matematik sevdiğin bir ders."
+        },
+        {
+          "area": "Önceden Çözülen Sorular",
+          "reason": "Öğrenci, daha önce çözdüğü sorulara dair güvenle konuşuyor ve bu tür soruları daha iyi anladığını belirtiyor.",
+          "example": "Ben bunu çözdüm. Siz dediniz?"
+        }
+      ],
+      "understandsLess": [
+        {
+          "area": "Soru Çeşitliliği",
+          "reason": "Öğrenci, aynı türdeki soruların üzerine gitmek istemiyor ve farklı sorulara geçmeyi talep ediyor, bu da monoton soruların onu zorlayabileceğini gösteriyor.",
+          "alternative": "Öğrencinin ilgisini çekmek için farklı soru türlerini içeren materyaller kullanılabilir."
+        },
+        {
+          "area": "Karmaşık İşlemler",
+          "reason": "Öğrenci, karmaşık işlemlerle karşılaştığında tereddüt ediyor ve yanıtlarında belirsizlik yaşıyor.",
+          "alternative": "Karmaşık işlemleri daha basit adımlara bölerek açıklamak öğrencinin anlamasını kolaylaştırabilir."
+        }
+      ],
+      "generatedAt": "2026-07-26T23:58:16.222Z"
+    },
+    "epj-hinw-dng": {
+      "meetCode": "epj-hinw-dng",
+      "studentName": "Tuğkan Ayaroğlu",
+      "teacherName": "Mehmet Alioğlu",
+      "subject": "Matematik",
+      "approachGuide": [
+        {
+          "title": "Sokratik Yöntem Kullanımı",
+          "gap": "Konuşma süresinin yalnızca %4'i öğrencide; ders öğretmen monoloğuna kaymış.",
+          "tactic": "Öğrenciyi daha fazla konuşmaya teşvik etmek için Sokratik yöntem kullanarak sorular sor. Öğrencinin kendi düşüncelerini ifade etmesine olanak tanıyarak derse aktif katılımını artır."
+        },
+        {
+          "title": "Hedeflenen Kavram Tekrarı",
+          "gap": "Tuğkan denklemler konusunda takıldığını belirtti; derste bu boşluk tam kapanmamış olabilir.",
+          "tactic": "Denklemler konusunda öğrencinin anlayamadığı noktaları tespit et ve bu konularda kısa, hedeflenmiş tekrarlar yap. Öğrencinin sorular sormasına ve örnekler çözmesine olanak tanı."
+        },
+        {
+          "title": "Düşünceyi Kelimelere Dökme Etkinlikleri",
+          "gap": "Tuğkan kendi cümleleriyle uzun açıklama yapmadı (2 uzun yanıt) — düşünme sürecini dışa vurma pratiği yok.",
+          "tactic": "Öğrencinin düşüncelerini kendi kelimeleriyle ifade etmesi için onu teşvik et. Tartışma soruları veya kısa yazılı açıklamalar isteyerek bu pratiği geliştirmesine yardımcı ol."
+        },
+        {
+          "title": "Soru Üretme Teşviki",
+          "gap": "Öğrenci yalnızca 4 soru sordu — pasif alım eğilimi baskın.",
+          "tactic": "Öğrenciyi daha fazla soru sormaya teşvik etmek için dersin başında ve sonunda merak ettiği şeyleri paylaşmasını iste. Sorularını not ederek bu sorular üzerinden tartışmalar başlat."
+        }
+      ],
+      "understandsBetter": [
+        {
+          "area": "Fonksiyonlar konusuna hakimiyet",
+          "reason": "Öğrenci, fonksiyonlar konusunu iyi anladığını belirtmiştir ve bu konuda kendine güvenmektedir.",
+          "example": "ondaki konular fonksiyonlar onları iyi yapabiliyorum."
+        },
+        {
+          "area": "Trigonometrik oranları kullanma",
+          "reason": "Öğrenci, trigonometri ile ilgili oranları doğru bir şekilde hatırlayıp uygulayabiliyor.",
+          "example": "Karşı bölü komşu, altı bölü dokuz."
+        }
+      ],
+      "understandsLess": [
+        {
+          "area": "Köklü sayılar ve temel işlemler",
+          "reason": "Öğrenci, köklü sayılar ve temel işlemler konusunda karışıklık yaşadığını belirtmiştir.",
+          "alternative": "Öğretmen, köklü sayılar ve temel işlemler için daha fazla görsel ve somut örnekler kullanarak konuyu pekiştirebilir."
+        },
+        {
+          "area": "Çembersel sorular",
+          "reason": "Öğrenci, çembersel soruları anlamakta güçlük çektiğini ifade etmiştir.",
+          "alternative": "Öğretmen, çembersel sorular için adım adım çözümler ve pratik uygulamalar sunarak öğrencinin kavrayışını artırabilir."
+        }
+      ],
+      "generatedAt": "2026-07-26T23:58:20.178Z"
+    },
+    "gvk-iyie-ood": {
+      "meetCode": "gvk-iyie-ood",
+      "studentName": "Ulaş Karadoğan",
+      "teacherName": "Ahmet Baştuğ",
+      "subject": "Fen Bilimleri",
+      "approachGuide": [
+        {
+          "title": "Aktif Öğrenci Katılımı Stratejisi",
+          "gap": "Konuşma süresinin yalnızca %13'i öğrencide; ders öğretmen monoloğuna kaymış.",
+          "tactic": "Ders sırasında daha fazla soru-cevap etkinlikleri ve tartışmalar düzenleyerek Ulaş'ın derse aktif katılımını artırın. Öğrenciyi konuya dahil etmek için açık uçlu sorular kullanın ve düşüncelerini paylaşması için teşvik edin."
+        },
+        {
+          "title": "Kavram Haritaları Kullanımı",
+          "gap": "Ulaş müfredat konusunda takıldığını belirtti; derste bu boşluk tam kapanmamış olabilir.",
+          "tactic": "Kavram haritaları ve şemalar kullanarak Ulaş'ın karmaşık konuları daha iyi anlamasını sağlayın. Öğrenciye kendi kavram haritalarını oluşturma fırsatı vererek konular arasındaki ilişkileri görselleştirmesini teşvik edin."
+        },
+        {
+          "title": "Pozitif Geri Bildirim ve Kaygı Yönetimi",
+          "gap": "Performans endişesi dile getirildi — öğrenme motivasyonu kaygıyla bloke olabilir.",
+          "tactic": "Öğrencinin başarısını ve çabasını vurgulayan pozitif geri bildirimler verin. Ayrıca, kaygı yönetimi için nefes alma teknikleri veya kısa meditasyonlar gibi rahatlatıcı aktiviteler önerin."
+        },
+        {
+          "title": "Hedef Odaklı Öğrenme",
+          "gap": "Ders boyunca LGS/hedef referansı yok — öğrenci \"neden öğreniyorum\" sorusuna yanıt almamış olabilir.",
+          "tactic": "Her konunun LGS ve diğer uzun vadeli hedefler ile nasıl ilişkili olduğunu açıklayarak derse başlamadan önce bu bağlantıları kurun. Öğrencinin öğrenme sürecinin nihai hedeflerini anlamasına yardımcı olacak örnekler verin."
+        }
+      ],
+      "understandsBetter": [
+        {
+          "area": "Kendi Çalışma Yöntemleri",
+          "reason": "Öğrenci, kendi başına ders çalışma ve not alma konusunda istekli ve motive görünüyor.",
+          "example": "Ben mesela kendim de sadece derslerde değil de Hıhı. Kendim de mesela anlamaya çalışsam mesela okusam mesela bir not alsam yani."
+        },
+        {
+          "area": "Öğretmenle İşbirliği",
+          "reason": "Öğrenci, öğretmenin önerilerini kabul etmeye ve işbirliği yapmaya istekli.",
+          "example": "şöyle yapabilir miyiz hocam? Miray kitabından devam edebilir miyiz? Daha mantıklı olur bence."
+        }
+      ],
+      "understandsLess": [
+        {
+          "area": "Dokuzuncu Sınıf Kimya Temelleri",
+          "reason": "Öğrenci, dokuzuncu sınıf kimya konularında zorlandığını ve bu konuların tam olarak anlaşılmadığını belirtiyor.",
+          "alternative": "Dokuzuncu sınıf konularını daha basit ve görsel materyallerle tekrar anlatmak faydalı olabilir."
+        },
+        {
+          "area": "Periyodik Tablo ve Elementler",
+          "reason": "Periyodik tablo ve elementlerin yerleştirilmesi konusunda belirsizlik yaşıyor.",
+          "alternative": "Periyodik tablonun yapısını ve elementlerin dizilimini görsel araçlarla açıklamak etkili olabilir."
+        }
+      ],
+      "generatedAt": "2026-07-26T23:58:22.910Z"
+    },
+    "hin-dqah-qpb": {
+      "meetCode": "hin-dqah-qpb",
+      "studentName": "Arşin Yakut",
+      "teacherName": "Emine Nur Pınar",
+      "subject": "Matematik",
+      "approachGuide": [
+        {
+          "title": "Soru-Cevap Tekniği",
+          "gap": "Arşin derste 0 kez konuştu — diarizasyon veya katılım sorunu; öğretmen neredeyse tek başına ilerledi.",
+          "tactic": "Ders sırasında öğrenciyi aktif katılıma teşvik etmek için sık sık soru sorarak veya onun düşüncelerini paylaşmasını isteyerek etkileşim kurun. Her konu başında, öğrencinin ne düşündüğünü veya konu hakkında ne bildiğini sorarak onun derse daha fazla dahil olmasını sağlayabilirsiniz."
+        }
+      ],
+      "understandsBetter": [],
+      "understandsLess": [],
+      "generatedAt": "2026-07-26T23:58:22.923Z"
+    },
+    "hph-xevo-ggx": {
+      "meetCode": "hph-xevo-ggx",
+      "studentName": "Bahar Çelik",
+      "teacherName": "Osman Kandemir",
+      "subject": "Matematik",
+      "approachGuide": [
+        {
+          "title": "Soru-Cevap Derinleştirme",
+          "gap": "Yanıtların %79'i tek kelimelik onay — içerik özümseme sinyali zayıf.",
+          "tactic": "Öğrencinin verdiği kısa yanıtlardan sonra 'Neden böyle düşünüyorsun?' veya 'Bunu biraz açabilir misin?' gibi takip soruları yönelterek derinlemesine düşünmesini teşvik et."
+        },
+        {
+          "title": "Kendi Cümleleriyle Anlatım",
+          "gap": "Bahar kendi cümleleriyle uzun açıklama yapmadı (0 uzun yanıt) — düşünme sürecini dışa vurma pratiği yok.",
+          "tactic": "Öğrenciyi kavramsal konuları kendi cümleleriyle açıklamaya teşvik et. Örneğin, bir konuyu basitçe anlatmasını isteyerek, onun düşünme sürecini ve anladıklarını daha iyi ifade etmesine yardımcı ol."
+        },
+        {
+          "title": "Aktif Katılım Teşviki",
+          "gap": "Katılım %16 — öğrenci dinleyici konumunda kalmış, aktif üretim az.",
+          "tactic": "Öğrenciyi doğrudan derse katılmaya teşvik etmek için farklı görevler ver. Örneğin, kısa süreliğine öğretmen rolü oynayarak bir konu anlatmasını veya bir problemi çözmesini iste."
+        },
+        {
+          "title": "Soru Derinliği Artırma",
+          "gap": "18 soru sormasına rağmen çoğu yanıt kısa — sorular mekanik, içselleştirme takip etmiyor.",
+          "tactic": "Öğrencinin sorduğu soruları daha derinlemesine incelemesi için onu teşvik et. Sorularına 'Bu sorunun cevabını vermeden önce, bu konuda ne biliyorsun?' gibi ek sorularla yaklaşarak düşünme derinliğini artır."
+        }
+      ],
+      "understandsBetter": [
+        {
+          "area": "Dil Çevirisi",
+          "reason": "Öğrenci, İngilizce kelimeleri Türkçeye çevirmeyi denedi ve bu konuda kendini daha rahat hissetti.",
+          "example": "Evet, siz İngilizce söyleseniz ben Türkçesini söylesem?"
+        }
+      ],
+      "understandsLess": [
+        {
+          "area": "Matematiksel Kavramlar",
+          "reason": "Öğrenci, sayılarla ilgili sorularda ve matematiksel terimlerde karışıklık yaşadı.",
+          "alternative": "Matematiksel terimleri ve sayıları görsel materyallerle destekleyerek açıklamak faydalı olabilir."
+        },
+        {
+          "area": "Dikkat ve Konsantrasyon",
+          "reason": "Öğrenci, ders boyunca çeşitli konular arasında hızlı geçişler yaparak dikkatini toplamakta zorlandı.",
+          "alternative": "Dersin akışını daha yapılandırılmış ve adım adım ilerleyerek planlamak, öğrencinin dikkatini toplamasına yardımcı olabilir."
+        }
+      ],
+      "generatedAt": "2026-07-26T23:58:25.345Z"
+    },
+    "iaw-bhar-hai": {
+      "meetCode": "iaw-bhar-hai",
+      "studentName": "Azra Ulukuş",
+      "teacherName": "Zübeyde Hakyoldaş",
+      "subject": "Matematik",
+      "approachGuide": [
+        {
+          "title": "Kavram Pekiştirme Çalışmaları",
+          "gap": "Azra rasyonel sayılar konusunda takıldığını belirtti; derste bu boşluk tam kapanmamış olabilir.",
+          "tactic": "Bir sonraki derste, rasyonel sayılarla ilgili daha fazla örnek çözerek Azra'nın bu konuda pratik yapmasını sağlayın. Ayrıca, bu konuda kısa bir test uygulayarak eksik olduğu noktaları belirleyip hedefli geri bildirim verin."
+        },
+        {
+          "title": "Öğrenci Katılımını Artırma",
+          "gap": "Katılım %23 — öğrenci dinleyici konumunda kalmış, aktif üretim az.",
+          "tactic": "Azra'nın derse daha fazla katılmasını sağlamak için, ders boyunca küçük tartışma grupları veya bireysel problem çözümleri gibi aktiviteler planlayın. Onu daha fazla soru sormaya teşvik edin ve cevaplarını sınıfta paylaşmasına olanak tanıyın."
+        },
+        {
+          "title": "Net Çalışma Planı Oluşturma",
+          "gap": "Tanışma iyi geçmiş ama hedef ve çalışma planı netleştirilmemiş — sonraki ders yönü muğlak.",
+          "tactic": "Bir sonraki dersin başında Azra ile birlikte kısa ve uzun vadeli hedeflerinizi belirleyin. Bu hedefler doğrultusunda bir çalışma planı oluşturun ve derslerin hangi konulara odaklanacağını netleştirin."
+        }
+      ],
+      "understandsBetter": [
+        {
+          "area": "İşlem Sırası ve Üslü Sayılar",
+          "reason": "Öğrenci işlem sırası ve üslü sayılarla ilgili soruları hızlı ve doğru bir şekilde yanıtladı.",
+          "example": "Önce parantez içindekiler yapılır. Beş üç tane beşi çarpacağız."
+        },
+        {
+          "area": "Bölünebilme Kuralları",
+          "reason": "Öğrenci bölünebilme kurallarını hatırlıyor ve doğru şekilde uyguluyor.",
+          "example": "Rakamları toplamı dokuzun bir katı olmalıydı."
+        }
+      ],
+      "understandsLess": [
+        {
+          "area": "Karmaşık Problem Çözme",
+          "reason": "Öğrenci karmaşık problem çözme sırasında karışıklık yaşadığını belirtti.",
+          "alternative": "Öğrenciye adım adım rehberlik ederek ve her adımda kontrol ederek ilerlemesine yardımcı olunabilir."
+        },
+        {
+          "area": "Ortak Bölenler",
+          "reason": "Öğrenci ortak bölenleri bulurken sırayla denemek istediğini belirtti, bu da yöntemi tam anlamadığını gösteriyor.",
+          "alternative": "Öğrenciye daha sistematik bir yöntem gösterilebilir, örneğin asal çarpanlara ayırma."
+        }
+      ],
+      "generatedAt": "2026-07-26T23:58:28.400Z"
+    },
+    "iga-bbew-mbw": {
+      "meetCode": "iga-bbew-mbw",
+      "studentName": "Zeynep Başoğul",
+      "teacherName": "Muhammed Bozboğa",
+      "subject": "Matematik",
+      "approachGuide": [
+        {
+          "title": "Öğrenci Merkezli Eğitim",
+          "gap": "Zeynep denklemler konusunda takıldığını belirtti; derste bu boşluk tam kapanmamış olabilir.",
+          "tactic": "Zeynep'in anlamadığı noktaları belirlemek için dersin başında kısa bir değerlendirme yap. Anlamadığı konuları ele alıp, örnek problemlere odaklanarak Zeynep'in bu kavramları daha iyi kavramasını sağla."
+        },
+        {
+          "title": "Sokratik Yöntem Kullanımı",
+          "gap": "Konuşmanın %71'i öğretmende; öğrenci fikir üretme fırsatı sınırlı.",
+          "tactic": "Zeynep'e daha fazla soru sorarak ve problem çözme sürecine onu dahil ederek dersin akışını daha interaktif hale getir. Böylece Zeynep'in düşünme ve problem çözme becerilerini geliştirmesine yardımcı olabilirsin."
+        }
+      ],
+      "understandsBetter": [
+        {
+          "area": "İşlem Önceliği",
+          "reason": "Zeynep, işlem önceliği konusunu doğru bir şekilde uygulayabildiğini gösterdi.",
+          "example": "Çünkü yediyle beşi top, a yok işlem önceliğinden olmuyor. Evet işlem önceliğini unutma."
+        },
+        {
+          "area": "Çarpanlar ve Bölünebilme",
+          "reason": "Çarpanları ve bölünebilme ile ilgili sorularda doğru çıkarımlarda bulunabiliyor.",
+          "example": "Dokuz beş parçaya yazdığına göre de uzun kenar uzunu dokuza bölünebilen bir sayı olması lazım."
+        }
+      ],
+      "understandsLess": [
+        {
+          "area": "Kodlama Hataları ve Küçük Yanlışlar",
+          "reason": "Zeynep, doğru çözdüğü sorularda bile kodlama hataları ve küçük yanlışlar yaptığını belirtti.",
+          "alternative": "Öğrenciye kodlama hatalarını azaltmak için daha fazla pratik yapabileceği ve dikkatini artıracak etkinlikler önerilebilir."
+        },
+        {
+          "area": "Tablo ve Grafik Soruları",
+          "reason": "Tablo ve grafiklerle ilgili sorularda karışıklık yaşadığını ifade etti.",
+          "alternative": "Öğrenciye tablo ve grafik okuma üzerine daha fazla örnek ve uygulama sunulabilir."
+        }
+      ],
+      "generatedAt": "2026-07-26T23:58:38.358Z"
+    },
+    "jbv-mdzq-cpp": {
+      "meetCode": "jbv-mdzq-cpp",
+      "studentName": "Mert Eymen Deniz",
+      "teacherName": "Muhammed Korhan",
+      "subject": "Matematik",
+      "approachGuide": [
+        {
+          "title": "Kavram Haritası Kullanımı",
+          "gap": "Mert geometri konusunda takıldığını belirtti; derste bu boşluk tam kapanmamış olabilir.",
+          "tactic": "Gelecek derslerde Mert'le birlikte geometri konularını kapsayan bir kavram haritası oluşturun. Bu harita, konular arasındaki ilişkileri görselleştirerek kavramların daha iyi anlaşılmasını sağlayabilir."
+        },
+        {
+          "title": "Öğrenci Merkezli Tartışma",
+          "gap": "Konuşmanın %71'i öğretmende; öğrenci fikir üretme fırsatı sınırlı.",
+          "tactic": "Dersin bir bölümünü öğrenciye sorular yönelterek ve onun düşüncelerini paylaşmasına olanak tanıyarak yönlendirin. Bu, Mert'in aktif katılımını artırarak ders akışını öğrenci merkezli hale getirebilir."
+        },
+        {
+          "title": "Düşünme Sürecini Dışavurum",
+          "gap": "Mert kendi cümleleriyle uzun açıklama yapmadı (0 uzun yanıt) — düşünme sürecini dışa vurma pratiği yok.",
+          "tactic": "Mert'e her dersten sonra öğrendiği konuyu kendi cümleleriyle özetlemesi için kısa bir zaman verin. Bu, onun düşüncelerini organize etmesine ve daha iyi ifade etmesine yardımcı olabilir."
+        },
+        {
+          "title": "Derinlemesine Sorgulama",
+          "gap": "36 soru sormasına rağmen çoğu yanıt kısa — sorular mekanik, içselleştirme takip etmiyor.",
+          "tactic": "Mert'e sorduğunuz soruların ardından neden-sonuç ilişkilerini tartışarak, verdiği yanıtları derinleştirmeye çalışın. Bu, konunun daha iyi anlaşılmasına ve içselleştirilmesine katkı sağlayabilir."
+        },
+        {
+          "title": "Hedef Temelli Öğrenme",
+          "gap": "Ders boyunca LGS/hedef referansı yok — öğrenci \"neden öğreniyorum\" sorusuna yanıt almamış olabilir.",
+          "tactic": "Dersin başında veya sonunda, konuların LGS gibi hedeflerle nasıl bağlantılı olduğunu açıklayın. Bu, Mert'in motivasyonunu artırarak öğrenmenin önemini anlamasına yardımcı olabilir."
+        }
+      ],
+      "understandsBetter": [
+        {
+          "area": "Kesirlerin Eşitlenmesi",
+          "reason": "Öğrenci, kesirlerin payda eşitleme işlemini doğru bir şekilde uygulayabiliyor.",
+          "example": "Ceyhan da Ceyhan da hepsini on iki yaptım. On iki yaptım."
+        }
+      ],
+      "understandsLess": [
+        {
+          "area": "Soru Anlama ve Yorumlama",
+          "reason": "Öğrenci, sık sık soruları tekrar sormakta ve bazı soruların nasıl yapılacağını anlamadığını belirtmekte.",
+          "alternative": "Öğretmen, soruları daha yavaş ve net bir şekilde açıklayabilir, gerekirse örneklerle destekleyebilir."
+        },
+        {
+          "area": "Çözüme Ulaşma Yöntemleri",
+          "reason": "Öğrenci, bazı durumlarda çözüme nasıl ulaşacağını bilemediğini ifade ediyor.",
+          "alternative": "Öğretmen, adım adım çözüm yöntemlerini göstererek öğrencinin süreçleri anlamasına yardımcı olabilir."
+        }
+      ],
+      "generatedAt": "2026-07-26T23:58:44.415Z"
+    },
+    "jhx-xgqp-uis": {
+      "meetCode": "jhx-xgqp-uis",
+      "studentName": "Muhammed Mir Eren",
+      "teacherName": "Barış Öztürk",
+      "subject": "Matematik",
+      "approachGuide": [
+        {
+          "title": "Önceki Bilgiyi Anımsatma",
+          "gap": "Muhammed geometri konusunda takıldığını belirtti; derste bu boşluk tam kapanmamış olabilir.",
+          "tactic": "Derse başlamadan önce, önceki derslerde işlenen kavramların kısa bir tekrarını yaparak öğrencinin temel bilgileri hatırlamasını sağlayın. Gerekirse birebir küçük testlerle bu kavramları tazeleyin."
+        },
+        {
+          "title": "Soru-Cevap Tabanlı Etkileşim",
+          "gap": "Katılım %23 — öğrenci dinleyici konumunda kalmış, aktif üretim az.",
+          "tactic": "Ders sırasında daha fazla soru-cevap oturumu düzenleyerek öğrenciyi aktif katılıma teşvik edin. Özellikle öğrenciye kendi çözümlerini açıklama ve tartışma fırsatı verin."
+        },
+        {
+          "title": "Soru Derinliğini Artırma",
+          "gap": "39 soru sormasına rağmen çoğu yanıt kısa — sorular mekanik, içselleştirme takip etmiyor.",
+          "tactic": "Soruları daha açık uçlu ve problem çözmeye yönelik hale getirin. Öğrencinin düşünmesini ve konuyu derinlemesine anlamasını sağlayacak, farklı çözüm yollarını tartışabileceği sorular tasarlayın."
+        }
+      ],
+      "understandsBetter": [
+        {
+          "area": "Açılar Konusu",
+          "reason": "Öğrenci, açılar konusundaki zorluklarını çözmüş ve bu konuda ilerleme kaydetmiş görünüyor.",
+          "example": "açılarda biraz takılmıştım ama sonra onu da hallettim."
+        },
+        {
+          "area": "Asal Çarpanlar",
+          "reason": "Öğrenci, asal çarpanlarla ilgili soruları doğru bir şekilde yanıtlayabiliyor.",
+          "example": "Yani üç tane iki, iki tane üç, bir tane de beş. Aynen öyle. Ben de aynı şeyi buldum."
+        }
+      ],
+      "understandsLess": [
+        {
+          "area": "Soruların Anlaşılması",
+          "reason": "Öğrenci bazı soruları anlamakta zorluk yaşıyor ve sık sık anlamadığını belirtiyor.",
+          "alternative": "Öğretmen, soruları daha basit ve anlaşılır bir dille açıklayabilir veya görsel materyaller kullanabilir."
+        },
+        {
+          "area": "Soruların Ayrıntıları",
+          "reason": "Öğrenci, soruların bazı ayrıntılarını kaçırabiliyor ve bu konuda teyit ihtiyacı duyuyor.",
+          "alternative": "Öğretmen, öğrencinin soruları daha iyi kavrayabilmesi için adım adım açıklama yapabilir."
+        }
+      ],
+      "generatedAt": "2026-07-26T23:58:51.599Z"
+    },
+    "jkd-azne-qjs": {
+      "meetCode": "jkd-azne-qjs",
+      "studentName": "Yavuz Selim Birinci",
+      "teacherName": "Burak Çınar",
+      "subject": "Türkçe",
+      "approachGuide": [
+        {
+          "title": "Hedefe Yönelik Alıştırmalar",
+          "gap": "Yavuz test/alıştırma konusunda takıldığını belirtti; derste bu boşluk tam kapanmamış olabilir.",
+          "tactic": "Gelecek derslerde Yavuz'un zorlandığı konuları belirleyip, bu konularla ilgili daha fazla hedefe yönelik alıştırma ve örnek çalışmaları derse entegre et. Testler sırasında anında geri bildirim vererek öğrenciye doğru düşünme yollarını göster."
+        },
+        {
+          "title": "Öğrenci Katılımını Artırma",
+          "gap": "Konuşmanın %71'i öğretmende; öğrenci fikir üretme fırsatı sınırlı.",
+          "tactic": "Derse daha fazla öğrenci katılımını teşvik edecek etkinlikler ekleyin. Açık uçlu sorular sorarak ve Yavuz'un düşüncelerini ifade etmesi için fırsatlar yaratarak onun derse aktif katılımını sağlayın."
+        },
+        {
+          "title": "Derinlemesine Sorgulama",
+          "gap": "18 soru sormasına rağmen çoğu yanıt kısa — sorular mekanik, içselleştirme takip etmiyor.",
+          "tactic": "Gelecek derslerde daha derinlemesine sorgulama yaparak Yavuz'un düşünme becerilerini geliştirin. Sorulara ek açıklamalar ekleyin ve öğrenciye düşünce süreçlerini açıklaması için zaman tanıyın, böylece içselleştirilmiş öğrenme sağlanabilir."
+        }
+      ],
+      "understandsBetter": [
+        {
+          "area": "Zıt ve eş anlamlı kelimeler",
+          "reason": "Öğrenci, zıt ve eş anlamlı kelimeleri tanıyabiliyor ve bunları ayırt edebiliyor.",
+          "example": "Uzak ve yakın, zıt anlamlı."
+        },
+        {
+          "area": "Masal ve hikaye türlerini tanıma",
+          "reason": "Öğrenci, hikaye ve masal türlerini tanıyabiliyor ve doğru bir şekilde sınıflandırabiliyor.",
+          "example": "Masal. Masal."
+        }
+      ],
+      "understandsLess": [
+        {
+          "area": "Atasözleri ve deyimlerin anlamı",
+          "reason": "Öğrenci, atasözleri ve deyimlerin anlamlarını kavramakta zorlanıyor ve açıklamalar sırasında tereddüt yaşıyor.",
+          "alternative": "Öğrenciye atasözleri ve deyimlerin görsel ve hikaye bazlı örneklerle açıklanması önerilebilir."
+        },
+        {
+          "area": "Cümle yapısı ve noktalama",
+          "reason": "Öğrenci, cümle yapısı ve noktalama kuralları konusunda karışıklık yaşıyor ve doğrulama ihtiyacı duyuyor.",
+          "alternative": "Cümle yapısını ve noktalama kurallarını pekiştirmek için kısa yazılı alıştırmalar yapılabilir."
+        }
+      ],
+      "generatedAt": "2026-07-26T23:59:00.268Z"
+    },
+    "jom-dknn-fdq": {
+      "meetCode": "jom-dknn-fdq",
+      "studentName": "Duru Yurdumetin",
+      "teacherName": "Ceren Nur Sarıkavak",
+      "subject": "Matematik",
+      "approachGuide": [
+        {
+          "title": "Açık Uçlu Sorular",
+          "gap": "Yanıtların %61'i tek kelimelik onay — içerik özümseme sinyali zayıf.",
+          "tactic": "Öğrencinin derinlemesine düşünmesini sağlamak amacıyla açık uçlu sorular sormayı deneyin. Örneğin, 'Bu problemi nasıl çözerdin?' veya 'Bu şeklin diğer özellikleri neler olabilir?' gibi sorular kullanabilirsiniz."
+        },
+        {
+          "title": "Sınıf İçi Etkinlikler",
+          "gap": "Katılım %19 — öğrenci dinleyici konumunda kalmış, aktif üretim az.",
+          "tactic": "Öğrenciyi derse daha fazla katmak için sınıf içi aktiviteler düzenleyin. Örneğin, grup çalışmaları veya problem çözme yarışmaları gibi etkinliklerle öğrencinin aktif katılımını teşvik edebilirsiniz."
+        },
+        {
+          "title": "Pozitif Geribildirim ve Destek",
+          "gap": "Performans endişesi dile getirildi — öğrenme motivasyonu kaygıyla bloke olabilir.",
+          "tactic": "Öğrencinin özgüvenini artırmak için pozitif geribildirim verin ve küçük başarılarını takdir edin. Ayrıca, kaygılarını azaltmak için destekleyici bir ortam yaratın ve stres yönetimi tekniklerini paylaşın."
+        },
+        {
+          "title": "Anlama Kontrolü Teknikleri",
+          "gap": "\"Anladın mı?\" tarzı 23 kontrol var ama yanıtlar kısa — gerçek anlama ölçülmemiş.",
+          "tactic": "Anlamayı kontrol etmek için öğrenciye içerikle ilgili kısa özetler yaptırabilir veya kendi cümleleriyle konuyu açıklamasını isteyebilirsiniz. Alternatif olarak, öğrenciye kendi problem örneklerini oluşturması için fırsat verin."
+        },
+        {
+          "title": "Derinlemesine Soru Sorma",
+          "gap": "34 soru sormasına rağmen çoğu yanıt kısa — sorular mekanik, içselleştirme takip etmiyor.",
+          "tactic": "Sorularınızı daha derinlemesine düşünmeyi teşvik edecek şekilde formüle edin. Örneğin, 'Bu bilgiyi başka nasıl kullanabiliriz?' veya 'Bu durumun başka bir örneği var mı?' gibi sorularla öğrencinin konuyu içselleştirmesini sağlayın."
+        }
+      ],
+      "understandsBetter": [
+        {
+          "area": "Kendi İlgi Alanları Üzerinden İletişim",
+          "reason": "Duru, sevdiği aktiviteler hakkında konuşurken daha rahat ve kendinden emin görünüyor.",
+          "example": "Paten kaymağı, bisiklet sürmeyi seviyorum."
+        },
+        {
+          "area": "Okuma Alışkanlıkları ve Kitaplar",
+          "reason": "Duru, okuduğu kitaplar hakkında rahatça konuşuyor ve bu konuda daha fazla bilgi veriyor.",
+          "example": "Serp sen? Hayvan Çiftliği okuyorum."
+        }
+      ],
+      "understandsLess": [
+        {
+          "area": "Karmaşık Matematik İşlemleri",
+          "reason": "Duru, kitaplarda yer alan karışık işlemlerden bahsederken zorluk yaşıyor.",
+          "alternative": "Matematik problemlerini daha basit adımlara bölerek açıklamak ve görsel materyaller kullanmak faydalı olabilir."
+        },
+        {
+          "area": "Dikkatini Toplama",
+          "reason": "Duru'nun katılımı düşük ve konuşmaları sık sık başka konulara yöneliyor.",
+          "alternative": "Derse oyunlaştırma veya kısa süreli aktiviteler eklemek, dikkatini toplamaya yardımcı olabilir."
+        }
+      ],
+      "generatedAt": "2026-07-26T23:59:02.935Z"
+    },
+    "jqs-amqe-wiq": {
+      "meetCode": "jqs-amqe-wiq",
+      "studentName": "Ela Ayvalı",
+      "teacherName": "Zübeyde Hakyoldaş",
+      "subject": "Matematik",
+      "approachGuide": [
+        {
+          "title": "Soru-Cevap Tekniği",
+          "gap": "Ela derste 16 kez konuştu — diarizasyon veya katılım sorunu; öğretmen neredeyse tek başına ilerledi.",
+          "tactic": "Ela'nın derse katılımını artırmak için ders boyunca sık sık açık uçlu sorular sorabilirsiniz. Ayrıca, her konu başında veya sonunda onun görüşlerini alarak kendini ifade etmesine olanak tanıyabilirsiniz."
+        }
+      ],
+      "understandsBetter": [],
+      "understandsLess": [
+        {
+          "area": "Teknik Sorunlar ve Çözümleme",
+          "reason": "Öğrencinin dersin başında ses ve görüntü ile ilgili sorun yaşadığı ve bu konuda birkaç kez soru sorduğu görülüyor.",
+          "alternative": "Öğretmen, dersin başında teknik ekipman ve bağlantı kontrolü yaparak öğrenciye daha fazla rehberlik edebilir."
+        },
+        {
+          "area": "Dersin İçeriği ile İlgili Katılım",
+          "reason": "Öğrenci ders boyunca sadece birkaç kısa yanıt verip ders içeriğiyle ilgili derinlemesine bir soru sormadı.",
+          "alternative": "Öğretmen, öğrenciyi daha fazla soru sormaya teşvik edebilir veya ders içeriğini daha etkileşimli hale getirebilir."
+        }
+      ],
+      "generatedAt": "2026-07-26T23:59:12.975Z"
+    },
+    "juu-zreb-ryf": {
+      "meetCode": "juu-zreb-ryf",
+      "studentName": "Kerem Cihaner",
+      "teacherName": "İlkay Sevilmiş",
+      "subject": "Matematik",
+      "approachGuide": [
+        {
+          "title": "Geri Bildirim ve Tekrar",
+          "gap": "Kerem test/alıştırma konusunda takıldığını belirtti; derste bu boşluk tam kapanmamış olabilir.",
+          "tactic": "Kerem'in zorlandığı konuları tespit etmek için test sonrası geri bildirim alın. Takıldığı noktalar üzerine kısa tekrarlar yaparak kavramları pekiştirin."
+        },
+        {
+          "title": "Düşünme Sürecini Dışa Vurma",
+          "gap": "Kerem kendi cümleleriyle uzun açıklama yapmadı (2 uzun yanıt) — düşünme sürecini dışa vurma pratiği yok.",
+          "tactic": "Kerem'den çözümlerini adım adım açıklamasını isteyin. Düşünme süreçlerini sesli ifade etmesi için teşvik edin ve bu süreçte rehberlik edin."
+        },
+        {
+          "title": "Katılımcı Öğrenci Etkinlikleri",
+          "gap": "Katılım %15 — öğrenci dinleyici konumunda kalmış, aktif üretim az.",
+          "tactic": "Kerem'in daha aktif katılımını sağlamak için ders içerisine küçük grup çalışmaları veya bireysel sunumlar entegre edin. Soru-cevap bölümleriyle katılımı artırın."
+        },
+        {
+          "title": "Hedeflerle Bağlantı Kurma",
+          "gap": "Ders boyunca LGS/hedef referansı yok — öğrenci \"neden öğreniyorum\" sorusuna yanıt almamış olabilir.",
+          "tactic": "Dersin başında ve sonunda LGS gibi uzun vadeli hedeflerle konular arasında bağlantı kurarak, konuların neden önemli olduğunu vurgulayın. Öğrencinin öğrenmeye motive olmasını sağlayın."
+        }
+      ],
+      "understandsBetter": [
+        {
+          "area": "Kesirlerin Sıralanması",
+          "reason": "Kerem, kesirlerin sıralanmasıyla ilgili soruları doğru bir şekilde sesli olarak ifade ediyor, bu da konuyu anlamış olduğunu gösteriyor.",
+          "example": "Yedi bölü on iki, virgül on üç bölü yirmi dört, beş bölü sekiz sayılarının doğru sıralanışı aşağıdakilerden hangisidir?"
+        }
+      ],
+      "understandsLess": [
+        {
+          "area": "Görsel Materyal Eksikliği",
+          "reason": "Kerem, matematik sorularını çözerken sık sık sayılar üzerinde sesli düşünerek ilerliyor, bu da görsel materyal olmadan zorlandığını gösteriyor.",
+          "alternative": "Öğretmen, kesirlerin ve sayıların görsel temsillerini kullanarak Kerem'in anlayışını güçlendirebilir."
+        },
+        {
+          "area": "Soyut Kavramlar",
+          "reason": "Kerem, bazı soyut matematik kavramlarını anlamakta zorlanıyor gibi görünüyor çünkü sık sık 'bilmiyorum ki' gibi ifadeler kullanıyor.",
+          "alternative": "Öğretmen, soyut kavramları somut örneklerle açıklayarak Kerem'in bu konudaki anlayışını artırabilir."
+        }
+      ],
+      "generatedAt": "2026-07-26T23:59:15.494Z"
+    },
+    "jwu-bgia-udu": {
+      "meetCode": "jwu-bgia-udu",
+      "studentName": "Musa Çağan Taş",
+      "teacherName": "Muhammed Bozboğa",
+      "subject": "Matematik",
+      "approachGuide": [
+        {
+          "title": "Kavram Haritaları Kullanımı",
+          "gap": "Musa geometri konusunda takıldığını belirtti; derste bu boşluk tam kapanmamış olabilir.",
+          "tactic": "Bir sonraki derste, Musa'nın zorlandığı kavramlar için kavram haritaları oluştur. Bu haritalar, konuların birbirleriyle ilişkisini görmesine ve anlamadığı noktaları tespit etmesine yardımcı olabilir."
+        },
+        {
+          "title": "Hedef Odaklı Bağlantı Kurma",
+          "gap": "Ders boyunca LGS/hedef referansı yok — öğrenci \"neden öğreniyorum\" sorusuna yanıt almamış olabilir.",
+          "tactic": "Dersin başında ve sonunda, öğrenilen konuların LGS veya diğer uzun vadeli hedeflerle nasıl bağlantılı olduğunu açıklayarak derse amaç kazandır. Öğrencinin motivasyonunu artırmak için, konunun sınavlardaki önemini ve günlük yaşamda nasıl kullanılabileceğini vurgula."
+        }
+      ],
+      "understandsBetter": [
+        {
+          "area": "Çarpma İşlemleri",
+          "reason": "Musa, çarpmanın toplamadan daha hızlı olduğunu anlıyor ve bu yöntemle soruları daha hızlı çözebildiğini fark ediyor.",
+          "example": "Çarpma işte bizim işimizi yarıyor. Tamam mı Musa? Çarpma bizim burada işimizi kolaylaştırıyor."
+        },
+        {
+          "area": "Düzenli Artışları Anlama",
+          "reason": "Musa, düzenli artış gösteren sayı dizilerini anlamakta başarılı. Sorulara bu mantıkla yaklaşıyor.",
+          "example": "Demek ki bu öğretinin kuralı neymiş? Dörder dörder artıyor değil mi?"
+        }
+      ],
+      "understandsLess": [
+        {
+          "area": "Karmaşık Problem Çözme",
+          "reason": "Musa, birden fazla adım gerektiren problemleri anlamakta zorlanıyor ve bazen karışıklık yaşıyor.",
+          "alternative": "Öğretmen, karmaşık problemleri adım adım küçük parçalara bölerek açıklayabilir."
+        },
+        {
+          "area": "Ezber Gereksinimi",
+          "reason": "Çarpım tablosunu ezberlemenin önemini anlamış olsa da, ezberleme konusunda zorluk yaşıyor.",
+          "alternative": "Öğretmen, çarpım tablosunu eğlenceli yöntemlerle (şarkılar, oyunlar) öğretmeyi deneyebilir."
+        }
+      ],
+      "generatedAt": "2026-07-26T23:59:24.096Z"
+    },
+    "kza-ypin-hfx": {
+      "meetCode": "kza-ypin-hfx",
+      "studentName": "Öğrenci (kza-ypin-hfx)",
+      "teacherName": "Muhammed Korhan",
+      "subject": "Ders kaydı",
+      "approachGuide": [
+        {
+          "title": "Kavram Haritaları Kullanımı",
+          "gap": "Öğrenci LGS konusunda takıldığını belirtti; derste bu boşluk tam kapanmamış olabilir.",
+          "tactic": "Bir sonraki derste, LGS konularını kapsayan kavram haritaları oluşturarak öğrencinin hangi konularda takıldığını netleştirin. Bu haritalar, öğrencinin eksik olduğu alanları belirlemesini ve öğrenmeyi organize etmesini kolaylaştıracaktır."
+        }
+      ],
+      "understandsBetter": [
+        {
+          "area": "Sözlü Anlatım ve Diyaloglar",
+          "reason": "Öğrenci, öğretmenle yaptığı diyaloglarda ve sözlü anlatımlarda konuları daha iyi anladığını gösteriyor. Öğretmenin sorularına aktif katılım gösteriyor.",
+          "example": "Dünya kendi ekseni etrafında dönerek gece ve gündüzü oluşturur. Tamam mıdır?"
+        },
+        {
+          "area": "Görsel ve Tablo Kullanımı",
+          "reason": "Öğrenci, öğretmenin görsel ve tablo kullanımıyla konuları özetlemesini anladığını ifade ediyor.",
+          "example": "Bak upuzun sabahtan beri beş dakikadır anlattığım şeyi kısacık bir tabloyla özetledik değil mi?"
+        }
+      ],
+      "understandsLess": [
+        {
+          "area": "Kavramların Tanımı ve Kullanımı",
+          "reason": "Öğrenci, yeni kavramları (örneğin 'dönence') tanımlamakta ve kullanmakta zorlanıyor.",
+          "alternative": "Öğretmen, her yeni kavramı somut örneklerle ilişkilendirerek ve görsellerle destekleyerek açıklayabilir."
+        },
+        {
+          "area": "Tarihlerin Hatırlanması",
+          "reason": "Öğrenci, belirli tarihlerin hangi olaylarla ilişkili olduğunu hatırlamakta zorlanıyor.",
+          "alternative": "Öğretmen, tarihleri hatırlamayı kolaylaştırmak için hafıza teknikleri veya hikayeleştirme yöntemleri kullanabilir."
+        }
+      ],
+      "generatedAt": "2026-07-26T23:59:33.959Z"
+    },
+    "mmw-ctqj-jrf": {
+      "meetCode": "mmw-ctqj-jrf",
+      "studentName": "Mete Kenan Çalış",
+      "teacherName": "Sude Başkaya",
+      "subject": "Türkçe",
+      "approachGuide": [
+        {
+          "title": "Hedefli Alıştırma Çalışmaları",
+          "gap": "Mete test/alıştırma konusunda takıldığını belirtti; derste bu boşluk tam kapanmamış olabilir.",
+          "tactic": "Öğrenciyle birebir çalışma yaparak, test ve alıştırma konularında hedefli ve odaklı pratikler yapın. Bu alıştırmalar sırasında anında geri bildirim vererek kavramların yerleşmesini sağlayın."
+        },
+        {
+          "title": "Düşünme Sürecini Açığa Çıkartma",
+          "gap": "Mete kendi cümleleriyle uzun açıklama yapmadı (2 uzun yanıt) — düşünme sürecini dışa vurma pratiği yok.",
+          "tactic": "Öğrencinin kendi düşüncelerini ifade etmesi için daha fazla fırsat tanıyın; örneğin, düşünce süreçlerini yazılı olarak veya sözlü olarak açıklamalarını isteyin. Bu süreçte açık uçlu sorular kullanarak derinlik katın."
+        },
+        {
+          "title": "Öğrenci Katılımını Arttırma Teknikleri",
+          "gap": "Katılım %15 — öğrenci dinleyici konumunda kalmış, aktif üretim az.",
+          "tactic": "Derse başladığınızda öğrencinin aktif katılımını teşvik etmek için etkileşimli aktiviteler planlayın. Örneğin, sınıf içi oyunlar, grup çalışmaları veya tartışma etkinlikleri düzenleyerek öğrenciyi daha fazla dahil edin."
+        },
+        {
+          "title": "Derinlemesine Soru Sorma Stratejileri",
+          "gap": "21 soru sormasına rağmen çoğu yanıt kısa — sorular mekanik, içselleştirme takip etmiyor.",
+          "tactic": "Öğrencinin sorularını derinlemesine düşünmesine yardımcı olacak şekilde yapılandırın. Bunun için 'neden' ve 'nasıl' sorularını kullanarak, öğrenciye farklı perspektiflerden düşünme ve cevaplarını genişletme fırsatı tanıyın."
+        }
+      ],
+      "understandsBetter": [
+        {
+          "area": "Mecaz Anlamlar ve Örnekler",
+          "reason": "Mete, mecaz anlamları ve bu anlamların gerçeklikten nasıl uzaklaştığını anlama konusunda iyi görünüyor.",
+          "example": "Mesela hocam sinirden tüyler evlendi. Olabilir."
+        },
+        {
+          "area": "Somut ve Soyut Kavramlar",
+          "reason": "Somut kavramları tanımlarken daha rahat ve kendinden emin görünüyor.",
+          "example": "Somut oluyor hocam yağmuru hissedebiliyoruz."
+        }
+      ],
+      "understandsLess": [
+        {
+          "area": "Kelime Anlamları ve Hatırlama",
+          "reason": "Öğrenci, kelime anlamlarını hatırlamakta ve tanımlamakta zorlanıyor gibi görünüyor.",
+          "alternative": "Kelime kartları veya anlam haritaları kullanarak kelime bilgisi çalışmaları yapılabilir."
+        },
+        {
+          "area": "Zıt ve Eş Anlamlı Sözcükler",
+          "reason": "Zıt ve eş anlamlı sözcükleri tanımlama ve hatırlama konusunda belirsizlik yaşıyor.",
+          "alternative": "Eş ve zıt anlamlı sözcüklerle ilgili eşleştirme oyunları veya tablolar oluşturulabilir."
+        }
+      ],
+      "generatedAt": "2026-07-26T23:59:40.508Z"
+    },
+    "msa-sgqe-bqq": {
+      "meetCode": "msa-sgqe-bqq",
+      "studentName": "Aysu Ela Erzincanlı",
+      "teacherName": "Zübeyde Hakyoldaş",
+      "subject": "Matematik",
+      "approachGuide": [
+        {
+          "title": "Öğrenci Katılımını Artırma",
+          "gap": "Konuşma süresinin yalnızca %14'i öğrencide; ders öğretmen monoloğuna kaymış.",
+          "tactic": "Ders esnasında daha sık açık uçlu sorular sorarak öğrenciyi konuşmaya teşvik edin. Ayrıca, Aysu'ya zaman tanıyın ve onun düşüncelerini ifade etmesi için cesaretlendirin."
+        },
+        {
+          "title": "Kavram Boşluklarını Giderme",
+          "gap": "Aysu geometri konusunda takıldığını belirtti; derste bu boşluk tam kapanmamış olabilir.",
+          "tactic": "Aysu'nun geometrik kavramları daha iyi anlaması için somut örneklerle konuyu pekiştirin. Ekstra materyal ve görsel kaynaklar kullanarak konuyu daha anlaşılır hale getirin."
+        },
+        {
+          "title": "Derinlemesine Yanıtlar Teşvik Etme",
+          "gap": "Yanıtların %59'i tek kelimelik onay — içerik özümseme sinyali zayıf.",
+          "tactic": "Aysu'dan her yanıtın ardından neden veya nasıl soruları sorarak düşüncesini açıklamasını isteyin. Bu, onun konuyu daha iyi anlamasına ve derinlemesine düşünmesine yardımcı olacaktır."
+        },
+        {
+          "title": "Anlamlı Soru Sorma",
+          "gap": "15 soru sormasına rağmen çoğu yanıt kısa — sorular mekanik, içselleştirme takip etmiyor.",
+          "tactic": "Aysu'ya daha anlamlı sorular sorması için rehberlik edin ve onun sorularını genişletmesine yardımcı olun. Soruları, konunun daha derinlemesine anlaşılmasını sağlayacak şekilde yeniden yapılandırın."
+        }
+      ],
+      "understandsBetter": [
+        {
+          "area": "Pratik İşlem Yapma",
+          "reason": "Aysu, matematiksel işlemleri pratik bir şekilde yapabiliyor ve sonuçları hızlıca kontrol edebiliyor.",
+          "example": "Otuz ikiyi sekizi bölersek"
+        },
+        {
+          "area": "Görsel Materyalle İlgilenme",
+          "reason": "Öğrenci, resimlere ve görsel materyallere ilgi duyduğunu belirtiyor, bu da soyut matematik kavramlarını görsel araçlarla daha iyi anlayabileceğini gösteriyor.",
+          "example": "Resim çizmek, birazcık internette resimlere bakmak."
+        }
+      ],
+      "understandsLess": [
+        {
+          "area": "Soyut Matematiksel Kavramlar",
+          "reason": "Aysu'nun bazı matematiksel kavramları anlamakta zorlandığını belirttiği ve 'anlamadım' dediği gözlemlendi.",
+          "alternative": "Soyut kavramları somut örneklerle veya günlük yaşamdan bağlamlarla açıklayarak pekiştirme yapılabilir."
+        },
+        {
+          "area": "Karmaşık Problem Çözme",
+          "reason": "Karmaşık işlemler sırasında tereddüt ettiği ve yardıma ihtiyaç duyduğu gözlemlendi.",
+          "alternative": "Problemleri adım adım çözerek ve her adımı açıklayarak öğrencinin sürece dahil olmasını sağlamak etkili olabilir."
+        }
+      ],
+      "generatedAt": "2026-07-26T23:59:46.905Z"
+    },
+    "mvr-ytpo-svh": {
+      "meetCode": "mvr-ytpo-svh",
+      "studentName": "Ecesu Öztürk",
+      "teacherName": "Muhammed Korhan",
+      "subject": "Matematik",
+      "approachGuide": [
+        {
+          "title": "Kavram Haritası Kullanımı",
+          "gap": "Ecesu geometri konusunda takıldığını belirtti; derste bu boşluk tam kapanmamış olabilir.",
+          "tactic": "Geometri konularını daha iyi anlaması için bir kavram haritası oluşturun. Bu harita üzerinden öğrenci ile birlikte, hangi kavramların eksik olduğunu ve nasıl tamamlanabileceğini tartışarak öğrenme sürecini derinleştirin."
+        },
+        {
+          "title": "Etkileşimli Alıştırmalar",
+          "gap": "Katılım %22 — öğrenci dinleyici konumunda kalmış, aktif üretim az.",
+          "tactic": "Ders sırasında Ecesu'nun aktif katılımını artırmak için etkileşimli alıştırmalar ve problem çözme etkinlikleri planlayın. Bu alıştırmalar sırasında öğrenciye daha fazla söz hakkı verin ve kendi çözümlerini tartışmasını teşvik edin."
+        },
+        {
+          "title": "Derinlemesine Soru Analizi",
+          "gap": "37 soru sormasına rağmen çoğu yanıt kısa — sorular mekanik, içselleştirme takip etmiyor.",
+          "tactic": "Sorduğunuz soruları derinlemesine analiz ederek, öğrencinin yanıtlarını daha fazla düşünmesini ve tartışmasını sağlayın. Yanıtlarından sonra 'Neden böyle düşündün?' veya 'Başka nasıl düşünebiliriz?' gibi takip soruları yönelterek içselleştirmeyi artırın."
+        },
+        {
+          "title": "Net Hedefler ve Planlama",
+          "gap": "Tanışma iyi geçmiş ama hedef ve çalışma planı netleştirilmemiş — sonraki ders yönü muğlak.",
+          "tactic": "Bir sonraki ders için net bir yol haritası oluşturun ve öğrenci ile birlikte bu hedefleri belirleyin. Kısa ve uzun vadeli hedefler koyarak, her dersin sonunda bu hedeflere ne kadar yaklaşıldığını gözden geçirin."
+        }
+      ],
+      "understandsBetter": [
+        {
+          "area": "Trigonometri Temel Tanımları",
+          "reason": "Öğrenci, sinüs ve tanjant gibi temel trigonometri terimlerini doğru bir şekilde ifade edebiliyor.",
+          "example": "Ya sinüs karşısıyla hipotonis yani dik kenarın hipotonisel bölümü oluyor. Güzel."
+        },
+        {
+          "area": "Çarpım ve Bölme İşlemleri",
+          "reason": "Öğrenci, sayılarla yapılan çarpma ve bölme işlemlerini doğru bir şekilde uygulayabiliyor.",
+          "example": "Sinüs A değeri için B, yani dördün beşe bölümü olacak, yani dört bölü beş."
+        }
+      ],
+      "understandsLess": [
+        {
+          "area": "Permütasyon ve Kombinasyon",
+          "reason": "Öğrenci, permütasyon ve kombinasyon konularında zorlandığını belirtiyor.",
+          "alternative": "Öğretmen, permütasyon ve kombinasyon konularını daha fazla örnekle açıklayabilir."
+        },
+        {
+          "area": "Ters Üçgenlerde Karışıklık",
+          "reason": "Öğrenci, ters üçgenlerle çalışırken karışıklık yaşadığını ifade ediyor.",
+          "alternative": "Öğretmen, ters üçgenler üzerinde daha fazla görsel ve adım adım çözümler sunabilir."
+        },
+        {
+          "area": "Dikkat Hataları",
+          "reason": "Öğrenci, işlem yaparken dikkat hatası yaptığını belirtiyor.",
+          "alternative": "Öğretmen, öğrencinin dikkatini toplaması için daha yavaş ve adım adım ilerleyebilir."
+        }
+      ],
+      "generatedAt": "2026-07-26T23:59:53.881Z"
+    },
+    "mzf-bsim-ksc": {
+      "meetCode": "mzf-bsim-ksc",
+      "studentName": "Çınar Özer",
+      "teacherName": "Serpil Çalışkanoğlu",
+      "subject": "Türkçe",
+      "approachGuide": [
+        {
+          "title": "Müfredat Haritalama",
+          "gap": "Çınar müfredat konusunda takıldığını belirtti; derste bu boşluk tam kapanmamış olabilir.",
+          "tactic": "Çınar'a müfredatın genel bir haritasını sunarak hangi konuların sırasıyla işleneceğini göster. Ayrıca, her konuya geçmeden önce kısa bir özet vererek ve ilgili materyalleri paylaşarak müfredatın anlaşılmasını kolaylaştır."
+        }
+      ],
+      "understandsBetter": [
+        {
+          "area": "Günlük Hayat ile İlişkilendirme",
+          "reason": "Çınar, günlük hayatından örneklerle konuları daha iyi kavradığını gösterdi.",
+          "example": "Böyle kışın açık renkli kıyafetler mi tercih edersin, koyu renkli kıyafetler mi? Bayağı çok koyu renkli."
+        },
+        {
+          "area": "Soru Çözme Güveni",
+          "reason": "Çınar, soruları doğru çözdüğünde kendine olan güveni artıyor ve bu da öğrenmesini pekiştiriyor.",
+          "example": "Aferin. Öğrenmişiz ha. Bak çat diye ilk soruda. İlk bir de bir."
+        }
+      ],
+      "understandsLess": [
+        {
+          "area": "Renklerin Fiziksel Özellikleri",
+          "reason": "Çınar, renklerin ışığı nasıl yansıttığı veya soğurduğuyla ilgili bazı kavramlarda karışıklık yaşıyor.",
+          "alternative": "Öğretmen, renklerin ışıkla etkileşimini basit deneylerle veya görsellerle açıklayabilir."
+        },
+        {
+          "area": "Soyut Kavramların Detayları",
+          "reason": "Çınar, soyut fiziksel kavramların detaylarını anlamakta zorlanıyor.",
+          "alternative": "Öğretmen, bu kavramları daha somut örneklerle veya hikayelerle açıklayabilir."
+        }
+      ],
+      "generatedAt": "2026-07-27T00:00:10.141Z"
+    },
+    "nha-qhny-snz": {
+      "meetCode": "nha-qhny-snz",
+      "studentName": "Hazal Berra Sancak",
+      "teacherName": "Zeynep Oral",
+      "subject": "Fen Bilimleri",
+      "approachGuide": [
+        {
+          "title": "Soru Cevap Tekniği",
+          "gap": "Konuşma süresinin yalnızca %13'i öğrencide; ders öğretmen monoloğuna kaymış.",
+          "tactic": "Öğrenciyi daha fazla katılıma teşvik etmek için ders boyunca belirli aralıklarla açık uçlu sorular sor. Öğrencinin düşüncelerini paylaşmasına olanak tanıyan bu yöntem, onun derse daha aktif katılımını sağlayacak."
+        }
+      ],
+      "understandsBetter": [
+        {
+          "area": "Kavramlar Arası Bağlantı Kurma",
+          "reason": "Öğrenci, fiziksel kavramlar arasında ilişki kurarak doğru sonuçlara ulaşabiliyor.",
+          "example": "Hocam kuvvetin etkisi var ama durgun diyoruz biz buna. Kuvvetin etkisi var ama hareketsiz yani."
+        },
+        {
+          "area": "Öğrenme İstekliliği",
+          "reason": "Öğrenci, öğretmenle işbirliği yapma isteğini ve öğrenmeye açık olduğunu ifade ediyor.",
+          "example": "Yok hocam en baştan başlayabiliriz."
+        }
+      ],
+      "understandsLess": [
+        {
+          "area": "İşitsel Takip",
+          "reason": "Öğrenci, ders sırasında sık sık öğretmeni duyamadığını belirtiyor.",
+          "alternative": "Öğretmen, ders sırasında öğrencinin sesini net duyduğundan emin olmak için mikrofon ve bağlantı kontrolü yapabilir."
+        },
+        {
+          "area": "Öğretmenle Etkileşim",
+          "reason": "Öğrenci, öğretmenin açıklamalarını anlamadığını veya duyamadığını sıkça dile getiriyor.",
+          "alternative": "Öğretmen, önemli noktaları yazılı olarak da paylaşarak öğrenciye destek olabilir."
+        }
+      ],
+      "generatedAt": "2026-07-27T00:00:13.818Z"
+    },
+    "nsw-kfoj-mef": {
+      "meetCode": "nsw-kfoj-mef",
+      "studentName": "Eslem Bekret",
+      "teacherName": "Elif Ece Kılboz",
+      "subject": "Türkçe",
+      "approachGuide": [
+        {
+          "title": "Kavram Pekiştirme Oturumları",
+          "gap": "Eslem LGS konusunda takıldığını belirtti; derste bu boşluk tam kapanmamış olabilir.",
+          "tactic": "Gelecek derslerde, LGS konularını daha detaylı ele alarak kavram pekiştirme oturumları düzenle. Bu oturumlarda Eslem'in sorularına odaklanarak açıklamalarını genişlet ve anlamayı derinleştir."
+        },
+        {
+          "title": "Açık Uçlu Soru Tekniği",
+          "gap": "Yanıtların %69'i tek kelimelik onay — içerik özümseme sinyali zayıf.",
+          "tactic": "Eslem'e daha fazla açık uçlu sorular sorarak onun düşüncelerini detaylandırmasını teşvik et. Böylece, dersin içeriğini daha iyi anladığından emin olabilirsin."
+        },
+        {
+          "title": "Öğrenci Merkezli Tartışmalar",
+          "gap": "Konuşmanın %72'i öğretmende; öğrenci fikir üretme fırsatı sınırlı.",
+          "tactic": "Derslerde daha fazla öğrenci merkezli aktiviteler ve tartışmalar planla. Eslem'in düşüncelerini ve analizlerini paylaşabileceği alanlar yarat, böylece konuşmanın daha dengeli olmasını sağla."
+        },
+        {
+          "title": "Kendi Cümleleriyle Anlatım Egzersizi",
+          "gap": "Eslem kendi cümleleriyle uzun açıklama yapmadı (1 uzun yanıt) — düşünme sürecini dışa vurma pratiği yok.",
+          "tactic": "Eslem'e öğrendiği konuları kendi cümleleriyle açıklayabileceği aktiviteler sun. Bu, onun düşünme sürecini dışa vurma pratiğini geliştirmesine yardımcı olacaktır."
+        },
+        {
+          "title": "Soru Derinleştirme Stratejisi",
+          "gap": "37 soru sormasına rağmen çoğu yanıt kısa — sorular mekanik, içselleştirme takip etmiyor.",
+          "tactic": "Soruların derinliğini artırarak Eslem'in daha kapsamlı yanıtlar vermesini teşvik et. Her sorunun ardından gelen yanıtı takip eden ek sorularla derinleştir ve içselleştirmeyi artır."
+        },
+        {
+          "title": "Net Yol Haritası Oluşturma",
+          "gap": "Tanışma iyi geçmiş ama hedef ve çalışma planı netleştirilmemiş — sonraki ders yönü muğlak.",
+          "tactic": "Tanışma dersinden sonra Eslem ile birlikte bir yol haritası oluştur. Bu harita, hedefleri ve çalışma planını net bir şekilde belirleyerek derslerin daha yapılandırılmış ve hedefe yönelik olmasını sağlayacaktır."
+        }
+      ],
+      "understandsBetter": [
+        {
+          "area": "Konuşma pratiği ve günlük ifadeler",
+          "reason": "Öğrenci, günlük konuşma ifadelerini rahatlıkla kullanabiliyor ve tanışma diyaloglarında kendini ifade edebiliyor.",
+          "example": "Hoş buldum. Nasılsın bakalım?"
+        },
+        {
+          "area": "Dinleme ve anlama",
+          "reason": "Öğrenci, konuşulanları dinleyip anladığını belirten kısa onaylamalar yapıyor.",
+          "example": "Hıhı."
+        }
+      ],
+      "understandsLess": [
+        {
+          "area": "Yeni kelimelerin anlamını çıkarma",
+          "reason": "Öğrenci, bilmediği kelimelerle karşılaştığında anlamlarını çıkaramıyor ve sık sık ne demek olduğunu soruyor.",
+          "alternative": "Öğrenciye, kelimenin anlamını bağlamdan çıkarma stratejileri veya bir sözlük kullanma alışkanlığı kazandırılabilir."
+        },
+        {
+          "area": "Cümle kurma ve dilbilgisi",
+          "reason": "Öğrenci, cümle kurarken sık sık duraksıyor ve bazen cümle yapısını tamamlamakta zorlanıyor.",
+          "alternative": "Öğrenciye basit cümle kurma alıştırmaları yaptırılabilir ve dilbilgisi kuralları üzerine daha fazla odaklanılabilir."
+        }
+      ],
+      "generatedAt": "2026-07-27T00:00:17.325Z"
+    },
+    "nwo-hbkh-hpq": {
+      "meetCode": "nwo-hbkh-hpq",
+      "studentName": "Zeynep Biber",
+      "teacherName": "Muhammed Korhan",
+      "subject": "Matematik",
+      "approachGuide": [
+        {
+          "title": "Öğrenci Merkezli Soru-Cevap",
+          "gap": "Zeynep denklemler konusunda takıldığını belirtti; derste bu boşluk tam kapanmamış olabilir.",
+          "tactic": "Dersin başlangıcında, Zeynep'e denklemlerle ilgili spesifik sorular sorarak hangi kavramlarda zorlandığını belirleyin. Daha sonra, bu kavramları açıklarken öğrenciye küçük problemler çözmesine olanak tanıyın."
+        },
+        {
+          "title": "Etkileşimli Öğrenme Teknikleri",
+          "gap": "Katılım %16 — öğrenci dinleyici konumunda kalmış, aktif üretim az.",
+          "tactic": "Derse interaktif etkinlikler ekleyin; örneğin, Zeynep'e kendi denklemlerini oluşturup çözmesini sağlayarak katılımını artırın. Grup çalışmaları veya çiftler halinde problem çözme etkinlikleri de kullanılabilir."
+        },
+        {
+          "title": "Pozitif Geri Bildirim ve Destek",
+          "gap": "Performans endişesi dile getirildi — öğrenme motivasyonu kaygıyla bloke olabilir.",
+          "tactic": "Zeynep'in başarılarını öne çıkararak pozitif geri bildirimde bulunun ve başarısızlık korkusunu azaltmak için her başarıyı kutlayın. Kaygıları üzerinde konuşarak, sınav kaygısını nasıl yönetebileceği konusunda rehberlik edin."
+        },
+        {
+          "title": "Görsel Araç Kullanımı",
+          "gap": "Matematik dersinde sayı doğrusu, tablo veya grafik gibi görsel araçlar yeterince kullanılmamış.",
+          "tactic": "Denklemler konusunu anlatırken sayı doğrusu, grafik veya tablolar gibi görsel materyaller kullanarak konuları somutlaştırın. Bu, soyut kavramların daha iyi anlaşılmasını sağlayabilir."
+        },
+        {
+          "title": "Hedefe Yönelik Motivasyon",
+          "gap": "Ders boyunca LGS/hedef referansı yok — öğrenci \"neden öğreniyorum\" sorusuna yanıt almamış olabilir.",
+          "tactic": "Dersin başında ve sonunda, konunun LGS veya diğer uzun vadeli hedeflerle nasıl ilgili olduğunu açıklayın. Bu, öğrencinin öğrenme amacını daha iyi anlamasını sağlayarak motivasyonunu artırabilir."
+        }
+      ],
+      "understandsBetter": [
+        {
+          "area": "Doğrusal Denklemler",
+          "reason": "Zeynep, doğrusal denklemleri tanımlarken doğru bir şekilde 'a x artı b eşittir sıfır' formülünü hatırladı ve kullandı.",
+          "example": "He, Şey vardı a x artı b eşittir sıfır mı öğretisi vardı. Ha, doğrusal denklem söyledin."
+        }
+      ],
+      "understandsLess": [
+        {
+          "area": "Karmaşık Denklemlerin Çözümü",
+          "reason": "Zeynep, x kare ve katsayıları içeren daha karmaşık denklemlerde karışıklık yaşadı ve öğretmene sıkça 'orayı anlamadım' dedi.",
+          "alternative": "Öğretmen, bu tür denklemleri adım adım çözerek ve her adımda ne yapıldığını açıklayarak ilerleyebilir."
+        },
+        {
+          "area": "Parabol ve Kökler",
+          "reason": "Zeynep, parabol denklemleri ve köklerini belirlerken tereddüt etti ve doğru cevabı bulmakta zorlandı.",
+          "alternative": "Öğretmen, grafik çizimleri veya görsel materyaller kullanarak parabol denklemlerinin nasıl kökleri olduğunu gösterebilir."
+        }
+      ],
+      "generatedAt": "2026-07-27T00:00:23.808Z"
+    },
+    "owt-bvqr-uee": {
+      "meetCode": "owt-bvqr-uee",
+      "studentName": "Elif Selçuk",
+      "teacherName": "İlkay Sevilmiş",
+      "subject": "Matematik",
+      "approachGuide": [
+        {
+          "title": "Açık Uçlu Sorular",
+          "gap": "Yanıtların %60'i tek kelimelik onay — içerik özümseme sinyali zayıf.",
+          "tactic": "Öğrencinin konuyu daha iyi özümsemesi için açık uçlu sorular sorarak, kısa yanıtlar yerine açıklama gerektiren cevaplar almayı hedefleyin. Öğrencinin düşünme sürecini teşvik etmek için 'Neden?' veya 'Nasıl?' sorularıyla derinlemesine yanıtlar alın."
+        },
+        {
+          "title": "Aktif Katılım Teşviki",
+          "gap": "Katılım %16 — öğrenci dinleyici konumunda kalmış, aktif üretim az.",
+          "tactic": "Ders sırasında öğrenciyi daha fazla dahil edebilmek için problem çözümlerine onu da katın veya kısa sunumlar yaptırın. Öğrencinin düşüncelerini paylaşması için ona fırsatlar verin ve katkı sağladığında olumlu geri bildirimlerde bulunun."
+        },
+        {
+          "title": "Görsel Araç Kullanımı",
+          "gap": "Matematik dersinde sayı doğrusu, tablo veya grafik gibi görsel araçlar yeterince kullanılmamış.",
+          "tactic": "Gelecek derslerde, konuyu görsel olarak somutlaştırmak için sayı doğrusu, tablolar veya grafikler gibi araçları kullanarak öğrencinin konuları daha iyi anlamasına yardımcı olun. Bu araçları kullanarak, soyut kavramları somut hale getirin."
+        },
+        {
+          "title": "Derinlemesine Soru Teknikleri",
+          "gap": "26 soru sormasına rağmen çoğu yanıt kısa — sorular mekanik, içselleştirme takip etmiyor.",
+          "tactic": "Sorularınızın derinliğini artırarak öğrencinin düşünme sürecini teşvik edin. Soruların ardından öğrenciden konuyu kendi kelimeleriyle anlatmasını isteyin veya bir kavramı gerçek yaşam örnekleriyle ilişkilendirmesini sağlayın."
+        }
+      ],
+      "understandsBetter": [
+        {
+          "area": "Hataları Fark Etme",
+          "reason": "Çıkarım yaparken hatalarını fark edip düzeltme eğilimi gösteriyor.",
+          "example": "Çıkarmayı yanlış yaptın. Ay ben ne yaptım be?"
+        }
+      ],
+      "understandsLess": [
+        {
+          "area": "Üslü Sayılar ve Negatif Kuvvetler",
+          "reason": "Üslü sayılar ve negatif kuvvetlerle ilgili sorulara cevap verirken tereddüt ediyor ve yanlış sonuçlara ulaşıyor.",
+          "alternative": "Üslü sayıların ve negatif kuvvetlerin temel ilkelerini basit örneklerle tekrar edin."
+        },
+        {
+          "area": "İşlem Sırası ve Parantezler",
+          "reason": "Parantezlerin kullanımı ve işlem sırasıyla ilgili sorularda karışıklık yaşıyor.",
+          "alternative": "Parantez kullanımının önemini vurgulayan ve işlem sırasını gösteren örnekler üzerinde çalışın."
+        }
+      ],
+      "generatedAt": "2026-07-27T00:00:29.635Z"
+    },
+    "piy-jwcr-kiw": {
+      "meetCode": "piy-jwcr-kiw",
+      "studentName": "Ceren Şule",
+      "teacherName": "Rümeysa Geçer",
+      "subject": "Matematik",
+      "approachGuide": [
+        {
+          "title": "Denklem Çalışma Yaprakları",
+          "gap": "Ceren denklemler konusunda takıldığını belirtti; derste bu boşluk tam kapanmamış olabilir.",
+          "tactic": "Denklemler konusundaki boşlukları doldurmak için, Ceren'e çeşitli zorluk seviyelerine sahip çalışma yaprakları ver. Bu yaprakları ders öncesinde inceleyip, ders sırasında çözüm sürecini onunla birlikte adım adım tartış."
+        },
+        {
+          "title": "Aktif Katılım Etkinlikleri",
+          "gap": "Katılım %23 — öğrenci dinleyici konumunda kalmış, aktif üretim az.",
+          "tactic": "Öğrenciyi derse daha fazla dahil etmek için, problem çözme aşamalarında ona belirli görevler ver veya fikirlerini paylaşması için teşvik et. Grup çalışmaları veya ikili tartışmalar da katılımı artırabilir."
+        },
+        {
+          "title": "Pozitif Geribildirim ve Stres Azaltıcı Teknikler",
+          "gap": "Performans endişesi dile getirildi — öğrenme motivasyonu kaygıyla bloke olabilir.",
+          "tactic": "Öğrencinin kaygısını azaltmak için, başarılarını vurgulayan pozitif geribildirimlerde bulun. Ayrıca, derse başlamadan önce kısa bir nefes alma veya rahatlama egzersizi yaparak stres seviyesini düşürmesine yardımcı ol."
+        },
+        {
+          "title": "Görsel Materyal Kullanımı",
+          "gap": "Matematik dersinde sayı doğrusu, tablo veya grafik gibi görsel araçlar yeterince kullanılmamış.",
+          "tactic": "Gelecek derslerde, konuları daha iyi somutlaştırmak için sayı doğrusu, grafik veya tablolar gibi görsel materyaller kullan. Özellikle karmaşık kavramları göstermek için bu araçlardan faydalan."
+        },
+        {
+          "title": "Derinlemesine Soru-Cevap Teknikleri",
+          "gap": "25 soru sormasına rağmen çoğu yanıt kısa — sorular mekanik, içselleştirme takip etmiyor.",
+          "tactic": "Öğrencinin sorularına daha derinlemesine cevaplar alabilmek için açık uçlu sorular sor. Her cevabın ardından 'Neden böyle düşünüyorsun?' veya 'Bu bilgiyi başka nasıl kullanabiliriz?' gibi sorularla konunun daha iyi anlaşılmasını sağla."
+        }
+      ],
+      "understandsBetter": [
+        {
+          "area": "Öğretmenle Birlikte Anlama",
+          "reason": "Ceren, öğretmenle birlikte ders işlerken konuları daha iyi anladığını belirtiyor.",
+          "example": "Öğretmenle birlikteyken çok güzel ders işleyişim güzel, hani onunla birlikte konuyu devam ettirebiliyorum."
+        },
+        {
+          "area": "Kitap Üzerinden Çalışma",
+          "reason": "Ceren, kitap üzerinden çalışmanın daha verimli ve eğlenceli olduğunu ifade ediyor.",
+          "example": "Şimdi kitap almaya başladım. Üç dört beş falan aldım. Daha güzel oluyor yani böyle o kağıda dokunma kalemle birlikte daha eğlenceli oluyor."
+        }
+      ],
+      "understandsLess": [
+        {
+          "area": "Kuralların Birikmesi",
+          "reason": "Matematik kuralları birikince zorlandığını belirtiyor.",
+          "alternative": "Öğretmen, her yeni kuralı basit örneklerle destekleyerek ve önceki konularla ilişkilendirerek anlatabilir."
+        },
+        {
+          "area": "Sınav ve Soru Çözümü",
+          "reason": "Ders sırasında konuları anladığını ama sınav veya soru çözümünde zorlandığını ifade ediyor.",
+          "alternative": "Öğretmen, pratik yapma fırsatları sunarak ve sınav teknikleri üzerine odaklanarak destek olabilir."
+        }
+      ],
+      "generatedAt": "2026-07-27T00:00:37.430Z"
+    },
+    "qag-zsdi-idx": {
+      "meetCode": "qag-zsdi-idx",
+      "studentName": "Ali Yiğit Mutlu",
+      "teacherName": "Yiğit Sakur",
+      "subject": "Matematik",
+      "approachGuide": [
+        {
+          "title": "Eksik Kavramların Üzerinden Geçme",
+          "gap": "Ali ondalık gösterim konusunda takıldığını belirtti; derste bu boşluk tam kapanmamış olabilir.",
+          "tactic": "Sonraki dersin başında, Ali'nin ondalık gösterimle ilgili sorularını yanıtlayarak ve örnek sorular çözerek kavrayışını pekiştir. Ekstra alıştırmalar ve ev ödevleriyle konunun iyice oturmasını sağla."
+        },
+        {
+          "title": "Görsel Araçlar Kullanma",
+          "gap": "Matematik dersinde sayı doğrusu, tablo veya grafik gibi görsel araçlar yeterince kullanılmamış.",
+          "tactic": "Derslerde, özellikle geometri ve ondalık gösterimler gibi konularda, sayı doğrusu, grafik ve tablolar gibi görsel araçları daha sık kullanarak konuların somutlaşmasını sağla. Bu materyalleri ders öncesi hazırlayarak öğrencinin görsel hafızasını destekle."
+        },
+        {
+          "title": "Hedef ve Çalışma Planı Oluşturma",
+          "gap": "Tanışma iyi geçmiş ama hedef ve çalışma planı netleştirilmemiş — sonraki ders yönü muğlak.",
+          "tactic": "Ali ile birlikte, kısa ve uzun vadeli hedeflerini belirleyerek bir çalışma planı oluştur. Bu planı yazılı hale getirip düzenli olarak gözden geçirerek, hedeflere ulaşıldıkça güncellemeler yap ve motivasyonu yüksek tut."
+        }
+      ],
+      "understandsBetter": [
+        {
+          "area": "Soru Çözümünde Mantık Kurma",
+          "reason": "Öğrenci, soruların çözümü sırasında mantık yürütme ve bağlantı kurma konusunda iyi bir performans sergiliyor.",
+          "example": "Nereden mesela bağlantıyı kurabilirim bu bilgilerle?"
+        },
+        {
+          "area": "Soruların İçeriğini Anlama",
+          "reason": "Öğrenci, soruların içeriğini ve neyin sorulduğunu anlamada başarılı.",
+          "example": "Zaten soru diyor ki DC kenarına ait yükseklik, yani bana h'ımı soruyordu zaten."
+        }
+      ],
+      "understandsLess": [
+        {
+          "area": "Ölçü Birimleri",
+          "reason": "Öğrenci, ölçü birimlerini karıştırıyor ve bu konuda kafa karışıklığı yaşıyor.",
+          "alternative": "Öğrenciye birim dönüştürme tabloları ve örnekleri sunularak pratik yapması sağlanabilir."
+        },
+        {
+          "area": "Soru Talimatlarını Anlama",
+          "reason": "Öğrenci, bazı sorularda talimatları tam kavrayamıyor.",
+          "alternative": "Öğrenciye soruları daha dikkatli okuması gerektiği ve önemli noktaların altını çizmesi önerilebilir."
+        }
+      ],
+      "generatedAt": "2026-07-27T00:00:45.307Z"
+    },
+    "qhn-xpvo-jbv": {
+      "meetCode": "qhn-xpvo-jbv",
+      "studentName": "Beren Ulusan",
+      "teacherName": "Zeynep Oral",
+      "subject": "Matematik",
+      "approachGuide": [
+        {
+          "title": "Etkileşimli Öğretim Teknikleri Kullanımı",
+          "gap": "Katılım %19 — öğrenci dinleyici konumunda kalmış, aktif üretim az.",
+          "tactic": "Derse etkileşim katmak için soru-cevap yöntemini daha fazla kullanarak öğrencinin aktif katılımını teşvik et. Örneğin, her yeni konuya başlarken öğrencinin ön bilgi ve tahminlerini sor, ardından bu tahminleri sınıf içi aktivitelerle test et."
+        },
+        {
+          "title": "Görsel Araçların Artırılması",
+          "gap": "Matematik dersinde sayı doğrusu, tablo veya grafik gibi görsel araçlar yeterince kullanılmamış.",
+          "tactic": "Ders içeriklerini desteklemek için daha fazla görsel materyal kullan. Sayı doğruları, tablolar ve grafikler gibi araçları dersin ilgili bölümlerine entegre ederek öğrencinin soyut kavramları somutlaştırmasına yardımcı ol."
+        }
+      ],
+      "understandsBetter": [
+        {
+          "area": "Kesirlerin Sıralanması",
+          "reason": "Öğrenci, kesirleri büyüklüklerine göre sıralama konusunda birçok doğru örnek verdi.",
+          "example": "Bir bölü üç, küçüktür, iki bölü üç, küçüktür, dört bölü üç, küçüktür, beş bölü üç, küçüktür dokuz bölü üç."
+        },
+        {
+          "area": "Tam Sayılı Kesirlerin Basit Kesire Çevrilmesi",
+          "reason": "Öğrenci, tam sayılı kesirleri basit kesire çevirme işlemini doğru bir şekilde uygulayabiliyor.",
+          "example": "Üç kere sekiz, yirmi dört."
+        }
+      ],
+      "understandsLess": [
+        {
+          "area": "Kesirlerde İşlem Hataları",
+          "reason": "Öğrenci, kesirlerle ilgili bazı işlemler sırasında hata yaptığını fark etti ve bu konuda emin olamadı.",
+          "alternative": "Öğretmen, öğrenciye adım adım rehberlik ederek her bir işlemi görsel materyallerle gösterebilir."
+        },
+        {
+          "area": "Öğretmenin Talimatlarını Anlama",
+          "reason": "Öğrenci, öğretmenin söylediklerini anlamakta zorlandı ve tekrarlama isteğinde bulundu.",
+          "alternative": "Öğretmen, talimatları net bir şekilde ve gerektiğinde tekrar ederek vermelidir."
+        }
+      ],
+      "generatedAt": "2026-07-27T00:00:53.630Z"
+    },
+    "sug-pifs-fyu": {
+      "meetCode": "sug-pifs-fyu",
+      "studentName": "Ebru Gülçelik",
+      "teacherName": "Zübeyde Hakyoldaş",
+      "subject": "Matematik",
+      "approachGuide": [
+        {
+          "title": "Aktif Öğrenci Katılımı Sağlama",
+          "gap": "Katılım %19 — öğrenci dinleyici konumunda kalmış, aktif üretim az.",
+          "tactic": "Ebru'ya derse katılımını artırmak için açık uçlu sorular sorabilir ve düşüncelerini ifade etmesi için zaman tanıyabilirsin. Ayrıca, öğrenciye küçük problem çözme görevleri vererek aktif katılımını teşvik edebilirsin."
+        },
+        {
+          "title": "Görsel Araçlar Kullanımı",
+          "gap": "Matematik dersinde sayı doğrusu, tablo veya grafik gibi görsel araçlar yeterince kullanılmamış.",
+          "tactic": "Bir sonraki ders için, konulara uygun görsel materyaller hazırlayarak, sayı doğrusu veya grafikler gibi araçları ders anlatımında kullanabilirsin. Görsel materyaller, öğrencinin konuyu daha iyi anlamasına yardımcı olabilir."
+        },
+        {
+          "title": "Derinlemesine Soru Sorma",
+          "gap": "21 soru sormasına rağmen çoğu yanıt kısa — sorular mekanik, içselleştirme takip etmiyor.",
+          "tactic": "Ebru'ya daha derinlemesine düşünme fırsatı sunmak için problem çözmeye yönelik sorular sormayı deneyebilirsin. Bu sorular, öğrencinin konuları anlamlandırmasına ve kendi düşüncelerini geliştirmesine olanak tanır."
+        }
+      ],
+      "understandsBetter": [
+        {
+          "area": "Temel Matematik Kavramları",
+          "reason": "Ebru, temel matematik kavramları ve kuralları konusunda doğru cevaplar veriyor.",
+          "example": "Çift sayılar... Bölünür, evet."
+        },
+        {
+          "area": "Çift Sayılar Konusu",
+          "reason": "Çift ve tek sayılar hakkında doğru bilgiler veriyor ve örnekler üzerinden açıklama yapabiliyor.",
+          "example": "Otuz beş sayı çift değildir hocam."
+        }
+      ],
+      "understandsLess": [
+        {
+          "area": "Problem Çözme Süreci",
+          "reason": "Ebru, bazı soruları çözerken tereddüt yaşıyor ve doğru cevabı bulmakta zorlanıyor.",
+          "alternative": "Öğretmen, adım adım problem çözme stratejileri üzerinde durarak rehberlik edebilir."
+        },
+        {
+          "area": "Görsel Materyallerin Anlaşılması",
+          "reason": "Ebru, görsel materyalleri yorumlarken netlik problemi yaşıyor.",
+          "alternative": "Öğretmen, daha büyük veya daha net görseller kullanarak öğrenciye yardımcı olabilir."
+        }
+      ],
+      "generatedAt": "2026-07-27T00:00:57.197Z"
+    },
+    "syf-qkqp-qms": {
+      "meetCode": "syf-qkqp-qms",
+      "studentName": "Ahmet Pekşen",
+      "teacherName": "Serhat Cinoğlu",
+      "subject": "Matematik",
+      "approachGuide": [
+        {
+          "title": "Soru-Cevap Yöntemiyle Katılım Artırma",
+          "gap": "Ahmet derste 9 kez konuştu — diarizasyon veya katılım sorunu; öğretmen neredeyse tek başına ilerledi.",
+          "tactic": "Ders sırasında Ahmet'e sık sık açık uçlu sorular sorarak onu konuşmaya teşvik et. Ayrıca, dersin belirli noktalarında öğrenciye konuyla ilgili kısa özet yaptırarak katılımını artırabilirsin."
+        },
+        {
+          "title": "Anlama Kontrolü İçin Dönüt Döngüsü",
+          "gap": "Test/ödev konuşması yoğun (18 referans) ama öğrencinin anladığını gösteren derin yanıt az.",
+          "tactic": "Her test veya ödev konusunu işledikten sonra, Ahmet'ten öğrendiği konuyu kendi cümleleriyle açıklamasını iste. Bu sayede, anladığını teyit edebilir ve eksik kalan noktaları anında düzeltebilirsin."
+        }
+      ],
+      "understandsBetter": [
+        {
+          "area": "Özgüvenli İletişim",
+          "reason": "Ahmet, ders sırasında konuşmalara aktif katılım sağlıyor ve gerektiğinde araya girerek görüşlerini belirtiyor.",
+          "example": "Gerekmiyor mu hocam? Araya girdim ama."
+        }
+      ],
+      "understandsLess": [
+        {
+          "area": "Teknolojik Cihaz Kullanımı",
+          "reason": "Ahmet dersin başında kamera ve ses sorunları yaşıyor, bu da teknoloji kullanımı konusunda zorluk yaşadığını gösteriyor.",
+          "alternative": "Ahmet'e ders öncesinde teknoloji kullanımı konusunda kısa bir rehber sunulabilir veya teknik destek sağlanabilir."
+        }
+      ],
+      "generatedAt": "2026-07-27T00:00:59.488Z"
+    },
+    "teo-hopq-atx": {
+      "meetCode": "teo-hopq-atx",
+      "studentName": "Kuzey Kara",
+      "teacherName": "Fatma Nur Yıldırım",
+      "subject": "Matematik",
+      "approachGuide": [
+        {
+          "title": "Sokratik Yöntem Kullanımı",
+          "gap": "Konuşma süresinin yalnızca %5'i öğrencide; ders öğretmen monoloğuna kaymış.",
+          "tactic": "Öğrenciyi daha fazla konuşmaya teşvik etmek için açık uçlu sorular kullanarak Sokratik yöntemi uygulayın. Bu sayede öğrenci, konuları derinlemesine düşünme ve kendi yanıtlarını oluşturma fırsatına sahip olur."
+        },
+        {
+          "title": "Genişletilmiş Yanıtlar Teşviki",
+          "gap": "Yanıtların %64'i tek kelimelik onay — içerik özümseme sinyali zayıf.",
+          "tactic": "Öğrenciden daha uzun ve açıklamalı yanıtlar isteyerek, her yanıtın ardından 'Neden?' veya 'Bu konuda ne düşünüyorsun?' gibi sorularla yanıtını genişletmesini sağlayın. Bu, öğrencinin düşünme süreçlerini ve konuyu anlama derecesini artırabilir."
+        },
+        {
+          "title": "Soru Üretme Alıştırmaları",
+          "gap": "Öğrenci yalnızca 3 soru sordu — pasif alım eğilimi baskın.",
+          "tactic": "Dersin belirli bölümlerinde öğrenciye, üzerinde düşünmesi ve sorular üretmesi için zaman tanıyın. Örneğin, 'Bu konuyla ilgili ne merak ediyorsun?' veya 'Kafanda hangi sorular oluştu?' gibi yönlendirmelerle soru sorma alışkanlığı kazandırın."
+        }
+      ],
+      "understandsBetter": [],
+      "understandsLess": [
+        {
+          "area": "Konuya Odaklanma",
+          "reason": "Öğrenci, ders boyunca genellikle kısa ve konudan kopuk yanıtlar verdi, bu da dikkatini toplamakta zorlandığını gösteriyor.",
+          "alternative": "Ders sırasında dikkatini çekebilecek daha interaktif ve görsel materyaller kullanılabilir."
+        },
+        {
+          "area": "Detaylı Açıklama Yapma",
+          "reason": "Öğrencinin yanıtları genellikle tek kelimelik veya kısa cümlelerden oluşuyor, bu da konuları derinlemesine anlamakta zorlandığını gösteriyor.",
+          "alternative": "Öğrencinin konular hakkında daha uzun ve detaylı açıklamalar yapması teşvik edilebilir."
+        },
+        {
+          "area": "Soru Sorma",
+          "reason": "Öğrenci sadece üç soru sordu ve genel katılımı düşüktü, bu da anlamadığı yerlerde soru sormaktan çekindiğini gösteriyor.",
+          "alternative": "Öğrenciyi daha fazla soru sormaya teşvik etmek için güvenli bir öğrenme ortamı yaratılabilir."
+        }
+      ],
+      "generatedAt": "2026-07-27T00:01:07.765Z"
+    },
+    "tgf-jcpj-bjx": {
+      "meetCode": "tgf-jcpj-bjx",
+      "studentName": "Ali Çelik",
+      "teacherName": "Yaren Yalım",
+      "subject": "Matematik",
+      "approachGuide": [
+        {
+          "title": "Kavram pekiştirme alıştırmaları",
+          "gap": "Ali ondalık gösterim konusunda takıldığını belirtti; derste bu boşluk tam kapanmamış olabilir.",
+          "tactic": "Sonraki derslerde, Ali'ye odaklı ondalık gösterim alıştırmaları yaparak konuyu pekiştir. Ayrıca, öğrendiği her yeni bilgiyi kendi kelimeleriyle açıklamasını isteyerek kavrama düzeyini kontrol et."
+        },
+        {
+          "title": "Görsel araçlarla zenginleştirme",
+          "gap": "Matematik dersinde sayı doğrusu, tablo veya grafik gibi görsel araçlar yeterince kullanılmamış.",
+          "tactic": "Derslerde sayı doğrusu, tablo ve grafik gibi görsel materyalleri daha sık kullanarak konuları somutlaştır. Bu araçlar, öğrencinin konuları daha iyi anlamasına ve akılda kalıcı hale gelmesine yardımcı olabilir."
+        },
+        {
+          "title": "Hedef odaklı motivasyon",
+          "gap": "Ders boyunca LGS/hedef referansı yok — öğrenci \"neden öğreniyorum\" sorusuna yanıt almamış olabilir.",
+          "tactic": "Dersin başında veya sonunda, konuların LGS veya diğer akademik hedeflerle nasıl bağlantılı olduğunu vurgula. Bu, öğrencinin motivasyonunu artırabilir ve öğrenme amacını netleştirebilir."
+        }
+      ],
+      "understandsBetter": [
+        {
+          "area": "Bölünebilme Kuralları",
+          "reason": "Öğrenci, sayıların hangi kurallara göre bölünebildiğini hatırlayarak sorulara doğru cevaplar verdi.",
+          "example": "O zaman benim altıya bölünebilen sayım hem ikiye hem de üçe bölünebilmeli değil mi? Evet."
+        },
+        {
+          "area": "Çarpanlara Ayırma",
+          "reason": "Öğrenci, sayıları çarpanlarına ayırma konusunda rahatlıkla işlem yapabiliyor ve doğru sonuçlara ulaşıyor.",
+          "example": "İkiye, ya şey on altıda ne var biliyor musun? Bu sekizin iki katı ya, iki üzeri dört olacak tamam mı?"
+        }
+      ],
+      "understandsLess": [
+        {
+          "area": "Ondalık Sayılar ve Devirli Ondalıklar",
+          "reason": "Öğrenci, ondalık sayıların nasıl işlem göreceği ve devirli ondalıkların nasıl çözümleneceği konusunda karışıklık yaşadı.",
+          "alternative": "Öğrenciye ondalık sayılar ve devirli ondalıklarla ilgili daha fazla görsel ve somut örnekler sunulabilir."
+        },
+        {
+          "area": "Aritmetik Ortalama",
+          "reason": "Öğrenci, aritmetik ortalamanın ne zaman doğru bir temsil olacağını anlamakta zorlandı.",
+          "alternative": "Öğrenciye, aritmetik ortalamanın farklı veri setlerinde nasıl kullanıldığını açıklayan grafiklerle desteklenen örnekler gösterilebilir."
+        }
+      ],
+      "generatedAt": "2026-07-27T00:01:15.716Z"
+    },
+    "tjn-etkj-qyo": {
+      "meetCode": "tjn-etkj-qyo",
+      "studentName": "Irmak Kürkçü",
+      "teacherName": "Rabia Arife Aslan",
+      "subject": "Matematik",
+      "approachGuide": [
+        {
+          "title": "Soru-Cevap Etkileşimini Artırma",
+          "gap": "Konuşma süresinin yalnızca %3'i öğrencide; ders öğretmen monoloğuna kaymış.",
+          "tactic": "Derse daha fazla açık uçlu sorular ekleyin ve öğrencinin düşüncelerini ifade etmesi için zaman tanıyın. Ayrıca, öğrencinin katılımını teşvik etmek için daha fazla diyalog imkanı sunan aktiviteler planlayın."
+        },
+        {
+          "title": "Derinlemesine Yanıtlandırma Teşviki",
+          "gap": "Yanıtların %56'i tek kelimelik onay — içerik özümseme sinyali zayıf.",
+          "tactic": "Öğrenciden cevap verirken neden-sonuç ilişkileri kurmasını veya düşüncelerini detaylandırmasını isteyin. Bu, öğrencinin konuyu daha iyi anlamasına ve derinlemesine düşünmesine yardımcı olacaktır."
+        },
+        {
+          "title": "Kendi Cümleleriyle Açıklama Yaptırma",
+          "gap": "Irmak kendi cümleleriyle uzun açıklama yapmadı (0 uzun yanıt) — düşünme sürecini dışa vurma pratiği yok.",
+          "tactic": "Öğrenciden kendi anladıklarını kendi cümleleriyle açıklamasını isteyin. Bu süreç, öğrencinin düşüncelerini organize etmesine ve kavramsal anlayışını geliştirmesine yardımcı olacaktır."
+        },
+        {
+          "title": "Görsel Araçlarla Somutlaştırma",
+          "gap": "Matematik dersinde sayı doğrusu, tablo veya grafik gibi görsel araçlar yeterince kullanılmamış.",
+          "tactic": "Konuları anlatırken sayısal doğrular, tablolar veya grafikler gibi görsel materyalleri daha fazla kullanarak soyut kavramları somutlaştırın. Bu, öğrencinin kavramları daha iyi anlamasını ve görselleştirmesini sağlayacaktır."
+        },
+        {
+          "title": "Anlama Kontrolünü Derinleştirme",
+          "gap": "\"Anladın mı?\" tarzı 40 kontrol var ama yanıtlar kısa — gerçek anlama ölçülmemiş.",
+          "tactic": "Anlama kontrolü yaparken, öğrenciden konuyu kendi sözleriyle özetlemesini veya örnekler vermesini isteyin. Bu, öğrencinin gerçekten anlayıp anlamadığını ölçmenize yardımcı olacaktır."
+        }
+      ],
+      "understandsBetter": [],
+      "understandsLess": [
+        {
+          "area": "Dersin Başlangıcı ve Yönlendirme",
+          "reason": "Öğrenci dersin başında nereye bakması gerektiğini sordu, bu da başlangıçta ders materyaline veya öğretmenin yönlendirmesine dair belirsizlik yaşadığını gösteriyor.",
+          "alternative": "Dersin başında kısa bir giriş yaparak materyallerin ve öğretmenin nerede olduğunu belirtmek faydalı olabilir."
+        },
+        {
+          "area": "Konuya Odaklanma",
+          "reason": "Öğrenci birçok farklı konu ve kelimeyi hızlıca geçiyor, bu da dikkatinin dağılabileceğini gösteriyor.",
+          "alternative": "Öğretmen, öğrencinin dikkatini toplaması için daha sık ara verip özet yapabilir veya kısa molalar verebilir."
+        }
+      ],
+      "generatedAt": "2026-07-27T00:01:18.070Z"
+    },
+    "tnt-boyu-kvh": {
+      "meetCode": "tnt-boyu-kvh",
+      "studentName": "Çınar Ege",
+      "teacherName": "Ceren Nur Sarıkavak",
+      "subject": "Matematik",
+      "approachGuide": [
+        {
+          "title": "Ön Bilgileri Pekiştirme",
+          "gap": "Çınar ondalık gösterim konusunda takıldığını belirtti; derste bu boşluk tam kapanmamış olabilir.",
+          "tactic": "Bir sonraki derste ondalık gösterim konusunu daha detaylı ele alarak, temel kavramları minik adımlarla ve farklı örneklerle tekrar gözden geçir. Ayrıca, Çınar'ın konuyu anladığından emin olmak için kısa bir değerlendirme yapabilirsin."
+        },
+        {
+          "title": "Derinlemesine Soru Sorma",
+          "gap": "36 soru sormasına rağmen çoğu yanıt kısa — sorular mekanik, içselleştirme takip etmiyor.",
+          "tactic": "Sorularını daha açık uçlu hale getir ve Çınar'ın düşünmesini gerektiren, sebep-sonuç ilişkilerini kurmasını sağlayan sorular sormaya çalış. Daha sonra, verdiği cevapları tartışarak ve genişleterek onun düşünce süreçlerini derinleştirmesine yardımcı ol."
+        }
+      ],
+      "understandsBetter": [
+        {
+          "area": "Problem Çözme İçin Görsel Destek",
+          "reason": "Öğrenci, şekiller ve görseller üzerinden problem çözme sürecine daha fazla dahil oluyor ve bu tür sorulara daha fazla odaklanıyor.",
+          "example": "Hocam ilk önce şekle karar vermeye çalışıyorum."
+        },
+        {
+          "area": "Çarpma ve Bölme İşlemleri",
+          "reason": "Öğrenci, çarpma ve bölme işlemleri içeren problemleri daha hızlı ve doğru bir şekilde çözebiliyor.",
+          "example": "Beşte kaçı çarparsak yetmiş olduğunu bulmamız gerekiyor. Evet, öyle yapmamız gerekiyor."
+        }
+      ],
+      "understandsLess": [
+        {
+          "area": "Karmaşık Sözlü Problemler",
+          "reason": "Öğrenci, uzun ve karmaşık sözlü problemleri anlamada zorlanıyor ve sık sık konuyu teyit etmek zorunda kalıyor.",
+          "alternative": "Öğretmen, uzun problemleri daha küçük parçalara bölerek ve her adımı ayrı ayrı açıklayarak konuyu anlatabilir."
+        },
+        {
+          "area": "Açı Hesaplamaları",
+          "reason": "Öğrenci, açı hesaplamaları ve terminolojisi konusunda kafa karışıklığı yaşıyor gibi görünüyor.",
+          "alternative": "Öğretmen, açı hesaplamalarını somut örneklerle ve basit görsel araçlarla açıklayarak konuyu daha anlaşılır hale getirebilir."
+        }
+      ],
+      "generatedAt": "2026-07-27T00:01:27.086Z"
+    },
+    "tpk-tohs-mif": {
+      "meetCode": "tpk-tohs-mif",
+      "studentName": "Yusuf Salih Elmas",
+      "teacherName": "Hasan Karabela",
+      "subject": "Matematik",
+      "approachGuide": [
+        {
+          "title": "Etkileşimli Soru-Cevap",
+          "gap": "Yusuf derste 0 kez konuştu — diarizasyon veya katılım sorunu; öğretmen neredeyse tek başına ilerledi.",
+          "tactic": "Ders sırasında belirli aralıklarla Yusuf'a basit sorular yönelterek dersin akışına katılmasını sağlayın. Bu sorular, onun matematiksel düşünme becerilerini geliştirmesi için teşvik edici olabilir ve derse ilgisini canlı tutabilir. Aynı zamanda, Yusuf'un bildiklerini paylaşabileceği veya anlamadığı noktaları ifade edebileceği bir ortam yaratmalısınız."
+        }
+      ],
+      "understandsBetter": [],
+      "understandsLess": [],
+      "generatedAt": "2026-07-27T00:01:27.105Z"
+    },
+    "twa-mvgw-acq": {
+      "meetCode": "twa-mvgw-acq",
+      "studentName": "Efe Yarar",
+      "teacherName": "Muhammed Bozboğa",
+      "subject": "Matematik",
+      "approachGuide": [
+        {
+          "title": "Öğrenci Merkezli Anlatım",
+          "gap": "Efe geometri konusunda takıldığını belirtti; derste bu boşluk tam kapanmamış olabilir.",
+          "tactic": "Efe'nin anlamadığı kavramları tespit etmek için derse başlarken kısa bir değerlendirme yap. Öğrencinin anlamadığı konulara odaklanarak, bu konuları onun bildiği basit kavramlarla ilişkilendirerek açıklamaya çalış."
+        }
+      ],
+      "understandsBetter": [
+        {
+          "area": "Bilinmeyenleri Harflerle İfade Etme",
+          "reason": "Efe, bilinmeyenleri harflerle ifade etme konusunda rahat görünüyor, çünkü bunu birçok örnekte doğru bir şekilde uygulayabiliyor.",
+          "example": "Gayenin kalemlerin sayısını ben biliyor muyum? Bilmiyorum değil mi? O zaman ne yaparım? A, derim."
+        },
+        {
+          "area": "Çarpma İşlemi ve Kat Kavramı",
+          "reason": "Öğrenci, çarpma işlemi ve kat kavramını anlamış görünüyor, çünkü öğretmenle birlikte bu konuları tartışırken doğru yanıtlar veriyor.",
+          "example": "İki x demek abiciğim mesela, tamam mı? Ne demekmiş? İki çarpı x demek."
+        }
+      ],
+      "understandsLess": [
+        {
+          "area": "Uzun Soruları Anlama",
+          "reason": "Efe, uzun ve karmaşık soruları anlama konusunda zorluk çekiyor gibi görünüyor, çünkü soruları tekrar tekrar okuması gerektiğini belirtiyor.",
+          "alternative": "Öğretmen, soruları parçalara bölerek ve her parçayı ayrı ayrı açıklayarak yardımcı olabilir."
+        },
+        {
+          "area": "Okuduğunu Anlama",
+          "reason": "Öğrenci, okuduğunu anlamada zorluk yaşıyor, çünkü öğretmen sürekli olarak okuma ve anlama üzerine vurgu yapıyor.",
+          "alternative": "Öğretmen, Efe'ye okuma pratiği yapması için kısa ve basit metinler önererek okuma becerisini geliştirmesine yardımcı olabilir."
+        }
+      ],
+      "generatedAt": "2026-07-27T00:01:42.550Z"
+    },
+    "viz-bham-jvo": {
+      "meetCode": "viz-bham-jvo",
+      "studentName": "Miraç Çelik",
+      "teacherName": "Yiğit Sakur",
+      "subject": "Matematik",
+      "approachGuide": [
+        {
+          "title": "Soru-Cevap Tekniği",
+          "gap": "Konuşma süresinin yalnızca %6'i öğrencide; ders öğretmen monoloğuna kaymış.",
+          "tactic": "Derse, öğrencinin aktif katılımını artırmak için açık uçlu sorular ekle. Miraç'ın düşüncelerini ve çözüm yollarını paylaşmasını teşvik edecek sorular sorarak katılımını artırabilirsin."
+        },
+        {
+          "title": "Kavram Haritaları Kullanımı",
+          "gap": "Miraç geometri konusunda takıldığını belirtti; derste bu boşluk tam kapanmamış olabilir.",
+          "tactic": "Geometri kavramlarını daha iyi anlaması için Miraç ile birlikte kavram haritaları oluştur. Bu yöntemle kavramları görsel olarak ilişkilendirmesine yardımcı olabilir ve eksik olan bilgileri daha hızlı kapatabilirsin."
+        }
+      ],
+      "understandsBetter": [],
+      "understandsLess": [
+        {
+          "area": "Çember Konularını Anlama",
+          "reason": "Öğrenci çember konusundaki sorulara yanıt veremedi ve sadece 'Evet' gibi kısa onaylarla katılım gösterdi.",
+          "alternative": "Öğrenciye çember konusunu daha iyi kavrayabilmesi için görsel materyaller veya model kullanarak anlatım yapılabilir."
+        },
+        {
+          "area": "Soru Çözümüne Katılım",
+          "reason": "Öğrenci, öğretmenin ekran paylaşımıyla soru çözme teklifine 'Olur hocam' diyerek pasif bir onay verdi, ancak çözüme aktif katılım göstermedi.",
+          "alternative": "Öğrenciyi daha fazla katılıma teşvik etmek için sorulara küçük ipuçları vererek yönlendirme yapılabilir."
+        }
+      ],
+      "generatedAt": "2026-07-27T00:01:45.228Z"
+    },
+    "waa-zfkt-ati": {
+      "meetCode": "waa-zfkt-ati",
+      "studentName": "Hiranur Sarsık",
+      "teacherName": "Melisa Kıroğlu",
+      "subject": "Matematik",
+      "approachGuide": [
+        {
+          "title": "Detaylı Yanıt Teşviki",
+          "gap": "Yanıtların %68'i tek kelimelik onay — içerik özümseme sinyali zayıf.",
+          "tactic": "Öğrenciden yanıtlarını detaylandırmasını isteyerek ve örneklerle desteklemesini teşvik et. Yanıtların ardından 'Neden?' veya 'Bu konudaki düşüncelerini paylaşır mısın?' gibi sorularla derinleştirme sağla."
+        },
+        {
+          "title": "Etkin Katılım İçin Soru-Cevap",
+          "gap": "Katılım %22 — öğrenci dinleyici konumunda kalmış, aktif üretim az.",
+          "tactic": "Ders sırasında öğrenciyi düşünmeye ve kendi yanıtlarını üretmeye teşvik eden açık uçlu sorular sor. Ayrıca öğrencinin ilgi alanlarına göre konulara dair kısa tartışmalar yaparak katılımı artır."
+        },
+        {
+          "title": "Anlamlı ve Derinlemesine Sorular",
+          "gap": "19 soru sormasına rağmen çoğu yanıt kısa — sorular mekanik, içselleştirme takip etmiyor.",
+          "tactic": "Öğrencinin sorduğu soruları genişletici ve analitik düşünmeye teşvik edici şekilde yeniden yönlendir. Örneğin, 'Bu soruya başka hangi açılardan yaklaşabiliriz?' gibi sorular ekleyerek derinlemesine düşünmesine yardımcı ol."
+        },
+        {
+          "title": "Net Hedefler ve Çalışma Planı",
+          "gap": "Tanışma iyi geçmiş ama hedef ve çalışma planı netleştirilmemiş — sonraki ders yönü muğlak.",
+          "tactic": "Bir sonraki dersin başında öğrencinin hedeflerini netleştirmek için kısa bir oturum planla. Bu hedeflere ulaşmak için belirli adımlar ve zaman çizelgesi oluştur, böylece öğrenci derslerin yapısını daha iyi anlayabilir."
+        }
+      ],
+      "understandsBetter": [
+        {
+          "area": "Konuşma Konuları",
+          "reason": "Öğrenci, kendisiyle ilgili konularda daha fazla katılım gösteriyor ve daha rahat iletişim kuruyor.",
+          "example": "Evet. İlkokul çok güzel geçti. Zaten ilkokulumu da Türkiye birinciliğiyle tamamladım."
+        }
+      ],
+      "understandsLess": [
+        {
+          "area": "Matematik Konuları",
+          "reason": "Dersin transkriptinde matematikle ilgili bir katılım veya soru bulunmuyor, bu da öğrencinin tanışma dersi sırasında matematik konularına yeterince dahil olmadığını gösteriyor.",
+          "alternative": "Öğrencinin ilgisini çekecek ve katılımını artıracak matematik oyunları veya etkinlikleri kullanılabilir."
+        }
+      ],
+      "generatedAt": "2026-07-27T00:01:49.529Z"
+    },
+    "xmz-affg-ibt": {
+      "meetCode": "xmz-affg-ibt",
+      "studentName": "Toprak Celik",
+      "teacherName": "Mehmet Alioğlu",
+      "subject": "Matematik",
+      "approachGuide": [
+        {
+          "title": "Soru-cevap tekniği",
+          "gap": "Konuşma süresinin yalnızca %7'si öğrencide; ders öğretmen monoloğuna kaymış.",
+          "tactic": "Ders sırasında daha fazla açık uçlu soru sorarak Toprak'a düşünme ve cevap verme fırsatı tanıyın. Bu, öğrencinin derse katılımını artıracak ve konuyu kendi cümleleriyle ifade etmesine olanak sağlayacaktır."
+        },
+        {
+          "title": "Kavram haritaları ile pekiştirme",
+          "gap": "Toprak rasyonel sayılar konusunda takıldığını belirtti; derste bu boşluk tam kapanmamış olabilir.",
+          "tactic": "Rasyonel sayılar konusunu kavram haritaları kullanarak görselleştirin. Bu, Toprak'ın kavramlar arasındaki bağlantıları daha iyi görmesine ve eksik noktaları fark etmesine yardımcı olacaktır."
+        },
+        {
+          "title": "Detaylı açıklama ve tartışma",
+          "gap": "Yanıtların %57'si tek kelimelik onay — içerik özümseme sinyali zayıf.",
+          "tactic": "Toprak'tan gelen tek kelimelik yanıtlar yerine, her cevabının arkasında yatan düşünceyi açıklamasını isteyin. Tartışma ortamı oluşturarak konuların daha derinlemesine anlaşılmasını sağlayabilirsiniz."
+        },
+        {
+          "title": "Hedef odaklı motivasyon",
+          "gap": "Ders boyunca LGS/hedef referansı yok — öğrenci \"neden öğreniyorum\" sorusuna yanıt almamış olabilir.",
+          "tactic": "Dersin başında ve sonunda konuların LGS ve diğer akademik hedeflerle olan bağlantısını açıklayın. Bu, Toprak'ın motivasyonunu artıracak ve öğrendiği bilgilerin önemini anlamasına yardımcı olacaktır."
+        }
+      ],
+      "understandsBetter": [
+        {
+          "area": "Trigonometri Terimlerini Ezberleme",
+          "reason": "Öğrenci, trigonometrik terimleri ve oranları sık sık tekrar ederek kendine hatırlatıyor.",
+          "example": "Sinüs karşı dik kenar bölü hipotenüsü. Evet."
+        },
+        {
+          "area": "Öğrenilen Bilgiyi Uygulama",
+          "reason": "Öğrenci, öğrendiği bilgiyi sorulara ve örneklere uygulamaya çalışıyor.",
+          "example": "Tanjant karşı bölü komşuydu."
+        }
+      ],
+      "understandsLess": [
+        {
+          "area": "Özel Üçgenler ve Yeşilli Alanlar",
+          "reason": "Öğrenci, özel üçgenler ve ilgili konular hakkında net bir bilgiye sahip değil ve bu konuda daha fazla açıklama istiyor.",
+          "alternative": "Öğrenciye özel üçgenlerin ve yeşilli alanların kullanımını basit örneklerle açıklamak faydalı olabilir."
+        },
+        {
+          "area": "Konu Takibi ve Konsantrasyon",
+          "reason": "Öğrenci, dersin başlangıcında konuyu kaçırdığını ve bunu telafi etmekte zorlandığını belirtiyor.",
+          "alternative": "Derse başlamadan önce kısa bir özet yaparak öğrencinin dikkatini çekmek ve konuyu daha iyi takip etmesini sağlamak etkili olabilir."
+        }
+      ],
+      "generatedAt": "2026-07-27T00:01:56.794Z"
+    },
+    "xtv-upso-wve": {
+      "meetCode": "xtv-upso-wve",
+      "studentName": "Muhammed Bulutoğlu",
+      "teacherName": "Barış Öztürk",
+      "subject": "Matematik",
+      "approachGuide": [
+        {
+          "title": "Sokratik Soru Yöntemi",
+          "gap": "Konuşma süresinin yalnızca %7'i öğrencide; ders öğretmen monoloğuna kaymış.",
+          "tactic": "Ders sırasında Muhammed'e daha fazla soru sorarak, onun düşünce sürecini açığa çıkarmak ve katılımını artırmak için Sokratik Soru Yöntemi'ni kullanabilirsin. Açık uçlu sorularla öğrenciyi düşünmeye teşvik et ve kendi cevabını bulmasına yardımcı ol."
+        },
+        {
+          "title": "Kavram Haritaları",
+          "gap": "Muhammed denklemler konusunda takıldığını belirtti; derste bu boşluk tam kapanmamış olabilir.",
+          "tactic": "Ders esnasında kavram haritaları kullanarak Muhammed'e denklemler arasındaki ilişkileri görsel olarak göstermeyi dene. Bu yöntem, öğrencinin karmaşık kavramlar arasındaki bağlantıları daha iyi anlamasına yardımcı olabilir."
+        },
+        {
+          "title": "Fikir Paylaşımı Oturumları",
+          "gap": "Yanıtların %59'i tek kelimelik onay — içerik özümseme sinyali zayıf.",
+          "tactic": "Muhammed'den her verdiği cevabın ardından, neden bu cevabı seçtiğini açıklamasını isteyerek küçük fikir paylaşımı oturumları düzenle. Bu, öğrencinin düşüncelerini derinlemesine incelemesine ve içeriği daha iyi özümsemesine yardımcı olabilir."
+        },
+        {
+          "title": "Kendi Cümleleriyle Açıklama",
+          "gap": "Muhammed kendi cümleleriyle uzun açıklama yapmadı (0 uzun yanıt) — düşünme sürecini dışa vurma pratiği yok.",
+          "tactic": "Muhammed'e öğrendiği konuları kendi cümleleriyle açıklamasını teşvik eden aktiviteler yap. Örneğin, öğrendiği bir kavramı sana öğretmesini iste veya öğrendiği konular hakkında kısa bir sunum hazırlamasını sağla."
+        },
+        {
+          "title": "İlerleme ve Hedef Bağlantısı",
+          "gap": "Ders boyunca LGS/hedef referansı yok — öğrenci \"neden öğreniyorum\" sorusuna yanıt almamış olabilir.",
+          "tactic": "Dersin başında veya sonunda, işlediğiniz konunun LGS gibi sınavlar veya gelecekteki öğrenim hedefleriyle nasıl bağlantılı olduğunu anlat. Bu, Muhammed'in dersin önemini anlamasına ve motivasyonunu artırmasına yardımcı olacaktır."
+        }
+      ],
+      "understandsBetter": [
+        {
+          "area": "Kesirleri Karşılaştırma",
+          "reason": "Öğrenci, kesirleri büyüklüklerine göre karşılaştırmada doğru sonuçlara ulaşıyor ve bu tür sorularda daha hızlı yanıt veriyor.",
+          "example": "Altı bölü beş daha büyüktür."
+        },
+        {
+          "area": "Payda Eşitleme",
+          "reason": "Öğrenci, payda eşitleme işlemlerini doğru bir şekilde yapabiliyor ve bu konuda kendine güveniyor.",
+          "example": "Öncelikle paydaları eşitleyeceğiz."
+        }
+      ],
+      "understandsLess": [
+        {
+          "area": "Değişkenlerle İşlem Yapma",
+          "reason": "Öğrenci, değişkenlerin yer aldığı denklemler konusunda daha az kendinden emin görünüyor ve bu konulara dair daha az yorum yapıyor.",
+          "alternative": "Öğretmen, değişkenlerle ilgili daha fazla görsel materyal kullanarak ve basit örneklerle başlayarak konuyu pekiştirebilir."
+        },
+        {
+          "area": "Geometri",
+          "reason": "Öğrenci, geometri konularında zorlandığını belirtiyor ve bu konularda pek yorum yapmıyor.",
+          "alternative": "Öğretmen, geometri konularında daha fazla uygulamalı örnekler ve görseller kullanabilir."
+        }
+      ],
+      "generatedAt": "2026-07-27T00:02:02.863Z"
+    },
+    "xzd-txvf-rme": {
+      "meetCode": "xzd-txvf-rme",
+      "studentName": "İkra Bilim",
+      "teacherName": "Ceren Nur Sarıkavak",
+      "subject": "Matematik",
+      "approachGuide": [
+        {
+          "title": "Kavram Haritaları Kullanımı",
+          "gap": "İkra ondalık gösterim konusunda takıldığını belirtti; derste bu boşluk tam kapanmamış olabilir.",
+          "tactic": "Sonraki derslerde, ondalık gösterim kavramını daha iyi anlamak için kavram haritaları kullan. Öğrencinin konuyu görsel olarak nasıl bağladığını görmesini sağla ve bu haritaları güncelleyerek öğrencinin ilerlemesini takip et."
+        }
+      ],
+      "understandsBetter": [
+        {
+          "area": "Algoritma Kavramı ve Günlük Hayat Bağlantısı",
+          "reason": "Öğrenci algoritmanın günlük hayattaki karşılıklarını anlamakta daha başarılı görünüyor. Ayran yapma örneği üzerinden algoritma kavramını anlamış gibi görünüyor.",
+          "example": "Ayranı nasıl yaparsın? Algoritmak. Algoritmak olarak,"
+        },
+        {
+          "area": "Şekillerin Algoritmadaki Anlamları",
+          "reason": "Öğrenci akış şemalarındaki şekillerin anlamlarını doğru şekilde tanımlıyor ve kullanıyor.",
+          "example": "Bu paralel kenara biz ne diyoruz? İşte giriş işlemi."
+        }
+      ],
+      "understandsLess": [
+        {
+          "area": "Yeni Nesil Sorular",
+          "reason": "Öğrenci yeni nesil sorulara alışık değil ve bu tür sorularda daha fazla zorlanıyor.",
+          "alternative": "Öğrenciye yeni nesil soru örnekleri üzerinde daha fazla pratik yapma imkanı sunulabilir."
+        },
+        {
+          "area": "Matematiksel İşlemlerde Hata",
+          "reason": "Öğrenci çarpma işlemi yapması gerektiği yerde bölme yapmaya çalışıyor, bu da işlem hatalarına yol açıyor.",
+          "alternative": "Öğrenciye temel matematik işlemleri üzerinde tekrarlı alıştırmalar yaptırarak işlem becerileri güçlendirilebilir."
+        }
+      ],
+      "generatedAt": "2026-07-27T00:02:12.864Z"
+    },
+    "yjx-zhms-nws": {
+      "meetCode": "yjx-zhms-nws",
+      "studentName": "Ali Rıza Bolat",
+      "teacherName": "Nursima Başaran",
+      "subject": "Matematik",
+      "approachGuide": [
+        {
+          "title": "Önceki Bilgilerle Bağlantı Kurma",
+          "gap": "Ali geometri konusunda takıldığını belirtti; derste bu boşluk tam kapanmamış olabilir.",
+          "tactic": "Gelecek dersin başında geometri konularını kısaca özetleyip Ali'nin hangi noktalarda zorlandığını anlamaya çalış. Zorlandığı kavramları daha basit örnekler ve günlük hayatla ilişkilendirerek anlat."
+        },
+        {
+          "title": "Aktivite Bazlı Öğrenme",
+          "gap": "Katılım %15 — öğrenci dinleyici konumunda kalmış, aktif üretim az.",
+          "tactic": "Derse etkileşimli aktiviteler ekleyerek Ali'nin daha fazla katılımını sağla. Örneğin, öğrenciye küçük problem çözme görevleri verip, sonrasında sınıfta tartışarak yanıtları analiz et."
+        },
+        {
+          "title": "Derinlemesine Soru İncelemesi",
+          "gap": "22 soru sormasına rağmen çoğu yanıt kısa — sorular mekanik, içselleştirme takip etmiyor.",
+          "tactic": "Ali'nin sorduğu sorulara kısa yanıtlar vermek yerine, bu soruları derinlemesine inceleyip, sorunun mantığını ve nedenini birlikte keşfetmesini sağla. Ayrıca, doğru cevaba nasıl ulaştığını anlaması için kendi düşünme sürecini ona açıklat."
+        },
+        {
+          "title": "Hedefe Yönelik Öğrenme Motivasyonu",
+          "gap": "Ders boyunca LGS/hedef referansı yok — öğrenci \"neden öğreniyorum\" sorusuna yanıt almamış olabilir.",
+          "tactic": "Ali'ye geometri konularının LGS'deki yerini ve önemini açıklayarak, öğrendiklerinin gelecekte nasıl işine yarayacağını göster. Dersin sonunda konunun sınavda nasıl sorulabileceğine dair örnekler ver."
+        }
+      ],
+      "understandsBetter": [
+        {
+          "area": "Fen Bilimlerine İlgi",
+          "reason": "Öğrenci fen bilimlerine ilgi duyduğunu ve merak ettiğini belirtmiştir.",
+          "example": "Fen bilimlerini seviyorum, merak ediyorum."
+        }
+      ],
+      "understandsLess": [
+        {
+          "area": "Ezber Gerektiren Konular",
+          "reason": "Öğrenci ezber gerektiren konularda zorlandığını ifade etmiştir.",
+          "alternative": "Ezber yerine kavram haritaları ve görsel materyallerle konuları pekiştirmek faydalı olabilir."
+        },
+        {
+          "area": "Uzay Araçları ve Görevleri",
+          "reason": "Öğrenci uzay araçlarının görevleri ve özellikleri hakkında net bilgiye sahip değil.",
+          "alternative": "Uzay araçlarının görevlerini ve özelliklerini karşılaştıran bir tablo veya grafik kullanılabilir."
+        }
+      ],
+      "generatedAt": "2026-07-27T00:02:16.023Z"
+    },
+    "ymz-nxyc-xch": {
+      "meetCode": "ymz-nxyc-xch",
+      "studentName": "Elif Selçuk",
+      "teacherName": "Burak Çınar",
+      "subject": "Matematik",
+      "approachGuide": [
+        {
+          "title": "Açık Uçlu Sorular Kullanma",
+          "gap": "Yanıtların %59'i tek kelimelik onay — içerik özümseme sinyali zayıf.",
+          "tactic": "Elif'ten daha detaylı yanıtlar almak için, açık uçlu sorular kullan ve yanıtları üzerine tartışmasını teşvik et. Bu, onun konuyu daha derinlemesine düşünmesini sağlayabilir ve özümsemeyi artırabilir."
+        },
+        {
+          "title": "Öğrenci Katılımını Artırma",
+          "gap": "Konuşmanın %74'i öğretmende; öğrenci fikir üretme fırsatı sınırlı.",
+          "tactic": "Dersin akışında Elif'e daha fazla söz hakkı tanı ve kendi düşüncelerini paylaşması için onu cesaretlendir. Bu, onun dersin aktif bir parçası olmasına ve kendi öğrenimini yönetmesine yardımcı olacaktır."
+        },
+        {
+          "title": "Sokratik Soru Tekniği",
+          "gap": "48 soru sormasına rağmen çoğu yanıt kısa — sorular mekanik, içselleştirme takip etmiyor.",
+          "tactic": "Sokratik soru tekniğini kullanarak, Elif'in düşünme süreçlerini derinleştiren ve sorgulamaya teşvik eden sorular sor. Bu, onun analitik düşünce becerilerini geliştirebilir ve konuları daha iyi anlamasına yardımcı olabilir."
+        },
+        {
+          "title": "Net Çalışma Planı Oluşturma",
+          "gap": "Tanışma iyi geçmiş ama hedef ve çalışma planı netleştirilmemiş — sonraki ders yönü muğlak.",
+          "tactic": "Elif ile birlikte kısa ve uzun vadeli hedefler belirleyin ve bu hedeflere ulaşmak için net bir çalışma planı oluşturun. Bu, derslerin daha yapılandırılmış ve hedef odaklı olmasını sağlayacaktır."
+        }
+      ],
+      "understandsBetter": [
+        {
+          "area": "Teknik Sorunları Çözme",
+          "reason": "Elif, teknik sorunlarla ilgili daha önce deneyim sahibi olduğunu gösteriyor ve kendi başına çözüm arayışına giriyor.",
+          "example": "Ya ben anne tamirci miyim? Bir dakika. Bir bak. Ay. Gitti."
+        },
+        {
+          "area": "Günlük Konuşma ve İletişim",
+          "reason": "Elif, günlük konuşma dilinde rahat ve esprili bir şekilde iletişim kurabiliyor.",
+          "example": "Naber?"
+        }
+      ],
+      "understandsLess": [
+        {
+          "area": "Sözel Mantık ve Anlam Analizi",
+          "reason": "Sözel mantık ve anlam analizine dair konularda Elif'in tereddüt yaşadığı ve sık sık tekrar sorduğu görülüyor.",
+          "alternative": "Öğretmen, Elif'e daha fazla örnek ve açıklama yaparak konuları somutlaştırabilir."
+        },
+        {
+          "area": "Deyim ve Mecaz Anlamlar",
+          "reason": "Deyim ve mecaz anlamlar konusunda Elif'in kararsız kaldığı ve anlamakta zorlandığı gözlemleniyor.",
+          "alternative": "Deyim ve mecaz anlamları görsellerle veya hikayelerle anlatmak Elif'in daha iyi anlamasını sağlayabilir."
+        }
+      ],
+      "generatedAt": "2026-07-27T00:02:25.358Z"
+    },
+    "zra-bhzx-krk": {
+      "meetCode": "zra-bhzx-krk",
+      "studentName": "Fatma Zehra Güneş",
+      "teacherName": "Ayşegül Dinçer",
+      "subject": "Matematik",
+      "approachGuide": [
+        {
+          "title": "Pozitif Geri Bildirim ve Destek",
+          "gap": "Performans endişesi dile getirildi — öğrenme motivasyonu kaygıyla bloke olabilir.",
+          "tactic": "Öğrencinin güçlü yönlerine odaklanarak pozitif geri bildirim verin. Her dersin başında ve sonunda öğrencinin ilerlemesini ve başarılarını vurgulayan kısa bir değerlendirme yaparak özgüvenini pekiştirin. Ayrıca, rahat bir ortam oluşturmak için öğrencinin kaygılarını dinleyin ve bu kaygıları azaltacak stratejiler geliştirin."
+        }
+      ],
+      "understandsBetter": [
+        {
+          "area": "Adım adım işlem yapma",
+          "reason": "Öğrenci, karmaşık işlemleri adım adım yaparken daha iyi anlıyor ve bu şekilde soruları çözebiliyor.",
+          "example": "Bunlar artı yaptı değil mi? Evet, artı yapıyor."
+        },
+        {
+          "area": "Öğretmenin yönlendirmesiyle sorun çözme",
+          "reason": "Öğretmen soruları yönlendirdiğinde öğrenci daha rahat anladığını ifade ediyor.",
+          "example": "Tamam. İlk sorumuzu okur musun balım bizim için?"
+        }
+      ],
+      "understandsLess": [
+        {
+          "area": "Kendi başına çıkarım yapma",
+          "reason": "Öğrenci, öğretmenin yönlendirmesi olmadan soruları anlamakta ve yorumlamakta zorlanıyor.",
+          "alternative": "Öğrenciyi daha fazla bağımsız düşünmeye teşvik etmek için, önce kendi yöntemleriyle çözmeye çalışmasını isteyip, ardından rehberlik sağlanabilir."
+        },
+        {
+          "area": "Soyut kavramlarla çalışma",
+          "reason": "Öğrenci, soyut matematik kavramlarını (örneğin, üslü ifadeler) anlamakta zorlanıyor.",
+          "alternative": "Soyut kavramları somut örneklerle açıklamak ve görsel materyaller kullanmak faydalı olabilir."
+        }
+      ],
+      "generatedAt": "2026-07-27T00:02:35.399Z"
+    },
+    "wty-msyi-khr": {
+      "meetCode": "wty-msyi-khr",
+      "studentName": "Kayra Mete Özcan",
+      "teacherName": "Mustafa Ardahan Dirlik",
+      "subject": "İnkılap Tarihi ve Atatürkçülük",
+      "approachGuide": [
+        {
+          "title": "Soru-Cevap Yöntemi",
+          "gap": "Konuşma süresinin yalnızca %9'u öğrencide; ders öğretmen monoloğuna kaymış.",
+          "tactic": "Ders sırasında konularla ilgili açık uçlu sorular sorarak öğrencinin düşüncelerini paylaşmasına olanak tanıyın. Ayrıca, öğrenciye belirli konular hakkında kısa sunumlar yapma fırsatı verin, böylece katılımı artırabilirsiniz."
+        }
+      ],
+      "understandsBetter": [
+        {
+          "area": "Tarih İlgisi ve Temel Bilgi",
+          "reason": "Öğrenci tarihe olan ilgisini ve bazı temel bilgileri olduğunu belirtti.",
+          "example": "Tarihle ilgili seviyorum tarihi ve biraz da bilgim var tarihle ilgili."
+        }
+      ],
+      "understandsLess": [
+        {
+          "area": "Konuşma Sırasında Netlik",
+          "reason": "Öğrenci, konuşma sırasında bazı ifadelerde bulanıklık yaşadığını belirtti.",
+          "alternative": "Öğretmen, öğrenciye konuları daha net ve yavaş bir şekilde açıklayabilir."
+        },
+        {
+          "area": "Teknik Sorunlar",
+          "reason": "Öğrenci, derste bağlantı sorunları yaşadı ve bu durum dersin akışını etkiledi.",
+          "alternative": "Öğretmen, ders öncesi bağlantı kontrolleri yaparak teknik sorunları minimize edebilir."
+        }
+      ],
+      "generatedAt": "2026-07-27T00:02:42.154Z"
+    }
+  }
+}

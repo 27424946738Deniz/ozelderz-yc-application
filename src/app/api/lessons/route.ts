@@ -27,7 +27,13 @@ export async function GET() {
         { ...meta, title: context.title, subject: context.subject },
         transcript,
         evaluation.score,
-        preview
+        preview,
+        {
+          teacherName: context.teacher.name,
+          teacherTitle: context.teacher.title,
+          teacherAvatar: context.teacher.avatar,
+          studentName: context.student.name,
+        }
       );
     })
     .sort((a, b) => (b.transcribedAt ?? "").localeCompare(a.transcribedAt ?? ""));

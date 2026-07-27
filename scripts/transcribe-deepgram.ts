@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 import { execFileSync } from "child_process";
-import { loadEnvFile, getPresignedMediaUrl } from "../lib/r2";
+import { deleteR2CacheFiles, downloadFromR2, getPresignedMediaUrl, loadEnvFile } from "../lib/r2";
 import { normalizeDeepgramResponse } from "../lib/deepgram-transcript";
 
 const ROOT = process.cwd();
@@ -127,19 +127,19 @@ async function transcribeFromUrl(apiKey: string, mediaUrl: string) {
     utterances: "true",
     punctuate: "true",
     smart_format: "true",
-    url: mediaUrl,
   });
 
-  const url = `https://api.deepgram.com/v1/listen?${params.toString()}`;
-  console.log("Deepgram URL modu (R2 presigned)...");
+  const endpoint = `https://api.deepgram.com/v1/listen?${params.toString()}`;
+  console.log("Deepgram URL modu (R2 presigned, yerel indirme yok)...");
 
   const t0 = Date.now();
-  const response = await fetch(url, {
+  const response = await fetch(endpoint, {
     method: "POST",
     headers: {
       Authorization: `Token ${apiKey}`,
       "Content-Type": "application/json",
     },
+    body: JSON.stringify({ url: mediaUrl }),
   });
 
   const elapsed = ((Date.now() - t0) / 1000).toFixed(1);
@@ -151,6 +151,41 @@ async function transcribeFromUrl(apiKey: string, mediaUrl: string) {
 
   console.log(`Deepgram yanıtı: ${elapsed}s`);
   return JSON.parse(text) as Parameters<typeof normalizeDeepgramResponse>[0];
+}
+
+async function transcribeViaLocalFallback(
+  apiKey: string,
+  r2Key: string
+): Promise<Parameters<typeof normalizeDeepgramResponse>[0]> {
+  const meetCode = r2Key.replace("lessons/", "").replace(".mp4", "");
+  try {
+    const localVideo = await resolveR2VideoPath(r2Key);
+    console.log(`Kaynak (lokal fallback): ${localVideo}`);
+    const audioPath = extractAudioMp3(localVideo);
+    const buffer = fs.readFileSync(audioPath);
+    return await transcribeBuffer(apiKey, buffer, "audio/mpeg");
+  } finally {
+    deleteR2CacheFiles(meetCode);
+  }
+}
+
+async function resolveR2VideoPath(r2Key: string): Promise<string> {
+  const meetCode = r2Key.replace("lessons/", "").replace(".mp4", "");
+  const cacheDir = path.join(ROOT, "data/video-cache");
+  fs.mkdirSync(cacheDir, { recursive: true });
+  const cachedPath = path.join(cacheDir, `${meetCode}.mp4`);
+
+  if (fs.existsSync(cachedPath)) {
+    console.log(`R2 önbellek kullanılıyor: ${cachedPath}`);
+    return cachedPath;
+  }
+
+  console.log(`R2'den indiriliyor: ${r2Key}`);
+  const t0 = Date.now();
+  await downloadFromR2(r2Key, cachedPath);
+  const sizeMb = (fs.statSync(cachedPath).size / 1024 / 1024).toFixed(1);
+  console.log(`İndirildi: ${cachedPath} (${sizeMb} MB, ${((Date.now() - t0) / 1000).toFixed(1)}s)`);
+  return cachedPath;
 }
 
 async function main() {
@@ -168,20 +203,21 @@ async function main() {
   let raw: Parameters<typeof normalizeDeepgramResponse>[0];
 
   const localVideo = resolveLocalVideo(INPUT);
-  if (localVideo) {
-    console.log(`Kaynak (lokal): ${localVideo}`);
-    const audioPath = extractAudioMp3(localVideo);
-    const buffer = fs.readFileSync(audioPath);
-    raw = await transcribeBuffer(apiKey, buffer, "audio/mpeg");
-  } else if (INPUT.startsWith("lessons/")) {
+
+  if (INPUT.startsWith("lessons/")) {
     const mediaUrl = await getPresignedMediaUrl(INPUT);
     console.log(`Kaynak (R2): ${INPUT}`);
     try {
       raw = await transcribeFromUrl(apiKey, mediaUrl);
     } catch (urlError) {
-      console.warn("URL modu başarısız, lokal dosya gerekli:", (urlError as Error).message);
-      throw urlError;
+      console.warn("URL modu başarısız, lokal fallback:", (urlError as Error).message);
+      raw = await transcribeViaLocalFallback(apiKey, INPUT);
     }
+  } else if (localVideo) {
+    console.log(`Kaynak (lokal): ${localVideo}`);
+    const audioPath = extractAudioMp3(localVideo);
+    const buffer = fs.readFileSync(audioPath);
+    raw = await transcribeBuffer(apiKey, buffer, "audio/mpeg");
   } else {
     throw new Error(`Dosya bulunamadı: ${INPUT}`);
   }

@@ -2,12 +2,16 @@ import type { StudentProfileDetail } from "@/types";
 import type { TranscriptData, TranscriptSegment } from "@/types/transcript";
 import { isQuestion } from "@/lib/transcript-analytics";
 import { buildLearningStyleAnalysis } from "@/lib/learning-style-analysis";
+import { detectLessonGaps } from "@/lib/lesson-gaps";
+import { getStoredApproachGuide, getStoredUnderstandingInsights } from "@/lib/learning-guide-store";
+import { generateTeachingTactics } from "@/lib/teaching-tactics-generator";
 import {
   isHistorySubject,
   isMathSubject,
   type ProfileBuildContext,
 } from "@/lib/profile-build-context";
 import { studentProfileId } from "@/lib/profile-build-context";
+import { getStoredStudentProfile } from "@/lib/profile-store";
 
 const TEACHER = "SPEAKER_00";
 const STUDENT = "SPEAKER_01";
@@ -316,6 +320,16 @@ export function buildStudentProfileFromTranscript(
     )
   );
 
+  const gaps = detectLessonGaps(transcript, {
+    studentName: name,
+    subject: context.subject,
+    lessonType: context.lessonType,
+  });
+  const approachGuide =
+    getStoredApproachGuide(context.lessonId) ??
+    generateTeachingTactics(gaps, name, context.subject);
+  const understandingInsights = getStoredUnderstandingInsights(context.lessonId);
+
   const learningStyleAnalysis = buildLearningStyleAnalysis(studentSegs, firstName, {
     studentQuestions: studentQuestions.length,
     longAnswers,
@@ -328,6 +342,11 @@ export function buildStudentProfileFromTranscript(
     historyAffinity,
     initiated,
     techHits,
+    subject: context.subject,
+    meetCode: context.lessonId,
+    approachGuide,
+    understandsBetter: understandingInsights?.understandsBetter,
+    understandsLess: understandingInsights?.understandsLess,
   });
 
   const learningStyle = `${learningStyleAnalysis.primaryStyle} + ${learningStyleAnalysis.secondaryStyle}`;
@@ -336,25 +355,36 @@ export function buildStudentProfileFromTranscript(
     ? ["LGS matematik hazırlığı", "Rasyonel sayılarda güçlenme"]
     : ["LGS hazırlığı", `${context.subject} başarısını artırma`];
 
+  const stored = getStoredStudentProfile(context.lessonId);
+
   return {
     id: studentProfileId(context),
     lessonId: context.lessonId,
     name,
     grade: context.studentGrade,
     avatar: context.studentAvatar,
-    school: school ?? (isMathSubject(context.subject) ? "Ortaokul" : "Torunoglu Ortaokulu"),
+    school:
+      stored?.school ??
+      school ??
+      (isMathSubject(context.subject) ? "Ortaokul" : "Torunoglu Ortaokulu"),
     learningStyle,
     learningStyleDescription: learningStyleAnalysis.overview,
     learningStyleAnalysis,
-    tags: [...new Set(tags)],
-    strengths: strengths.slice(0, 5),
-    challenges: challenges.slice(0, 4),
+    tags: stored?.tags?.length ? stored.tags : [...new Set(tags)],
+    strengths: stored?.strengths?.length ? stored.strengths : strengths.slice(0, 5),
+    challenges: stored?.challenges?.length ? stored.challenges : challenges.slice(0, 4),
     comprehensionScore: engagementScore,
-    interestAreas,
-    goals: goals.length ? goals : defaultGoals,
-    motivationTriggers,
-    teachingTips,
-    notableQuotes,
+    interestAreas: stored?.interestAreas?.length
+      ? stored.interestAreas
+      : interestAreas,
+    goals: stored?.goals?.length ? stored.goals : goals.length ? goals : defaultGoals,
+    motivationTriggers: stored?.motivationTriggers?.length
+      ? stored.motivationTriggers
+      : motivationTriggers,
+    teachingTips: stored?.teachingTips?.length ? stored.teachingTips : teachingTips,
+    notableQuotes: stored?.notableQuotes?.length
+      ? stored.notableQuotes
+      : notableQuotes,
     engagementMetrics: {
       turnCount: studentSegs.length,
       questionCount: studentQuestions.length,

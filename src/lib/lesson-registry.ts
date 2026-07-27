@@ -37,10 +37,11 @@ function loadR2Keys(): Record<string, string> {
 
 function isTranscriptCandidate(filename: string): boolean {
   if (!filename.endsWith(".json")) return false;
-  if (filename === "index.json") return false;
+  if (filename === "index.json" || filename === "deepgram-index.json") return false;
   if (filename.includes("-raw")) return false;
   if (filename.includes("-diarization-raw")) return false;
-  return true;
+  // Yalnızca Meet kodu formatı: aaa-bbbb-ccc.json veya aaa-bbbb-ccc-deepgram.json
+  return /^[a-z]{3}-[a-z]{4}-[a-z]{3}(-deepgram)?\.json$/.test(filename);
 }
 
 function lessonIdFromFilename(filename: string): string {
@@ -110,6 +111,12 @@ export function buildLessonCatalogItem(
     partCount: number;
     topTopics: string[];
     topSections: string[];
+  },
+  people?: {
+    teacherName: string;
+    teacherTitle: string;
+    teacherAvatar: string;
+    studentName: string;
   }
 ): LessonCatalogItem {
   const speakerSplit: Record<string, number> = {};
@@ -123,6 +130,12 @@ export function buildLessonCatalogItem(
     meetCode: meta.meetCode,
     title: meta.title,
     subject: meta.subject,
+    teacherName: people?.teacherName ?? "Öğretmen",
+    teacherTitle: people?.teacherTitle ?? "Öğretmen",
+    teacherAvatar:
+      people?.teacherAvatar ??
+      `https://api.dicebear.com/7.x/avataaars/svg?seed=${encodeURIComponent(meta.id)}`,
+    studentName: people?.studentName ?? "Öğrenci",
     duration: transcript.duration,
     durationMin: Math.round(transcript.duration / 60),
     transcriptSource: transcript.source,

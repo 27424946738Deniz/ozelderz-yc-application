@@ -1,10 +1,11 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
-import type { LessonCatalogItem, UserData } from "@/types";
-import { fetchLessons, fetchUser } from "@/lib/api";
+import type { LessonCatalogItem } from "@/types";
+import { fetchLessons } from "@/lib/api";
 import Header from "@/components/Header";
+import { resolveTeacherAvatar } from "@/lib/teacher-photos";
 
 function sourceLabel(source: string) {
   if (source.includes("deepgram")) return "Deepgram";
@@ -12,25 +13,113 @@ function sourceLabel(source: string) {
   return source;
 }
 
-function speakerSummary(split: Record<string, number>) {
-  const total = Object.values(split).reduce((a, b) => a + b, 0) || 1;
-  const student = split.SPEAKER_01 ?? 0;
-  return `%${Math.round((student / total) * 100)} öğrenci`;
+function groupByTeacher(lessons: LessonCatalogItem[]) {
+  const groups = new Map<string, LessonCatalogItem[]>();
+
+  for (const lesson of lessons) {
+    const key = lesson.teacherName;
+    const list = groups.get(key) ?? [];
+    list.push(lesson);
+    groups.set(key, list);
+  }
+
+  return [...groups.entries()]
+    .map(([teacherName, items]) => {
+      const sorted = [...items].sort((a, b) =>
+        (b.transcribedAt ?? "").localeCompare(a.transcribedAt ?? "")
+      );
+      const scores = sorted
+        .map((l) => l.evaluationScore)
+        .filter((s): s is number => s !== undefined);
+      const avgScore =
+        scores.length > 0
+          ? Math.round((scores.reduce((a, b) => a + b, 0) / scores.length) * 10) /
+            10
+          : undefined;
+
+      return {
+        teacherName,
+        teacherTitle: sorted[0].teacherTitle,
+        teacherAvatar: resolveTeacherAvatar(teacherName),
+        subjects: [...new Set(sorted.map((l) => l.subject))],
+        lessons: sorted,
+        avgScore,
+        totalMinutes: sorted.reduce((sum, l) => sum + l.durationMin, 0),
+      };
+    })
+    .sort((a, b) => a.teacherName.localeCompare(b.teacherName, "tr"));
+}
+
+function LessonCard({ lesson }: { lesson: LessonCatalogItem }) {
+  return (
+    <Link
+      href={`/dersler/${lesson.id}`}
+      className="block rounded-xl border border-stone-100 bg-white p-4 transition-colors hover:border-red-200 hover:bg-red-50/30"
+    >
+      <div className="flex items-start justify-between gap-3">
+        <div className="min-w-0">
+          <h3 className="font-medium text-stone-900">{lesson.title}</h3>
+          <p className="mt-0.5 text-sm text-stone-500">
+            {lesson.studentName} · {lesson.durationMin} dk
+          </p>
+          <p className="mt-1 font-mono text-[11px] text-stone-400">
+            {lesson.meetCode}
+          </p>
+        </div>
+        {lesson.evaluationScore !== undefined && (
+          <span className="shrink-0 rounded-full bg-green-50 px-2.5 py-1 text-sm font-semibold text-green-700">
+            {lesson.evaluationScore}/10
+          </span>
+        )}
+      </div>
+
+      {lesson.summaryBrief && (
+        <p className="mt-2 text-sm leading-relaxed text-stone-600 line-clamp-2">
+          {lesson.summaryBrief}
+        </p>
+      )}
+
+      {lesson.topTopics && lesson.topTopics.length > 0 && (
+        <div className="mt-2 flex flex-wrap gap-1.5">
+          {lesson.topTopics.slice(0, 3).map((topic) => (
+            <span
+              key={topic}
+              className="rounded-full bg-red-50 px-2 py-0.5 text-[10px] font-medium text-red-700"
+            >
+              {topic}
+            </span>
+          ))}
+        </div>
+      )}
+
+      <div className="mt-3 flex flex-wrap gap-1.5">
+        <span className="rounded-full bg-stone-100 px-2 py-0.5 text-[10px] text-stone-600">
+          {lesson.subject}
+        </span>
+        <span className="rounded-full bg-stone-100 px-2 py-0.5 text-[10px] text-stone-600">
+          {sourceLabel(lesson.transcriptSource)}
+        </span>
+        {lesson.transcribedAt && (
+          <span className="rounded-full bg-stone-100 px-2 py-0.5 text-[10px] text-stone-600">
+            {lesson.transcribedAt.slice(0, 10)}
+          </span>
+        )}
+      </div>
+    </Link>
+  );
 }
 
 export default function LessonsPage() {
   const [lessons, setLessons] = useState<LessonCatalogItem[]>([]);
-  const [user, setUser] = useState<UserData | null>(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    Promise.all([fetchLessons(), fetchUser()])
-      .then(([lessonsData, userData]) => {
-        setLessons(lessonsData);
-        setUser(userData);
-      })
+    fetchLessons()
+      .then(setLessons)
       .finally(() => setLoading(false));
   }, []);
+
+  const teacherGroups = useMemo(() => groupByTeacher(lessons), [lessons]);
 
   if (loading) {
     return (
@@ -40,17 +129,9 @@ export default function LessonsPage() {
     );
   }
 
-  if (!user) {
-    return (
-      <div className="flex min-h-screen items-center justify-center">
-        <p className="text-sm text-red-500">Veri yüklenemedi.</p>
-      </div>
-    );
-  }
-
   return (
     <div className="min-h-screen page-shell">
-      <Header user={user} activeNav="Dersler" />
+      <Header activeNav="Dersler" />
 
       <main className="mx-auto max-w-3xl px-4 py-6 sm:px-6">
         <div className="mb-6">
@@ -58,114 +139,46 @@ export default function LessonsPage() {
             Transkript İnceleme
           </h1>
           <p className="mt-1 text-sm text-stone-500">
-            Her kart transkript analizinden üretildi — tıklayarak tam incelemeyi
-            açın.
+            {lessons.length} ders · {teacherGroups.length} hoca
           </p>
         </div>
 
-        <div className="space-y-4">
-          {lessons.map((lesson) => (
-            <Link
-              key={lesson.id}
-              href={`/dersler/${lesson.id}`}
-              className="panel block p-5 transition-colors hover:border-red-200 hover:bg-red-50/20"
-            >
-              <div className="flex items-start justify-between gap-4">
-                <div className="min-w-0">
-                  <h2 className="font-semibold text-stone-900">{lesson.title}</h2>
-                  <p className="mt-0.5 text-sm text-stone-500">
-                    {lesson.subject} · {lesson.durationMin} dk
-                  </p>
-                  <p className="mt-1 font-mono text-[11px] text-stone-400">
-                    {lesson.meetCode}
+        <div className="space-y-8">
+          {teacherGroups.map((group) => (
+            <section key={group.teacherName}>
+              <div className="panel mb-3 flex items-center gap-4 p-4">
+                <img
+                  src={group.teacherAvatar}
+                  alt={group.teacherName}
+                  className="h-12 w-12 rounded-xl bg-stone-100 object-cover"
+                />
+                <div className="min-w-0 flex-1">
+                  <h2 className="font-semibold text-stone-900">
+                    {group.teacherName}
+                  </h2>
+                  <p className="text-sm text-stone-500">
+                    {group.teacherTitle}
+                    {group.subjects.length > 0 &&
+                      ` · ${group.subjects.join(", ")}`}
                   </p>
                 </div>
-                {lesson.evaluationScore !== undefined && (
-                  <span className="shrink-0 rounded-full bg-green-50 px-2.5 py-1 text-sm font-semibold text-green-700">
-                    {lesson.evaluationScore}/10
-                  </span>
-                )}
+                <div className="shrink-0 text-right">
+                  <p className="text-sm font-semibold text-stone-800">
+                    {group.lessons.length} ders
+                  </p>
+                  <p className="text-[11px] text-stone-400">
+                    {group.totalMinutes} dk
+                    {group.avgScore !== undefined && ` · ort. ${group.avgScore}`}
+                  </p>
+                </div>
               </div>
 
-              {lesson.summaryBrief && (
-                <p className="mt-3 text-sm leading-relaxed text-stone-600 line-clamp-2">
-                  {lesson.summaryBrief}
-                </p>
-              )}
-
-              {lesson.topTopics && lesson.topTopics.length > 0 && (
-                <div className="mt-3 flex flex-wrap gap-1.5">
-                  {lesson.topTopics.map((topic) => (
-                    <span
-                      key={topic}
-                      className="rounded-full bg-red-50 px-2 py-0.5 text-[10px] font-medium text-red-700"
-                    >
-                      {topic}
-                    </span>
-                  ))}
-                </div>
-              )}
-
-              <div className="mt-4 grid grid-cols-2 gap-2 sm:grid-cols-5">
-                {[
-                  { l: "Segment", v: lesson.segmentCount },
-                  { l: "Kelime", v: lesson.wordCount },
-                  { l: "Soru", v: lesson.questionCount ?? "—" },
-                  { l: "Bölüm", v: lesson.partCount ?? "—" },
-                  { l: "Konuşma", v: speakerSummary(lesson.speakerSplit) },
-                ].map(({ l, v }) => (
-                  <div
-                    key={l}
-                    className="rounded-lg bg-stone-50 px-3 py-2 text-center"
-                  >
-                    <p className="text-sm font-semibold text-stone-800">{v}</p>
-                    <p className="text-[10px] text-stone-400">{l}</p>
-                  </div>
+              <div className="space-y-3 pl-1 sm:pl-3">
+                {group.lessons.map((lesson) => (
+                  <LessonCard key={lesson.id} lesson={lesson} />
                 ))}
               </div>
-
-              {lesson.evaluationOverview && (
-                <p className="mt-3 rounded-lg bg-stone-50 px-3 py-2 text-xs leading-relaxed text-stone-500 line-clamp-2">
-                  {lesson.evaluationOverview}
-                </p>
-              )}
-
-              {(lesson.topStrength || lesson.topWeakness) && (
-                <div className="mt-3 space-y-1.5">
-                  {lesson.topStrength && (
-                    <p className="text-xs text-stone-600">
-                      <span className="font-medium text-green-700">+ </span>
-                      {lesson.topStrength}
-                    </p>
-                  )}
-                  {lesson.topWeakness && (
-                    <p className="text-xs text-stone-600 line-clamp-2">
-                      <span className="font-medium text-red-600">△ </span>
-                      {lesson.topWeakness}
-                    </p>
-                  )}
-                </div>
-              )}
-
-              <div className="mt-3 flex flex-wrap gap-1.5">
-                <span className="rounded-full bg-stone-100 px-2 py-0.5 text-[10px] text-stone-600">
-                  {sourceLabel(lesson.transcriptSource)}
-                </span>
-                <span className="rounded-full bg-stone-100 px-2 py-0.5 text-[10px] text-stone-600">
-                  {lesson.speakers.length} konuşmacı
-                </span>
-                {lesson.hasVideo && (
-                  <span className="rounded-full bg-stone-100 px-2 py-0.5 text-[10px] text-stone-600">
-                    {lesson.videoType === "stream" ? "Cloudflare" : "R2 video"}
-                  </span>
-                )}
-                {lesson.transcribedAt && (
-                  <span className="rounded-full bg-stone-100 px-2 py-0.5 text-[10px] text-stone-600">
-                    {lesson.transcribedAt.slice(0, 10)}
-                  </span>
-                )}
-              </div>
-            </Link>
+            </section>
           ))}
         </div>
 

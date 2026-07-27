@@ -43,18 +43,12 @@ export function profileContextFromLesson(
   } as ProfileBuildContext & { studentSlug: string; teacherSlug: string };
 }
 
-export function studentProfileId(ctx: ProfileBuildContext & { studentSlug?: string }) {
-  const slug =
-    ctx.studentSlug ??
-    ctx.studentName.toLowerCase().split(" ")[0].replace(/[^a-z0-9]/g, "");
-  return `student-${slug}`;
+export function studentProfileId(ctx: ProfileBuildContext) {
+  return `student-${ctx.lessonId}`;
 }
 
-export function teacherProfileId(ctx: ProfileBuildContext & { teacherSlug?: string }) {
-  const slug =
-    ctx.teacherSlug ??
-    ctx.teacherName.toLowerCase().split(" ")[0].replace(/[^a-z0-9]/g, "");
-  return `teacher-${slug}`;
+export function teacherProfileId(ctx: ProfileBuildContext) {
+  return `teacher-${ctx.lessonId}`;
 }
 
 export function isMathSubject(subject: string) {

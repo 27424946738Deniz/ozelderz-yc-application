@@ -1,0 +1,313 @@
+{
+  "generatedAt": "2026-07-26T22:54:16.326Z",
+  "pipeline": "deepgram-nova-3+diarize",
+  "total": 52,
+  "completed": [
+    {
+      "meetCode": "bao-wvxv-ksx",
+      "transcriptPath": "data/transcripts/bao-wvxv-ksx-deepgram.json"
+    },
+    {
+      "meetCode": "bji-jxik-vzq",
+      "transcriptPath": "data/transcripts/bji-jxik-vzq-deepgram.json"
+    },
+    {
+      "meetCode": "cev-xgmd-fjw",
+      "transcriptPath": "data/transcripts/cev-xgmd-fjw-deepgram.json"
+    },
+    {
+      "meetCode": "ckn-yurm-vyd",
+      "transcriptPath": "data/transcripts/ckn-yurm-vyd-deepgram.json"
+    },
+    {
+      "meetCode": "cqi-brqh-evi",
+      "transcriptPath": "data/transcripts/cqi-brqh-evi-deepgram.json"
+    },
+    {
+      "meetCode": "cup-ebmb-nwm",
+      "transcriptPath": "data/transcripts/cup-ebmb-nwm-deepgram.json"
+    },
+    {
+      "meetCode": "dkk-jbjc-uvf",
+      "transcriptPath": "data/transcripts/dkk-jbjc-uvf-deepgram.json"
+    },
+    {
+      "meetCode": "dpj-rpde-pft",
+      "transcriptPath": "data/transcripts/dpj-rpde-pft-deepgram.json"
+    },
+    {
+      "meetCode": "dve-naye-uxc",
+      "transcriptPath": "data/transcripts/dve-naye-uxc-deepgram.json"
+    },
+    {
+      "meetCode": "eks-qgow-why",
+      "transcriptPath": "data/transcripts/eks-qgow-why-deepgram.json"
+    },
+    {
+      "meetCode": "epj-hinw-dng",
+      "transcriptPath": "data/transcripts/epj-hinw-dng-deepgram.json"
+    },
+    {
+      "meetCode": "gvk-iyie-ood",
+      "transcriptPath": "data/transcripts/gvk-iyie-ood-deepgram.json"
+    },
+    {
+      "meetCode": "hin-dqah-qpb",
+      "transcriptPath": "data/transcripts/hin-dqah-qpb-deepgram.json"
+    },
+    {
+      "meetCode": "hph-xevo-ggx",
+      "transcriptPath": "data/transcripts/hph-xevo-ggx-deepgram.json"
+    },
+    {
+      "meetCode": "iaw-bhar-hai",
+      "transcriptPath": "data/transcripts/iaw-bhar-hai-deepgram.json"
+    },
+    {
+      "meetCode": "iga-bbew-mbw",
+      "transcriptPath": "data/transcripts/iga-bbew-mbw-deepgram.json"
+    },
+    {
+      "meetCode": "jbv-mdzq-cpp",
+      "transcriptPath": "data/transcripts/jbv-mdzq-cpp-deepgram.json"
+    },
+    {
+      "meetCode": "jhx-xgqp-uis",
+      "transcriptPath": "data/transcripts/jhx-xgqp-uis-deepgram.json"
+    },
+    {
+      "meetCode": "jkd-azne-qjs",
+      "transcriptPath": "data/transcripts/jkd-azne-qjs-deepgram.json"
+    },
+    {
+      "meetCode": "jom-dknn-fdq",
+      "transcriptPath": "data/transcripts/jom-dknn-fdq-deepgram.json"
+    },
+    {
+      "meetCode": "jqs-amqe-wiq",
+      "transcriptPath": "data/transcripts/jqs-amqe-wiq-deepgram.json"
+    },
+    {
+      "meetCode": "juu-zreb-ryf",
+      "transcriptPath": "data/transcripts/juu-zreb-ryf-deepgram.json"
+    },
+    {
+      "meetCode": "jwu-bgia-udu",
+      "transcriptPath": "data/transcripts/jwu-bgia-udu-deepgram.json"
+    },
+    {
+      "meetCode": "kza-ypin-hfx",
+      "transcriptPath": "data/transcripts/kza-ypin-hfx-deepgram.json"
+    },
+    {
+      "meetCode": "mmw-ctqj-jrf",
+      "transcriptPath": "data/transcripts/mmw-ctqj-jrf-deepgram.json"
+    },
+    {
+      "meetCode": "msa-sgqe-bqq",
+      "transcriptPath": "data/transcripts/msa-sgqe-bqq-deepgram.json"
+    },
+    {
+      "meetCode": "mvr-ytpo-svh",
+      "transcriptPath": "data/transcripts/mvr-ytpo-svh-deepgram.json"
+    },
+    {
+      "meetCode": "mzf-bsim-ksc",
+      "transcriptPath": "data/transcripts/mzf-bsim-ksc-deepgram.json"
+    },
+    {
+      "meetCode": "nha-qhny-snz",
+      "transcriptPath": "data/transcripts/nha-qhny-snz-deepgram.json"
+    },
+    {
+      "meetCode": "nsw-kfoj-mef",
+      "transcriptPath": "data/transcripts/nsw-kfoj-mef-deepgram.json"
+    },
+    {
+      "meetCode": "nwo-hbkh-hpq",
+      "transcriptPath": "data/transcripts/nwo-hbkh-hpq-deepgram.json"
+    },
+    {
+      "meetCode": "owt-bvqr-uee",
+      "transcriptPath": "data/transcripts/owt-bvqr-uee-deepgram.json"
+    },
+    {
+      "meetCode": "piy-jwcr-kiw",
+      "transcriptPath": "data/transcripts/piy-jwcr-kiw-deepgram.json"
+    },
+    {
+      "meetCode": "qag-zsdi-idx",
+      "transcriptPath": "data/transcripts/qag-zsdi-idx-deepgram.json"
+    },
+    {
+      "meetCode": "qhn-xpvo-jbv",
+      "transcriptPath": "data/transcripts/qhn-xpvo-jbv-deepgram.json"
+    },
+    {
+      "meetCode": "sug-pifs-fyu",
+      "transcriptPath": "data/transcripts/sug-pifs-fyu-deepgram.json"
+    },
+    {
+      "meetCode": "syf-qkqp-qms",
+      "transcriptPath": "data/transcripts/syf-qkqp-qms-deepgram.json"
+    },
+    {
+      "meetCode": "teo-hopq-atx",
+      "transcriptPath": "data/transcripts/teo-hopq-atx-deepgram.json"
+    },
+    {
+      "meetCode": "tgf-jcpj-bjx",
+      "transcriptPath": "data/transcripts/tgf-jcpj-bjx-deepgram.json"
+    },
+    {
+      "meetCode": "tjn-etkj-qyo",
+      "transcriptPath": "data/transcripts/tjn-etkj-qyo-deepgram.json"
+    },
+    {
+      "meetCode": "tnt-boyu-kvh",
+      "transcriptPath": "data/transcripts/tnt-boyu-kvh-deepgram.json"
+    },
+    {
+      "meetCode": "tpk-tohs-mif",
+      "transcriptPath": "data/transcripts/tpk-tohs-mif-deepgram.json"
+    },
+    {
+      "meetCode": "twa-mvgw-acq",
+      "transcriptPath": "data/transcripts/twa-mvgw-acq-deepgram.json"
+    },
+    {
+      "meetCode": "viz-bham-jvo",
+      "transcriptPath": "data/transcripts/viz-bham-jvo-deepgram.json"
+    },
+    {
+      "meetCode": "waa-zfkt-ati",
+      "transcriptPath": "data/transcripts/waa-zfkt-ati-deepgram.json"
+    },
+    {
+      "meetCode": "wty-msyi-khr",
+      "transcriptPath": "data/transcripts/wty-msyi-khr-deepgram.json"
+    },
+    {
+      "meetCode": "xmz-affg-ibt",
+      "transcriptPath": "data/transcripts/xmz-affg-ibt-deepgram.json"
+    },
+    {
+      "meetCode": "xtv-upso-wve",
+      "transcriptPath": "data/transcripts/xtv-upso-wve-deepgram.json"
+    },
+    {
+      "meetCode": "xzd-txvf-rme",
+      "transcriptPath": "data/transcripts/xzd-txvf-rme-deepgram.json"
+    },
+    {
+      "meetCode": "yjx-zhms-nws",
+      "transcriptPath": "data/transcripts/yjx-zhms-nws-deepgram.json"
+    },
+    {
+      "meetCode": "ymz-nxyc-xch",
+      "transcriptPath": "data/transcripts/ymz-nxyc-xch-deepgram.json"
+    },
+    {
+      "meetCode": "zra-bhzx-krk",
+      "transcriptPath": "data/transcripts/zra-bhzx-krk-deepgram.json"
+    }
+  ],
+  "lastRun": [
+    {
+      "meetCode": "qag-zsdi-idx",
+      "status": "ok"
+    },
+    {
+      "meetCode": "nha-qhny-snz",
+      "status": "ok"
+    },
+    {
+      "meetCode": "owt-bvqr-uee",
+      "status": "ok"
+    },
+    {
+      "meetCode": "qhn-xpvo-jbv",
+      "status": "ok"
+    },
+    {
+      "meetCode": "sug-pifs-fyu",
+      "status": "ok"
+    },
+    {
+      "meetCode": "nsw-kfoj-mef",
+      "status": "ok"
+    },
+    {
+      "meetCode": "mzf-bsim-ksc",
+      "status": "ok"
+    },
+    {
+      "meetCode": "piy-jwcr-kiw",
+      "status": "ok"
+    },
+    {
+      "meetCode": "syf-qkqp-qms",
+      "status": "ok"
+    },
+    {
+      "meetCode": "teo-hopq-atx",
+      "status": "ok"
+    },
+    {
+      "meetCode": "tnt-boyu-kvh",
+      "status": "ok"
+    },
+    {
+      "meetCode": "tjn-etkj-qyo",
+      "status": "ok"
+    },
+    {
+      "meetCode": "twa-mvgw-acq",
+      "status": "ok"
+    },
+    {
+      "meetCode": "tgf-jcpj-bjx",
+      "status": "ok"
+    },
+    {
+      "meetCode": "viz-bham-jvo",
+      "status": "ok"
+    },
+    {
+      "meetCode": "tpk-tohs-mif",
+      "status": "ok"
+    },
+    {
+      "meetCode": "nwo-hbkh-hpq",
+      "status": "ok"
+    },
+    {
+      "meetCode": "xtv-upso-wve",
+      "status": "ok"
+    },
+    {
+      "meetCode": "waa-zfkt-ati",
+      "status": "ok"
+    },
+    {
+      "meetCode": "zra-bhzx-krk",
+      "status": "ok"
+    },
+    {
+      "meetCode": "yjx-zhms-nws",
+      "status": "ok"
+    },
+    {
+      "meetCode": "xmz-affg-ibt",
+      "status": "ok"
+    },
+    {
+      "meetCode": "ymz-nxyc-xch",
+      "status": "ok"
+    },
+    {
+      "meetCode": "xzd-txvf-rme",
+      "status": "ok"
+    }
+  ]
+}

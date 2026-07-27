@@ -1,12 +1,90 @@
 {
   "bucket": "ozelderz-basvuru",
-  "uploadedAt": "2026-07-25T04:32:07.000Z",
+  "uploadedAt": "2026-07-26T21:41:13.040Z",
   "lessons": [
+    {
+      "meetCode": "bao-wvxv-ksx",
+      "key": "lessons/bao-wvxv-ksx.mp4",
+      "localPath": "/Users/bourbaki/Downloads/bao-wvxv-ksx (2026-07-23 08_56 GMT).mp4",
+      "sizeMb": 538.3
+    },
+    {
+      "meetCode": "bji-jxik-vzq",
+      "key": "lessons/bji-jxik-vzq.mp4",
+      "localPath": "/Users/bourbaki/Downloads/bji-jxik-vzq (2026-07-14 17_56 GMT).mp4",
+      "sizeMb": 769.3
+    },
+    {
+      "meetCode": "cev-xgmd-fjw",
+      "key": "lessons/cev-xgmd-fjw.mp4",
+      "localPath": "/Users/bourbaki/Downloads/cev-xgmd-fjw (2026-07-12 15_56 GMT).mp4",
+      "sizeMb": 375.4
+    },
+    {
+      "meetCode": "ckn-yurm-vyd",
+      "key": "lessons/ckn-yurm-vyd.mp4",
+      "localPath": "/Users/bourbaki/Downloads/ckn-yurm-vyd (2026-07-23 13_54 GMT).mp4",
+      "sizeMb": 635
+    },
     {
       "meetCode": "cqi-brqh-evi",
       "key": "lessons/cqi-brqh-evi.mp4",
       "localPath": "/Users/bourbaki/Downloads/cqi-brqh-evi (2026-07-24 07_55 GMT).mp4",
       "sizeMb": 679.2
+    },
+    {
+      "meetCode": "cup-ebmb-nwm",
+      "key": "lessons/cup-ebmb-nwm.mp4",
+      "localPath": "/Users/bourbaki/Downloads/cup-ebmb-nwm (2026-07-22 14_56 GMT).mp4",
+      "sizeMb": 497.2
+    },
+    {
+      "meetCode": "dkk-jbjc-uvf",
+      "key": "lessons/dkk-jbjc-uvf.mp4",
+      "localPath": "/Users/bourbaki/Downloads/dkk-jbjc-uvf (2026-07-23 10_55 GMT).mp4",
+      "sizeMb": 820.1
+    },
+    {
+      "meetCode": "dpj-rpde-pft",
+      "key": "lessons/dpj-rpde-pft.mp4",
+      "localPath": "/Users/bourbaki/Downloads/dpj-rpde-pft (2026-07-22 18_55 GMT).mp4",
+      "sizeMb": 642
+    },
+    {
+      "meetCode": "dve-naye-uxc",
+      "key": "lessons/dve-naye-uxc.mp4",
+      "localPath": "/Users/bourbaki/Downloads/dve-naye-uxc (2026-07-22 14_55 GMT).mp4",
+      "sizeMb": 574.3
+    },
+    {
+      "meetCode": "eks-qgow-why",
+      "key": "lessons/eks-qgow-why.mp4",
+      "localPath": "/Users/bourbaki/Downloads/eks-qgow-why (2026-07-22 10_55 GMT).mp4",
+      "sizeMb": 497.7
+    },
+    {
+      "meetCode": "epj-hinw-dng",
+      "key": "lessons/epj-hinw-dng.mp4",
+      "localPath": "/Users/bourbaki/Downloads/epj-hinw-dng (2026-07-22 16_56 GMT).mp4",
+      "sizeMb": 453.4
+    },
+    {
+      "meetCode": "gvk-iyie-ood",
+      "key": "lessons/gvk-iyie-ood.mp4",
+      "localPath": "/Users/bourbaki/Downloads/gvk-iyie-ood (2026-07-23 11_56 GMT).mp4",
+      "sizeMb": 332.3
+    },
+    {
+      "meetCode": "hin-dqah-qpb",
+      "key": "lessons/hin-dqah-qpb.mp4",
+      "localPath": "/Users/bourbaki/Downloads/hin-dqah-qpb (2026-07-22 11_25 GMT).mp4",
+      "sizeMb": 527.2
+    },
+    {
+      "meetCode": "hph-xevo-ggx",
+      "key": "lessons/hph-xevo-ggx.mp4",
+      "localPath": "/Users/bourbaki/Downloads/hph-xevo-ggx (2026-07-22 11_56 GMT).mp4",
+      "sizeMb": 579.9
     },
     {
       "meetCode": "iaw-bhar-hai",
@@ -21,16 +99,220 @@
       "sizeMb": 577.3
     },
     {
+      "meetCode": "jbv-mdzq-cpp",
+      "key": "lessons/jbv-mdzq-cpp.mp4",
+      "localPath": "/Users/bourbaki/Downloads/jbv-mdzq-cpp (2026-07-21 08_56 GMT).mp4",
+      "sizeMb": 404.7
+    },
+    {
       "meetCode": "jhx-xgqp-uis",
       "key": "lessons/jhx-xgqp-uis.mp4",
       "localPath": "/Users/bourbaki/Downloads/jhx-xgqp-uis (2026-07-23 09_56 GMT).mp4",
       "sizeMb": 694.6
     },
     {
+      "meetCode": "jkd-azne-qjs",
+      "key": "lessons/jkd-azne-qjs.mp4",
+      "localPath": "/Users/bourbaki/Downloads/jkd-azne-qjs (2026-07-23 13_55 GMT).mp4",
+      "sizeMb": 615.1
+    },
+    {
+      "meetCode": "jom-dknn-fdq",
+      "key": "lessons/jom-dknn-fdq.mp4",
+      "localPath": "/Users/bourbaki/Downloads/jom-dknn-fdq (2026-07-22 07_55 GMT).mp4",
+      "sizeMb": 840.7
+    },
+    {
+      "meetCode": "jqs-amqe-wiq",
+      "key": "lessons/jqs-amqe-wiq.mp4",
+      "localPath": "/Users/bourbaki/Downloads/jqs-amqe-wiq (2026-07-22 10_25 GMT).mp4",
+      "sizeMb": 674.1
+    },
+    {
+      "meetCode": "juu-zreb-ryf",
+      "key": "lessons/juu-zreb-ryf.mp4",
+      "localPath": "/Users/bourbaki/Downloads/juu-zreb-ryf (2026-07-21 10_53 GMT).mp4",
+      "sizeMb": 386.8
+    },
+    {
+      "meetCode": "jwu-bgia-udu",
+      "key": "lessons/jwu-bgia-udu.mp4",
+      "localPath": "/Users/bourbaki/Downloads/jwu-bgia-udu (2026-07-14 14_56 GMT).mp4",
+      "sizeMb": 651.6
+    },
+    {
+      "meetCode": "kza-ypin-hfx",
+      "key": "lessons/kza-ypin-hfx.mp4",
+      "localPath": "/Users/bourbaki/Downloads/kza-ypin-hfx (2026-07-24 13_56 GMT).mp4",
+      "sizeMb": 414.4
+    },
+    {
+      "meetCode": "mmw-ctqj-jrf",
+      "key": "lessons/mmw-ctqj-jrf.mp4",
+      "localPath": "/Users/bourbaki/Downloads/mmw-ctqj-jrf (2026-07-23 11_56 GMT).mp4",
+      "sizeMb": 415.3
+    },
+    {
+      "meetCode": "msa-sgqe-bqq",
+      "key": "lessons/msa-sgqe-bqq.mp4",
+      "localPath": "/Users/bourbaki/Downloads/msa-sgqe-bqq (2026-07-24 13_56 GMT).mp4",
+      "sizeMb": 603.2
+    },
+    {
+      "meetCode": "mvr-ytpo-svh",
+      "key": "lessons/mvr-ytpo-svh.mp4",
+      "localPath": "/Users/bourbaki/Downloads/mvr-ytpo-svh (2026-07-24 17_56 GMT).mp4",
+      "sizeMb": 421.7
+    },
+    {
+      "meetCode": "mzf-bsim-ksc",
+      "key": "lessons/mzf-bsim-ksc.mp4",
+      "localPath": "/Users/bourbaki/Downloads/mzf-bsim-ksc (2026-07-21 16_55 GMT).mp4",
+      "sizeMb": 729.3
+    },
+    {
+      "meetCode": "nha-qhny-snz",
+      "key": "lessons/nha-qhny-snz.mp4",
+      "localPath": "/Users/bourbaki/Downloads/nha-qhny-snz (2026-07-25 11_57 GMT).mp4",
+      "sizeMb": 654.6
+    },
+    {
+      "meetCode": "nsw-kfoj-mef",
+      "key": "lessons/nsw-kfoj-mef.mp4",
+      "localPath": "/Users/bourbaki/Downloads/nsw-kfoj-mef (2026-07-25 10_55 GMT).mp4",
+      "sizeMb": 550.2
+    },
+    {
+      "meetCode": "nwo-hbkh-hpq",
+      "key": "lessons/nwo-hbkh-hpq.mp4",
+      "localPath": "/Users/bourbaki/Downloads/nwo-hbkh-hpq (2026-07-26 15_55 GMT).mp4",
+      "sizeMb": 315.8
+    },
+    {
+      "meetCode": "owt-bvqr-uee",
+      "key": "lessons/owt-bvqr-uee.mp4",
+      "localPath": "/Users/bourbaki/Downloads/owt-bvqr-uee (2026-07-23 10_47 GMT).mp4",
+      "sizeMb": 588.4
+    },
+    {
+      "meetCode": "piy-jwcr-kiw",
+      "key": "lessons/piy-jwcr-kiw.mp4",
+      "localPath": "/Users/bourbaki/Downloads/piy-jwcr-kiw (2026-07-26 14_55 GMT).mp4",
+      "sizeMb": 664.8
+    },
+    {
+      "meetCode": "qag-zsdi-idx",
+      "key": "lessons/qag-zsdi-idx.mp4",
+      "localPath": "/Users/bourbaki/Downloads/qag-zsdi-idx (2026-07-23 08_56 GMT).mp4",
+      "sizeMb": 414.7
+    },
+    {
+      "meetCode": "qhn-xpvo-jbv",
+      "key": "lessons/qhn-xpvo-jbv.mp4",
+      "localPath": "/Users/bourbaki/Downloads/qhn-xpvo-jbv (2026-07-24 17_56 GMT).mp4",
+      "sizeMb": 737.6
+    },
+    {
+      "meetCode": "sug-pifs-fyu",
+      "key": "lessons/sug-pifs-fyu.mp4",
+      "localPath": "/Users/bourbaki/Downloads/sug-pifs-fyu (2026-07-14 16_56 GMT).mp4",
+      "sizeMb": 563.8
+    },
+    {
+      "meetCode": "syf-qkqp-qms",
+      "key": "lessons/syf-qkqp-qms.mp4",
+      "localPath": "/Users/bourbaki/Downloads/syf-qkqp-qms (2026-07-24 15_56 GMT).mp4",
+      "sizeMb": 738.3
+    },
+    {
+      "meetCode": "teo-hopq-atx",
+      "key": "lessons/teo-hopq-atx.mp4",
+      "localPath": "/Users/bourbaki/Downloads/teo-hopq-atx (2026-07-23 15_56 GMT).mp4",
+      "sizeMb": 423.3
+    },
+    {
+      "meetCode": "tgf-jcpj-bjx",
+      "key": "lessons/tgf-jcpj-bjx.mp4",
+      "localPath": "/Users/bourbaki/Downloads/tgf-jcpj-bjx (2026-07-25 13_56 GMT).mp4",
+      "sizeMb": 619.6
+    },
+    {
+      "meetCode": "tjn-etkj-qyo",
+      "key": "lessons/tjn-etkj-qyo.mp4",
+      "localPath": "/Users/bourbaki/Downloads/tjn-etkj-qyo (2026-07-14 13_56 GMT).mp4",
+      "sizeMb": 660.7
+    },
+    {
+      "meetCode": "tnt-boyu-kvh",
+      "key": "lessons/tnt-boyu-kvh.mp4",
+      "localPath": "/Users/bourbaki/Downloads/tnt-boyu-kvh (2026-07-25 07_56 GMT).mp4",
+      "sizeMb": 679.1
+    },
+    {
       "meetCode": "tpk-tohs-mif",
       "key": "lessons/tpk-tohs-mif.mp4",
       "localPath": "/Users/bourbaki/Downloads/tpk-tohs-mif (2026-07-23 16_56 GMT).mp4",
       "sizeMb": 505.5
+    },
+    {
+      "meetCode": "twa-mvgw-acq",
+      "key": "lessons/twa-mvgw-acq.mp4",
+      "localPath": "/Users/bourbaki/Downloads/twa-mvgw-acq (2026-07-22 12_55 GMT).mp4",
+      "sizeMb": 536.7
+    },
+    {
+      "meetCode": "viz-bham-jvo",
+      "key": "lessons/viz-bham-jvo.mp4",
+      "localPath": "/Users/bourbaki/Downloads/viz-bham-jvo (2026-07-24 12_56 GMT).mp4",
+      "sizeMb": 406.8
+    },
+    {
+      "meetCode": "waa-zfkt-ati",
+      "key": "lessons/waa-zfkt-ati.mp4",
+      "localPath": "/Users/bourbaki/Downloads/waa-zfkt-ati (2026-07-26 15_54 GMT).mp4",
+      "sizeMb": 561.7
+    },
+    {
+      "meetCode": "wty-msyi-khr",
+      "key": "lessons/wty-msyi-khr.mp4",
+      "localPath": "/Users/bourbaki/Downloads/wty-msyi-khr (2026-07-23 07_52 GMT).mp4",
+      "sizeMb": 545.2
+    },
+    {
+      "meetCode": "xmz-affg-ibt",
+      "key": "lessons/xmz-affg-ibt.mp4",
+      "localPath": "/Users/bourbaki/Downloads/xmz-affg-ibt (2026-07-26 16_55 GMT).mp4",
+      "sizeMb": 494.8
+    },
+    {
+      "meetCode": "xtv-upso-wve",
+      "key": "lessons/xtv-upso-wve.mp4",
+      "localPath": "/Users/bourbaki/Downloads/xtv-upso-wve (2026-07-22 11_56 GMT).mp4",
+      "sizeMb": 535.3
+    },
+    {
+      "meetCode": "xzd-txvf-rme",
+      "key": "lessons/xzd-txvf-rme.mp4",
+      "localPath": "/Users/bourbaki/Downloads/xzd-txvf-rme (2026-07-25 13_54 GMT).mp4",
+      "sizeMb": 546.2
+    },
+    {
+      "meetCode": "yjx-zhms-nws",
+      "key": "lessons/yjx-zhms-nws.mp4",
+      "localPath": "/Users/bourbaki/Downloads/yjx-zhms-nws (2026-07-25 10_56 GMT).mp4",
+      "sizeMb": 628.3
+    },
+    {
+      "meetCode": "ymz-nxyc-xch",
+      "key": "lessons/ymz-nxyc-xch.mp4",
+      "localPath": "/Users/bourbaki/Downloads/ymz-nxyc-xch (2026-07-24 15_56 GMT).mp4",
+      "sizeMb": 653.8
+    },
+    {
+      "meetCode": "zra-bhzx-krk",
+      "key": "lessons/zra-bhzx-krk.mp4",
+      "localPath": "/Users/bourbaki/Downloads/zra-bhzx-krk (2026-07-21 14_55 GMT).mp4",
+      "sizeMb": 442.2
     }
   ]
 }

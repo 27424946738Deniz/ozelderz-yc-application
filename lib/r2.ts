@@ -82,6 +82,14 @@ export async function uploadFileToR2(
   return { bucket, key: objectKey, size: stat.size };
 }
 
+export async function deleteR2CacheFiles(meetCode: string) {
+  const videoPath = path.join(ROOT, "data/video-cache", `${meetCode}.mp4`);
+  const audioPath = path.join(ROOT, "data/audio-cache", `${meetCode}.mp3`);
+  for (const p of [videoPath, audioPath]) {
+    if (fs.existsSync(p)) fs.unlinkSync(p);
+  }
+}
+
 export async function objectExists(objectKey: string): Promise<boolean> {
   const client = getR2Client();
   const bucket = getR2Bucket();
@@ -104,4 +112,25 @@ export async function getPresignedMediaUrl(
     new GetObjectCommand({ Bucket: bucket, Key: objectKey }),
     { expiresIn: expiresInSeconds }
   );
+}
+
+export async function downloadFromR2(
+  objectKey: string,
+  localPath: string
+): Promise<void> {
+  const client = getR2Client();
+  const bucket = getR2Bucket();
+  fs.mkdirSync(path.dirname(localPath), { recursive: true });
+
+  const response = await client.send(
+    new GetObjectCommand({ Bucket: bucket, Key: objectKey })
+  );
+  const body = response.Body;
+  if (!body) throw new Error(`R2 indirme başarısız: ${objectKey}`);
+
+  const chunks: Buffer[] = [];
+  for await (const chunk of body as AsyncIterable<Uint8Array>) {
+    chunks.push(Buffer.from(chunk));
+  }
+  fs.writeFileSync(localPath, Buffer.concat(chunks));
 }

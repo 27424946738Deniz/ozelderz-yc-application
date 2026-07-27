@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist } from "next/font/google";
+import GoogleTranslateBar from "@/components/GoogleTranslateBar";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -19,8 +20,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="tr" className={`${geistSans.variable} h-full antialiased`}>
+    <html
+      lang="tr"
+      suppressHydrationWarning
+      className={`${geistSans.variable} h-full antialiased`}
+    >
       <body className="min-h-full bg-white text-stone-900">
+        <GoogleTranslateBar />
         {children}
       </body>
     </html>

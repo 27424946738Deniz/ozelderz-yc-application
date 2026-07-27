@@ -46,6 +46,11 @@ export function buildLearningStyleAnalysis(
     historyAffinity: number;
     initiated: TranscriptSegment[];
     techHits: TranscriptSegment[];
+    subject: string;
+    meetCode?: string;
+    approachGuide?: LearningStyleAnalysis["approachGuide"];
+    understandsBetter?: LearningStyleAnalysis["understandsBetter"];
+    understandsLess?: LearningStyleAnalysis["understandsLess"];
   }
 ): LearningStyleAnalysis {
   const {
@@ -60,6 +65,7 @@ export function buildLearningStyleAnalysis(
     historyAffinity,
     initiated,
     techHits,
+    subject,
   } = metrics;
 
   const total = Math.max(studentSegs.length, 1);
@@ -181,94 +187,18 @@ export function buildLearningStyleAnalysis(
 
   const bestQuote = studentSegs.find((s) => s.text.length > 50)?.text;
 
-  const understandsBetter = [
-    {
-      area: "Somut kaynak & test planları",
-      reason: "Ne yapacağını net bilince aktifleşiyor",
-      example: resourceHits[0]?.text.slice(0, 80),
-    },
-    {
-      area: "Kişisel hedef konuşmaları",
-      reason: "Fen lisesi, okul hedefi gibi gelecek planları motive ediyor",
-      example: studentSegs.find((s) => /fen lisesi|galatasaray/i.test(s.text))?.text.slice(0, 80),
-    },
-    {
-      area: "Görsel materyal eşliğinde anlatım",
-      reason: "PDF, ekran, MEB kaynağı soruları sordu — materyal varlığına ihtiyaç duyuyor",
-      example: resourceHits[0]?.text.slice(0, 80),
-    },
-    {
-      area: "Spor & takım benzetmeleri",
-      reason: "Voleybol deneyiminde en uzun ve açık yanıtları verdi",
-      example: sportHits.find((s) => s.text.length > 30)?.text.slice(0, 80),
-    },
-    {
-      area: "LGS stratejisi & soru dağılımı",
-      reason: "Sınav yapısını duyunca \"kaç soru, hangi ünite\" soruları soruyor",
-      example: lgsHits[0]?.text.slice(0, 80),
-    },
-    historyAffinity > 0
-      ? {
-          area: "Hikâye ve olay anlatımı (tarih)",
-          reason: "Tarihi sevdiğini belirtti — ezber değil olay akışı tercih eder",
-          example: studentSegs.find((s) => /seviyorum/i.test(s.text))?.text.slice(0, 80),
-        }
-      : null,
-  ].filter(Boolean) as LearningStyleAnalysis["understandsBetter"];
+  const understandsBetter =
+    metrics.understandsBetter ??
+    [];
+  const understandsLess =
+    metrics.understandsLess ??
+    [];
 
-  const understandsLess = [
+  const approachGuide = metrics.approachGuide ?? [
     {
-      area: "Uzun sözlü monolog",
-      reason: `%${Math.round(shortRatio * 100)} yanıtı 15 karakterden kısa — dinliyor ama içselleştirmiyor`,
-      alternative: "5 dk anlat → 1 somut soru → devam",
-    },
-    {
-      area: "Soyut müfredat listesi",
-      reason: "7 ünite sayımı dinlerken soru sormuyor; materyal gelince soruyor",
-      alternative: "Her üniteye \"1 örnek soru + 1 PDF sayfası\" eşle",
-    },
-    {
-      area: "Belirsiz ödev talimatı",
-      reason: "\"Çalış\" yerine \"10 MEB sorusu, 1 PDF\" istediğinde takip edebilir",
-      alternative: "Sayı, süre ve kaynak adı ver",
-    },
-    {
-      area: "Kronoloji ezberi (önce tarih, sonra bağlam)",
-      reason: "Profil ve transkript: liste ezberinde zorlanma eğilimi",
-      alternative: "Önce olay hikâyesi, sonra tarih hafızaya al",
-    },
-  ];
-
-  const approachGuide: LearningStyleAnalysis["approachGuide"] = [
-    {
-      when: "Yeni konu anlatımına başlarken",
-      doThis: `2 dk kişisel köprü kur (${firstName}'nın hedefi veya sporu) → PDF/ekran aç → 5 dk anlat`,
-      because: "Kişisel bağlantı + görsel materyal birlikte en yüksek skorlu boyutlar",
-    },
-    {
-      when: "Öğrenci sessizleştiğinde",
-      doThis: "Adını söyle + somut soru: \"Bu PDF'teki 3. soruyu birlikte okuyalım mı?\"",
-      because: "Pasif dinleme eğilimi yüksek; doğrudan çağrı ve somut görev uyandırır",
-    },
-    {
-      when: "Motivasyon düştüğünde",
-      doThis: "LGS net hedefi ve ünite soru sayısını hatırlat; deneme planına bağla",
-      because: "Hedef odaklı boyut güçlü — \"neden\" sorusunu sınav stratejisiyle yanıtla",
-    },
-    {
-      when: "Kaynak seçimi sorulduğunda",
-      doThis: "MEB + 1 alternatif kaynak ver; çıkmış soru seti ekle",
-      because: "Transkriptte MEB ve geçmiş yıllar sorularına proaktif ilgi var",
-    },
-    {
-      when: "Tarih konusu anlatırken",
-      doThis: "Olay hikâyesi + neden-sonuç; kronolojiyi sona bırak",
-      because: "Anlatı boyutu yüksek, soyut ezber boyutu düşük",
-    },
-    {
-      when: "Ödev verirken",
-      doThis: "Orta yoğunluk: 10 MEB sorusu + 1 PDF bölümü (~30 dk) — yazılı WhatsApp'ta tekrarla",
-      because: "Somut-uygulamalı boyut baskın; belirsizlik takibi düşürür",
+      title: "Katılımı artırma",
+      gap: `${firstName} derste sınırlı katılım gösterdi (%${participationPct} konuşma payı).`,
+      tactic: `Her konu bloğunda en az bir "sen anlat" görevi ver; kısa yanıtları derinleştirme sorularıyla genişlet.`,
     },
   ];
 

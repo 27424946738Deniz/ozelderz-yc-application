@@ -1,0 +1,1164 @@
+{
+  "version": 1,
+  "roadmaps": {
+    "bao-wvxv-ksx": {
+      "lessonId": "bao-wvxv-ksx",
+      "title": "Tanışma Dersi — Matematik · Yol Haritası",
+      "subject": "Matematik",
+      "teacher": {
+        "name": "Mehmet Alioğlu",
+        "avatar": "https://images.ozelderz.com/hocalar/94_1775012260716.jpg",
+        "title": "Matematik Öğretmeni"
+      },
+      "student": {
+        "name": "Ali Kayra Karataş",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Ali%20Kayra%20Karata%C5%9F",
+        "grade": "8. Sınıf",
+        "learningStyle": "Sorgulayıcı-Uygulamalı Öğrenen",
+        "temperamentSignals": [
+          "Ali Kayra'nın sorduğu çok sayıda soru, onun meraklı ve sorgulayıcı bir yapıya sahip olduğunu gösteriyor. Bu da öğrenme sürecine aktif katılım sağladığını ve konuları derinlemesine anlamak istediğini gösterir.",
+          "Ders sırasında verdiği uzun yanıtlar, konular hakkında düşüncelerini kapsamlı bir şekilde ifade etmekten çekinmediğini ve kendini ifade etme konusunda kendine güvendiğini gösteriyor.",
+          "Ali Kayra'nın inisiyatif alarak konuşmayı başlatması, onun liderlik özelliklerine sahip olduğunu ve derslerde aktif bir rol üstlenmekten hoşlandığını gösteriyor.",
+          "Matematik konularında bazı kavramları tam olarak anlamadığı durumlarda bile, konuyla ilgili daha fazla bilgi edinmek için çaba gösteriyor. Bu, onun öğrenmeye karşı açık bir tutum sergilediğini gösteriyor."
+        ]
+      },
+      "introLessonInsights": [
+        "Ali Kayra, 12. sınıfı tamamlamış bir öğrenci. Bu, onun ileri düzey matematik konularına aşina olduğunu ve üniversite giriş sınavları gibi ileri seviye değerlendirmelere hazırlandığını gösteriyor.",
+        "Ali Kayra, tanışma dersinde oldukça aktif bir katılım göstermiş. 57 dakikalık ders süresince 151 soru sorması, onun öğrenmeye karşı güçlü bir merakı olduğunu ortaya koyuyor.",
+        "Rasyonel sayılar, denklemler ve geometri gibi temel matematik konularına ilgi gösteriyor. Bu, onun matematikte geniş bir yelpazede bilgi sahibi olma isteğini gösteriyor.",
+        "Dersin başında paylaştığı ilk cümle, teknolojiyi kullanma konusunda rahat olduğunu ve derse hazırlıklı geldiğini gösteriyor."
+      ],
+      "phases": [
+        {
+          "id": "phase-1",
+          "label": "Faz 1",
+          "months": "Ay 1–2",
+          "goal": "Tanışma dersi çıktıları, çalışma ritmi ve Matematik temeli",
+          "checkpoints": [
+            {
+              "id": "cp-foundation",
+              "title": "Tanışma dersi & çalışma sistemi",
+              "weekRange": "Hafta 1–2",
+              "status": "foundation",
+              "transcriptContext": "Zorlanma sinyali: \"Çifti dörtle toplarsan sonuç ne olur? Çiftse olur. Çift olur. Bu her zam…\"",
+              "teacherFocus": [
+                "Tanışma dersi notlarını özetle — rasyonel sayılar önceliği",
+                "Haftalık plan ve ödev formatını netleştir (ölçülebilir: '10 soru', '30 dk')",
+                "LGS matematik soru dağılımını veya konu listesini tablo ile göster",
+                "Ali'nın hedef/deneme planını programa bağla"
+              ],
+              "studentTasks": [
+                "Tanışma derside işlenen 5 örneği tekrar çöz",
+                "Takıldığın konuları liste halinde yaz",
+                "İlk konu teşhis testini çöz (sadece tespit)"
+              ],
+              "homework": {
+                "title": "Başlangıç ödev seti",
+                "description": "rasyonel sayılar teşhis ve tekrar",
+                "quantity": "20 soru, 3 gün",
+                "estimatedMinutes": 40
+              },
+              "test": {
+                "label": "Başlangıç teşhis testi",
+                "description": "15 soru karışık — seviye tespiti",
+                "questionCount": 15,
+                "passScore": 7,
+                "partialScore": 5,
+                "format": "LGS matematik karışık"
+              },
+              "outcomes": {
+                "pass": {
+                  "condition": "≥8/12 doğru",
+                  "headline": "→ Rasyonel sayılar",
+                  "detail": "Genel Matematik temeli oturdu; Rasyonel sayılar hattına geç.",
+                  "teacherSteps": [
+                    "Genel Matematik temeli özetini 5 dk'da kapat",
+                    "Rasyonel sayılar için giriş örneği göster"
+                  ],
+                  "studentSteps": [
+                    "Son Genel Matematik temeli setini deftere işle",
+                    "Rasyonel sayılar için 5 ön hazırlık sorusu çöz"
+                  ],
+                  "nextCheckpointId": "cp-rasyonel-say-lar",
+                  "nextCheckpointTitle": "Rasyonel sayılar"
+                },
+                "partial": {
+                  "condition": "6-7/12 doğru",
+                  "headline": "→ Genel Matematik temeli destekli pekiştirme",
+                  "detail": "Temel var ama tam oturmamış — aynı konuda hedefli setle devam.",
+                  "teacherSteps": [
+                    "Yanlış alt tipi tespit et (Genel Matematik temeli)",
+                    "10 dk birebir: 3 kolay + 2 orta örnek"
+                  ],
+                  "studentSteps": [
+                    "Zayıf alt tipten 12 soru (Genel Matematik temeli)",
+                    "3 örneği sesli çözüm yolu ile anlat"
+                  ],
+                  "nextCheckpointTitle": "Genel Matematik temeli tekrar"
+                },
+                "fail": {
+                  "condition": "Ödev yapılmadı",
+                  "headline": "→ Genel Matematik temeli temel tekrar",
+                  "detail": "Önce temel kavram ve kolay örneklerle güven inşa et, sonra tekrar ölç.",
+                  "teacherSteps": [
+                    "15 dk birebir: Genel Matematik temeli için 5 kolay + 5 orta soru",
+                    "Zayıf alt konuyu birlikte belirle"
+                  ],
+                  "studentSteps": [
+                    "Konu listesi çıkar ve işaretle",
+                    "Zayıf konudan 15 kolay soru (Genel Matematik temeli)"
+                  ],
+                  "nextCheckpointTitle": "Genel Matematik temeli temel tekrar",
+                  "temperamentNote": "Ali görsel materyalle daha aktif — genel Matematik temeli için tablo/harita/PDF ile somutlaştır."
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "phase-2",
+          "label": "Faz 2",
+          "months": "Ay 2–4",
+          "goal": "rasyonel sayılar, denklemler, geometri derinleştirme",
+          "checkpoints": [
+            {
+              "id": "cp-rasyonel-say-lar",
+              "title": "Rasyonel sayılar",
+              "weekRange": "Hafta 3–5",
+              "status": "core",
+              "transcriptContext": "Transkriptte işlenen konu: Rasyonel sayılar",
+              "teacherFocus": [
+                "rasyonel sayılar konusunu transkriptteki örneklerle tekrarla",
+                "Her derste 2 LGS sorusu",
+                "Ali'ın anlama kontrolü: kendi cümlesiyle özet iste",
+                "Sayı doğrusu ve adım adım dönüşüm örnekleri kullan"
+              ],
+              "studentTasks": [
+                "Haftada 20 rasyonel sayılar sorusu",
+                "5 örnek çözümü deftere adım adım yaz",
+                "1 mini tekrar testi (rasyonel sayılar)"
+              ],
+              "homework": {
+                "title": "Rasyonel sayılar ödev seti",
+                "description": "Hedefli rasyonel sayılar pratiği",
+                "quantity": "20 soru, 4 gün",
+                "estimatedMinutes": 50
+              },
+              "test": {
+                "label": "Rasyonel sayılar kontrol testi",
+                "description": "12 soru — rasyonel sayılar",
+                "questionCount": 12,
+                "passScore": 9,
+                "partialScore": 6,
+                "format": "Rasyonel sayılar"
+              },
+              "outcomes": {
+                "pass": {
+                  "condition": "≥8/12 doğru",
+                  "headline": "→ Denklemler",
+                  "detail": "Rasyonel sayılar oturdu; Denklemler hattına geç.",
+                  "teacherSteps": [
+                    "Rasyonel sayılar özetini 5 dk'da kapat",
+                    "Denklemler için giriş örneği göster"
+                  ],
+                  "studentSteps": [
+                    "Son Rasyonel sayılar setini deftere işle",
+                    "Denklemler için 5 ön hazırlık sorusu çöz"
+                  ],
+                  "nextCheckpointId": "cp-denklemler",
+                  "nextCheckpointTitle": "Denklemler"
+                },
+                "partial": {
+                  "condition": "5-7/12 doğru",
+                  "headline": "→ Rasyonel sayılar destekli pekiştirme",
+                  "detail": "Temel var ama tam oturmamış — aynı konuda hedefli setle devam.",
+                  "teacherSteps": [
+                    "Yanlış alt tipi tespit et (Rasyonel sayılar)",
+                    "10 dk birebir: 3 kolay + 2 orta örnek"
+                  ],
+                  "studentSteps": [
+                    "Zayıf alt tipten 12 soru (Rasyonel sayılar)",
+                    "3 örneği sesli çözüm yolu ile anlat"
+                  ],
+                  "nextCheckpointTitle": "Rasyonel sayılar tekrar"
+                },
+                "fail": {
+                  "condition": "<5/12 doğru",
+                  "headline": "→ Rasyonel sayılar temel tekrar",
+                  "detail": "Önce temel kavram ve kolay örneklerle güven inşa et, sonra tekrar ölç.",
+                  "teacherSteps": [
+                    "15 dk birebir: Rasyonel sayılar için 5 kolay + 5 orta soru",
+                    "Zayıf alt konuyu birlikte belirle"
+                  ],
+                  "studentSteps": [
+                    "Konu listesi çıkar ve işaretle",
+                    "Zayıf konudan 15 kolay soru (Rasyonel sayılar)"
+                  ],
+                  "nextCheckpointTitle": "Rasyonel sayılar temel tekrar",
+                  "temperamentNote": "Ali görsel materyalle daha aktif — rasyonel sayılar için tablo/harita/PDF ile somutlaştır."
+                }
+              }
+            },
+            {
+              "id": "cp-denklemler",
+              "title": "Denklemler",
+              "weekRange": "Hafta 6–8",
+              "status": "core",
+              "transcriptContext": "Transkriptte işlenen konu: Denklemler",
+              "teacherFocus": [
+                "denklemler konusunu transkriptteki örneklerle tekrarla",
+                "Her derste 2 LGS sorusu",
+                "Ali'ın anlama kontrolü: kendi cümlesiyle özet iste"
+              ],
+              "studentTasks": [
+                "Haftada 20 denklemler sorusu",
+                "5 örnek çözümü deftere adım adım yaz",
+                "1 mini tekrar testi (denklemler)"
+              ],
+              "homework": {
+                "title": "Denklemler ödev seti",
+                "description": "Hedefli denklemler pratiği",
+                "quantity": "20 soru, 4 gün",
+                "estimatedMinutes": 50
+              },
+              "test": {
+                "label": "Denklemler kontrol testi",
+                "description": "12 soru — denklemler",
+                "questionCount": 12,
+                "passScore": 9,
+                "partialScore": 6,
+                "format": "Denklemler"
+              },
+              "outcomes": {
+                "pass": {
+                  "condition": "≥15/20 doğru",
+                  "headline": "→ Geometri",
+                  "detail": "Denklemler oturdu; Geometri hattına geç.",
+                  "teacherSteps": [
+                    "Denklemler özetini 5 dk'da kapat",
+                    "Geometri için giriş örneği göster"
+                  ],
+                  "studentSteps": [
+                    "Son Denklemler setini deftere işle",
+                    "Geometri için 5 ön hazırlık sorusu çöz"
+                  ],
+                  "nextCheckpointId": "cp-geometri",
+                  "nextCheckpointTitle": "Geometri"
+                },
+                "partial": {
+                  "condition": "10-14/20 doğru",
+                  "headline": "→ Denklemler destekli pekiştirme",
+                  "detail": "Temel var ama tam oturmamış — aynı konuda hedefli setle devam.",
+                  "teacherSteps": [
+                    "Yanlış alt tipi tespit et (Denklemler)",
+                    "10 dk birebir: 3 kolay + 2 orta örnek"
+                  ],
+                  "studentSteps": [
+                    "Zayıf alt tipten 12 soru (Denklemler)",
+                    "3 örneği sesli çözüm yolu ile anlat"
+                  ],
+                  "nextCheckpointTitle": "Denklemler tekrar"
+                },
+                "fail": {
+                  "condition": "<10/20 doğru",
+                  "headline": "→ Denklemler temel tekrar",
+                  "detail": "Önce temel kavram ve kolay örneklerle güven inşa et, sonra tekrar ölç.",
+                  "teacherSteps": [
+                    "15 dk birebir: Denklemler için 5 kolay + 5 orta soru",
+                    "Zayıf alt konuyu birlikte belirle"
+                  ],
+                  "studentSteps": [
+                    "Konu listesi çıkar ve işaretle",
+                    "Zayıf konudan 15 kolay soru (Denklemler)"
+                  ],
+                  "nextCheckpointTitle": "Denklemler temel tekrar",
+                  "temperamentNote": "Ali görsel materyalle daha aktif — denklemler için tablo/harita/PDF ile somutlaştır."
+                }
+              }
+            },
+            {
+              "id": "cp-geometri",
+              "title": "Geometri",
+              "weekRange": "Hafta 9–11",
+              "status": "core",
+              "transcriptContext": "Transkriptte işlenen konu: Geometri",
+              "teacherFocus": [
+                "geometri konusunu transkriptteki örneklerle tekrarla",
+                "Her derste 2 LGS sorusu",
+                "Ali'ın anlama kontrolü: kendi cümlesiyle özet iste"
+              ],
+              "studentTasks": [
+                "Haftada 20 geometri sorusu",
+                "5 örnek çözümü deftere adım adım yaz",
+                "1 mini tekrar testi (geometri)"
+              ],
+              "homework": {
+                "title": "Geometri ödev seti",
+                "description": "Hedefli geometri pratiği",
+                "quantity": "20 soru, 4 gün",
+                "estimatedMinutes": 50
+              },
+              "test": {
+                "label": "Geometri kontrol testi",
+                "description": "12 soru — geometri",
+                "questionCount": 12,
+                "passScore": 9,
+                "partialScore": 6,
+                "format": "Geometri"
+              },
+              "outcomes": {
+                "pass": {
+                  "condition": "≥18/25 doğru",
+                  "headline": "→ Test/alıştırma",
+                  "detail": "Geometri oturdu; Test/alıştırma hattına geç.",
+                  "teacherSteps": [
+                    "Geometri özetini 5 dk'da kapat",
+                    "Test/alıştırma için giriş örneği göster"
+                  ],
+                  "studentSteps": [
+                    "Son Geometri setini deftere işle",
+                    "Test/alıştırma için 5 ön hazırlık sorusu çöz"
+                  ],
+                  "nextCheckpointId": "cp-test-al-t-rma",
+                  "nextCheckpointTitle": "Test/alıştırma"
+                },
+                "partial": {
+                  "condition": "12-17/25 doğru",
+                  "headline": "→ Geometri destekli pekiştirme",
+                  "detail": "Temel var ama tam oturmamış — aynı konuda hedefli setle devam.",
+                  "teacherSteps": [
+                    "Yanlış alt tipi tespit et (Geometri)",
+                    "10 dk birebir: 3 kolay + 2 orta örnek"
+                  ],
+                  "studentSteps": [
+                    "Zayıf alt tipten 12 soru (Geometri)",
+                    "3 örneği sesli çözüm yolu ile anlat"
+                  ],
+                  "nextCheckpointTitle": "Geometri tekrar"
+                },
+                "fail": {
+                  "condition": "<12/25 doğru",
+                  "headline": "→ Geometri temel tekrar",
+                  "detail": "Önce temel kavram ve kolay örneklerle güven inşa et, sonra tekrar ölç.",
+                  "teacherSteps": [
+                    "15 dk birebir: Geometri için 5 kolay + 5 orta soru",
+                    "Zayıf alt konuyu birlikte belirle"
+                  ],
+                  "studentSteps": [
+                    "Konu listesi çıkar ve işaretle",
+                    "Zayıf konudan 15 kolay soru (Geometri)"
+                  ],
+                  "nextCheckpointTitle": "Geometri temel tekrar",
+                  "temperamentNote": "Ali görsel materyalle daha aktif — geometri için tablo/harita/PDF ile somutlaştır."
+                }
+              }
+            },
+            {
+              "id": "cp-test-al-t-rma",
+              "title": "Test/alıştırma",
+              "weekRange": "Hafta 12–14",
+              "status": "core",
+              "transcriptContext": "Transkriptte işlenen konu: Test/alıştırma",
+              "teacherFocus": [
+                "test/alıştırma konusunu transkriptteki örneklerle tekrarla",
+                "Her derste 2 LGS sorusu",
+                "Ali'ın anlama kontrolü: kendi cümlesiyle özet iste"
+              ],
+              "studentTasks": [
+                "Haftada 20 test/alıştırma sorusu",
+                "5 örnek çözümü deftere adım adım yaz",
+                "1 mini tekrar testi (test/alıştırma)"
+              ],
+              "homework": {
+                "title": "Test/alıştırma ödev seti",
+                "description": "Hedefli test/alıştırma pratiği",
+                "quantity": "20 soru, 4 gün",
+                "estimatedMinutes": 50
+              },
+              "test": {
+                "label": "Test/alıştırma kontrol testi",
+                "description": "12 soru — test/alıştırma",
+                "questionCount": 12,
+                "passScore": 9,
+                "partialScore": 6,
+                "format": "Test/alıştırma"
+              },
+              "outcomes": {
+                "pass": {
+                  "condition": "≥25/30 doğru",
+                  "headline": "→ Sonraki faz",
+                  "detail": "Faz hedefleri tamam; bir üst zorluk seviyesine geç.",
+                  "teacherSteps": [
+                    "Test/alıştırma özetini 5 dk'da kapat",
+                    "Genel tekrar planını güncelle"
+                  ],
+                  "studentSteps": [
+                    "Son Test/alıştırma setini deftere işle",
+                    "Haftalık tekrar listesini yaz"
+                  ],
+                  "nextCheckpointId": "cp-exam",
+                  "nextCheckpointTitle": "Faz kapanışı"
+                },
+                "partial": {
+                  "condition": "18-24/30 doğru",
+                  "headline": "→ Test/alıştırma destekli pekiştirme",
+                  "detail": "Temel var ama tam oturmamış — aynı konuda hedefli setle devam.",
+                  "teacherSteps": [
+                    "Yanlış alt tipi tespit et (Test/alıştırma)",
+                    "10 dk birebir: 3 kolay + 2 orta örnek"
+                  ],
+                  "studentSteps": [
+                    "Zayıf alt tipten 12 soru (Test/alıştırma)",
+                    "3 örneği sesli çözüm yolu ile anlat"
+                  ],
+                  "nextCheckpointTitle": "Test/alıştırma tekrar"
+                },
+                "fail": {
+                  "condition": "<18/30 doğru",
+                  "headline": "→ Test/alıştırma temel tekrar",
+                  "detail": "Önce temel kavram ve kolay örneklerle güven inşa et, sonra tekrar ölç.",
+                  "teacherSteps": [
+                    "15 dk birebir: Test/alıştırma için 5 kolay + 5 orta soru",
+                    "Zayıf alt konuyu birlikte belirle"
+                  ],
+                  "studentSteps": [
+                    "Konu listesi çıkar ve işaretle",
+                    "Zayıf konudan 15 kolay soru (Test/alıştırma)"
+                  ],
+                  "nextCheckpointTitle": "Test/alıştırma temel tekrar",
+                  "temperamentNote": "Ali görsel materyalle daha aktif — test/alıştırma için tablo/harita/PDF ile somutlaştır."
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "phase-3",
+          "label": "Faz 3",
+          "months": "Ay 4–6",
+          "goal": "LGS deneme ritmi ve net hedef takibi",
+          "checkpoints": [
+            {
+              "id": "cp-exam",
+              "title": "LGS karışık deneme & analiz",
+              "weekRange": "Hafta 15–18",
+              "status": "exam",
+              "transcriptContext": "Ali'nin test/alıştırma konularında katılım gösterdiği ve rasyonel sayılarla ilgili temel kavramları anladığı gözlemlendi.",
+              "teacherFocus": [
+                "rasyonel sayılar, denklemler, geometri konularını karışık denemede ölç",
+                "Yanlış analizi: konu + hata tipi tablosu",
+                "Ali ile net hedefi güncelle"
+              ],
+              "studentTasks": [
+                "Tam 20 soruluk deneme çöz",
+                "Yanlışları konu bazlı listele",
+                "1 haftalık tekrar planı yaz"
+              ],
+              "homework": {
+                "title": "Deneme öncesi tekrar",
+                "description": "rasyonel sayılar, denklemler, geometri karışık set",
+                "quantity": "20 soruluk deneme + 10 tekrar sorusu",
+                "estimatedMinutes": 90
+              },
+              "test": {
+                "label": "Faz kapanış denemesi",
+                "description": "20 soru karışık — rasyonel sayılar, denklemler, geometri",
+                "questionCount": 20,
+                "passScore": 13,
+                "partialScore": 9,
+                "format": "LGS karışık deneme"
+              },
+              "outcomes": {
+                "pass": {
+                  "condition": "≥8/12 doğru",
+                  "headline": "→ Sonraki faz / üst seviye",
+                  "detail": "Faz hedefleri oturdu. Bir üst zorluk seviyesine geç.",
+                  "teacherSteps": [
+                    "Net hedefini güncelle",
+                    "Bir sonraki fazın konu önceliğini belirle"
+                  ],
+                  "studentSteps": [
+                    "Başarılı olduğun konuları listele",
+                    "Sonraki faz için haftalık plan yaz"
+                  ],
+                  "nextCheckpointTitle": "Sonraki faz"
+                },
+                "partial": {
+                  "condition": "5-7/12 doğru",
+                  "headline": "→ Hedefli tekrar + ikinci deneme",
+                  "detail": "Yakın ama yeterli değil — zayıf 2 konuya odaklan, 1 hafta sonra tekrar deneme.",
+                  "teacherSteps": [
+                    "En çok düşülen 2 konuyu seç",
+                    "Her birinden 10 soru + çözüm incelemesi"
+                  ],
+                  "studentSteps": [
+                    "Zayıf 2 konu: 20'şer soruluk set",
+                    "Denemeyi 1 hafta sonra tekrarla"
+                  ],
+                  "nextCheckpointTitle": "İkinci deneme"
+                },
+                "fail": {
+                  "condition": "<5/12 doğru",
+                  "headline": "→ Temel tekrar döngüsü",
+                  "detail": "Önce temel konulara dön, küçük setlerle güven inşa et.",
+                  "teacherSteps": [
+                    "3 temel konuyu seç; her birinden 8 kolay soru",
+                    "48 saat sonra kısa tekrar testi"
+                  ],
+                  "studentSteps": [
+                    "Zayıf 3 konu listesi çıkar",
+                    "Her konudan 10 kolay soru"
+                  ],
+                  "nextCheckpointTitle": "Temel tekrar",
+                  "temperamentNote": "Ali görsel materyalle daha aktif — karışık deneme için tablo/harita/PDF ile somutlaştır."
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "generatedFrom": "Tanışma dersi — bao-wvxv-ksx transkripti (AI)",
+      "generatedAt": "2026-07-27T00:19:11.653Z"
+    },
+    "bji-jxik-vzq": {
+      "lessonId": "bji-jxik-vzq",
+      "title": "Tanışma Dersi — Matematik · Yol Haritası",
+      "subject": "Matematik",
+      "teacher": {
+        "name": "Mustafa Ardahan Dirlik",
+        "avatar": "https://images.ozelderz.com/hocalar/temp_p9m377_1775383413595.jpg",
+        "title": "Matematik Öğretmeni"
+      },
+      "student": {
+        "name": "Muhammed Bingöl",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Muhammed%20Bing%C3%B6l",
+        "grade": "8. Sınıf",
+        "learningStyle": "Anlatımsal Öğrenen",
+        "temperamentSignals": [
+          "Muhammed'in bağımsız çalışma alışkanlıkları gelişmemiş olabilir; ebeveynlerinden veya öğretmenlerinden yönlendirme bekliyor.",
+          "Öğrenci, yetenekli olduğu ancak çaba göstermediği takdirde potansiyelini tam olarak kullanamadığı belirtiliyor.",
+          "Öğrencinin sosyal ve iletişim becerileri iyi, dersin başlangıcında ve süreçte sıcak bir iletişim kuruyor.",
+          "Muhammed, derslerde dikkatli ancak dış motivasyon olmadan harekete geçmekte zorlanan bir profil sergiliyor.",
+          "Öğrencinin, ders dışı kaynakları etkin kullanma konusunda desteğe ihtiyacı var."
+        ]
+      },
+      "introLessonInsights": [
+        "Muhammed, matematik dersine karşı başlangıçta isteksiz görünüyor. Matematik dersini sevmediğini belirtiyor.",
+        "Öğrencinin katılımı %28 seviyesinde, bu da ders boyunca daha fazla teşvik edilmesi gerektiğini gösteriyor.",
+        "Öğrencinin uzun cevaplar verme eğiliminde olduğu gözlemlenmiş, bu da düşüncelerini ifade etmekten çekinmediğini gösteriyor.",
+        "Muhammed'in ders dışı aktiviteler için dış motivasyona ihtiyaç duyduğu anlaşılıyor. Özellikle ödev ve kitap okuma konusunda teşvik edilmeden harekete geçmediği görülüyor.",
+        "Ders boyunca sorular sorması, meraklı ve öğrenmeye açık bir yapısı olduğunu gösteriyor."
+      ],
+      "phases": [
+        {
+          "id": "phase-1",
+          "label": "Faz 1",
+          "months": "Ay 1–2",
+          "goal": "Tanışma dersi çıktıları, çalışma ritmi ve Matematik temeli",
+          "checkpoints": [
+            {
+              "id": "cp-foundation",
+              "title": "Tanışma dersi & çalışma sistemi",
+              "weekRange": "Hafta 1–2",
+              "status": "foundation",
+              "transcriptContext": "Zorlanma sinyali: \"Yani bilmiyorum ki mesela birkaç tane bu sene çok kitap aldım onu hani o…\"",
+              "teacherFocus": [
+                "Tanışma dersi notlarını özetle — geometri önceliği",
+                "Haftalık plan ve ödev formatını netleştir (ölçülebilir: '10 soru', '30 dk')",
+                "LGS matematik soru dağılımını veya konu listesini tablo ile göster",
+                "Muhammed'nın hedef/deneme planını programa bağla"
+              ],
+              "studentTasks": [
+                "Tanışma derside işlenen 5 örneği tekrar çöz",
+                "Takıldığın konuları liste halinde yaz",
+                "İlk konu teşhis testini çöz (sadece tespit)"
+              ],
+              "homework": {
+                "title": "Başlangıç ödev seti",
+                "description": "geometri teşhis ve tekrar",
+                "quantity": "20 soru, 3 gün",
+                "estimatedMinutes": 40
+              },
+              "test": {
+                "label": "Başlangıç teşhis testi",
+                "description": "15 soru karışık — seviye tespiti",
+                "questionCount": 15,
+                "passScore": 7,
+                "partialScore": 5,
+                "format": "LGS matematik karışık"
+              },
+              "outcomes": {
+                "pass": {
+                  "condition": "≥8/12 doğru",
+                  "headline": "→ Kaynak/materyal",
+                  "detail": "Genel Matematik temeli oturdu; Kaynak/materyal hattına geç.",
+                  "teacherSteps": [
+                    "Genel Matematik temeli özetini 5 dk'da kapat",
+                    "Kaynak/materyal için giriş örneği göster"
+                  ],
+                  "studentSteps": [
+                    "Son Genel Matematik temeli setini deftere işle",
+                    "Kaynak/materyal için 5 ön hazırlık sorusu çöz"
+                  ],
+                  "nextCheckpointId": "cp-kaynak-materyal",
+                  "nextCheckpointTitle": "Kaynak/materyal"
+                },
+                "partial": {
+                  "condition": "4-7/12 doğru",
+                  "headline": "→ Genel Matematik temeli destekli pekiştirme",
+                  "detail": "Temel var ama tam oturmamış — aynı konuda hedefli setle devam.",
+                  "teacherSteps": [
+                    "Yanlış alt tipi tespit et (Genel Matematik temeli)",
+                    "10 dk birebir: 3 kolay + 2 orta örnek"
+                  ],
+                  "studentSteps": [
+                    "Zayıf alt tipten 12 soru (Genel Matematik temeli)",
+                    "3 örneği sesli çözüm yolu ile anlat"
+                  ],
+                  "nextCheckpointTitle": "Genel Matematik temeli tekrar"
+                },
+                "fail": {
+                  "condition": "Ödev yapılmadı",
+                  "headline": "→ Genel Matematik temeli temel tekrar",
+                  "detail": "Önce temel kavram ve kolay örneklerle güven inşa et, sonra tekrar ölç.",
+                  "teacherSteps": [
+                    "15 dk birebir: Genel Matematik temeli için 5 kolay + 5 orta soru",
+                    "Zayıf alt konuyu birlikte belirle"
+                  ],
+                  "studentSteps": [
+                    "Konu listesi çıkar ve işaretle",
+                    "Zayıf konudan 15 kolay soru (Genel Matematik temeli)"
+                  ],
+                  "nextCheckpointTitle": "Genel Matematik temeli temel tekrar",
+                  "temperamentNote": "Muhammed görsel materyalle daha aktif — genel Matematik temeli için tablo/harita/PDF ile somutlaştır."
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "phase-2",
+          "label": "Faz 2",
+          "months": "Ay 2–4",
+          "goal": "kaynak/materyal, geometri, problemler derinleştirme",
+          "checkpoints": [
+            {
+              "id": "cp-kaynak-materyal",
+              "title": "Kaynak/materyal",
+              "weekRange": "Hafta 3–5",
+              "status": "core",
+              "transcriptContext": "Muhammed'in kitap okuma alışkanlığıyla ilgili zorlukları olduğu belirtiliyor.",
+              "teacherFocus": [
+                "kaynak/materyal konusunu transkriptteki örneklerle tekrarla",
+                "Her derste 2 LGS sorusu",
+                "Muhammed'ın anlama kontrolü: kendi cümlesiyle özet iste"
+              ],
+              "studentTasks": [
+                "Haftada 20 kaynak/materyal sorusu",
+                "5 örnek çözümü deftere adım adım yaz",
+                "1 mini tekrar testi (kaynak/materyal)"
+              ],
+              "homework": {
+                "title": "Kaynak/materyal ödev seti",
+                "description": "Hedefli kaynak/materyal pratiği",
+                "quantity": "20 soru, 4 gün",
+                "estimatedMinutes": 50
+              },
+              "test": {
+                "label": "Kaynak/materyal kontrol testi",
+                "description": "12 soru — kaynak/materyal",
+                "questionCount": 12,
+                "passScore": 9,
+                "partialScore": 6,
+                "format": "Kaynak/materyal"
+              },
+              "outcomes": {
+                "pass": {
+                  "condition": "≥9/12 doğru (%75+)",
+                  "headline": "→ Geometri",
+                  "detail": "Kaynak/materyal oturdu; Geometri hattına geç.",
+                  "teacherSteps": [
+                    "Kaynak/materyal özetini 5 dk'da kapat",
+                    "Geometri için giriş örneği göster"
+                  ],
+                  "studentSteps": [
+                    "Son Kaynak/materyal setini deftere işle",
+                    "Geometri için 5 ön hazırlık sorusu çöz"
+                  ],
+                  "nextCheckpointId": "cp-geometri",
+                  "nextCheckpointTitle": "Geometri"
+                },
+                "partial": {
+                  "condition": "6–8/12 doğru",
+                  "headline": "→ Kaynak/materyal destekli pekiştirme",
+                  "detail": "Temel var ama tam oturmamış — aynı konuda hedefli setle devam.",
+                  "teacherSteps": [
+                    "Yanlış alt tipi tespit et (Kaynak/materyal)",
+                    "10 dk birebir: 3 kolay + 2 orta örnek"
+                  ],
+                  "studentSteps": [
+                    "Zayıf alt tipten 12 soru (Kaynak/materyal)",
+                    "3 örneği sesli çözüm yolu ile anlat"
+                  ],
+                  "nextCheckpointTitle": "Kaynak/materyal tekrar",
+                  "temperamentNote": "Muhammed görsel materyalle daha aktif — kaynak/materyal için tablo/harita/PDF ile somutlaştır."
+                },
+                "fail": {
+                  "condition": "<6/12 doğru veya ödev yapılmadı",
+                  "headline": "→ Kaynak/materyal temel tekrar",
+                  "detail": "Önce temel kavram ve kolay örneklerle güven inşa et, sonra tekrar ölç.",
+                  "teacherSteps": [
+                    "15 dk birebir: Kaynak/materyal için 5 kolay + 5 orta soru",
+                    "Zayıf alt konuyu birlikte belirle"
+                  ],
+                  "studentSteps": [
+                    "Konu listesi çıkar ve işaretle",
+                    "Zayıf konudan 15 kolay soru (Kaynak/materyal)"
+                  ],
+                  "nextCheckpointTitle": "Kaynak/materyal temel tekrar",
+                  "temperamentNote": "Muhammed görsel materyalle daha aktif — kaynak/materyal için tablo/harita/PDF ile somutlaştır."
+                }
+              }
+            },
+            {
+              "id": "cp-geometri",
+              "title": "Geometri",
+              "weekRange": "Hafta 6–8",
+              "status": "core",
+              "transcriptContext": "Muhammed'in matematikle ilgili sevmediği dersler arasında olması.",
+              "teacherFocus": [
+                "geometri konusunu transkriptteki örneklerle tekrarla",
+                "Her derste 2 LGS sorusu",
+                "Muhammed'ın anlama kontrolü: kendi cümlesiyle özet iste"
+              ],
+              "studentTasks": [
+                "Haftada 20 geometri sorusu",
+                "5 örnek çözümü deftere adım adım yaz",
+                "1 mini tekrar testi (geometri)"
+              ],
+              "homework": {
+                "title": "Geometri ödev seti",
+                "description": "Hedefli geometri pratiği",
+                "quantity": "20 soru, 4 gün",
+                "estimatedMinutes": 50
+              },
+              "test": {
+                "label": "Geometri kontrol testi",
+                "description": "12 soru — geometri",
+                "questionCount": 12,
+                "passScore": 9,
+                "partialScore": 6,
+                "format": "Geometri"
+              },
+              "outcomes": {
+                "pass": {
+                  "condition": "≥9/12 doğru (%75+)",
+                  "headline": "→ Problemler",
+                  "detail": "Geometri oturdu; Problemler hattına geç.",
+                  "teacherSteps": [
+                    "Geometri özetini 5 dk'da kapat",
+                    "Problemler için giriş örneği göster"
+                  ],
+                  "studentSteps": [
+                    "Son Geometri setini deftere işle",
+                    "Problemler için 5 ön hazırlık sorusu çöz"
+                  ],
+                  "nextCheckpointId": "cp-problemler",
+                  "nextCheckpointTitle": "Problemler"
+                },
+                "partial": {
+                  "condition": "6–8/12 doğru",
+                  "headline": "→ Geometri destekli pekiştirme",
+                  "detail": "Temel var ama tam oturmamış — aynı konuda hedefli setle devam.",
+                  "teacherSteps": [
+                    "Yanlış alt tipi tespit et (Geometri)",
+                    "10 dk birebir: 3 kolay + 2 orta örnek"
+                  ],
+                  "studentSteps": [
+                    "Zayıf alt tipten 12 soru (Geometri)",
+                    "3 örneği sesli çözüm yolu ile anlat"
+                  ],
+                  "nextCheckpointTitle": "Geometri tekrar",
+                  "temperamentNote": "Muhammed görsel materyalle daha aktif — geometri için tablo/harita/PDF ile somutlaştır."
+                },
+                "fail": {
+                  "condition": "<6/12 doğru veya ödev yapılmadı",
+                  "headline": "→ Geometri temel tekrar",
+                  "detail": "Önce temel kavram ve kolay örneklerle güven inşa et, sonra tekrar ölç.",
+                  "teacherSteps": [
+                    "15 dk birebir: Geometri için 5 kolay + 5 orta soru",
+                    "Zayıf alt konuyu birlikte belirle"
+                  ],
+                  "studentSteps": [
+                    "Konu listesi çıkar ve işaretle",
+                    "Zayıf konudan 15 kolay soru (Geometri)"
+                  ],
+                  "nextCheckpointTitle": "Geometri temel tekrar",
+                  "temperamentNote": "Muhammed görsel materyalle daha aktif — geometri için tablo/harita/PDF ile somutlaştır."
+                }
+              }
+            },
+            {
+              "id": "cp-problemler",
+              "title": "Problemler",
+              "weekRange": "Hafta 9–11",
+              "status": "core",
+              "transcriptContext": "Muhammed'in ders tekrarını yapmama eğiliminde olması.",
+              "teacherFocus": [
+                "problemler konusunu transkriptteki örneklerle tekrarla",
+                "Her derste 2 LGS sorusu",
+                "Muhammed'ın anlama kontrolü: kendi cümlesiyle özet iste"
+              ],
+              "studentTasks": [
+                "Haftada 20 problemler sorusu",
+                "5 örnek çözümü deftere adım adım yaz",
+                "1 mini tekrar testi (problemler)"
+              ],
+              "homework": {
+                "title": "Problemler ödev seti",
+                "description": "Hedefli problemler pratiği",
+                "quantity": "20 soru, 4 gün",
+                "estimatedMinutes": 50
+              },
+              "test": {
+                "label": "Problemler kontrol testi",
+                "description": "12 soru — problemler",
+                "questionCount": 12,
+                "passScore": 9,
+                "partialScore": 6,
+                "format": "Problemler"
+              },
+              "outcomes": {
+                "pass": {
+                  "condition": "≥9/12 doğru (%75+)",
+                  "headline": "→ Test/alıştırma",
+                  "detail": "Problemler oturdu; Test/alıştırma hattına geç.",
+                  "teacherSteps": [
+                    "Problemler özetini 5 dk'da kapat",
+                    "Test/alıştırma için giriş örneği göster"
+                  ],
+                  "studentSteps": [
+                    "Son Problemler setini deftere işle",
+                    "Test/alıştırma için 5 ön hazırlık sorusu çöz"
+                  ],
+                  "nextCheckpointId": "cp-test-al-t-rma",
+                  "nextCheckpointTitle": "Test/alıştırma"
+                },
+                "partial": {
+                  "condition": "6–8/12 doğru",
+                  "headline": "→ Problemler destekli pekiştirme",
+                  "detail": "Temel var ama tam oturmamış — aynı konuda hedefli setle devam.",
+                  "teacherSteps": [
+                    "Yanlış alt tipi tespit et (Problemler)",
+                    "10 dk birebir: 3 kolay + 2 orta örnek"
+                  ],
+                  "studentSteps": [
+                    "Zayıf alt tipten 12 soru (Problemler)",
+                    "3 örneği sesli çözüm yolu ile anlat"
+                  ],
+                  "nextCheckpointTitle": "Problemler tekrar",
+                  "temperamentNote": "Muhammed görsel materyalle daha aktif — problemler için tablo/harita/PDF ile somutlaştır."
+                },
+                "fail": {
+                  "condition": "<6/12 doğru veya ödev yapılmadı",
+                  "headline": "→ Problemler temel tekrar",
+                  "detail": "Önce temel kavram ve kolay örneklerle güven inşa et, sonra tekrar ölç.",
+                  "teacherSteps": [
+                    "15 dk birebir: Problemler için 5 kolay + 5 orta soru",
+                    "Zayıf alt konuyu birlikte belirle"
+                  ],
+                  "studentSteps": [
+                    "Konu listesi çıkar ve işaretle",
+                    "Zayıf konudan 15 kolay soru (Problemler)"
+                  ],
+                  "nextCheckpointTitle": "Problemler temel tekrar",
+                  "temperamentNote": "Muhammed görsel materyalle daha aktif — problemler için tablo/harita/PDF ile somutlaştır."
+                }
+              }
+            },
+            {
+              "id": "cp-test-al-t-rma",
+              "title": "Test/alıştırma",
+              "weekRange": "Hafta 12–14",
+              "status": "core",
+              "transcriptContext": "Muhammed'in derslerde daha fazla katılım göstermesi gerektiği.",
+              "teacherFocus": [
+                "test/alıştırma konusunu transkriptteki örneklerle tekrarla",
+                "Her derste 2 LGS sorusu",
+                "Muhammed'ın anlama kontrolü: kendi cümlesiyle özet iste"
+              ],
+              "studentTasks": [
+                "Haftada 20 test/alıştırma sorusu",
+                "5 örnek çözümü deftere adım adım yaz",
+                "1 mini tekrar testi (test/alıştırma)"
+              ],
+              "homework": {
+                "title": "Test/alıştırma ödev seti",
+                "description": "Hedefli test/alıştırma pratiği",
+                "quantity": "20 soru, 4 gün",
+                "estimatedMinutes": 50
+              },
+              "test": {
+                "label": "Test/alıştırma kontrol testi",
+                "description": "12 soru — test/alıştırma",
+                "questionCount": 12,
+                "passScore": 9,
+                "partialScore": 6,
+                "format": "Test/alıştırma"
+              },
+              "outcomes": {
+                "pass": {
+                  "condition": "≥9/12 doğru (%75+)",
+                  "headline": "→ Sonraki faz",
+                  "detail": "Faz hedefleri tamam; bir üst zorluk seviyesine geç.",
+                  "teacherSteps": [
+                    "Test/alıştırma özetini 5 dk'da kapat",
+                    "Genel tekrar planını güncelle"
+                  ],
+                  "studentSteps": [
+                    "Son Test/alıştırma setini deftere işle",
+                    "Haftalık tekrar listesini yaz"
+                  ],
+                  "nextCheckpointId": "cp-exam",
+                  "nextCheckpointTitle": "Faz kapanışı"
+                },
+                "partial": {
+                  "condition": "6–8/12 doğru",
+                  "headline": "→ Test/alıştırma destekli pekiştirme",
+                  "detail": "Temel var ama tam oturmamış — aynı konuda hedefli setle devam.",
+                  "teacherSteps": [
+                    "Yanlış alt tipi tespit et (Test/alıştırma)",
+                    "10 dk birebir: 3 kolay + 2 orta örnek"
+                  ],
+                  "studentSteps": [
+                    "Zayıf alt tipten 12 soru (Test/alıştırma)",
+                    "3 örneği sesli çözüm yolu ile anlat"
+                  ],
+                  "nextCheckpointTitle": "Test/alıştırma tekrar",
+                  "temperamentNote": "Muhammed görsel materyalle daha aktif — test/alıştırma için tablo/harita/PDF ile somutlaştır."
+                },
+                "fail": {
+                  "condition": "<6/12 doğru veya ödev yapılmadı",
+                  "headline": "→ Test/alıştırma temel tekrar",
+                  "detail": "Önce temel kavram ve kolay örneklerle güven inşa et, sonra tekrar ölç.",
+                  "teacherSteps": [
+                    "15 dk birebir: Test/alıştırma için 5 kolay + 5 orta soru",
+                    "Zayıf alt konuyu birlikte belirle"
+                  ],
+                  "studentSteps": [
+                    "Konu listesi çıkar ve işaretle",
+                    "Zayıf konudan 15 kolay soru (Test/alıştırma)"
+                  ],
+                  "nextCheckpointTitle": "Test/alıştırma temel tekrar",
+                  "temperamentNote": "Muhammed görsel materyalle daha aktif — test/alıştırma için tablo/harita/PDF ile somutlaştır."
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "phase-3",
+          "label": "Faz 3",
+          "months": "Ay 4–6",
+          "goal": "LGS deneme ritmi ve net hedef takibi",
+          "checkpoints": [
+            {
+              "id": "cp-exam",
+              "title": "LGS karışık deneme & analiz",
+              "weekRange": "Hafta 15–18",
+              "status": "exam",
+              "transcriptContext": "Transkriptte LGS/hedef planı konuşuldu",
+              "teacherFocus": [
+                "kaynak/materyal, geometri, problemler konularını karışık denemede ölç",
+                "Yanlış analizi: konu + hata tipi tablosu",
+                "Muhammed ile net hedefi güncelle"
+              ],
+              "studentTasks": [
+                "Tam 20 soruluk deneme çöz",
+                "Yanlışları konu bazlı listele",
+                "1 haftalık tekrar planı yaz"
+              ],
+              "homework": {
+                "title": "Deneme öncesi tekrar",
+                "description": "kaynak/materyal, geometri, problemler karışık set",
+                "quantity": "20 soruluk deneme + 10 tekrar sorusu",
+                "estimatedMinutes": 90
+              },
+              "test": {
+                "label": "Faz kapanış denemesi",
+                "description": "20 soru karışık — kaynak/materyal, geometri, problemler",
+                "questionCount": 20,
+                "passScore": 13,
+                "partialScore": 9,
+                "format": "LGS karışık deneme"
+              },
+              "outcomes": {
+                "pass": {
+                  "condition": "≥8/12 doğru",
+                  "headline": "→ Sonraki faz / üst seviye",
+                  "detail": "Faz hedefleri oturdu. Bir üst zorluk seviyesine geç.",
+                  "teacherSteps": [
+                    "Net hedefini güncelle",
+                    "Bir sonraki fazın konu önceliğini belirle"
+                  ],
+                  "studentSteps": [
+                    "Başarılı olduğun konuları listele",
+                    "Sonraki faz için haftalık plan yaz"
+                  ],
+                  "nextCheckpointTitle": "Sonraki faz"
+                },
+                "partial": {
+                  "condition": "5-7/12 doğru",
+                  "headline": "→ Hedefli tekrar + ikinci deneme",
+                  "detail": "Yakın ama yeterli değil — zayıf 2 konuya odaklan, 1 hafta sonra tekrar deneme.",
+                  "teacherSteps": [
+                    "En çok düşülen 2 konuyu seç",
+                    "Her birinden 10 soru + çözüm incelemesi"
+                  ],
+                  "studentSteps": [
+                    "Zayıf 2 konu: 20'şer soruluk set",
+                    "Denemeyi 1 hafta sonra tekrarla"
+                  ],
+                  "nextCheckpointTitle": "İkinci deneme"
+                },
+                "fail": {
+                  "condition": "<5/12 doğru",
+                  "headline": "→ Temel tekrar döngüsü",
+                  "detail": "Önce temel konulara dön, küçük setlerle güven inşa et.",
+                  "teacherSteps": [
+                    "3 temel konuyu seç; her birinden 8 kolay soru",
+                    "48 saat sonra kısa tekrar testi"
+                  ],
+                  "studentSteps": [
+                    "Zayıf 3 konu listesi çıkar",
+                    "Her konudan 10 kolay soru"
+                  ],
+                  "nextCheckpointTitle": "Temel tekrar",
+                  "temperamentNote": "Muhammed görsel materyalle daha aktif — karışık deneme için tablo/harita/PDF ile somutlaştır."
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "generatedFrom": "Tanışma dersi — bji-jxik-vzq transkripti (AI)",
+      "generatedAt": "2026-07-27T00:19:11.655Z"
+    },
+    "cev-xgmd-fjw": {
+      "lessonId": "cev-xgmd-fjw",
+      "title": "Ders — Rasyonel sayılar · Yol Haritası",
+      "subject": "Matematik",
+      "teacher": {
+        "name": "Büşra Çelik",
+        "avatar": "https://images.ozelderz.com/hocalar/temp_wvnbkd_1777221370324.jpg",
+        "title": "Matematik Öğretmeni"
+      },
+      "student": {
+        "name": "İlke İlke",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=%C4%B0lke%20%C4%B0lke",
+        "grade": "8. Sınıf",
+        "learningStyle": "Sorgulayıcı-Uygulamalı Öğrenen",
+        "temperamentSignals": [
+          "Sorgulayıcı ve detay odaklı bir öğrenme yaklaşımı var.",
+          "Öğrenme süreçlerinde uygulamalı ve pratik adımlara ihtiyaç duyuyor.",
+          "Uzun anlatımlar dikkatini dağıtabilir; kısa ve net açıklamalar tercih edilmeli."
+        ]
+      },
+      "introLessonInsights": [
+        "İlke'nin düşük katılımı ve öğretmenin baskın konuşması dikkat çekiyor.",
+        "İlke, denklemler konusunda kendine güveniyor ancak rasyonel sayılarda zorlanıyor.",
+        "Öğrenci, açıklama yaparak konuları daha iyi anlıyor.",
+        "Performans kaygısı ve sınav stresi İlke'nin öğrenme motivasyonunu etkileyebilir."
+      ],
+      "phases": [
+        {
+          "id": "phase-1",
+          "label": "Faz 1",
+          "months": "Ay 1-2",
+          "goal": "Rasyonel sayılar ve denklemler konusunda temel güven oluşturma",
+          "checkpoints": [
+            {
+              "id": "cp-1",
+              "title": "Rasyonel Sayılar Temelleri",
+              "weekRange": "Hafta 1-2",
+              "status": "foundation",
+              "transcriptContext": "İlke'nin rasyonel sayılarda zorlandığını belirtmesi",
+              "teacherFocus": [
+                "Rasyonel sayıların temel tanımını ve özelliklerini açıklamak",
+                "Kısa ve anlaşılır örnekler sunmak",
+                "Öğrencinin sorularını teşvik etmek ve yanıtlamak"
+              ],
+              "studentTasks": [
+                "Rasyonel sayılarla ilgili temel kavramları incelemek",
+                "Örnek sorularla pratik yapmak",
+                "Soruları öğretmenle tartışmak"
+              ],
+              "homework": {
+                "title": "Rasyonel Sayılar Alıştırmaları",
+                "description": "Temel rasyonel sayı sorularını çözmek",
+                "quantity": "20 soru, 3 gün",
+                "estimatedMinutes": 45
+              },
+              "test": {
+                "label": "Rasyonel Sayılar Testi",
+                "description": "Temel kavramları ve basit işlemleri kapsayan test",
+                "questionCount": 12,
+                "passScore": 8,
+                "partialScore": 6,
+                "format": "Çoktan seçmeli"
+              },
+              "outcomes": {
+                "pass": {
+                  "condition": "≥8/12 doğru",
+                  "headline": "Rasyonel Sayılar İleri Konulara Geçiş",
+                  "detail": "İlke, rasyonel sayılar konusunda güven kazandı ve ileri konulara geçebilir.",
+                  "teacherSteps": [
+                    "İleri rasyonel sayı problemlerine odaklan",
+                    "LGS ile bağlantılı sorular ekle"
+                  ],
+                  "studentSteps": [
+                    "İleri düzey konuları incele",
+                    "LGS'ye yönelik stratejik çalışma yap"
+                  ],
+                  "nextCheckpointId": "cp-2",
+                  "nextCheckpointTitle": "Rasyonel Sayılar İleri Konular"
+                },
+                "partial": {
+                  "condition": "6-7/12 doğru",
+                  "headline": "Destekli Rasyonel Sayılar Pekiştirme",
+                  "detail": "İlke, rasyonel sayılar konusunda biraz daha desteğe ihtiyaç duyuyor.",
+                  "teacherSteps": [
+                    "Ek açıklamalarla örnek tekrar et",
+                    "Öğrencinin yanlışlarını adım adım incele"
+                  ],
+                  "studentSteps": [
+                    "Anlaşılmayan konuları tekrar gözden geçir",
+                    "Ek pratik yap"
+                  ],
+                  "nextCheckpointTitle": "Rasyonel Sayılar Pekiştirme"
+                },
+                "fail": {
+                  "condition": "<6/12 veya ödev yapılmadı",
+                  "headline": "Temel Rasyonel Sayılar Tekrarı",
+                  "detail": "İlke, rasyonel sayılar temelinde sorun yaşıyor; başa dönülmeli.",
+                  "teacherSteps": [
+                    "Temel kavramları yeniden açıkla",
+                    "Daha fazla görsel ve uygulamalı örnek kullan"
+                  ],
+                  "studentSteps": [
+                    "Temel kavramları gözden geçir",
+                    "Daha fazla örnek ile pratik yap"
+                  ],
+                  "nextCheckpointTitle": "Rasyonel Sayılar Temel Tekrarı",
+                  "temperamentNote": "İlke'nin dikkatini toplamak için kısa ve öz açıklamalar önemlidir."
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "generatedFrom": "Konu dersi — cev-xgmd-fjw transkripti (AI)",
+      "generatedAt": "2026-07-27T00:17:17.345Z"
+    }
+  }
+}

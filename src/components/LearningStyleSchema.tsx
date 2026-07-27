@@ -1,7 +1,10 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import Link from "next/link";
+import { ArrowRight, Map } from "lucide-react";
 import type { LearningStyleAnalysis } from "@/types";
+import type { LessonRoadmap } from "@/types/roadmap";
 import Tabs, { Panel } from "@/components/ui/Tabs";
 
 const barColors = {
@@ -13,14 +16,28 @@ const barColors = {
 interface LearningStyleSchemaProps {
   analysis: LearningStyleAnalysis;
   studentName: string;
+  lessonId?: string;
 }
 
 export default function LearningStyleSchema({
   analysis,
   studentName,
+  lessonId,
 }: LearningStyleSchemaProps) {
   const [tab, setTab] = useState("dimensions");
+  const [roadmap, setRoadmap] = useState<LessonRoadmap | null>(null);
   const firstName = studentName.split(" ")[0];
+
+  useEffect(() => {
+    if (!lessonId) return;
+    fetch(`/api/roadmap/${lessonId}`)
+      .then((r) => (r.ok ? r.json() : null))
+      .then(setRoadmap)
+      .catch(() => setRoadmap(null));
+  }, [lessonId]);
+
+  const checkpointCount =
+    roadmap?.phases.reduce((n, p) => n + p.checkpoints.length, 0) ?? 0;
 
   return (
     <Panel noPadding>
@@ -83,15 +100,25 @@ export default function LearningStyleSchema({
                 {firstName} şunlardan daha iyi anlıyor
               </p>
               <ul className="space-y-2">
-                {analysis.understandsBetter.map((item) => (
+                {analysis.understandsBetter.length === 0 && (
+                  <li className="rounded-xl border border-dashed border-stone-200 p-3 text-xs text-stone-400">
+                    Bu ders için henüz transkript tabanlı analiz üretilmedi.
+                  </li>
+                )}
+                {analysis.understandsBetter.map((item, i) => (
                   <li
-                    key={item.area}
+                    key={`${item.area}-${i}`}
                     className="rounded-xl border border-green-100 bg-green-50/40 p-3"
                   >
                     <p className="text-sm font-medium text-stone-800">
                       {item.area}
                     </p>
                     <p className="mt-1 text-xs text-stone-600">{item.reason}</p>
+                    {item.example && (
+                      <p className="mt-2 border-l-2 border-green-300 pl-2 text-xs italic text-stone-500">
+                        &ldquo;{item.example}&rdquo;
+                      </p>
+                    )}
                   </li>
                 ))}
               </ul>
@@ -101,15 +128,21 @@ export default function LearningStyleSchema({
                 Zorlandığı alanlar
               </p>
               <ul className="space-y-2">
-                {analysis.understandsLess.map((item) => (
+                {analysis.understandsLess.length === 0 && (
+                  <li className="rounded-xl border border-dashed border-stone-200 p-3 text-xs text-stone-400">
+                    Transkriptte belirgin zorlanma sinyali çıkmadı veya analiz henüz üretilmedi.
+                  </li>
+                )}
+                {analysis.understandsLess.map((item, i) => (
                   <li
-                    key={item.area}
+                    key={`${item.area}-${i}`}
                     className="rounded-xl border border-red-100 bg-red-50/30 p-3"
                   >
                     <p className="text-sm font-medium text-stone-800">
                       {item.area}
                     </p>
-                    <p className="mt-1 text-xs text-red-700">
+                    <p className="mt-1 text-xs text-stone-600">{item.reason}</p>
+                    <p className="mt-2 text-xs text-red-700">
                       → {item.alternative}
                     </p>
                   </li>
@@ -120,22 +153,88 @@ export default function LearningStyleSchema({
         )}
 
         {tab === "guide" && (
-          <div className="space-y-3">
-            {analysis.approachGuide.map((step, i) => (
-              <div
-                key={step.when}
-                className="flex gap-3 rounded-xl border border-stone-100 p-4"
-              >
-                <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-red-100 text-xs font-bold text-red-700">
-                  {i + 1}
-                </span>
-                <div>
-                  <p className="text-xs font-medium text-red-600">
-                    {step.when}
-                  </p>
-                  <p className="mt-1 text-sm text-stone-800">{step.doThis}</p>
-                  <p className="mt-1 text-xs text-stone-500">{step.because}</p>
+          <div className="space-y-4">
+            {lessonId && roadmap && (
+              <div className="rounded-xl border border-red-100 bg-gradient-to-br from-red-50/80 to-white p-4">
+                <div className="flex items-start justify-between gap-3">
+                  <div>
+                    <p className="flex items-center gap-1.5 text-xs font-bold uppercase tracking-wide text-red-600">
+                      <Map size={14} />
+                      Yol haritası
+                    </p>
+                    <p className="mt-1 text-sm font-semibold text-stone-900">
+                      {roadmap.subject}
+                    </p>
+                    <p className="mt-1 text-xs text-stone-500">
+                      {roadmap.phases.length} faz · {checkpointCount} checkpoint ·
+                      what-if ağacı
+                    </p>
+                  </div>
+                  <Link
+                    href={`/yol-haritasi/${lessonId}`}
+                    className="inline-flex shrink-0 items-center gap-1 rounded-full bg-red-600 px-3 py-1.5 text-xs font-medium text-white hover:bg-red-700"
+                  >
+                    Git
+                    <ArrowRight size={12} />
+                  </Link>
                 </div>
+
+                {roadmap.introLessonInsights.length > 0 && (
+                  <ul className="bullet-list stone mt-3 text-xs">
+                    {roadmap.introLessonInsights.slice(0, 3).map((insight) => (
+                      <li key={insight}>{insight}</li>
+                    ))}
+                  </ul>
+                )}
+
+                <div className="mt-3 space-y-2">
+                  {roadmap.phases.map((phase) => (
+                    <div
+                      key={phase.id}
+                      className="rounded-lg border border-stone-100 bg-white/80 px-3 py-2"
+                    >
+                      <p className="text-xs font-medium text-stone-800">
+                        {phase.label} · {phase.months}
+                      </p>
+                      <p className="mt-0.5 text-xs text-stone-500">{phase.goal}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {lessonId && !roadmap && (
+              <p className="text-sm text-stone-400">
+                Bu ders için yol haritası yükleniyor veya henüz üretilmedi.
+              </p>
+            )}
+
+            {analysis.approachGuide.length === 0 && !roadmap && (
+              <p className="text-sm text-stone-400">
+                Bu ders için henüz taktik üretilmedi.
+              </p>
+            )}
+
+            {analysis.approachGuide.length > 0 && (
+              <p className="text-xs font-semibold uppercase tracking-wide text-stone-400">
+                Öğretim taktikleri
+              </p>
+            )}
+
+            {analysis.approachGuide.map((item) => (
+              <div
+                key={item.title}
+                className="rounded-xl border border-stone-100 p-4"
+              >
+                <p className="text-sm font-semibold text-stone-900">
+                  {item.title}
+                </p>
+                <p className="mt-2 text-xs text-red-700">
+                  Eksiklik: {item.gap}
+                </p>
+                <p className="mt-2 text-sm leading-relaxed text-stone-700">
+                  {item.tactic}
+                </p>
               </div>
             ))}
           </div>

@@ -8,6 +8,7 @@ import {
   type ProfileBuildContext,
   teacherProfileId,
 } from "@/lib/profile-build-context";
+import { getStoredTeacherProfile } from "@/lib/profile-store";
 
 const TEACHER = "SPEAKER_00";
 const STUDENT = "SPEAKER_01";
@@ -100,6 +101,8 @@ export function buildTeacherProfileFromTranscript(
   const firstName = name.split(" ")[0];
   const studentFirst = context.studentName.split(" ")[0];
 
+  const stored = getStoredTeacherProfile(context.lessonId);
+
   const teachingStyleAnalysis = buildTeachingStyleAnalysis(
     teacherSegs,
     firstName,
@@ -116,6 +119,10 @@ export function buildTeacherProfileFromTranscript(
       teacherQuestions: teacherQuestions.length,
       avgGap,
       studentLongTurns,
+      excelsWith: stored?.excelsWith,
+      lessSuitedFor: stored?.lessSuitedFor,
+      matchingGuide: stored?.matchingGuide,
+      overview: stored?.overview,
     }
   );
 
@@ -332,16 +339,24 @@ export function buildTeacherProfileFromTranscript(
     title: context.teacherTitle,
     subject: context.subject,
     avatar: context.teacherAvatar,
-    tags: [...new Set(tags)],
+    tags: stored?.tags?.length ? stored.tags : [...new Set(tags)],
     teachingScore,
     teachingStyle,
     teachingStyleDescription: teachingStyleAnalysis.overview,
     teachingStyleAnalysis,
-    strengths: strengths.slice(0, 6),
-    developmentAreas: developmentAreas.slice(0, 4),
-    studentTypeMatches,
-    coordinatorTips,
-    notableQuotes,
+    strengths: stored?.strengths?.length ? stored.strengths : strengths.slice(0, 6),
+    developmentAreas: stored?.developmentAreas?.length
+      ? stored.developmentAreas
+      : developmentAreas.slice(0, 4),
+    studentTypeMatches: stored?.studentTypeMatches?.length
+      ? stored.studentTypeMatches
+      : studentTypeMatches,
+    coordinatorTips: stored?.coordinatorTips?.length
+      ? stored.coordinatorTips
+      : coordinatorTips,
+    notableQuotes: stored?.notableQuotes?.length
+      ? stored.notableQuotes
+      : notableQuotes,
     teachingMetrics: {
       talkRatioPct,
       questionCount: teacherQuestions.length,

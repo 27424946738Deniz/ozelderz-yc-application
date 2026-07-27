@@ -1,0 +1,4049 @@
+{
+  "version": 1,
+  "students": {
+    "bao-wvxv-ksx": {
+      "meetCode": "bao-wvxv-ksx",
+      "tags": [
+        "matematik",
+        "8.sınıf",
+        "tanışma dersi",
+        "öğrenme"
+      ],
+      "goals": [
+        "Matematik konularında daha derinlemesine bilgi sahibi olmak",
+        "Kesirli denklemler ve basamak analizinde yetkinlik kazanmak",
+        "ÖSYM sınavlarında daha başarılı olmak",
+        "Matematik netlerini artırmak için düzenli çalışma planı oluşturmak"
+      ],
+      "interestAreas": [
+        {
+          "label": "Tek ve Çift Sayılar",
+          "detail": "Soru çözümünde her yıl karşılaşılan bir konu olarak dikkatini çekiyor.",
+          "level": "high"
+        },
+        {
+          "label": "Rasyonel ve İrrasyonel Sayılar",
+          "detail": "Tanımlar ve örneklerle ilgileniyor, özellikle pi sayısı gibi örnekler veriyor.",
+          "level": "medium"
+        },
+        {
+          "label": "Basamak Analizi",
+          "detail": "Öğrenme zorluğu çektiği bir alan olmasına rağmen ilgisini çekiyor.",
+          "level": "medium"
+        },
+        {
+          "label": "Çıkmış Sorular",
+          "detail": "ÖSYM'nin soru kalıplarını incelemek ve anlamak istiyor.",
+          "level": "high"
+        }
+      ],
+      "strengths": [
+        "Tek ve çift sayıların kurallarını hızlıca kavrayabiliyor.",
+        "Rasyonel ve irrasyonel sayılar arasında doğru örnekler verebiliyor.",
+        "Matematik konularına olan ilgisi yüksek ve sürekli soru sorarak öğrenmeye çalışıyor.",
+        "Öğrenme sürecinde aktif katılımcı, ders boyunca sorulara yanıt veriyor.",
+        "Öğretmenle iletişimi iyi, anlamadığı konuları açıkça ifade ediyor."
+      ],
+      "challenges": [
+        "Kesirli denklemlerin çözümünde karışıklık yaşıyor.",
+        "Basamak analizini anlamakta zorluk çekiyor.",
+        "Matematik konularını zamanında bitirme konusunda zorlanabilir.",
+        "Düzenli çalışma alışkanlığı geliştirmekte güçlük çekebilir."
+      ],
+      "motivationTriggers": [
+        "Çıkmış sorular üzerinden pratik yaparak konuları pekiştirmek",
+        "Düzenli hedef koyarak netlerini artırma isteği",
+        "ÖSYM'nin soru kalıplarını çözebilme arzusu",
+        "Başarıya ulaşma yönünde öğretmen desteği almak"
+      ],
+      "teachingTips": [
+        "Kesirli denklemler için adım adım örnekler sunarak konuyu basitleştirin.",
+        "Basamak analizi konusunda daha fazla pratik soru çözümü yapın.",
+        "Öğrencinin ilgisini çeken konulara odaklanarak ders içeriğini zenginleştirin.",
+        "Düzenli çalışma ve hedef belirleme konusunda motive edici konuşmalar yapın.",
+        "Öğrencinin güçlü olduğu konuları tekrar ederek özgüvenini artırın.",
+        "Çıkmış sorular üzerinde çalışarak sınav stratejileri geliştirmesine yardımcı olun."
+      ],
+      "notableQuotes": [
+        {
+          "text": "Çıkmış sorulardan ne soruyorlar, konuyla ilgili ne sorabiliyorlar, temel kavramlarda ona bakabiliriz.",
+          "time": "5:03"
+        },
+        {
+          "text": "Yine tek olur. Yine tek olur. Evet, çiftle çifti toplarsam sonuç ne olacak? Çift olacak. Çift olur.",
+          "time": "10:11"
+        },
+        {
+          "text": "ne olur? Çift sayı olur. Çünkü iki geliyor ya çift sayı. Evet, İki iki çarpanı olduğu için içinde içinde iki çarpanı varsa bunlar zaten her türlü ne olacak? Her türlü çift gelecek burada.",
+          "time": "12:11"
+        },
+        {
+          "text": "sonuç çift olur. Hey cevap ver. Ne soruyor bize çift olanları soruyor. O zaman cevap iki ve üç olur mu? Evet.",
+          "time": "27:22"
+        },
+        {
+          "text": "Şimdi bunun dışında ne soruyorlar burada bize biliyor musun? Asal sayıları çok soruyorlar.",
+          "time": "45:47"
+        },
+        {
+          "text": "Artar zamanla artar emin ol ve kendine ne yapabiliyor musun? Hedefler koy. Yani şunu yap aylık hedeflerin olsun, haftalık hedeflerin olsun",
+          "time": "56:50"
+        }
+      ],
+      "generatedAt": "2026-07-27T00:26:57.859Z"
+    },
+    "bji-jxik-vzq": {
+      "meetCode": "bji-jxik-vzq",
+      "tags": [
+        "motivasyon",
+        "odaklanma",
+        "okuduğunu anlama",
+        "dikkat"
+      ],
+      "goals": [
+        "Derslere daha iyi odaklanabilmek",
+        "Okuduğunu anlama becerisini geliştirmek",
+        "İçsel motivasyonunu artırmak",
+        "Ders sonrası tekrar yapma alışkanlığı kazanmak",
+        "Matematik dersine olan ilgisini artırmak"
+      ],
+      "interestAreas": [
+        {
+          "label": "Sosyal Bilgiler",
+          "detail": "Muhammed'in sosyal bilgiler dersinde başarılı olduğu belirtiliyor.",
+          "level": "high"
+        },
+        {
+          "label": "Teknoloji",
+          "detail": "Teknolojiyle ilgili derslerde daha iyi performans gösterdiği belirtiliyor.",
+          "level": "medium"
+        },
+        {
+          "label": "Futbol",
+          "detail": "Futbol oynamaktan hoşlanıyor.",
+          "level": "high"
+        },
+        {
+          "label": "Kitap Okuma",
+          "detail": "Kitap okuma alışkanlığını geliştirmesi gerektiği üzerinde duruluyor.",
+          "level": "low"
+        }
+      ],
+      "strengths": [
+        "Sosyal bilgiler dersinde yüksek notlar alabiliyor.",
+        "Teknolojiyi ders çalışmada etkili kullanabiliyor.",
+        "Ödüller ve dışsal motivasyon unsurlarıyla performansı artabiliyor.",
+        "Bir konuda odaklandığında iyi sonuçlar alabiliyor.",
+        "Özel projelerde ve yarışmalarda başarılı olabiliyor."
+      ],
+      "challenges": [
+        "Derse odaklanma konusunda sıkıntı yaşıyor.",
+        "Okuduğunu anlamada zorluk çekiyor.",
+        "Ders sonrası tekrar yapma alışkanlığı yok.",
+        "Motivasyon eksikliği nedeniyle ders çalışmak için dışsal ödüllere ihtiyaç duyuyor.",
+        "Kendi başına inisiyatif alarak ders çalışmıyor."
+      ],
+      "motivationTriggers": [
+        "Dışsal ödüller, örneğin kulaklık gibi ödüller için çaba gösterebiliyor.",
+        "Sosyal bilgiler dersinde başarılı olması onu motive ediyor.",
+        "Teknolojiyle uğraşmak hoşuna gidiyor.",
+        "Futbol gibi ilgi duyduğu alanlarda daha istekli."
+      ],
+      "teachingTips": [
+        "Derslerde kısa süreli odaklanma egzersizleri uygulanabilir.",
+        "Öğrencinin ilgisini çekecek projelerle içsel motivasyonu artırılabilir.",
+        "Kısa ve ilgi çekici metinlerle okuduğunu anlama çalışmaları yapılabilir.",
+        "Ders sonrası tekrar yapması için bir rutin oluşturulabilir.",
+        "Matematik dersini sevdirmek için farklı öğretim yöntemleri denenebilir.",
+        "Öğrenciye başarı duygusunu tattıracak küçük hedefler koyulabilir."
+      ],
+      "notableQuotes": [
+        {
+          "text": "Hah açıldı şimdi. Merhabalar.",
+          "time": "4:20"
+        },
+        {
+          "text": "Kitap okumayı bırakmayalım. Pardon hocam. Burada söyleyeyim de Muhammed aslında hani",
+          "time": "21:22"
+        },
+        {
+          "text": "ondan değil de böyle farklı okuyan bir tane kelimesini böyle kısaltarak okuyor. Yani kısa yolda okuyor aslında hani uzatarak değil. Biraz bir sabırsızlık var sanki.",
+          "time": "23:02"
+        },
+        {
+          "text": "şu her şeyden bana şu kelimeyi kullanıyorlar. Ama diyor eğer isterse diyor gerçekten sınıfta en iyi öğrenci diyor Muhammed'dir",
+          "time": "36:16"
+        },
+        {
+          "text": "Orada hani işte orada katılan öğrenciler işte bedava. Kulaklık, bluetooth da kulaklık veriliyordu.",
+          "time": "37:45"
+        },
+        {
+          "text": "çağımızın problemi yani. Hastalık artık hastalık. Evet evet evet. Ya ben bunun için ilaç da kullanıyorum Muhammed'de.",
+          "time": "44:19"
+        }
+      ],
+      "generatedAt": "2026-07-27T00:27:15.421Z"
+    },
+    "cev-xgmd-fjw": {
+      "meetCode": "cev-xgmd-fjw",
+      "tags": [
+        "matematik",
+        "sekizinci sınıf",
+        "rasyonel sayılar",
+        "denklemler"
+      ],
+      "goals": [
+        "Eşitliklerin korunumu konusunda daha iyi olmak",
+        "İki bilinmeyenli denklemlerle başa çıkabilmek",
+        "Rasyonel sayılar konusunu pekiştirmek",
+        "Matematikte genel olarak daha fazla özgüven kazanmak"
+      ],
+      "interestAreas": [
+        {
+          "label": "Denklem Çözme",
+          "detail": "Denklemleri çözme konusunda kendine güveniyor",
+          "level": "high"
+        },
+        {
+          "label": "Ters Orantı Problemleri",
+          "detail": "Ters orantı problemlerini çözmekten hoşlanıyor",
+          "level": "medium"
+        },
+        {
+          "label": "Bisiklet ve Scooter Sürme",
+          "detail": "Bisiklet ve scooter sürmeyi seviyor",
+          "level": "high"
+        },
+        {
+          "label": "Basketbol",
+          "detail": "Basketbolu futbolun önünde tutuyor",
+          "level": "medium"
+        }
+      ],
+      "strengths": [
+        "Denklemleri çözme konusunda kendine güveniyor ve doğru sonuçlar elde edebiliyor.",
+        "Ters orantı problemlerini doğru bir şekilde çözebiliyor.",
+        "Aktif olarak sorulara katılım gösteriyor ve çözüm süreçlerini açıklayabiliyor.",
+        "Görsel materyallerle çalışmaya açık, bu da öğrenme sürecini destekleyebilir.",
+        "Bağımsız çalışma alışkanlığı geliştiriyor, evde annesiyle çalışıyor."
+      ],
+      "challenges": [
+        "Eşitliklerin korunumu konusunu anlamakta zorlanıyor.",
+        "İki bilinmeyenli denklemler konusunda eksiklik hissediyor.",
+        "İnternet bağlantısı kararsız olduğunda dikkatini toplamakta zorlanabilir.",
+        "Orantı konusunu sevmiyor, bu da motivasyonunu etkileyebilir."
+      ],
+      "motivationTriggers": [
+        "Görsel materyaller ve somut örneklerle desteklenmiş dersler",
+        "Bağımsız çalışma zamanları ve bu süreçte rehberlik",
+        "Başarıyla çözdüğü problemler üzerinden aldığı olumlu geri bildirimler",
+        "Kendi başarılarını fark etmesi ve bunları kutlama"
+      ],
+      "teachingTips": [
+        "Eşitliklerin korunumu konusunu daha fazla pratik örnekle pekiştirin.",
+        "İki bilinmeyenli denklemlerle ilgili adım adım çözüm örnekleri sunun.",
+        "Görsel materyaller ve somut örnekler kullanarak konuları açıklayın.",
+        "Öğrencinin bağımsız olarak çalışabileceği kaynaklar önerin.",
+        "Öğrencinin güçlü olduğu alanlarda başarılarını takdir edin ve motive edin."
+      ],
+      "notableQuotes": [
+        {
+          "text": "Tekirdağ'dayım.",
+          "time": "4:28"
+        },
+        {
+          "text": "Canım eşkenar üçgen ise hepsi altmıştır. Hepsini bütün CEMİSHELER yazıp eşittir altmış yapacağız. Hepsine denk. Aynen öyle. İstersek",
+          "time": "6:55"
+        },
+        {
+          "text": "O eşittir doksan sekiz, yirmi dört x eşittir doksan altı oluyor. X de dört oluyor.",
+          "time": "10:41"
+        },
+        {
+          "text": "gitmiyorum ama evde kendim çalışıyorum, annemle çalışıyorum. Süper,",
+          "time": "19:13"
+        },
+        {
+          "text": "bisiklet ve scooter sürmeyi seviyorum.",
+          "time": "34:08"
+        },
+        {
+          "text": "Yani futbol çok sevmem ama basketbol daha çok severim.",
+          "time": "34:16"
+        },
+        {
+          "text": "iyi olduğumu düşünüyorum ama sevdiğim bir konu değil.",
+          "time": "38:17"
+        },
+        {
+          "text": "Ters orantı olduğu için on beşle altıyı çarptım. Doksan, doksan dokuza böldüm. On ama kaç işçiye daha ihtiyaç vardır dediği için ondan altı çıkarttım dört.",
+          "time": "39:27"
+        }
+      ],
+      "generatedAt": "2026-07-27T00:27:41.586Z"
+    },
+    "ckn-yurm-vyd": {
+      "meetCode": "ckn-yurm-vyd",
+      "tags": [
+        "matematik",
+        "sekizinci sınıf",
+        "ders",
+        "öğrenme"
+      ],
+      "goals": [
+        "Matematik dersinde başarılı olmak",
+        "Fen lisesine girmek",
+        "Matematikte ön yargıları yenmek",
+        "Daha fazla deneme çözerek kendini geliştirmek"
+      ],
+      "interestAreas": [
+        {
+          "label": "Matematik",
+          "detail": "Matematiği seviyor ve bu konuda başarılı olmak istiyor.",
+          "level": "high"
+        },
+        {
+          "label": "Türkçe",
+          "detail": "Daha önce Türkçe öğretmeni olmayı düşünmüş.",
+          "level": "medium"
+        },
+        {
+          "label": "Futbol",
+          "detail": "Galatasaray taraftarı, ancak fazla takip etmiyor.",
+          "level": "low"
+        },
+        {
+          "label": "Öğretmenlik",
+          "detail": "Büyüyünce öğretmen olmayı düşünüyor.",
+          "level": "medium"
+        }
+      ],
+      "strengths": [
+        "Kesirlerin çarpılması ve sadeleştirme işlemlerinde rahat.",
+        "Matematiğe karşı ön yargısı yok ve öğrenmeye istekli.",
+        "Matematik dersinde öğretmenlerini çok seviyor ve bu motivasyon sağlıyor.",
+        "Konuşarak rahatlıyor ve bu da derslerdeki stresini azaltıyor.",
+        "Soruları çözme sırasında yardım istemekten çekinmiyor."
+      ],
+      "challenges": [
+        "Ondalık gösterim ve kesir dönüşümünde karışıklık yaşıyor.",
+        "Karışık problemlerde ve birden fazla adım içeren sorularda zorlanıyor.",
+        "Matematik terimlerini ve kavramları karıştırıyor.",
+        "Deneme sınavlarında yeterince deneyimi yok.",
+        "Soruların basit olduğunu bilmese de sormaktan çekiniyor."
+      ],
+      "motivationTriggers": [
+        "Öğretmenleriyle iyi ilişkiler kurmak",
+        "Matematik dersinde başarılı olma isteği",
+        "Fen lisesine girme hedefi",
+        "Öğrenirken konuşarak rahatlamak"
+      ],
+      "teachingTips": [
+        "Kesirleri ondalık sayılara dönüştürme işlemini görsel materyallerle destekleyin.",
+        "Karışık problemleri adım adım çözmesi için teşvik edin.",
+        "Matematik terimleri için kısa tanımlar içeren referans kartları hazırlayın.",
+        "Ders sırasında konuşmasına izin vererek rahatlamasını sağlayın.",
+        "Daha fazla deneme sınavı çözmesi için cesaretlendirin."
+      ],
+      "notableQuotes": [
+        {
+          "text": "Matematik seviyorum.",
+          "time": "1:56"
+        },
+        {
+          "text": "yani matematiğe karşı bir ön yargım yok. Öğrenmek Çok başarılı olmak istiyorum.",
+          "time": "2:02"
+        },
+        {
+          "text": "ilçesinde oturuyoruz İsrail diye. Oradaki pen lisesi var. Oraya girmek istiyorum inşallah. Ay inşallah.",
+          "time": "33:49"
+        },
+        {
+          "text": "o en sevdiğim ders ve o en o büyüyünce o öğretmen olmak istiyorum.",
+          "time": "53:11"
+        },
+        {
+          "text": "bir insanım. Yüzden arada ve beni çok rahatlatıyor.",
+          "time": "54:03"
+        }
+      ],
+      "generatedAt": "2026-07-27T00:27:50.881Z"
+    },
+    "cqi-brqh-evi": {
+      "meetCode": "cqi-brqh-evi",
+      "tags": [
+        "matematik",
+        "rasyonel sayılar",
+        "8. sınıf",
+        "öğrenme"
+      ],
+      "goals": [
+        "Rasyonel sayılar konusunda daha iyi olmak",
+        "Ondalık ve devirli sayıları daha iyi anlamak",
+        "Oran ve orantı konularında gelişmek",
+        "Daha fazla deneme çözerek sınavlara hazırlanmak",
+        "Matematikte genel başarıyı artırmak"
+      ],
+      "interestAreas": [
+        {
+          "label": "Temel İşlemler",
+          "detail": "Toplama ve çarpma işlemleri",
+          "level": "high"
+        },
+        {
+          "label": "Denklemler",
+          "detail": "Denklem çözme ve anlama",
+          "level": "high"
+        },
+        {
+          "label": "Rasyonel Sayılar",
+          "detail": "Rasyonel sayıların dönüştürülmesi",
+          "level": "medium"
+        },
+        {
+          "label": "Ondalık Sayılar",
+          "detail": "Ondalık ve devirli sayıların anlaşılması",
+          "level": "low"
+        }
+      ],
+      "strengths": [
+        "Toplama ve çarpma işlemlerinde rahat.",
+        "Denklemlerle ilgili kendine güveniyor.",
+        "Kendi kendine öğrenme ve kitaplardan çalışma alışkanlığı var.",
+        "Soru bankaları ve deneme kitapları kullanarak pratik yapıyor.",
+        "MEB kazanım kavrama testlerini kullanarak pekiştirme yapıyor."
+      ],
+      "challenges": [
+        "Ondalık ve devirli sayılar konusunda zorlanıyor.",
+        "Oran ve orantı konularında daha fazla desteğe ihtiyaç duyuyor.",
+        "Bazı matematik konularını aklında tutmakta zorlanıyor.",
+        "Rasyonel sayılar konusunda tam olarak kendini yeterli hissetmiyor."
+      ],
+      "motivationTriggers": [
+        "Zorlandığı konuların üstesinden gelmek için pratik yapma isteği.",
+        "Başarıyı artırmak için düzenli deneme çözme alışkanlığı.",
+        "Denklemler gibi güçlü olduğu alanlarda daha fazla başarı elde etme isteği.",
+        "Kendi öğrenme yöntemlerini geliştirme arzusu."
+      ],
+      "teachingTips": [
+        "Ondalık ve devirli sayılar için görsel materyaller ve somut örnekler kullanın.",
+        "Oran ve orantı konularını günlük yaşamdan örneklerle ilişkilendirin.",
+        "Denklemler konusunda daha ileri düzey problemler sunarak motivasyonunu artırın.",
+        "Kendi kendine öğrenme becerilerini teşvik edin, kaynak önerilerinde bulunun.",
+        "Düzenli geri bildirim vererek ilerlemesini takip edin."
+      ],
+      "notableQuotes": [
+        {
+          "text": "Şu meet'ten mi açtın evlat? Hıhı, direkt Link'ten açtık.",
+          "time": "0:27"
+        },
+        {
+          "text": "Ben İnci Nisa. İnci'yi daha çok tercih ediyorum.",
+          "time": "1:13"
+        },
+        {
+          "text": "Denklemlerle aram iyi, rasyonellerle çok değil yani elli elli gibi.",
+          "time": "1:55"
+        },
+        {
+          "text": "Hani onları çözüyorum daha çok. Çözebildiğim sorular olursa onlara bakıyorum. Bir de MEB'in kazanım kavrama testlerinden çözüyorum.",
+          "time": "3:28"
+        },
+        {
+          "text": "Tamam. Hani oran orantı yüzdeler biraz daha zor geliyor. Onun dışında takıldığım bir konu yok.",
+          "time": "35:06"
+        }
+      ],
+      "generatedAt": "2026-07-27T00:27:55.572Z"
+    },
+    "cup-ebmb-nwm": {
+      "meetCode": "cup-ebmb-nwm",
+      "tags": [
+        "matematik",
+        "trigonometri",
+        "problem çözme",
+        "8. sınıf"
+      ],
+      "goals": [
+        "Trigonometri konularını daha iyi kavramak",
+        "Karmaşık problemleri daha rahat çözebilmek",
+        "Ders sırasında not alma becerilerini geliştirmek",
+        "Matematikte pratik uygulamaları daha iyi yapabilmek",
+        "Öğrenme sürecinde daha aktif katılım sağlamak"
+      ],
+      "interestAreas": [
+        {
+          "label": "Trigonometri",
+          "detail": "Terimleri ve oranları doğru bir şekilde kullanabilme",
+          "level": "high"
+        },
+        {
+          "label": "Pratik Uygulamalar",
+          "detail": "Teorik bilgileri uygulamaya dökme",
+          "level": "medium"
+        },
+        {
+          "label": "Problem Çözme",
+          "detail": "Karmaşık problemleri çözme isteği",
+          "level": "medium"
+        },
+        {
+          "label": "Ders Materyalleri",
+          "detail": "Ders materyallerini takip etme isteği",
+          "level": "low"
+        }
+      ],
+      "strengths": [
+        "Trigonometri terimleri ve oranlarını doğru bir şekilde tekrar edebiliyor.",
+        "Teorik bilgileri pratik uygulamalara dökme konusunda rahat hissediyor.",
+        "Ders sırasında sorulan soruları yanıtlamaya çalışıyor.",
+        "Kendi notlarını alarak öğrenme sürecini desteklemeye çalışıyor.",
+        "Matematik konularını anlamak için aktif çaba gösteriyor."
+      ],
+      "challenges": [
+        "Karmaşık problemleri çözmede zorlanıyor.",
+        "Ders sırasında not almayı ve materyali takip etmeyi güç buluyor.",
+        "Ders katılım yüzdesi düşük, daha fazla katılım göstermesi gerekebilir.",
+        "Ders sırasında bazı konuları kaçırıyor ve tekrar etmesi gerekiyor."
+      ],
+      "motivationTriggers": [
+        "Başarıyla tamamladığı her problem onu motive ediyor.",
+        "Öğretmenin pozitif geri bildirimi onu cesaretlendiriyor.",
+        "Ders sırasında öğrendiği yeni bilgiler ilgisini çekiyor.",
+        "Kendi notlarını alarak ilerleme kaydetmek istiyor."
+      ],
+      "teachingTips": [
+        "Karmaşık problemleri daha basit adımlara bölerek öğretin.",
+        "Not alma konusunda daha fazla zaman tanıyın veya özet materyaller sunun.",
+        "Derste aktif katılımını artırmak için sorular sorun ve teşvik edin.",
+        "Öğrencinin güçlü olduğu trigonometri konularında daha fazla pratik yaptırın.",
+        "Öğrenme sürecini eğlenceli hale getirmek için etkileşimli materyaller kullanın."
+      ],
+      "notableQuotes": [
+        {
+          "text": "Karşı bölü hipotenüs.",
+          "time": "10:21"
+        },
+        {
+          "text": "Bu bunu söylüyor bize aslında. Tamam, hemen yazabilir miyim defterime?",
+          "time": "16:46"
+        },
+        {
+          "text": "sen Ortadan ölünce dik",
+          "time": "20:33"
+        },
+        {
+          "text": "Çok zor değilmiş Başlangıç seviyeler. Çok zor değil",
+          "time": "22:52"
+        },
+        {
+          "text": "Ters çevirip çarpabiliriz.",
+          "time": "28:17"
+        }
+      ],
+      "generatedAt": "2026-07-27T00:28:11.532Z"
+    },
+    "dkk-jbjc-uvf": {
+      "meetCode": "dkk-jbjc-uvf",
+      "tags": [
+        "Matematik",
+        "LGS",
+        "Çarpım Tablosu",
+        "Üslü Sayılar"
+      ],
+      "goals": [
+        "LGS'ye hazırlanmak ve başarılı bir sonuç elde etmek",
+        "Matematikteki eksiklerini kapatmak",
+        "Çarpım tablosuna hakim olmak",
+        "Üslü sayıların mantığını kavramak"
+      ],
+      "interestAreas": [
+        {
+          "label": "Matematik",
+          "detail": "Matematik konularına ilgi duyuyor ve eksiklerini tamamlamak istiyor.",
+          "level": "high"
+        },
+        {
+          "label": "LGS Hazırlık",
+          "detail": "LGS sınavına hazırlanmak istiyor, bu konuda özel ders almayı düşünüyor.",
+          "level": "high"
+        },
+        {
+          "label": "İşlem Önceliği",
+          "detail": "İşlem önceliği konusunu adım adım öğrenmekten keyif alıyor.",
+          "level": "medium"
+        },
+        {
+          "label": "Fizik Tedavi",
+          "detail": "Fizik tedavi süreci yaşıyor, bu durum öğrenme sürecini etkileyebilir.",
+          "level": "medium"
+        }
+      ],
+      "strengths": [
+        "İşlem önceliği konusunda adım adım ilerleyerek doğru sonuçlara ulaşabiliyor.",
+        "Matematik konularında eksiklerini fark edip bunları kapatma isteği gösteriyor.",
+        "Ders sırasında öğretmene sorular sorarak aktif katılım sağlıyor.",
+        "Kendi öğrenme stiline uygun yöntemleri denemeye açık.",
+        "Öğretmenle iyi iletişim kurarak derse olan ilgisini artırıyor."
+      ],
+      "challenges": [
+        "Çarpım tablosuna yeterince hakim değil ve bu durum bazı temel işlemlerde zorlanmasına neden oluyor.",
+        "Üslü sayıların mantığını anlamakta zorluk yaşıyor.",
+        "Fizik tedavi süreci nedeniyle zaman zaman yoruluyor ve bu durum ders verimliliğini etkileyebilir.",
+        "Online derslerde rahat hissetmeyebilir ve bu durum stres yaratabilir."
+      ],
+      "motivationTriggers": [
+        "LGS'de başarılı olma isteği",
+        "Matematikteki eksiklerini kapatma arzusu",
+        "Öğretmenle iyi iletişim kurma ve derslerde aktif katılım",
+        "Kendi öğrenme stiline uygun yöntemler bulma"
+      ],
+      "teachingTips": [
+        "Çarpım tablosu ve temel çarpma işlemleri için çalışma kağıtları hazırlayın.",
+        "Üslü sayılar için görsel materyaller kullanarak konuyu somutlaştırın.",
+        "Ders sırasında öğrenciye sorular sorarak aktif katılımını teşvik edin.",
+        "Online derslerde rahat hissetmesi için ortamı mümkün olduğunca konforlu hale getirin.",
+        "Öğrencinin kendi öğrenme stiline uygun yöntemler denemesine izin verin.",
+        "Her dersin başında hedefleri net bir şekilde belirleyin ve ders sonunda bu hedeflerin ne kadarına ulaşıldığını değerlendirin."
+      ],
+      "notableQuotes": [
+        {
+          "text": "LGS'ye girmeyi düşünüyorsun. Ay çok güzel.",
+          "time": "8:11"
+        },
+        {
+          "text": "tamamen LGS çalışacağız. Ne zaman sekizinci sınıf konularına geçebiliriz o da önemli.",
+          "time": "12:48"
+        },
+        {
+          "text": "Böyle bir ufak işlem önceliğinden başlayalım mı?",
+          "time": "14:56"
+        },
+        {
+          "text": "o ekran üzerinde anlayamam, sizin anlatmanıza ihtiyaç duyarım diyorsan derse de yapabiliriz bunu. Hiç problem değil. Önemli olan öğrenme.",
+          "time": "19:52"
+        },
+        {
+          "text": "Burada anlamadığın ya da tekrar etmemi istediğin, aklına takılan, oturmayan herhangi bir şey varsa mutlaka danış. Hiç çekinmene gerek yok.",
+          "time": "22:56"
+        },
+        {
+          "text": "Sonra işlemleri yaz. İşlemleri sonradan devam ettir. Bak çok daha rahat çözeceksin.",
+          "time": "49:39"
+        },
+        {
+          "text": "Çok güzel bir ders. Çok keyif aldım. Dersin nasıl geçtiğini anlamadım.",
+          "time": "59:05"
+        },
+        {
+          "text": "Hayır, yok başka bir şey. Teşekkür ederim. Ben teşekkür ederim. İyi günler diliyorum. Kendine çok iyi bak. Siz de.",
+          "time": "60:01"
+        }
+      ],
+      "generatedAt": "2026-07-27T00:28:17.856Z"
+    },
+    "dpj-rpde-pft": {
+      "meetCode": "dpj-rpde-pft",
+      "tags": [
+        "matematik",
+        "deneme yanılma",
+        "çarpanlar",
+        "motivasyon"
+      ],
+      "goals": [
+        "Matematikte yeni nesil soruları çözme yeteneğini geliştirmek.",
+        "Çarpanlar ve bölenler konusunu daha iyi anlamak.",
+        "Matematik derslerinde daha yüksek başarı elde etmek.",
+        "Deneme sınavlarında daha iyi performans göstermek."
+      ],
+      "interestAreas": [
+        {
+          "label": "Deneme ve Yanılma",
+          "detail": "Öğrenci, deneme ve yanılma ile öğrenme sürecine ilgi duyuyor.",
+          "level": "high"
+        },
+        {
+          "label": "Günlük Hayat Uygulamaları",
+          "detail": "Matematik konularını günlük yaşamla ilişkilendirme konusunda meraklı.",
+          "level": "medium"
+        },
+        {
+          "label": "Spor",
+          "detail": "Futbol ve masa tenisi gibi sporlarla ilgileniyor.",
+          "level": "medium"
+        },
+        {
+          "label": "Bilgisayar Oyunları",
+          "detail": "Bilgisayar oyunları oynamaktan hoşlanıyor.",
+          "level": "high"
+        }
+      ],
+      "strengths": [
+        "Deneme ve yanılma yoluyla öğrenmeye karşı pozitif bir tutumu var.",
+        "Günlük yaşamdan örneklerle konuları daha iyi kavrayabiliyor.",
+        "Sürekli deneme yaparak öğrenme sürecine katkıda bulunuyor.",
+        "Spor yaparak fiziksel aktiviteye ilgi gösteriyor.",
+        "Motivasyonunu yüksek tutmak için hedeflerini belirleyebiliyor."
+      ],
+      "challenges": [
+        "Çarpanlar ve bölenler konusunda kavram karışıklığı yaşıyor.",
+        "Sayıların eşleştirilmesi ve çarpımı konularında zorlanıyor.",
+        "Yeni nesil matematik sorularında bazen kafa karışıklığı yaşayabiliyor.",
+        "Stres altında performansını etkileyebilecek durumlarla başa çıkmada zorlanabiliyor."
+      ],
+      "motivationTriggers": [
+        "Başarıya ulaşmak için deneme yanılma yöntemini kullanmak.",
+        "Günlük yaşamdan alınan örneklerle konuları pekiştirmek.",
+        "Spor yaparak fiziksel ve zihinsel rahatlama sağlamak.",
+        "Bilgisayar oyunları oynamak."
+      ],
+      "teachingTips": [
+        "Öğrenciye deneme ve yanılma yöntemini kullanarak öğrenme fırsatları sunun.",
+        "Günlük yaşamdan örnekler kullanarak konuları somutlaştırın.",
+        "Çarpanlar ve bölenler konusunu somut örnekler ve görsellerle destekleyin.",
+        "Basit ve adım adım ilerleyen örneklerle sayıların eşleştirilmesi ve çarpımını pekiştirin.",
+        "Öğrencinin stresle başa çıkmasına yardımcı olacak motivasyon teknikleri geliştirin.",
+        "Spor ve oyunlar üzerinden motivasyon sağlamaya çalışın.",
+        "Öğrencinin kendi öğrenme sürecini değerlendirmesine olanak tanıyın."
+      ],
+      "notableQuotes": [
+        {
+          "text": "akşamlar. Evet, kimyos merhaba iyi akşamlar.",
+          "time": "20:55"
+        },
+        {
+          "text": "Yüzlerce binlerce deneme yaptın değil mi? Evet hocam. Zihinsel",
+          "time": "30:08"
+        },
+        {
+          "text": "Arkamdaki köpek varken hocam. Değil mi? O zaman bak stres bazen",
+          "time": "35:58"
+        },
+        {
+          "text": "hedefin yükseklerde olsun senin. Yani maksimum seviyeyi düşün.",
+          "time": "34:31"
+        },
+        {
+          "text": "Sürekli bir ararsın değil mi o bilgisayar oyununu?",
+          "time": "62:39"
+        }
+      ],
+      "generatedAt": "2026-07-27T00:28:50.367Z"
+    },
+    "dve-naye-uxc": {
+      "meetCode": "dve-naye-uxc",
+      "tags": [
+        "matematik",
+        "8. sınıf",
+        "problemler",
+        "katılım"
+      ],
+      "goals": [
+        "Problemler konusunda daha iyi anlamak",
+        "Matematik dersinde genel başarıyı artırmak",
+        "Sınavlarda daha yüksek puanlar elde etmek",
+        "Matematik dersine olan ilgiyi artırmak"
+      ],
+      "interestAreas": [
+        {
+          "label": "Matematik",
+          "detail": "Özellikle problemler konusunda gelişmek istiyor",
+          "level": "high"
+        },
+        {
+          "label": "Sınav Başarısı",
+          "detail": "Daha yüksek notlar almak",
+          "level": "high"
+        },
+        {
+          "label": "Akademik Gelişim",
+          "detail": "Genel ders başarılarını artırmak",
+          "level": "medium"
+        },
+        {
+          "label": "Öğrenme Stratejileri",
+          "detail": "Daha etkili çalışma yöntemleri keşfetmek",
+          "level": "medium"
+        }
+      ],
+      "strengths": [
+        "Ders süresince herhangi bir katılım göstermemesi nedeniyle belirlenemedi.",
+        "Öğretmenin yönlendirmeleriyle daha iyi performans gösterebilir.",
+        "Problemler konusunda gelişme isteği var.",
+        "Matematikte genel bir ilgi alanı mevcut.",
+        "Sınav başarısını artırmayı hedefliyor."
+      ],
+      "challenges": [
+        "Ders süresince hiç katılım göstermedi.",
+        "Soru sormakta çekingen davranıyor.",
+        "Problemler konusunda net bir anlama eksikliği var.",
+        "Motivasyon eksikliği gibi görünüyor.",
+        "Daha etkili çalışma stratejilerine ihtiyaç duyuyor."
+      ],
+      "motivationTriggers": [
+        "Sınavlarda daha iyi sonuçlar elde etmek",
+        "Problemler konusunda net bir anlayışa sahip olmak",
+        "Matematik dersine olan ilgiyi artırmak",
+        "Başarı duygusunu tatmak"
+      ],
+      "teachingTips": [
+        "Eslem'i derse daha fazla katılmaya teşvik edecek yöntemler geliştirin.",
+        "Soru sorması için güven verici bir ortam oluşturun.",
+        "Problemler konusunda temel kavramları yeniden gözden geçirin.",
+        "Çalışma yöntemlerini birlikte keşfedin ve önerilerde bulunun.",
+        "Motivasyonunu artırmak için olumlu geri bildirimler verin.",
+        "Dersleri daha interaktif hale getirerek ilgisini çekmeye çalışın."
+      ],
+      "notableQuotes": [],
+      "generatedAt": "2026-07-27T00:29:03.856Z"
+    },
+    "eks-qgow-why": {
+      "meetCode": "eks-qgow-why",
+      "tags": [
+        "matematik",
+        "8. sınıf",
+        "öğrenme",
+        "motivasyon"
+      ],
+      "goals": [
+        "Matematik netlerini artırmak",
+        "Farklı soru türleri üzerinde çalışma alışkanlığı kazanmak",
+        "Karmaşık matematik işlemlerini daha iyi anlamak",
+        "Kimya dersindeki zorlukları aşmak"
+      ],
+      "interestAreas": [
+        {
+          "label": "Matematik",
+          "detail": "Matematik, sevilen bir ders ve üzerinde çalışmak istiyor.",
+          "level": "high"
+        },
+        {
+          "label": "Fizik",
+          "detail": "Fizik dersini yapabiliyor ve bu konuda daha rahat.",
+          "level": "medium"
+        },
+        {
+          "label": "Kimya",
+          "detail": "Kimya dersinde zorlanıyor, bu alanda gelişim hedefliyor.",
+          "level": "low"
+        },
+        {
+          "label": "Kitaplardan Soru Çözme",
+          "detail": "Önceden kitaplardan soru çözme alışkanlığı var.",
+          "level": "medium"
+        }
+      ],
+      "strengths": [
+        "Öğretmenin söylediklerini sık sık onaylıyor, bu da konuları anladığını gösteriyor.",
+        "Önceden çözdüğü sorulara dair güvenle konuşuyor.",
+        "Tekrar ve onaylama yöntemleriyle konuları pekiştiriyor.",
+        "Matematiği seviyor ve bu derste kendini geliştirmek istiyor.",
+        "Problemleri çözme konusunda kararlı ve çözüm odaklı bir yaklaşım sergiliyor."
+      ],
+      "challenges": [
+        "Aynı türdeki soruların üzerine gitmek istemiyor.",
+        "Karmaşık işlemlerle karşılaştığında tereddüt ediyor.",
+        "Kimya dersinde zorlanıyor.",
+        "Matematik netleri istenilen seviyede değil."
+      ],
+      "motivationTriggers": [
+        "Matematik dersine olan ilgisi ve sevgisi",
+        "Farklı türde sorularla karşılaşmak",
+        "Önceden çözülmüş soruların üzerinden geçmek",
+        "Başarıya ulaşma isteği"
+      ],
+      "teachingTips": [
+        "Ders sırasında farklı soru türleriyle çalışarak monotonluğu kır.",
+        "Karmaşık işlemleri daha basit adımlara bölerek anlat.",
+        "Öğrencinin ilgisini çekecek şekilde matematik dersine odaklan.",
+        "Öğrencinin önceden çözdüğü sorular üzerinde geri bildirim ver.",
+        "Kimya konusunda destekleyici materyaller öner."
+      ],
+      "notableQuotes": [
+        {
+          "text": "Kötüydü yani. İlk senemdi kötü geçti. Kötü bir sıralama yaptım.",
+          "time": "6:13"
+        },
+        {
+          "text": "Hocam şu soruları biraz geçsek mi ya?",
+          "time": "35:06"
+        },
+        {
+          "text": "Evet. İstersen... Ben çözmüşüm zaten şöyle bir soru.",
+          "time": "40:13"
+        },
+        {
+          "text": "Kimyada zorlanıyorum.",
+          "time": "55:27"
+        },
+        {
+          "text": "Yani fiziği yine yapabiliyorum.",
+          "time": "55:32"
+        },
+        {
+          "text": "Geçen hafta seviye seviye çalışıyorum.",
+          "time": "55:45"
+        },
+        {
+          "text": "Kitabım vardı çözüyordum.",
+          "time": "57:24"
+        },
+        {
+          "text": "Teşekkürler hocam.",
+          "time": "57:44"
+        }
+      ],
+      "generatedAt": "2026-07-27T00:29:36.286Z"
+    },
+    "epj-hinw-dng": {
+      "meetCode": "epj-hinw-dng",
+      "tags": [
+        "matematik",
+        "trigonometri",
+        "fonksiyonlar",
+        "köklü sayılar"
+      ],
+      "goals": [
+        "Fonksiyonlar konusundaki yetkinliğini daha da geliştirmek.",
+        "Trigonometri konusundaki mevcut becerilerini güçlendirmek.",
+        "Köklü sayılar ve temel işlemler konusunda karışıklığı gidermek.",
+        "Çembersel sorulara daha iyi hakim olmak."
+      ],
+      "interestAreas": [
+        {
+          "label": "Fonksiyonlar",
+          "detail": "Fonksiyonlar konusuna hakimiyetini artırmak istiyor.",
+          "level": "high"
+        },
+        {
+          "label": "Trigonometri",
+          "detail": "Trigonometrik oranları kullanma konusunda kendine güveniyor.",
+          "level": "high"
+        },
+        {
+          "label": "Köklü Sayılar",
+          "detail": "Bu alanda karışıklık yaşadığını belirtiyor.",
+          "level": "medium"
+        },
+        {
+          "label": "Çembersel Sorular",
+          "detail": "Çembersel soruları anlamakta güçlük çektiğini ifade ediyor.",
+          "level": "low"
+        }
+      ],
+      "strengths": [
+        "Fonksiyonlar konusuna oldukça hakim ve bu konuda kendine güveniyor.",
+        "Trigonometrik oranları doğru bir şekilde hatırlayıp uygulayabiliyor.",
+        "Öğrenme sürecinde aktif katılım gösteriyor.",
+        "Matematik konularında kendini geliştirmek için istekli.",
+        "Öğretmenle etkili iletişim kurabiliyor."
+      ],
+      "challenges": [
+        "Köklü sayılar ve temel işlemler konusunda karışıklık yaşıyor.",
+        "Çembersel soruları anlamakta zorluk çekiyor.",
+        "Bazen temel işlemlerde karıştırmalar yapabiliyor.",
+        "Matematik geçmişinde bazı konuları boşladığını ifade ediyor."
+      ],
+      "motivationTriggers": [
+        "Başarıya odaklanmak ve mevcut yeteneklerini geliştirmek.",
+        "Öğretmenle olumlu bir ilişki kurmak ve geri bildirim almak.",
+        "Kendi güçlü olduğu konularda ilerleme kaydetmek.",
+        "Zorlandığı konularda ilerleme görmek."
+      ],
+      "teachingTips": [
+        "Öğrencinin fonksiyonlar konusundaki yetkinliğini daha da pekiştirecek ileri düzey alıştırmalar sunun.",
+        "Trigonometri konusunda öğrenciye daha fazla problem çözme fırsatı verin.",
+        "Köklü sayılar konusunda görsel araçlar ve somut örneklerle konuyu pekiştirin.",
+        "Çembersel sorular için adım adım çözümler ve pratik uygulamalar sunun.",
+        "Öğrencinin güçlü olduğu alanlarda motivasyonunu artırmak için olumlu geri bildirim verin.",
+        "Öğrencinin katılımını artırmak için ders sırasında aktif sorular sorun.",
+        "Öğrencinin zorlandığı konular için bireysel çalışma planı oluşturun."
+      ],
+      "notableQuotes": [
+        {
+          "text": "Dokuzdaki",
+          "time": "5:31"
+        },
+        {
+          "text": "matematik konularını biraz boşlamıştım ama onun dışında",
+          "time": "5:32"
+        },
+        {
+          "text": "ondaki konular fonksiyonlar",
+          "time": "5:35"
+        },
+        {
+          "text": "onları iyi yapabiliyorum.",
+          "time": "5:37"
+        },
+        {
+          "text": "en başlardaki köklü sayılar gibi yani",
+          "time": "5:41"
+        },
+        {
+          "text": "temel işlemlerde bazen karıştırmalar filan oluyor.",
+          "time": "5:44"
+        },
+        {
+          "text": "Karşı bölü karşı komşu, karşı bölü komşu. Karşı bölü komşu, altı bölü dokuz.",
+          "time": "23:11"
+        },
+        {
+          "text": "hiç sorularda filan anlamadım.",
+          "time": "53:42"
+        }
+      ],
+      "generatedAt": "2026-07-27T00:30:32.340Z"
+    },
+    "gvk-iyie-ood": {
+      "meetCode": "gvk-iyie-ood",
+      "tags": [
+        "fen bilimleri",
+        "kimya",
+        "öğrenme isteği",
+        "işbirliği"
+      ],
+      "goals": [
+        "Dokuzuncu sınıf kimya konularını tam anlamak ve eksikliklerini gidermek.",
+        "Periyodik tablo ve elementleri daha iyi anlamak.",
+        "Onuncu sınıf kimya konularını yoğun bir şekilde çalışarak tamamlamak.",
+        "Kendi çalışma yöntemlerini geliştirerek daha verimli öğrenme sağlamak."
+      ],
+      "interestAreas": [
+        {
+          "label": "Kendi Çalışma Yöntemleri",
+          "detail": "Öğrenci, ders dışında kendi başına çalışmayı ve not almayı önemsiyor.",
+          "level": "high"
+        },
+        {
+          "label": "Miray Yayınları",
+          "detail": "Öğrenci, Miray Yayınları kitabını kullanarak çalışmayı tercih ediyor.",
+          "level": "medium"
+        },
+        {
+          "label": "Kimya",
+          "detail": "Kimya konularına özellikle dokuzuncu ve onuncu sınıf düzeyinde ilgi duyuyor.",
+          "level": "medium"
+        },
+        {
+          "label": "Periyodik Tablo",
+          "detail": "Periyodik tablo ve elementlerin dizilimi konusunda bilgi sahibi olmayı istiyor.",
+          "level": "medium"
+        }
+      ],
+      "strengths": [
+        "Kendi başına çalışma ve not alma konusunda istekli.",
+        "Öğretmenin önerilerine açık ve işbirliği yapmaya istekli.",
+        "Yoğun çalışmak ve konuları derinlemesine öğrenmek istiyor.",
+        "Çalışma materyalleri ve kaynakları hakkında bilinçli tercihler yapabiliyor.",
+        "Kendi öğrenme sürecini organize etmekte yetenekli."
+      ],
+      "challenges": [
+        "Dokuzuncu sınıf kimya konularında eksiklik yaşıyor.",
+        "Periyodik tablo ve elementlerin yerleştirilmesinde belirsizlikler yaşıyor.",
+        "Derslerde katılım yüzdesi düşük, bu da öğrenme sürecini etkileyebilir.",
+        "Dokuzuncu sınıf kimya konularını tam olarak anlamadığı için onuncu sınıf konularında da zorluk yaşayabiliyor."
+      ],
+      "motivationTriggers": [
+        "Kendi başına not alarak çalışmak.",
+        "Öğretmenle işbirliği yaparak dersleri daha iyi anlamak.",
+        "Belirli bir hedefe yönelik yoğun çalışmak.",
+        "Kendi seçtiği kaynaklarla çalışmak."
+      ],
+      "teachingTips": [
+        "Dokuzuncu sınıf kimya konularını görsel materyallerle destekleyerek yeniden anlatın.",
+        "Periyodik tabloyu görsel araçlarla açıklayarak öğrencinin kavramasını kolaylaştırın.",
+        "Öğrencinin kendi çalışma yöntemlerini teşvik edin ve bu konuda rehberlik edin.",
+        "Miray Yayınları kitabını ders planınıza dahil edin.",
+        "Öğrencinin yoğun çalışmak istemesini göz önünde bulundurarak ders temposunu ayarlayın."
+      ],
+      "notableQuotes": [
+        {
+          "text": "Doğru mu? Evet hocam. Yaz bitince on bire geçiyorum.",
+          "time": "6:25"
+        },
+        {
+          "text": "çok iyi değildi. Bir de ben de dersleri o kadar ilgi göstermiyorum dokuzuncu sınıfta. Hıhı. Ya dokuzuncu sınıf kimyam hiç yok diyebilirim neredeyse.",
+          "time": "6:42"
+        },
+        {
+          "text": "Hocam şey dokuzu şu anda tamamen yeniden mi anlatacaksınız?",
+          "time": "8:18"
+        },
+        {
+          "text": "Şimdi benim bir tane dokuzuncu sınıf kitabım var. Kimya kitabı. Hıhı. Böyle çok temelleri öğretiyor.",
+          "time": "17:05"
+        },
+        {
+          "text": "bitirmek istiyorum açıkçası onuncu sınıf kimyasını.",
+          "time": "20:35"
+        },
+        {
+          "text": "iyi bir seviyeye getirmek istiyorum. Benim hatta bir soru kitabım var. Hıhı. Kimyadan onuncu sınıf için. Hıhı. O kitabı da bitirmek istiyorum açıkçası.",
+          "time": "25:13"
+        },
+        {
+          "text": "şöyle yapabilir miyiz hocam? Miray kitabından devam edebilir miyiz? Daha mantıklı olur bence.",
+          "time": "55:50"
+        }
+      ],
+      "generatedAt": "2026-07-27T00:31:12.734Z"
+    },
+    "hin-dqah-qpb": {
+      "meetCode": "hin-dqah-qpb",
+      "tags": [
+        "matematik",
+        "8. sınıf",
+        "tanışma",
+        "pasif katılım"
+      ],
+      "goals": [
+        "Matematikteki temel kavramları daha iyi anlamak",
+        "Matematik dersinde notlarını yükseltmek",
+        "Öz güvenini artırarak sınıf içinde daha aktif olmak",
+        "Günlük matematik problemlerini çözme becerisini geliştirmek"
+      ],
+      "interestAreas": [
+        {
+          "label": "Matematik",
+          "detail": "Temel kavramların anlaşılması",
+          "level": "medium"
+        },
+        {
+          "label": "Problem Çözme",
+          "detail": "Günlük hayatta karşılaşılan problemleri çözme",
+          "level": "medium"
+        },
+        {
+          "label": "Öz güven",
+          "detail": "Sınıf içinde daha aktif olma",
+          "level": "low"
+        },
+        {
+          "label": "Akademik Başarı",
+          "detail": "Notlarını yükseltme",
+          "level": "medium"
+        }
+      ],
+      "strengths": [
+        "Ders süresince dinleyici pozisyonunda kalması",
+        "Matematikle ilgili genel bir ilgiye sahip olması",
+        "Akademik başarıya yönelik motivasyonunun olması",
+        "Matematik problemlerine karşı merak duyması",
+        "Öğrenme isteği"
+      ],
+      "challenges": [
+        "Ders sırasında hiç katılım göstermemesi",
+        "Soru sormaktan çekinmesi",
+        "Öz güven eksikliği nedeniyle sınıf içinde aktif olmaması",
+        "Öğrenme sürecinde pasif kalması"
+      ],
+      "motivationTriggers": [
+        "Başarıya odaklanmak",
+        "Matematik problemlerini çözme isteği",
+        "Öz güvenini artırma hedefi",
+        "Akademik notlarını yükseltme arzusu"
+      ],
+      "teachingTips": [
+        "Öğrenciyi derse daha fazla katılım göstermesi için cesaretlendir.",
+        "Matematik problemlerini günlük yaşamla ilişkilendirerek ilgisini artır.",
+        "Öz güvenini artırmak için küçük başarılar elde etmesine olanak tanı.",
+        "Soru sormasını teşvik etmek için güvenli bir öğrenme ortamı oluştur.",
+        "Dersleri ilgi çekici hale getirmek için çeşitli öğretim teknikleri kullan.",
+        "Öğrencinin güçlü yönlerini vurgulayarak motivasyonunu artır."
+      ],
+      "notableQuotes": [],
+      "generatedAt": "2026-07-27T00:31:47.090Z"
+    },
+    "hph-xevo-ggx": {
+      "meetCode": "hph-xevo-ggx",
+      "tags": [
+        "matematik",
+        "dil çevirisi",
+        "dikkat",
+        "konsantrasyon"
+      ],
+      "goals": [
+        "Matematik kavramlarını anlamada daha iyi olmak",
+        "Dikkatini ve konsantrasyonunu geliştirmek",
+        "İngilizce dil becerilerini ilerletmek",
+        "Derslere daha aktif katılım sağlamak",
+        "Matematiksel terimlerde karışıklığı azaltmak"
+      ],
+      "interestAreas": [
+        {
+          "label": "Dil Çevirisi",
+          "detail": "İngilizce kelimeleri Türkçeye çevirmeye ilgi duyuyor.",
+          "level": "high"
+        },
+        {
+          "label": "Matematik",
+          "detail": "Matematiksel kavramları anlamada zorlanmasına rağmen ilgi gösteriyor.",
+          "level": "medium"
+        },
+        {
+          "label": "İngilizce",
+          "detail": "İngilizce konuşma ve anlama yeteneğini geliştirmek istiyor.",
+          "level": "high"
+        },
+        {
+          "label": "Teknoloji",
+          "detail": "Bilgisayar ve teknolojik terimlere ilgi duyuyor.",
+          "level": "medium"
+        }
+      ],
+      "strengths": [
+        "İngilizce kelimeleri Türkçeye çevirmede rahat hissediyor.",
+        "Ders sırasında öğretmenle iletişim kurmaktan çekinmiyor.",
+        "Öğrenmeye hevesli ve yeni şeyler denemeye açık.",
+        "Sorular sorarak aktif katılım göstermeye çalışıyor.",
+        "Ders esnasında esprili ve rahat bir dil kullanıyor."
+      ],
+      "challenges": [
+        "Matematiksel kavramları anlamada güçlük çekiyor.",
+        "Dikkatini uzun süre odaklamakta zorlanıyor.",
+        "Ders sırasında konular arasında hızlı geçişler yapıyor.",
+        "Matematiksel terimlerde karışıklık yaşıyor."
+      ],
+      "motivationTriggers": [
+        "İngilizce dil becerilerini geliştirmek için teşvik edilmek",
+        "Başarı hissi ve olumlu geri bildirim almak",
+        "Derslerde aktif katılımın ödüllendirilmesi",
+        "Görsel materyaller ve interaktif içerikler"
+      ],
+      "teachingTips": [
+        "Matematik derslerinde görsel materyaller kullanarak kavramları somutlaştırmak.",
+        "Ders akışını daha yapılandırılmış ve adım adım ilerleyerek planlamak.",
+        "Öğrencinin dikkatini çekmek için interaktif ve eğlenceli aktiviteler eklemek.",
+        "İngilizce dil becerilerini geliştirmek için çeviri aktiviteleri kullanmak.",
+        "Öğrencinin aktif katılımını teşvik ederek sorular sorması için cesaretlendirmek."
+      ],
+      "notableQuotes": [
+        {
+          "text": "Bana kalsa direkt konuya geçeriz.",
+          "time": "11:21"
+        },
+        {
+          "text": "Evet, siz İngilizce söyleseniz ben Türkçesini söylesem?",
+          "time": "13:55"
+        },
+        {
+          "text": "diye değil mi? Ha baharı heceleyeceğim.",
+          "time": "20:40"
+        },
+        {
+          "text": "harfi İngilizcesi",
+          "time": "21:21"
+        },
+        {
+          "text": "dilim ucunda ama...",
+          "time": "44:31"
+        },
+        {
+          "text": "Hocam ders kaçta başlıyor?",
+          "time": "56:03"
+        }
+      ],
+      "generatedAt": "2026-07-27T00:32:14.433Z"
+    }
+  },
+  "teachers": {
+    "bji-jxik-vzq": {
+      "meetCode": "bji-jxik-vzq",
+      "tags": [
+        "motivasyon",
+        "ders tekrarı",
+        "futbol",
+        "okuma alışkanlığı",
+        "LGS hazırlığı"
+      ],
+      "strengths": [
+        "Öğrencinin ilgi alanlarına yönelik motivasyon sağlama konusunda başarılı. (Örneğin, futbol üzerinden motivasyon oluşturma)",
+        "Öğrencinin günlük çalışma alışkanlıkları geliştirmesi için önerilerde bulunuyor.",
+        "Sohbet havasında ders işleyerek öğrenciyi rahatlatıyor ve kendini ifade etmesine olanak tanıyor.",
+        "Öğrencinin motivasyonunu artırmak için bireysel hedefler belirlemesine yardımcı oluyor.",
+        "Öğrencinin ders dışındaki aktivitelerini ve hobilerini öğrenmeye çalışarak, kişisel bağ kuruyor.",
+        "Öğrencinin ders tekrarı yapma alışkanlığını kazanması için somut öneriler sunuyor.",
+        "Öğrencinin okuma alışkanlıklarını geliştirmek için dışından okuma gibi farklı yöntemler öneriyor.",
+        "Öğrencinin zaman yönetimi yapmasına yardımcı olacak günlük hedefler belirliyor."
+      ],
+      "developmentAreas": [
+        "Öğrencinin dikkat eksikliği ve odaklanma sorunlarına yönelik daha fazla strateji geliştirmesi gerekiyor.",
+        "Öğrencinin okuduğunu anlama becerilerini geliştirmek için daha fazla görsel materyal kullanabilir.",
+        "Ders sırasında daha az 'tamam mı?' gibi onaylama cümleleri kullanarak akıcılığı artırabilir.",
+        "Öğrencinin matematik korkusunu yenmesi için daha eğlenceli ve ilgi çekici matematik aktiviteleri planlayabilir."
+      ],
+      "coordinatorTips": [
+        "Öğrencinin ders dışı ilgi alanlarına yönelik motivasyon sağlamak isteyen öğrencilere öner.",
+        "Ders tekrarı ve günlük çalışma alışkanlıkları geliştirmek isteyen öğrenciler için uygun.",
+        "Kendini ifade etmekte zorlanan öğrenciler için sohbet havasında ders işleyişi etkili olabilir.",
+        "Dikkat eksikliği olan öğrenciler için dikkat artırıcı stratejiler geliştirmesi gerekebilir.",
+        "Okuma alışkanlıklarını geliştirmesi gereken öğrenciler için farklı okuma teknikleri öneriyor.",
+        "Matematik korkusu olan öğrenciler için eğlenceli matematik aktiviteleri planlayabilir.",
+        "Zaman yönetimi ve günlük hedef belirleme konularında desteğe ihtiyaç duyan öğrenciler için uygun."
+      ],
+      "notableQuotes": [
+        {
+          "text": "tanışarak, kendimi tanıtarak başlayayım. Buyur abi. Böyle sohbet şeklinde ilerleyelim.",
+          "time": "4:32"
+        },
+        {
+          "text": "zorladığı için matematiğe şimdi çok bir şey diyemeyeceğim ben. Peki neden oluyor sence bu zayıflar? Var mı senin bir fikrin, düşüncen?",
+          "time": "12:23"
+        },
+        {
+          "text": "Niye günü gününe tekrar etmek gerekiyor? Bu sadece ders anlamında değil. Herhangi bir bir şey öğrenirken de öğrenmek bir süreç.",
+          "time": "13:14"
+        },
+        {
+          "text": "Ben hiçbir zaman yani bir öğrencinin böyle oturup günde dört beş saat ders çalışmasını savunmam. Neden? Çünkü",
+          "time": "19:53"
+        },
+        {
+          "text": "Öğrenciyim ben. Öğrencilisin değil mi şimdi? Öğrencinin sorumlulukları var. Nedir öğrencinin baştaki sorumluluğu?",
+          "time": "24:28"
+        },
+        {
+          "text": "hem de ileride gireceğimiz olan LGS sınavına. Bak günde bir saat ne oluyor biliyor musun? Haftada yedi saat oluyor.",
+          "time": "28:50"
+        }
+      ],
+      "studentTypeMatches": [
+        {
+          "studentType": "Futbolla motive olan öğrenci",
+          "matchScore": 90,
+          "reason": "Öğrencinin futbol ilgisini ders motivasyonu için kullanıyor ve bu sayede derslere olan ilgiyi artırıyor.",
+          "traits": [
+            "futbol tutkunu",
+            "motivasyon arayan",
+            "hedef odaklı",
+            "sporcu ruhlu"
+          ]
+        },
+        {
+          "studentType": "Günlük çalışma alışkanlığı kazanmaya çalışan öğrenci",
+          "matchScore": 85,
+          "reason": "Günlük çalışma ve tekrar alışkanlıkları geliştirmek için net öneriler sunuyor.",
+          "traits": [
+            "alışkanlık kazanmaya çalışan",
+            "düzenli çalışma arayan",
+            "hedef odaklı",
+            "planlı"
+          ]
+        },
+        {
+          "studentType": "Okuma alışkanlığı geliştirmek isteyen öğrenci",
+          "matchScore": 78,
+          "reason": "Öğrencinin okuma alışkanlıklarını geliştirmek için dışından okuma gibi farklı yöntemler öneriyor.",
+          "traits": [
+            "okuma alışkanlığı kazanmak isteyen",
+            "kitap okumaya ilgisiz",
+            "gelişime açık",
+            "disiplin arayan"
+          ]
+        },
+        {
+          "studentType": "Dikkat eksikliği yaşayan öğrenci",
+          "matchScore": 60,
+          "reason": "Dikkat eksikliği olan öğrencilere yönelik bazı stratejiler sunuyor ancak daha fazla çalışma gerekebilir.",
+          "traits": [
+            "dikkat eksikliği",
+            "odaklanma sorunu",
+            "motivasyon arayan",
+            "sabırsız"
+          ],
+          "caution": "Dikkat artırıcı stratejiler konusunda daha fazla destek gerekebilir."
+        },
+        {
+          "studentType": "Matematik korkusu olan öğrenci",
+          "matchScore": 55,
+          "reason": "Matematik korkusu olan öğrenciler için eğlenceli aktiviteler planlayabilir ancak daha fazla çalışma gerekebilir.",
+          "traits": [
+            "matematik korkusu",
+            "çekingen",
+            "destek arayan",
+            "motivasyon eksikliği"
+          ],
+          "caution": "Matematik korkusunu yenmek için daha fazla eğlenceli ve yaratıcı yöntemler geliştirilmeli."
+        }
+      ],
+      "excelsWith": [
+        {
+          "type": "Futbol tutkunu öğrenciler",
+          "reason": "Futbol üzerinden motivasyon sağlama becerisi sayesinde öğrencinin ilgisini derse çekebiliyor.",
+          "example": "Öğrencinin futbol ilgisini ders motivasyonu için kullanıyor."
+        },
+        {
+          "type": "Düzenli çalışma alışkanlığı geliştirmek isteyen öğrenciler",
+          "reason": "Öğrencilere günlük çalışma alışkanlıkları kazandırmak için etkili stratejiler sunuyor.",
+          "example": "Günlük çalışma ve tekrar alışkanlıkları geliştirmek için net öneriler sunuyor."
+        },
+        {
+          "type": "Okuma alışkanlıklarını geliştirmek isteyen öğrenciler",
+          "reason": "Öğrencinin okuma alışkanlıklarını geliştirmek için farklı yöntemler öneriyor.",
+          "example": "Öğrencinin okuma alışkanlıklarını geliştirmek için dışından okuma gibi farklı yöntemler öneriyor."
+        },
+        {
+          "type": "Motivasyon arayan öğrenciler",
+          "reason": "Öğrencinin motivasyonunu artırmak için bireysel hedefler belirlemesine yardımcı oluyor.",
+          "example": "Öğrencinin motivasyonunu artırmak için bireysel hedefler belirlemesine yardımcı oluyor."
+        }
+      ],
+      "lessSuitedFor": [
+        {
+          "type": "Görsel materyal ihtiyacı olan öğrenciler",
+          "reason": "Ders sırasında görsel materyal kullanımı sınırlı kaldı.",
+          "alternative": "Görsel materyalleri daha fazla kullanan bir öğretmenle çalışmak uygun olabilir."
+        },
+        {
+          "type": "Yüksek dikkat eksikliği olan öğrenciler",
+          "reason": "Dikkat eksikliği yaşayan öğrenciler için daha fazla strateji geliştirmesi gerekiyor.",
+          "alternative": "Dikkat artırıcı teknikler konusunda uzmanlaşmış bir öğretmen tercih edilebilir."
+        }
+      ],
+      "matchingGuide": [
+        {
+          "when": "Öğrenci futbol tutkunu ve ders motivasyonu düşükse",
+          "recommend": "Mustafa Ardahan Dirlik'i öner",
+          "because": "Futbol ilgisini ders motivasyonu için kullanabiliyor."
+        },
+        {
+          "when": "Öğrenci düzenli çalışma alışkanlığı kazanmaya çalışıyorsa",
+          "recommend": "Mustafa Ardahan Dirlik'i öner",
+          "because": "Günlük çalışma ve tekrar alışkanlıkları geliştirmek için etkili stratejiler sunuyor."
+        },
+        {
+          "when": "Öğrenci okuma alışkanlıklarını geliştirmek istiyorsa",
+          "recommend": "Mustafa Ardahan Dirlik'i öner",
+          "because": "Öğrencinin okuma alışkanlıklarını geliştirmek için farklı yöntemler öneriyor."
+        },
+        {
+          "when": "Öğrencinin matematik korkusu varsa",
+          "recommend": "Başka bir öğretmen öner",
+          "because": "Matematik korkusunu yenmek için daha fazla eğlenceli ve yaratıcı yöntemler geliştirilmeli."
+        }
+      ],
+      "overview": "Mustafa Ardahan Dirlik, dersleri sohbet havasında işleyerek öğrencilerin rahatça kendilerini ifade etmelerine olanak tanıyor. Öğrencilerin ilgi alanlarına yönelik motivasyon sağlama konusunda başarılı ve günlük çalışma alışkanlıkları geliştirmeleri için etkili öneriler sunuyor. Okuma alışkanlıklarını geliştirmek isteyen öğrencilere farklı yöntemler öneriyor. Ancak, görsel materyal kullanımı ve dikkat eksikliği yaşayan öğrencilere yönelik stratejilerde daha fazla gelişim alanı mevcut.",
+      "generatedAt": "2026-07-27T00:23:09.703Z"
+    },
+    "bao-wvxv-ksx": {
+      "meetCode": "bao-wvxv-ksx",
+      "tags": [
+        "rasyonel_sayılar",
+        "denklemler",
+        "geometri",
+        "TYT",
+        "öğrenci_aktifliği"
+      ],
+      "strengths": [
+        "Öğrencinin aktif katılımını teşvik etme: Öğrenci 145 soru sordu ve bu, öğretmenin öğrenciyi derse dahil etme konusundaki başarısını gösteriyor.",
+        "Kavram açıklamaları: Rasyonel ve irasyonel sayılar konusunda detaylı açıklamalar yaparak öğrencinin kavramları anlamasını sağladı.",
+        "Öğrenciye özgü yaklaşım: Öğrencinin on birinci sınıf matematiğinde zorlandığını öğrendiğinde, bu eksikliği gidermek için stratejiler sundu.",
+        "Somut örneklerle öğretim: Tek ve çift sayılar konusunu somut örneklerle açıklayarak öğrencinin daha iyi anlamasını sağladı.",
+        "Çıkmış sorulara odaklanma: Öğrencinin sınav başarısını artırmak için çıkmış sorular üzerinden çalışma önerisi sundu.",
+        "Materyal kullanımı: Görsel materyal kullanarak konuları daha anlaşılır hale getirdi.",
+        "Öğrencinin hedeflerine yönelik rehberlik: Öğrencinin bilgisayar mühendisliği hedefini duyduğunda, matematikteki önemini vurguladı."
+      ],
+      "developmentAreas": [
+        "Dersin bazı anlarında daha fazla görsel materyal kullanılabilir.",
+        "Öğrencinin bazı sorularında daha detaylı açıklamalar yaparak yanlış anlamaların önüne geçilebilir.",
+        "Öğretmen, internet bağlantı sorunlarına karşı daha hazırlıklı olmalı.",
+        "Öğrencinin belirttiği zayıf noktalar üzerinde daha fazla odaklanılabilir."
+      ],
+      "coordinatorTips": [
+        "Öğrenci aktif katılımcıysa ve çok soru soruyorsa Mehmet Hoca iyi bir seçenek olabilir.",
+        "Rasyonel ve irasyonel sayılar gibi kavramları anlamakta zorlanan öğrenciler için Mehmet Hoca'nın açıklamaları faydalı olacaktır.",
+        "TYT'ye hazırlanan ve çıkmış sorular üzerinde çalışmak isteyen öğrenciler için uygun bir seçimdir.",
+        "Öğrencinin matematikteki zayıf yönlerini belirleyip bu konulara odaklanmak isteyenler için Mehmet Hoca idealdir.",
+        "Detaylı açıklamalara ihtiyaç duyan ve konuları derinlemesine anlamak isteyen öğrenciler Mehmet Hoca'dan yararlanabilir.",
+        "Geometri ve denklemler gibi konularda daha fazla pratik yapmak isteyen öğrenciler için önerilir.",
+        "Öğrencinin hedeflerini destekleyen bir öğretmen arayanlar için Mehmet Hoca uygundur."
+      ],
+      "notableQuotes": [
+        {
+          "text": "On birinci sınıf matematiğim çok iyi geçmedi.",
+          "time": "4:30"
+        },
+        {
+          "text": "Sayı kümeleri, evet çalıştım burayı. Tam burası birinci konu, ilk konu burası.",
+          "time": "5:13"
+        },
+        {
+          "text": "Sıfır artı da değildir, eksi de değildir. Nötr, güzel.",
+          "time": "6:15"
+        },
+        {
+          "text": "Kök iki kök dışına çıkmaz.",
+          "time": "8:37"
+        },
+        {
+          "text": "Kesinlikle doğru olacak. Ağaç efekti. Şimdi",
+          "time": "12:48"
+        },
+        {
+          "text": "Asal sayı... Birden başka böleni olmayan.",
+          "time": "45:55"
+        },
+        {
+          "text": "Hocam ben bilgisayar mühendisliği istiyorum şu anlık.",
+          "time": "56:10"
+        }
+      ],
+      "studentTypeMatches": [
+        {
+          "studentType": "TYT Hazırlıkta Olan",
+          "matchScore": 96,
+          "reason": "Mehmet Hoca, TYT konularına hakim ve çıkmış sorularla çalışmayı teşvik ediyor.",
+          "traits": [
+            "sınav odaklı",
+            "çıkmış soru çözmek isteyen",
+            "TYT konularına odaklı",
+            "detaylı açıklama arayan"
+          ]
+        },
+        {
+          "studentType": "Aktif Katılımcı",
+          "matchScore": 90,
+          "reason": "Öğrencinin 145 soru sorması, Mehmet Hoca'nın aktif katılımı teşvik ettiğini gösteriyor.",
+          "traits": [
+            "soru sormayı seven",
+            "ders sırasında aktif",
+            "katılımcı",
+            "sorgulayıcı"
+          ]
+        },
+        {
+          "studentType": "Zayıf Yönlerini Geliştirmek İsteyen",
+          "matchScore": 85,
+          "reason": "Öğrencinin on birinci sınıf matematiğinde zorlandığını belirttiği anlarda Mehmet Hoca, eksikleri gidermek için stratejiler sundu.",
+          "traits": [
+            "gelişime açık",
+            "eksiklerini kapatmak isteyen",
+            "rehberlik arayan",
+            "düzenli çalışma isteyen"
+          ]
+        },
+        {
+          "studentType": "Kavramları Anlamakta Zorlanan",
+          "matchScore": 75,
+          "reason": "Rasyonel ve irasyonel sayılar konusundaki detaylı açıklamalar, kavramları anlamakta zorlanan öğrencilere yardımcı olabilir.",
+          "traits": [
+            "detaylı açıklama isteyen",
+            "kavramları anlamakta zorlanan",
+            "sık soru soran",
+            "görsel materyal arayan"
+          ]
+        },
+        {
+          "studentType": "Hedef Odaklı",
+          "matchScore": 70,
+          "reason": "Öğrencinin bilgisayar mühendisliği hedefini destekleyen yaklaşımlar sunması, hedef odaklı öğrenciler için uygun.",
+          "traits": [
+            "hedef odaklı",
+            "kararlı",
+            "motivasyon arayan",
+            "geleceğe yönelik planları olan"
+          ]
+        },
+        {
+          "studentType": "Geometri ve Denklemlerle İlgilenen",
+          "matchScore": 65,
+          "reason": "Geometri ve denklemler konularında detaylı çalışma ve pratik yapmak isteyen öğrenciler için önerilir.",
+          "traits": [
+            "geometriye ilgi duyan",
+            "denklem çözmek isteyen",
+            "pratik yapmayı seven",
+            "detaylı çalışma isteyen"
+          ]
+        }
+      ],
+      "excelsWith": [
+        {
+          "type": "Sınav Hazırlığında Olan",
+          "reason": "Mehmet Hoca, TYT konuları ve çıkmış sorular üzerine odaklanarak öğrenciyi sınavlara hazırlar.",
+          "example": "Öğrencinin TYT'ye bir hafta önce başladığını belirtmesi ve hocanın çıkmış sorulara yönlendirmesi."
+        },
+        {
+          "type": "Aktif Katılımcı Öğrenciler",
+          "reason": "Öğrencinin 145 soru sorması, Mehmet Hoca'nın aktif katılımı teşvik ettiğini gösteriyor.",
+          "example": "Öğrencinin ders boyunca sürekli soru sorması ve hocanın bu soruları yanıtlaması."
+        },
+        {
+          "type": "Detaylı Açıklama Arayanlar",
+          "reason": "Rasyonel ve irasyonel sayılar gibi konularda detaylı açıklamalar yaparak öğrencinin anlamasını sağlar.",
+          "example": "Rasyonel ve irasyonel sayılar üzerine detaylı açıklamalar."
+        },
+        {
+          "type": "Hedef Odaklı Öğrenciler",
+          "reason": "Öğrencinin gelecekteki hedeflerine yönelik rehberlik sunarak motive eder.",
+          "example": "Öğrencinin bilgisayar mühendisliği hedefini destekleyen yaklaşımlar sunması."
+        },
+        {
+          "type": "Kavramları Anlamakta Zorlananlar",
+          "reason": "Karmaşık konuları basit ve anlaşılır şekilde açıklayarak kavramları anlamakta zorlanan öğrencilere yardımcı olur.",
+          "example": "Rasyonel sayılar konusundaki detaylı açıklamalar."
+        }
+      ],
+      "lessSuitedFor": [
+        {
+          "type": "Bağımsız Çalışmayı Tercih Edenler",
+          "reason": "Mehmet Hoca, ders sırasında yoğun etkileşim ve soru cevap yöntemi kullanıyor, bağımsız çalışmayı tercih edenler için uygun olmayabilir.",
+          "alternative": "Daha az etkileşimli, kendi hızında ilerleyebileceği bir öğretmen."
+        },
+        {
+          "type": "Hızlı Öğrenenler",
+          "reason": "Detaylı açıklamalar ve yoğun etkileşim, hızlı öğrenen öğrenciler için yavaşlatıcı olabilir.",
+          "alternative": "Daha hızlı ilerleyen bir öğretmen."
+        },
+        {
+          "type": "Tekrar Eden Konulardan Sıkılanlar",
+          "reason": "Mehmet Hoca, konuları detaylı ve tekrar ederek anlatıyor, bu da bazı öğrenciler için sıkıcı olabilir.",
+          "alternative": "Daha özet ve hızlı anlatım yapan bir öğretmen."
+        }
+      ],
+      "matchingGuide": [
+        {
+          "when": "Öğrenci TYT'ye hazırlık yapıyorsa",
+          "recommend": "Mehmet Hoca",
+          "because": "Çıkmış sorulara odaklanarak sınav hazırlığında destek sağlar."
+        },
+        {
+          "when": "Öğrenci aktif katılımcıysa",
+          "recommend": "Mehmet Hoca",
+          "because": "Ders sırasında öğrencinin aktif katılımını teşvik eder."
+        },
+        {
+          "when": "Öğrenci matematikte zayıf yönlerini geliştirmek istiyorsa",
+          "recommend": "Mehmet Hoca",
+          "because": "Eksik konular üzerinde odaklanarak öğrencinin gelişimine katkı sağlar."
+        },
+        {
+          "when": "Öğrenci detaylı açıklamalar arıyorsa",
+          "recommend": "Mehmet Hoca",
+          "because": "Konuları detaylı ve anlaşılır şekilde açıklar."
+        },
+        {
+          "when": "Öğrenci gelecekteki hedeflerine yönelik rehberlik arıyorsa",
+          "recommend": "Mehmet Hoca",
+          "because": "Öğrencinin hedefleri doğrultusunda motive edici rehberlik sunar."
+        }
+      ],
+      "overview": "Mehmet Alioğlu, öğrencinin aktif katılımını teşvik eden, detaylı açıklamalarla kavramları anlaşılır hale getiren bir öğretmen. TYT hazırlığı ve çıkmış sorular üzerine odaklanarak sınav başarısını artırmayı hedefler. Öğrencinin matematikteki zayıf yönlerini belirleyip bu konulara odaklanır. Gelecekteki hedeflere yönelik rehberlik sunarak öğrencilere motivasyon sağlar.",
+      "generatedAt": "2026-07-27T00:23:58.588Z"
+    },
+    "ckn-yurm-vyd": {
+      "meetCode": "ckn-yurm-vyd",
+      "tags": [
+        "ondalık gösterim",
+        "geometri",
+        "LGS hazırlık",
+        "görsel materyal kullanımı",
+        "soru-cevap"
+      ],
+      "strengths": [
+        "Öğretmen, öğrencinin ismini doğru telaffuz etmek için çaba gösteriyor ve öğrencinin tercihine saygı duyuyor. (0:55)",
+        "Öğretmen, öğrencinin yaşadığı yer ve tatil planları hakkında sorular sorarak ders öncesi samimi bir atmosfer yaratıyor. (1:30)",
+        "Öğretmen, dersin başında öğrencinin matematikle ilgili tutumunu anlamak için çeşitli sorular soruyor. (1:54)",
+        "Öğretmen, öğrenciye görsel materyallerle ders işleyerek konuların daha iyi anlaşılmasını sağlıyor. (2:54)",
+        "Öğretmen, işlem önceliği ve parantez kullanımı gibi temel kavramları tekrar ederek öğrencinin kavrayışını pekiştiriyor. (9:04)",
+        "Öğretmen, öğrencinin yanıtlarını onaylayarak ve teşvik ederek güvenini artırıyor. (5:51)",
+        "Öğretmen, öğrencinin sorduğu sorulara detaylı açıklamalar yaparak yanıt veriyor. (6:46)",
+        "Öğretmen, öğrencinin anlamadığı konularda tekrar yaparak ve farklı yöntemler göstererek yardımcı oluyor. (12:35)"
+      ],
+      "developmentAreas": [
+        "Öğretmenin konuşma oranı %68, bu oran öğrencinin daha fazla aktif katılım göstermesi için azaltılabilir.",
+        "Öğrenciye daha fazla uzun yanıt verme fırsatı tanınarak dersin interaktifliği artırılabilir.",
+        "Öğretmen, dersin bazı bölümlerinde daha fazla görsel materyal kullanarak konuların pekişmesini sağlayabilir.",
+        "Öğretmen, öğrencinin bazı konularda karışıklık yaşadığını fark ettiğinde daha fazla örnek sunabilir. (11:22)"
+      ],
+      "coordinatorTips": [
+        "Öğrenci, matematikle ilgili ön yargısı olmayan ve öğrenmeye açık bir tutum sergiliyor. Bu öğrenciye Yaren Yalım önerilebilir.",
+        "Öğretmen, LGS hazırlık sürecinde olan öğrenciler için uygun bir seçim olabilir, çünkü ders sırasında LGS konuları üzerinde duruyor.",
+        "Öğrenci, görsel materyallerle daha iyi öğrenen bir profildeyse, öğretmenin bu yaklaşımı faydalı olacaktır.",
+        "Öğrenci, ders sırasında sık sık soru soruyor ve öğretmen bu sorulara yanıt verirken sabırlı ve açıklayıcı yaklaşıyor.",
+        "Öğretmen, öğrencinin anlamadığı konulara tekrar dönebiliyor, bu da konuları pekiştirmek isteyen öğrenciler için yararlı olabilir.",
+        "Öğrenci, geometri konularında desteğe ihtiyaç duyuyorsa, öğretmenin bu konulara dair bilgisi faydalı olabilir.",
+        "Öğretmen, işlem önceliği gibi temel matematik kavramlarında detaylı açıklamalar yaparak öğrencinin kavrayışını geliştiriyor."
+      ],
+      "notableQuotes": [
+        {
+          "text": "Merhaba.",
+          "time": "0:44"
+        },
+        {
+          "text": "Sekize mi geçtin?",
+          "time": "1:18"
+        },
+        {
+          "text": "O zaman başlayalım mı derse?",
+          "time": "2:48"
+        },
+        {
+          "text": "bu tarz sorularda ne yapıyoruz?",
+          "time": "3:35"
+        },
+        {
+          "text": "işlem önceliğini artı Bence almam gerekiyor.",
+          "time": "9:04"
+        },
+        {
+          "text": "Aslında bu şu demek o zaman.",
+          "time": "12:35"
+        },
+        {
+          "text": "Bu virgüllerin üst üste denk gelmesi gerekiyor tamam mı?",
+          "time": "31:49"
+        },
+        {
+          "text": "Tamam altı tane var.",
+          "time": "35:39"
+        },
+        {
+          "text": "Bir virgül sekizden sıfır ikiyi çıkartacaksın ki büyüyelim.",
+          "time": "39:03"
+        },
+        {
+          "text": "Yani şöyle düşün mesela sıfır burası tamam mı?",
+          "time": "51:42"
+        }
+      ],
+      "studentTypeMatches": [
+        {
+          "studentType": "Görsel Destek Arayan Hiranur",
+          "matchScore": 92,
+          "reason": "Öğrenci görsel materyallerle daha iyi anlıyor ve öğretmen bu tip materyalleri sıkça kullanıyor.",
+          "traits": [
+            "görsel öğrenme",
+            "soru sorma",
+            "etkileşim",
+            "LGS hazırlık"
+          ],
+          "caution": "Görsel materyallerin kalitesi ve çeşitliliği artırılabilir."
+        },
+        {
+          "studentType": "Soru Sorarak Öğrenen Ayşe",
+          "matchScore": 88,
+          "reason": "Öğrenci ders boyunca birçok soru soruyor ve öğretmen bu soruları sabırla yanıtlıyor.",
+          "traits": [
+            "sorgulayıcı",
+            "aktif katılım",
+            "detaylı açıklama",
+            "işlem önceliği"
+          ],
+          "caution": "Öğrencinin bazı soruları daha fazla örnekle desteklenebilir."
+        },
+        {
+          "studentType": "Geometriye Meraklı Ali",
+          "matchScore": 85,
+          "reason": "Öğrenci geometri konularında ilgi gösteriyor ve öğretmen bu konularda detaylı bilgi sunuyor.",
+          "traits": [
+            "geometri merakı",
+            "görsel materyal",
+            "temel kavramlar",
+            "detaylı açıklama"
+          ],
+          "caution": "Geometri dışındaki konulara da aynı ilgi gösterilmeli."
+        },
+        {
+          "studentType": "LGS Hazırlık Sürecindeki Zeynep",
+          "matchScore": 80,
+          "reason": "Öğretmen dersi LGS konularına odaklayarak işliyor ve öğrenci bu konulara ilgi gösteriyor.",
+          "traits": [
+            "LGS odaklı",
+            "çalışkan",
+            "hedef odaklı",
+            "soru çözme"
+          ],
+          "caution": "LGS dışındaki konular da ihmal edilmemeli."
+        },
+        {
+          "studentType": "İşlem Önceliği Karıştıran Mehmet",
+          "matchScore": 75,
+          "reason": "Öğrenci işlem önceliğinde karışıklık yaşıyor ve öğretmen bu konuda detaylı açıklamalar yapıyor.",
+          "traits": [
+            "işlem önceliği",
+            "detaylı açıklama",
+            "temel matematik",
+            "soru sorma"
+          ],
+          "caution": "Öğrencinin işlem önceliği dışında da desteğe ihtiyacı olabilir."
+        },
+        {
+          "studentType": "Ondalık Gösterimde Zorlanan Elif",
+          "matchScore": 70,
+          "reason": "Öğrenci ondalık gösterimlerde zorlanıyor ve öğretmen bu konuyu detaylı işliyor.",
+          "traits": [
+            "ondalık gösterim",
+            "detaylı açıklama",
+            "soru sorma",
+            "görsel destek"
+          ],
+          "caution": "Öğrencinin diğer konularda da desteğe ihtiyacı olabilir."
+        }
+      ],
+      "excelsWith": [
+        {
+          "type": "Görsel Öğrenmeye Açık Öğrenciler",
+          "reason": "Öğretmen görsel materyaller kullanarak konuları açıklıyor.",
+          "example": "Öğrencinin anlamasını kolaylaştırmak için görsel materyaller kullanılıyor. (2:54)"
+        },
+        {
+          "type": "Soru Sormaktan Çekinmeyen Öğrenciler",
+          "reason": "Öğrencinin sorularına sabırla yanıt veriyor.",
+          "example": "Öğrencinin sorduğu sorulara detaylı açıklamalar yaparak yanıt veriyor. (6:46)"
+        },
+        {
+          "type": "LGS Hazırlık Sürecinde Olanlar",
+          "reason": "Ders boyunca LGS konuları üzerinde duruluyor.",
+          "example": "Sınıf LGS'ye de çalışırken burslu da kazanıverirsin. (34:13)"
+        },
+        {
+          "type": "Geometriyle İlgilenen Öğrenciler",
+          "reason": "Geometri konularında detaylı bilgi sunuyor.",
+          "example": "Öğrencinin geometri konularında desteğe ihtiyacı varsa, öğretmenin bu konulara dair bilgisi faydalı olabilir. (17:33)"
+        },
+        {
+          "type": "Temel Matematik Kavramlarını Pekiştirmek İsteyenler",
+          "reason": "Temel kavramları tekrar ederek öğrencinin kavrayışını pekiştiriyor.",
+          "example": "İşlem önceliği ve parantez kullanımı gibi temel kavramları tekrar ediyor. (9:04)"
+        },
+        {
+          "type": "Detaylı Açıklama Arayan Öğrenciler",
+          "reason": "Öğrencinin anlamadığı konularda tekrar yaparak ve farklı yöntemler göstererek yardımcı oluyor.",
+          "example": "Öğrencinin anlamadığı konularda tekrar yaparak ve farklı yöntemler göstererek yardımcı oluyor. (12:35)"
+        }
+      ],
+      "lessSuitedFor": [
+        {
+          "type": "Sessiz ve Katılımsız Öğrenciler",
+          "reason": "Öğrenci, ders boyunca aktif katılım göstermiyor ve öğretmen öğrenciye daha fazla katılım fırsatı tanıyabilir.",
+          "alternative": "Daha fazla katılım teşvik eden öğretmenler tercih edilebilir."
+        },
+        {
+          "type": "Hızlı İlerleme Bekleyen Öğrenciler",
+          "reason": "Öğretmen, konuları detaylı ve yavaş bir şekilde işliyor.",
+          "alternative": "Hızlı ilerleme isteyen öğrenciler için daha hızlı tempolu öğretmenler önerilebilir."
+        },
+        {
+          "type": "Kendi Başına Çalışmayı Tercih Eden Öğrenciler",
+          "reason": "Öğrenci, ders sırasında sürekli rehberlik arıyor ve öğretmen bu rehberliği sağlıyor.",
+          "alternative": "Daha bağımsız çalışmaya teşvik eden öğretmenler tercih edilebilir."
+        },
+        {
+          "type": "Görsel Materyallere İhtiyaç Duymayan Öğrenciler",
+          "reason": "Öğretmen, ders sırasında sıkça görsel materyaller kullanıyor.",
+          "alternative": "Görsel materyallere ihtiyaç duymayan öğrenciler için daha teorik odaklı öğretmenler önerilebilir."
+        }
+      ],
+      "matchingGuide": [
+        {
+          "when": "Öğrenci görsel materyallerle daha iyi öğreniyorsa",
+          "recommend": "Yaren Yalım",
+          "because": "Öğretmen, ders sırasında sıkça görsel materyaller kullanarak konuları anlatıyor."
+        },
+        {
+          "when": "Öğrenci, LGS hazırlık sürecindeyse",
+          "recommend": "Yaren Yalım",
+          "because": "Ders boyunca LGS konularına odaklanarak işliyor ve öğrenciyi bu süreçte destekliyor."
+        },
+        {
+          "when": "Öğrenci, soru sormaktan çekinmiyorsa",
+          "recommend": "Yaren Yalım",
+          "because": "Öğretmen, öğrencinin sorularına sabırla yanıt veriyor ve detaylı açıklamalar yapıyor."
+        },
+        {
+          "when": "Öğrenci, geometri konularında yardıma ihtiyaç duyuyorsa",
+          "recommend": "Yaren Yalım",
+          "because": "Öğretmen, geometri konularında detaylı bilgi sunuyor ve öğrencinin anlamasını kolaylaştırıyor."
+        },
+        {
+          "when": "Öğrenci, temel matematik kavramlarını pekiştirmek istiyorsa",
+          "recommend": "Yaren Yalım",
+          "because": "Öğretmen, temel kavramları tekrar ederek öğrencinin kavrayışını pekiştiriyor."
+        },
+        {
+          "when": "Öğrenci, detaylı açıklamalarla öğrenmeyi tercih ediyorsa",
+          "recommend": "Yaren Yalım",
+          "because": "Öğretmen, öğrencinin anlamadığı konularda tekrar yaparak ve farklı yöntemler göstererek yardımcı oluyor."
+        }
+      ],
+      "overview": "Yaren Yalım, derslerinde görsel materyaller kullanarak konuları açıklayan, öğrencinin sorularına sabırla yanıt veren ve LGS konularına odaklanan bir öğretmen. Özellikle geometri ve temel matematik kavramlarında detaylı bilgi sunarak öğrencinin kavrayışını pekiştiriyor. Öğrenciyi aktif katılıma teşvik eden ve ders sırasında samimi bir atmosfer yaratan bir öğretim tarzına sahip.",
+      "generatedAt": "2026-07-27T00:24:31.109Z"
+    },
+    "cqi-brqh-evi": {
+      "meetCode": "cqi-brqh-evi",
+      "tags": [
+        "LGS hazırlığı",
+        "devirli ondalık",
+        "rasyonel sayılar",
+        "veri işleme",
+        "öğrenci katılımı"
+      ],
+      "strengths": [
+        "Öğretmen, öğrencinin mevcut bilgilerini değerlendirmek için uygun sorular sorarak dersin başında öğrenciye uygun bir başlangıç yaptı. (1:30)",
+        "Devirli ondalık gösterim konusunu beyaz tahta üzerinde somut örneklerle açıkladı, bu da öğrencinin konuyu daha iyi anlamasını sağladı. (5:28)",
+        "Öğrenciye özgüven kazandırmak için yaptığı işlemlerin doğruluğunu onaylayarak pozitif geri bildirim verdi. (11:47)",
+        "Öğrencinin kullandığı kaynaklar hakkında bilgi alarak, dersin içeriğini bu kaynaklarla uyumlu hale getirmeye çalıştı. (3:04)",
+        "Öğrencinin zayıf olduğu konulara odaklanma esnekliği gösterdi ve ders planını buna göre ayarladı. (4:36)",
+        "Öğretmen, öğrencinin sorularını dikkatlice dinleyerek ve yanıtlayarak öğrenci katılımını teşvik etti. (9:03)",
+        "LGS hazırlığı için somut stratejiler ve öneriler sundu, bu da öğrenciye net bir yol haritası sağladı. (51:39)"
+      ],
+      "developmentAreas": [
+        "Ders süresince öğrenciye daha fazla söz hakkı tanıyarak, öğrencinin daha aktif katılımını teşvik edebilir.",
+        "Öğrencinin zorlandığı konularda daha fazla örnek ve alıştırma sunarak pekiştirme yapabilir.",
+        "Öğrenciye daha fazla soru sorma fırsatı tanıyarak, dersin interaktifliğini artırabilir.",
+        "Öğrencinin anlamakta zorlandığı konular için alternatif açıklama yöntemleri geliştirebilir."
+      ],
+      "coordinatorTips": [
+        "Öğrenci, devirli ondalık gösterimleri anlamakta zorlanıyorsa, Ceren Nur Sarıkavak'ın beyaz tahta açıklamaları bu öğrenci için faydalı olabilir.",
+        "LGS'ye hazırlanan ve veri işleme konusunda desteğe ihtiyaç duyan öğrenciler için uygun bir öğretmen.",
+        "Öğrencinin mevcut kaynaklarını kullanarak dersleri özelleştirebilen bir öğretmen arıyorsanız, Ceren Nur Sarıkavak uygun bir seçim olabilir.",
+        "Öğrencinin motivasyonunu artırmak ve özgüvenini geliştirmek için pozitif geri bildirim veren bir öğretmen arıyorsanız, bu öğretmeni tercih edebilirsiniz.",
+        "Öğrenci, matematikte özellikle rasyonel sayılar konusunda zorlanıyorsa, bu öğretmenin açıklamaları faydalı olabilir.",
+        "Öğrenci, sık sık soru sormaktan çekiniyorsa, öğretmenin teşvik edici yaklaşımı bu durumu iyileştirebilir."
+      ],
+      "notableQuotes": [
+        {
+          "text": "Ben de iyiyim. Çok teşekkür ederim. Sabah sabah pek bir enerjiksin.",
+          "time": "1:01"
+        },
+        {
+          "text": "Tamam. O zaman sana şöyle söyleyeyim. LGS sınavında özellikle veri işleme dediğimiz bir kısım var.",
+          "time": "2:16"
+        },
+        {
+          "text": "Aslında şöyle de yapabiliriz bir beyaz tahta üzerinde çalışalım seninle.",
+          "time": "5:28"
+        },
+        {
+          "text": "Bire. O yüzden bunu evet, bir kabul edeceğiz. Yaptığın işlemlerin hepsi doğru, tamam mı?",
+          "time": "11:47"
+        },
+        {
+          "text": "yorum yapayım sana. Hıhı. Durumumuz gayet güzel. LGS'ye hazırlanabilecek",
+          "time": "51:39"
+        },
+        {
+          "text": "Ama konumuz çok güzel. Güncel durumumuz hani gelişim seviyemiz, matematik konusunda söylüyorum LGS'ye",
+          "time": "53:05"
+        }
+      ],
+      "studentTypeMatches": [
+        {
+          "studentType": "Devirli Ondalıkta Takılan Nisa Profili",
+          "matchScore": 92,
+          "reason": "Öğrenci devirli ondalık gösterimlerde zorlanıyor ve öğretmen bu konuda beyaz tahta ile somut açıklamalar yapıyor.",
+          "traits": [
+            "devirli ondalıkta zorlanan",
+            "somut örnek isteyen",
+            "beyaz tahta kullanımı seven",
+            "detaylı açıklamaya ihtiyaç duyan"
+          ]
+        },
+        {
+          "studentType": "Pozitif Geri Bildirimle Motive Olan Öğrenci",
+          "matchScore": 90,
+          "reason": "Öğretmen, öğrencinin yaptığı doğru işlemleri onaylayarak motivasyonunu artırıyor.",
+          "traits": [
+            "motivasyona ihtiyaç duyan",
+            "pozitif geri bildirim seven",
+            "özgüven geliştirmek isteyen",
+            "destek arayan"
+          ]
+        },
+        {
+          "studentType": "LGS'ye Odaklanmış Hazırlık Öğrencisi",
+          "matchScore": 88,
+          "reason": "Öğretmen, LGS hazırlığı için stratejiler sunuyor ve veri işleme gibi LGS'de sık karşılaşılan konulara odaklanıyor.",
+          "traits": [
+            "LGS hedefli",
+            "veri işleme desteği isteyen",
+            "strateji arayan",
+            "düzenli çalışma arayan"
+          ]
+        },
+        {
+          "studentType": "Rasyonel Sayılarda Desteğe İhtiyaç Duyan Öğrenci",
+          "matchScore": 87,
+          "reason": "Öğrenci, rasyonel sayılar konusunda zorluk yaşıyor ve öğretmen bu konuyu detaylı bir şekilde ele alıyor.",
+          "traits": [
+            "rasyonel sayılarla zorlanan",
+            "detaylı açıklama isteyen",
+            "somut örnek arayan",
+            "beyaz tahta kullanımı seven"
+          ]
+        },
+        {
+          "studentType": "Kaynakları Kullanmak İsteyen Öğrenci",
+          "matchScore": 85,
+          "reason": "Öğretmen, öğrencinin mevcut kaynaklarını dersle entegre edebiliyor, bu da öğrenciye uyum sağlıyor.",
+          "traits": [
+            "kaynak kullanımı seven",
+            "entegrasyon isteyen",
+            "düzenli çalışma arayan",
+            "uyumlu ders isteyen"
+          ]
+        },
+        {
+          "studentType": "Soru Sormaktan Çekinen Öğrenci",
+          "matchScore": 75,
+          "reason": "Öğretmen, öğrencinin sorularını dikkatle dinleyip yanıtlıyor, bu da öğrencinin daha fazla soru sormasını teşvik ediyor.",
+          "traits": [
+            "soru sormaktan çekinen",
+            "teşvik arayan",
+            "dikkatli dinlenmek isteyen",
+            "katılım arayan"
+          ],
+          "caution": "Öğrenci başta çekingen olabilir, öğretmen sabırlı olmalı."
+        }
+      ],
+      "excelsWith": [
+        {
+          "type": "Devirli Ondalık Gösterim Öğrencisi",
+          "reason": "Öğrenci devirli ondalık gösterimlerde zorlanıyor ve öğretmen bu konuda detaylı açıklamalar yapıyor.",
+          "example": "Aslında şöyle de yapabiliriz bir beyaz tahta üzerinde çalışalım seninle. (5:28)"
+        },
+        {
+          "type": "LGS Hazırlık Öğrencisi",
+          "reason": "Öğretmen, LGS hazırlığı için stratejiler sunuyor ve veri işleme gibi konulara odaklanıyor.",
+          "example": "Tamam. O zaman sana şöyle söyleyeyim. LGS sınavında özellikle veri işleme dediğimiz bir kısım var. (2:16)"
+        },
+        {
+          "type": "Kaynaklarla Çalışmayı Seven Öğrenci",
+          "reason": "Öğretmen, öğrencinin mevcut kaynaklarını dersle entegre edebiliyor.",
+          "example": "Daha önce kullandığın kaynaklar var mı konu anlatım için? (3:04)"
+        },
+        {
+          "type": "Motivasyon Arayan Öğrenci",
+          "reason": "Öğretmen, öğrencinin yaptığı doğru işlemleri onaylayarak motivasyonunu artırıyor.",
+          "example": "Bire. O yüzden bunu evet, bir kabul edeceğiz. Yaptığın işlemlerin hepsi doğru, tamam mı? (11:47)"
+        },
+        {
+          "type": "Özgüven Geliştirmek İsteyen Öğrenci",
+          "reason": "Öğretmen, öğrenciye güven verici geri bildirimler sunarak özgüvenini artırıyor.",
+          "example": "Ben de iyiyim. Çok teşekkür ederim. Sabah sabah pek bir enerjiksin. (1:01)"
+        },
+        {
+          "type": "Detaylı Açıklama İsteyen Öğrenci",
+          "reason": "Öğretmen, konuları detaylı ve açıklayıcı bir şekilde ele alıyor.",
+          "example": "sıfır virgül altı şeklinde yazdığım zaman bir sayıyı, bir ondalık gösterimi. Rasyonel olarak nasıl ifade ederim? (5:39)"
+        }
+      ],
+      "lessSuitedFor": [
+        {
+          "type": "Sessiz ve Geri Çekilen Öğrenci",
+          "reason": "Öğretmen ders boyunca daha fazla konuşma eğiliminde, bu da sessiz öğrencilerin katılımını azaltabilir.",
+          "alternative": "Daha fazla öğrenci katılımı teşvik eden bir öğretmen tercih edilebilir."
+        },
+        {
+          "type": "Hızlı İlerlemek İsteyen Öğrenci",
+          "reason": "Öğretmen, konuları detaylandırarak anlatıyor, bu da hızlı ilerlemek isteyen öğrenciler için uygun olmayabilir.",
+          "alternative": "Daha hızlı ilerleyen bir öğretmen tercih edilebilir."
+        },
+        {
+          "type": "Bağımsız Çalışmayı Seven Öğrenci",
+          "reason": "Öğretmen, ders boyunca sürekli rehberlik sunuyor, bu da bağımsız çalışmayı seven öğrenciler için fazla olabilir.",
+          "alternative": "Daha az rehberlik sunan bir öğretmen tercih edilebilir."
+        },
+        {
+          "type": "Genel Matematik Konularında İleri Düzey Öğrenci",
+          "reason": "Öğretmen, temeldeki konulara odaklanıyor, bu da ileri düzey öğrenciler için fazla temel olabilir.",
+          "alternative": "Daha ileri düzey konulara odaklanan bir öğretmen tercih edilebilir."
+        }
+      ],
+      "matchingGuide": [
+        {
+          "when": "Öğrenci devirli ondalık gösterimlerde zorlanıyorsa",
+          "recommend": "Ceren Nur Sarıkavak",
+          "because": "Beyaz tahta kullanarak somut örneklerle açıklama yapıyor."
+        },
+        {
+          "when": "Öğrenci LGS'ye hazırlanıyorsa",
+          "recommend": "Ceren Nur Sarıkavak",
+          "because": "LGS odaklı stratejiler ve konulara yoğunlaşıyor."
+        },
+        {
+          "when": "Öğrenci mevcut kaynaklarını dersle entegre etmek istiyorsa",
+          "recommend": "Ceren Nur Sarıkavak",
+          "because": "Öğrencinin kullandığı kaynaklarla uyumlu dersler sunabiliyor."
+        },
+        {
+          "when": "Öğrenci motivasyon arıyorsa",
+          "recommend": "Ceren Nur Sarıkavak",
+          "because": "Pozitif geri bildirimlerle öğrencinin motivasyonunu artırıyor."
+        },
+        {
+          "when": "Öğrenci özgüven geliştirmek istiyorsa",
+          "recommend": "Ceren Nur Sarıkavak",
+          "because": "Öğrenciye güven verici geri bildirimler sunuyor."
+        },
+        {
+          "when": "Öğrenci detaylı açıklama istiyorsa",
+          "recommend": "Ceren Nur Sarıkavak",
+          "because": "Konuları detaylı ve açıklayıcı bir şekilde ele alıyor."
+        }
+      ],
+      "overview": "Ceren Nur Sarıkavak, LGS hazırlığı ve rasyonel sayılar gibi temel konulara odaklanan bir öğretmen. Beyaz tahta kullanarak somut ve detaylı açıklamalar yaparak, öğrencilerin konuları daha iyi anlamasını sağlıyor. Pozitif geri bildirimlerle öğrencilerin motivasyonunu artırıyor ve dersleri öğrencinin kullandığı kaynaklarla uyumlu hale getirebiliyor. Öğrencilerin katılımını teşvik eden bir yaklaşım sergiliyor, ancak daha sessiz veya hızlı ilerlemek isteyen öğrenciler için bu tarz uygun olmayabilir.",
+      "generatedAt": "2026-07-27T00:25:16.171Z"
+    },
+    "cev-xgmd-fjw": {
+      "meetCode": "cev-xgmd-fjw",
+      "tags": [
+        "rasyonel_sayılar",
+        "ondalık_gösterim",
+        "denklem_çözümü",
+        "geometri_kavramları",
+        "LGS_hazırlık"
+      ],
+      "strengths": [
+        "Öğretmen, öğrencinin mevcut seviyesini anlamak için 7. sınıf konularına geri dönerek eksiklerini tespit etmeye çalışıyor (5:35).",
+        "Sorulara karşı sabırlı ve detaylı açıklamalar yaparak öğrencinin anlamasını sağlıyor (7:03).",
+        "Öğrenciyi cesaretlendirici ve motive edici bir dil kullanarak özgüvenini artırıyor (27:49).",
+        "Öğrencinin sorularını dikkatlice dinleyip, hemen çözüm üretmeye çalışıyor (26:46).",
+        "Ders sırasında öğrencinin katılımını teşvik ediyor ve interaktif bir ortam sağlıyor (8:21).",
+        "Geometri ve denklemler arasında bağlantı kurarak öğrencinin konular arası geçiş yapmasına yardımcı oluyor (54:48).",
+        "Öğrencinin günlük yaşamdan örneklerle konuyu anlamasını sağlamaya çalışıyor (45:00).",
+        "Öğrencinin yaptığı hataları nazikçe düzelterek öğrenme sürecine katkıda bulunuyor (60:14)."
+      ],
+      "developmentAreas": [
+        "Öğretmen, dersin başında öğrenciyle tanışma kısmında isim karışıklığı yaşadı, bu tür dikkat hatalarını azaltmalı (4:15).",
+        "Öğrenciye daha fazla soru sorma imkanı tanıyarak dersin interaktifliğini artırabilir.",
+        "Öğrencinin internet bağlantısı sorunları nedeniyle kamerayı kapatma isteği üzerine daha fazla esneklik gösterebilir (16:42).",
+        "Öğrencinin dikkatini dağıtmamak için ders sırasında daha fazla görsel materyal kullanabilir."
+      ],
+      "coordinatorTips": [
+        "Öğretmen Büşra Çelik, detaylı konu anlatımı ve sabırlı yaklaşımı ile rasyonel sayılar ve denklemler gibi konularda temel bilgileri pekiştirmek isteyen öğrenciler için uygundur.",
+        "Öğrencinin katılımını teşvik eden bir öğretim tarzı vardır, bu nedenle aktif katılım gösteren öğrencilerle iyi çalışabilir.",
+        "Öğrencinin özgüvenini artırıcı bir dil kullanır, bu nedenle matematikte kendine güveni düşük olan öğrenciler için önerilebilir.",
+        "Ders sırasında farklı konular arasında bağlantı kurarak öğrencinin kavrayışını derinleştirir, bu nedenle konular arası ilişki kurmakta zorlanan öğrenciler için idealdir.",
+        "Öğrencinin sorularına dikkatlice yanıt vererek, anlamadığı noktaları netleştirmesine yardımcı olur.",
+        "Öğrencinin günlük yaşamdan örneklerle konuyu anlamasını sağlamaya çalışır, bu nedenle pratik uygulamalarla öğrenmeyi seven öğrenciler için uygundur.",
+        "Öğrencinin yaptığı hataları nazikçe düzelterek öğrenme sürecine katkıda bulunur, bu nedenle hata yapmaktan çekinen öğrenciler için de uygun bir öğretmen seçeneğidir.",
+        "Öğrenciye yönelik olumlu ve destekleyici bir dil kullanır, bu yüzden motivasyon eksikliği olan öğrenciler için önerilebilir."
+      ],
+      "notableQuotes": [
+        {
+          "text": "Merhabalar.",
+          "time": "4:12"
+        },
+        {
+          "text": "Olur. Tamam. Peki kuzum. O zaman ekranımı ben seninle paylaşıyorum.",
+          "time": "5:17"
+        },
+        {
+          "text": "bunları yazdıktan sonra y'ye bakalım. Y için konuşalım. İki y eksi on iki eşittir altmış. Ne yapıyorduk? Benim amacım y'yi bulmak olduğu için burada y'yi yalnız bırakmaya çalışıyordum.",
+          "time": "7:23"
+        },
+        {
+          "text": "Maalesef ki dememiş. Öyle değil mi? Şimdi sekizinci sınıfta bunu öğreneceksin ama x ve y iki farklı iki bilinmeyenli denkleme orada giriş yapacağız",
+          "time": "26:35"
+        },
+        {
+          "text": "öğreneceğiz sekizinci sınıfta birlikte ve bu çok işimize yarayacak ama bu durumda ne yapabilirim diye düşünürsen de şöyle bir şey de kolay bir yöntem de göstereyim. Bunu yaptık değil mi? Bunu anladık buraya kadar.",
+          "time": "28:04"
+        },
+        {
+          "text": "Sonra elmalar elmalarla, armutlar armutlarla. Ben hep öyle diyordum. Yani aynı cins olanları toplayacağız. Burada da neler var?",
+          "time": "32:02"
+        },
+        {
+          "text": "kuzum şöyle yani zor geliyor. Bunu kodlamayalım kafada. Tamam mı? Ben ona çok inanıyorum. İnsan bir şeyi ne kadar yapamam diyorsa gerçekten o kadar yapamıyor",
+          "time": "37:44"
+        },
+        {
+          "text": "Aslında orada konu neydi? Cebirdi değil mi? Buraya dönünce de geometriye döndük. Çokgenler.",
+          "time": "54:48"
+        },
+        {
+          "text": "Yüz seksen olmaz mı? Yok bak şöyle bak. Ha yirmiyi çıkaracağız çünkü. Yirmiyi çıkardım çünkü oradan yapalım hatta direkt. O şekilde yapalım. Kafan karışmasın.",
+          "time": "60:14"
+        }
+      ],
+      "studentTypeMatches": [
+        {
+          "studentType": "Detaylı Açıklama İsteyen İlke",
+          "matchScore": 96,
+          "reason": "Öğretmen, ders boyunca detaylı açıklamalar yaparak öğrencinin konuyu anlamasını sağlamaya çalışıyor. Özellikle denklemler konusunu işlerken her adımı dikkatlice açıklıyor.",
+          "traits": [
+            "detay odaklı",
+            "sabırlı",
+            "anlamaya istekli",
+            "detaylı açıklama arayan"
+          ]
+        },
+        {
+          "studentType": "Özgüven Eksikliği Yaşayan Ali",
+          "matchScore": 90,
+          "reason": "Öğretmen, öğrenciyi cesaretlendirici bir dil kullanarak özgüvenini artırmayı hedefliyor. Öğrencinin yaptığı hataları nazikçe düzeltiyor.",
+          "traits": [
+            "özgüven eksikliği",
+            "hata yapmaktan korkan",
+            "desteğe ihtiyaç duyan",
+            "cesaretlendirici dil arayan"
+          ]
+        },
+        {
+          "studentType": "İnteraktif Katılım Seven Ayşe",
+          "matchScore": 85,
+          "reason": "Öğretmen, ders sırasında öğrencinin katılımını teşvik ediyor ve interaktif bir ortam sağlıyor. Öğrencinin sorularını dikkatlice dinleyip yanıtlıyor.",
+          "traits": [
+            "katılım odaklı",
+            "soru sormayı seven",
+            "interaktif",
+            "aktif katılım arayan"
+          ]
+        },
+        {
+          "studentType": "İnternet Sorunu Yaşayan Veli",
+          "matchScore": 55,
+          "reason": "Öğrenci internet bağlantısı sorunları nedeniyle kamerayı kapatma isteği belirttiğinde öğretmen daha fazla esneklik gösterebilir.",
+          "traits": [
+            "internet sorunu olan",
+            "düşük bağlantı",
+            "teknik sorun yaşayan",
+            "esneklik arayan"
+          ],
+          "caution": "Öğretmenin esneklik göstermesi gerekebilir."
+        }
+      ],
+      "excelsWith": [
+        {
+          "type": "Detay Odaklı Öğrenciler",
+          "reason": "Öğretmen, konuları detaylı bir şekilde açıklayarak öğrencinin anlamasına yardımcı oluyor.",
+          "example": "Öğrencinin sorularına detaylı cevaplar vererek konuyu pekiştiriyor (7:23)."
+        },
+        {
+          "type": "Özgüven Eksikliği Yaşayan Öğrenciler",
+          "reason": "Öğretmen, cesaretlendirici bir dil kullanarak öğrencinin özgüvenini artırıyor.",
+          "example": "Öğrencinin yaptığı hataları nazikçe düzelterek öğrenme sürecine katkıda bulunuyor (60:14)."
+        },
+        {
+          "type": "Aktif Katılım Gösteren Öğrenciler",
+          "reason": "Öğretmen, ders sırasında öğrencinin katılımını teşvik ediyor ve interaktif bir ortam sağlıyor.",
+          "example": "Öğrencinin sorularını dikkatlice dinleyip yanıtlıyor (8:21)."
+        },
+        {
+          "type": "Konular Arası Bağlantı Kurmakta Zorlananlar",
+          "reason": "Ders sırasında farklı konular arasında bağlantı kurarak öğrencinin kavrayışını derinleştiriyor.",
+          "example": "Geometri ve denklemler arasında bağlantı kurarak öğrencinin konular arası geçiş yapmasına yardımcı oluyor (54:48)."
+        }
+      ],
+      "lessSuitedFor": [
+        {
+          "type": "Görsel Öğrenme Stili Olanlar",
+          "reason": "Öğretmen daha fazla görsel materyal kullanarak dersin görselliğini artırabilir.",
+          "alternative": "Görselliğe daha fazla önem veren bir öğretmen tercih edilebilir."
+        },
+        {
+          "type": "Hızlı İlerlemek İsteyenler",
+          "reason": "Öğretmen detaylı açıklamalar yaparak ilerliyor, bu da hızlı ilerlemek isteyen öğrenciler için uygun olmayabilir.",
+          "alternative": "Hızlı ilerlemeye odaklanan bir öğretmen tercih edilebilir."
+        },
+        {
+          "type": "Esneklik Arayan Öğrenciler",
+          "reason": "Öğrenci internet bağlantısı sorunları nedeniyle kamerayı kapatma isteği belirttiğinde öğretmen daha fazla esneklik gösterebilir.",
+          "alternative": "Daha esnek bir öğretim tarzı sunan bir öğretmen tercih edilebilir."
+        }
+      ],
+      "matchingGuide": [
+        {
+          "when": "Öğrenci detaylı açıklamalarla konuyu anlamak istiyorsa",
+          "recommend": "Büşra Çelik'i öner",
+          "because": "Öğretmen, konuları detaylı bir şekilde açıklayarak öğrencinin anlamasına yardımcı oluyor."
+        },
+        {
+          "when": "Öğrenci özgüven eksikliği yaşıyorsa",
+          "recommend": "Büşra Çelik'i öner",
+          "because": "Öğretmen, cesaretlendirici bir dil kullanarak öğrencinin özgüvenini artırıyor."
+        },
+        {
+          "when": "Öğrenci aktif katılım göstermeyi seviyorsa",
+          "recommend": "Büşra Çelik'i öner",
+          "because": "Öğretmen, ders sırasında öğrencinin katılımını teşvik ediyor ve interaktif bir ortam sağlıyor."
+        },
+        {
+          "when": "Öğrenci konular arası bağlantı kurmakta zorlanıyorsa",
+          "recommend": "Büşra Çelik'i öner",
+          "because": "Öğretmen, ders sırasında farklı konular arasında bağlantı kurarak öğrencinin kavrayışını derinleştiriyor."
+        },
+        {
+          "when": "Öğrenci görsel materyallerle öğrenmeyi tercih ediyorsa",
+          "recommend": "Başka bir öğretmen öner",
+          "because": "Öğretmen daha fazla görsel materyal kullanarak dersin görselliğini artırabilir."
+        }
+      ],
+      "overview": "Büşra Çelik, derslerinde detaylı açıklamalar yaparak öğrencilerin konuları derinlemesine anlamalarını sağlıyor. Öğrencilerin katılımını teşvik eden ve onları cesaretlendiren bir öğretim tarzı benimsiyor. Konular arası bağlantı kurarak öğrencinin kavrayışını derinleştiren öğretmen, özellikle özgüven eksikliği yaşayan ve detay odaklı öğrenciler için ideal. Ancak, görsel materyallere daha fazla yer vererek dersin görselliğini artırabilir.",
+      "generatedAt": "2026-07-27T00:25:31.355Z"
+    },
+    "dkk-jbjc-uvf": {
+      "meetCode": "dkk-jbjc-uvf",
+      "tags": [
+        "rasyonel sayılar",
+        "LGS hazırlık",
+        "fizik tedavi",
+        "öğrenci katılımı",
+        "görsel materyal kullanımı"
+      ],
+      "strengths": [
+        "Öğrencinin katılımını artırmak için sorular sorması ve öğrenciyi aktif tutması.",
+        "Öğrencinin ihtiyaçlarını anlamak için çeşitli öğrenme yöntemleri üzerine konuşması.",
+        "Görsel materyaller kullanarak dersin anlaşılabilirliğini artırması.",
+        "Öğrencinin motivasyonunu artırmak için kişisel ilgi alanlarına yönelik sorular sorması.",
+        "Öğrencinin mevcut durumunu değerlendirmek için çeşitli konulara hızlıca değinmesi.",
+        "Öğrencinin sorularını sabırla dinleyip yanıtlaması."
+      ],
+      "developmentAreas": [
+        "Ders boyunca daha fazla yapı ve plan sunarak öğrenciye rehberlik etme.",
+        "Öğretmenin daha az kişisel hikaye paylaşarak derse odaklanması.",
+        "Daha fazla görsel materyal hazırlayarak dersi zenginleştirme.",
+        "Öğrencinin hangi konularda daha fazla zorluk yaşadığını belirlemek için daha fazla zaman ayırma."
+      ],
+      "coordinatorTips": [
+        "Öğrencinin aktif katılım gösterdiği derslerde daha etkili olabilir.",
+        "Görsel materyallerle öğrenmeyi tercih eden öğrencilerle iyi bir uyum yakalayabilir.",
+        "Öğrencinin motivasyonunu artırmak için kişisel hikayelerden kaçınmalı.",
+        "Ders planı ve yapısı konusunda daha fazla rehberlik arayan öğrencilere uygun olmayabilir.",
+        "Öğrencinin mevcut seviyesini değerlendirmek için hızlı bir başlangıç yapabilir.",
+        "Görsel materyalleri etkili bir şekilde kullanarak öğrencinin dikkatini çekebilir."
+      ],
+      "notableQuotes": [
+        {
+          "text": "Şu an sesim",
+          "time": "0:14"
+        },
+        {
+          "text": "Şu an fiziksel olarak yürüyemiyorum. Ha, şu an fiziksel olarak yürüyemiyorum",
+          "time": "6:33"
+        },
+        {
+          "text": "Peki bu derste benden ne bekliyorsun? Tam olarak seviyenin",
+          "time": "11:39"
+        },
+        {
+          "text": "Bir de yapamadığın sorular üzerinde mutlaka durmanı istiyorum. Yapamadığın sorulara mutlaka birlikte de olsa",
+          "time": "19:33"
+        },
+        {
+          "text": "sen nasıl öğreniyorsun? Bunları sormayı unuttum.",
+          "time": "16:03"
+        }
+      ],
+      "studentTypeMatches": [
+        {
+          "studentType": "Görsel Materyal Destekli Öğrenen Zeynep",
+          "matchScore": 85,
+          "reason": "Öğretmen ders sırasında görsel materyal kullanarak öğrencinin dikkatini çekiyor ve öğrenmeyi destekliyor.",
+          "traits": [
+            "Görsel öğrenme",
+            "Katılımcı",
+            "Motivasyon arayan",
+            "Görsel destek seven"
+          ]
+        },
+        {
+          "studentType": "Aktif Katılımcı Ali",
+          "matchScore": 78,
+          "reason": "Öğretmen ders boyunca öğrenciye sürekli sorular sorarak aktif katılımı teşvik ediyor.",
+          "traits": [
+            "Aktif katılım",
+            "Soru sorma",
+            "Motivasyon arayan",
+            "Görsel destek seven"
+          ]
+        },
+        {
+          "studentType": "Kendi Hızında İlerlemek İsteyen Ayşe",
+          "matchScore": 65,
+          "reason": "Öğretmen, öğrencinin kendi hızında ilerlemesine olanak tanıyor fakat daha fazla yapı ve plan sunabilir.",
+          "traits": [
+            "Kendi hızında öğrenme",
+            "Motivasyon arayan",
+            "Görsel destek seven",
+            "Yapı arayan"
+          ],
+          "caution": "Daha fazla yapı ve plan arayan öğrenciler için uygun olmayabilir."
+        }
+      ],
+      "excelsWith": [
+        {
+          "type": "Görsel Destekli Öğrenciler",
+          "reason": "Öğretmen, ders sırasında görsel materyaller kullanarak öğrenmeyi destekliyor.",
+          "example": "Öğrencinin ekran paylaşımı yapmasını teşvik ediyor ve görsel materyal kullanıyor."
+        },
+        {
+          "type": "Katılımcı Öğrenciler",
+          "reason": "Öğrencilerden aktif katılım bekleyerek dersin temposunu yüksek tutuyor.",
+          "example": "Öğrenciye sürekli sorular sorarak katılımı artırıyor."
+        }
+      ],
+      "lessSuitedFor": [
+        {
+          "type": "Yapı ve Plan Arayan Öğrenciler",
+          "reason": "Ders sırasında daha fazla yapı ve plan sunma konusunda eksiklikler var.",
+          "alternative": "Daha yapılandırılmış ders planları sunabilen öğretmenler tercih edilebilir."
+        },
+        {
+          "type": "Kişisel Hikaye İstemeyen Öğrenciler",
+          "reason": "Öğretmenin kişisel hikayelere odaklanması, bazı öğrencilerin dikkatini dağıtabilir.",
+          "alternative": "Derse daha fazla odaklanan öğretmenler tercih edilebilir."
+        }
+      ],
+      "matchingGuide": [
+        {
+          "when": "Öğrenci görsel materyallerle daha iyi öğreniyorsa",
+          "recommend": "Emine Nur Pınar",
+          "because": "Görsel materyalleri etkili bir şekilde kullanarak öğrencinin dikkatini çekebilir."
+        },
+        {
+          "when": "Öğrenci aktif katılım gösteriyorsa",
+          "recommend": "Emine Nur Pınar",
+          "because": "Öğrencinin katılımını artırmak için sorular sorması ve öğrenciyi aktif tutması."
+        }
+      ],
+      "overview": "Emine Nur Pınar, derslerinde görsel materyaller kullanarak öğrencilerin dikkatini çeken ve katılımı teşvik eden bir öğretim tarzına sahiptir. Öğrencilerin ihtiyaçlarını anlamak için çeşitli öğrenme yöntemleri üzerine konuşarak, motivasyonu artırmayı hedefler. Ancak, ders planı ve yapı konusunda daha fazla rehberlik sunabilir. Kişisel hikayeler üzerinden motivasyon sağlamaya çalışsa da, bu bazı öğrenciler için dikkat dağıtıcı olabilir.",
+      "generatedAt": "2026-07-27T00:26:04.295Z"
+    },
+    "cup-ebmb-nwm": {
+      "meetCode": "cup-ebmb-nwm",
+      "tags": [
+        "trigonometri",
+        "dik üçgen",
+        "özel üçgen",
+        "geometri",
+        "formül"
+      ],
+      "strengths": [
+        "Öğretmen, trigonometrik oranları dik üçgen üzerinde somut örneklerle anlatıyor. (8:31)",
+        "Öğrenciye formülleri kodlama yöntemiyle hafızada tutmayı öneriyor. (9:17)",
+        "Öğretmen, üç dört beş ve sekiz on beş on yedi gibi özel üçgenleri sıkça vurguluyor. (11:45)",
+        "Öğretmen, öğrenciye sorularla aktif katılım sağlıyor ve yanıtlarını değerlendiriyor. (10:29)",
+        "Öğretmen, sinüs ve kosinüs değerlerini birim çember üzerinden açıklıyor. (15:07)",
+        "Öğretmen, öğrenciye formülleri yazdırarak kalıcı öğrenmeyi teşvik ediyor. (17:00)",
+        "Öğretmen, geometri ve trigonometri arasındaki bağlantıları kuruyor. (23:06)"
+      ],
+      "developmentAreas": [
+        "Öğrenciye daha fazla uzun yanıtlar verdirmeye çalışmalı. (Öğrenci uzun yanıt vermiyor.)",
+        "Öğrencinin sorularını daha fazla teşvik etmeli. (Öğrenci sadece 8 soru sordu.)",
+        "Öğrencinin not almasını sağlamak için daha fazla zaman tanımalı. (Öğrenci not almak için acele etti.)",
+        "Öğrencinin temel konulara dair bilgilerini daha sık kontrol etmeli. (Kontrol sayısı sadece 7)"
+      ],
+      "coordinatorTips": [
+        "Öğrenci trigonometrik kavramlarla ilgiliyse bu öğretmeni öner.",
+        "Öğrenci geometri ve trigonometri arasındaki bağlantıları öğrenmek istiyorsa Mehmet Hoca uygun olacaktır.",
+        "Öğrenci formülleri hafızada tutmakta zorlanıyorsa, kodlama yöntemini kullanabilir.",
+        "Öğrenci dik üçgen ve özel üçgenlerle ilgili daha fazla pratik yapmak istiyorsa bu öğretmenle çalışabilir.",
+        "Öğrenci birim çember ve trigonometrik fonksiyonlar konusunda destek arıyorsa Mehmet Hoca uygun bir seçim olabilir.",
+        "Öğrenci formülleri yazılı olarak öğrenmeyi seviyorsa, öğretmenin yazdırma tekniği faydalı olacaktır.",
+        "Öğrenci ders sırasında aktif katılım sağlamak istiyorsa bu öğretmenle çalışabilir."
+      ],
+      "notableQuotes": [],
+      "studentTypeMatches": [
+        {
+          "studentType": "Birim Çember ve Trigonometrik Fonksiyonlar Üzerine Çalışan",
+          "matchScore": 92,
+          "reason": "Öğretmen, birim çember ve trigonometrik fonksiyonları detaylı bir şekilde açıklıyor.",
+          "traits": [
+            "birim çember bilgisi",
+            "detaylı öğrenme isteği",
+            "aktif katılım"
+          ],
+          "caution": "Öğrencinin soruları teşvik edilmeli."
+        },
+        {
+          "studentType": "Geometri-Trigonometri Arasında Bağlantı Arayan",
+          "matchScore": 90,
+          "reason": "Öğretmen, geometri ve trigonometri arasındaki bağlantıları kurarak konuları açıklıyor.",
+          "traits": [
+            "bağlantı kurma isteği",
+            "geometri bilgisi",
+            "aktif katılım"
+          ],
+          "caution": "Öğrencinin soruları teşvik edilmeli."
+        },
+        {
+          "studentType": "Özel Üçgenleri Öğrenmek İsteyen",
+          "matchScore": 88,
+          "reason": "Öğretmen, özel üçgenleri sıkça vurguluyor ve öğrenciye bu konuda detaylı bilgi veriyor.",
+          "traits": [
+            "özel üçgen bilgisi",
+            "detaylı öğrenme isteği",
+            "aktif katılım"
+          ],
+          "caution": "Öğrencinin not alması için yeterli zaman tanınmalı."
+        },
+        {
+          "studentType": "Dik Üçgenlerle İlgili Pratik Yapmak İsteyen",
+          "matchScore": 87,
+          "reason": "Öğretmen, dik üçgen konularında öğrenciye somut örnekler sunuyor.",
+          "traits": [
+            "dik üçgen bilgisi",
+            "pratik yapma isteği",
+            "aktif katılım"
+          ],
+          "caution": "Öğrencinin not alması için yeterli zaman tanınmalı."
+        },
+        {
+          "studentType": "Trigonometriye Yeni Başlayan",
+          "matchScore": 85,
+          "reason": "Öğrenci trigonometrik oranların temel kavramlarını öğrenmeye başlıyor.",
+          "traits": [
+            "temel öğrenme isteği",
+            "kodlama yöntemi",
+            "aktif katılım"
+          ],
+          "caution": "Öğrenciye daha fazla uzun yanıtlar verdirmeye çalışılmalı."
+        },
+        {
+          "studentType": "Formülleri Hafızada Tutmakta Zorlanan",
+          "matchScore": 82,
+          "reason": "Öğretmen, formülleri kodlama yöntemiyle hafızada tutmayı öneriyor.",
+          "traits": [
+            "hafıza güçlüğü",
+            "kodlama yöntemi",
+            "aktif katılım"
+          ],
+          "caution": "Öğrencinin temel konulara dair bilgileri sıkça kontrol edilmeli."
+        }
+      ],
+      "excelsWith": [
+        {
+          "type": "Trigonometri Kavramları Üzerine Yoğunlaşan",
+          "reason": "Öğretmen, trigonometrik oranları dik üçgen üzerinde somut örneklerle anlatıyor.",
+          "example": "Öğretmen, trigonometrik oranları dik üçgen üzerinde somut örneklerle anlatıyor. (8:31)"
+        },
+        {
+          "type": "Geometri ve Trigonometri Arasındaki Bağlantıları Öğrenmek İsteyen",
+          "reason": "Öğretmen, geometri ve trigonometri arasındaki bağlantıları kurarak konuları açıklıyor.",
+          "example": "Öğretmen, geometri ve trigonometri arasındaki bağlantıları kurarak konuları açıklıyor. (23:06)"
+        },
+        {
+          "type": "Özel Üçgenleri Bilmek İsteyen",
+          "reason": "Öğretmen, üç dört beş ve sekiz on beş on yedi gibi özel üçgenleri sıkça vurguluyor.",
+          "example": "Öğretmen, üç dört beş ve sekiz on beş on yedi gibi özel üçgenleri sıkça vurguluyor. (11:45)"
+        },
+        {
+          "type": "Formülleri Kodlama Yöntemiyle Öğrenmek İsteyen",
+          "reason": "Öğretmen, formülleri kodlama yöntemiyle hafızada tutmayı öneriyor.",
+          "example": "Öğretmen, formülleri kodlama yöntemiyle hafızada tutmayı öneriyor. (9:17)"
+        },
+        {
+          "type": "Birim Çember ve Trigonometrik Fonksiyonlar Üzerine Çalışan",
+          "reason": "Öğretmen, sinüs ve kosinüs değerlerini birim çember üzerinden açıklıyor.",
+          "example": "Öğretmen, sinüs ve kosinüs değerlerini birim çember üzerinden açıklıyor. (15:07)"
+        },
+        {
+          "type": "Dik Üçgenlerle İlgili Pratik Yapmak İsteyen",
+          "reason": "Öğretmen, dik üçgen konularında öğrenciye somut örnekler sunuyor.",
+          "example": "Öğretmen, dik üçgen konularında öğrenciye somut örnekler sunuyor. (10:29)"
+        }
+      ],
+      "lessSuitedFor": [
+        {
+          "type": "Uzun Yanıtlar Vermekte Zorlanan",
+          "reason": "Öğrenci uzun yanıtlar vermekte zorlanıyor ve öğretmen bu konuda yeterince teşvik edici değil.",
+          "alternative": "Daha fazla öğrenci katılımı teşvik eden bir öğretmen önerilebilir."
+        },
+        {
+          "type": "Kendi Sorularını Sormakta Çekinen",
+          "reason": "Öğrencinin soruları teşvik edilmiyor; sadece 8 soru sordu.",
+          "alternative": "Öğrenci sorularını daha fazla teşvik eden bir öğretmen önerilebilir."
+        },
+        {
+          "type": "Not Alma Sürecinde Daha Fazla Zaman İsteyen",
+          "reason": "Öğrencinin not almak için acele ettiği gözlemlendi.",
+          "alternative": "Öğrencinin not alması için daha fazla zaman tanıyan bir öğretmen önerilebilir."
+        },
+        {
+          "type": "Temel Konularda Daha Fazla Kontrol İhtiyacı Olan",
+          "reason": "Öğrencinin temel konulara dair bilgileri daha sık kontrol edilmeli.",
+          "alternative": "Temel konulara daha fazla odaklanan bir öğretmen önerilebilir."
+        }
+      ],
+      "matchingGuide": [
+        {
+          "when": "Öğrenci trigonometrik kavramlarla ilgiliyse",
+          "recommend": "Mehmet Alioğlu",
+          "because": "Öğretmen, trigonometrik oranları dik üçgen üzerinde somut örneklerle anlatıyor."
+        },
+        {
+          "when": "Öğrenci geometri ve trigonometri arasındaki bağlantıları öğrenmek istiyorsa",
+          "recommend": "Mehmet Alioğlu",
+          "because": "Öğretmen, geometri ve trigonometri arasındaki bağlantıları kurarak konuları açıklıyor."
+        },
+        {
+          "when": "Öğrenci özel üçgenleri öğrenmek istiyorsa",
+          "recommend": "Mehmet Alioğlu",
+          "because": "Öğretmen, üç dört beş ve sekiz on beş on yedi gibi özel üçgenleri sıkça vurguluyor."
+        },
+        {
+          "when": "Öğrenci formülleri hafızada tutmakta zorlanıyorsa",
+          "recommend": "Mehmet Alioğlu",
+          "because": "Öğretmen, formülleri kodlama yöntemiyle hafızada tutmayı öneriyor."
+        },
+        {
+          "when": "Öğrenci birim çember ve trigonometrik fonksiyonlar konusunda destek arıyorsa",
+          "recommend": "Mehmet Alioğlu",
+          "because": "Öğretmen, sinüs ve kosinüs değerlerini birim çember üzerinden açıklıyor."
+        },
+        {
+          "when": "Öğrenci dik üçgenlerle ilgili pratik yapmak istiyorsa",
+          "recommend": "Mehmet Alioğlu",
+          "because": "Öğretmen, dik üçgen konularında öğrenciye somut örnekler sunuyor."
+        }
+      ],
+      "overview": "Mehmet Alioğlu, derslerinde trigonometrik oranları ve geometri-trigonometri bağlantılarını somut örneklerle açıklayan bir öğretmendir. Öğrencilerine formülleri kodlama yöntemiyle hafızada tutmayı önerir ve özel üçgenlere sıkça vurgu yapar. Birim çember ve trigonometrik fonksiyonlar konularında detaylı açıklamalar yaparak öğrencinin konuları derinlemesine anlamasını sağlar. Öğrencilerin aktif katılımını teşvik ederken, not alma sürecine daha fazla zaman tanıması gerekebilir.",
+      "generatedAt": "2026-07-27T00:26:21.860Z"
+    },
+    "dpj-rpde-pft": {
+      "meetCode": "dpj-rpde-pft",
+      "tags": [
+        "geometri",
+        "LGS",
+        "yeni_nesil_sorular",
+        "görsel_materyal",
+        "deneme"
+      ],
+      "strengths": [
+        "Öğrenciyle etkili iletişim kurma ve onu rahatlatma kapasitesi.",
+        "Yeni nesil sorulara dair hikayeler ve örneklerle öğrenciyi motive etme.",
+        "Konu anlatımında görsel materyal kullanımı ve bunu öğrencinin dikkatini çekmek için kullanma.",
+        "Öğrencinin günlük yaşamından örneklerle ders konularını ilişkilendirme.",
+        "Öğrencinin ilgisini çekecek hikaye ve deneyimlerle konuları daha ilgi çekici hale getirme.",
+        "Öğrencinin motivasyonunu artırmak için spor ve diğer ilgi alanlarından örnekler verme.",
+        "Öğrencinin psikolojik durumunu göz önünde bulundurarak ders planı oluşturma.",
+        "Öğrencinin LGS stresini yönetme konusunda rehberlik etme."
+      ],
+      "developmentAreas": [
+        "Öğrencinin sorduğu sorulara daha fazla zaman ayırarak detaylı açıklamalar yapma.",
+        "Yenilikçi öğretim metotlarını daha sık kullanarak öğrencinin dikkatini daha fazla çekme.",
+        "Dersin sonunda öğrenciye konuyla ilgili kısa bir özet yaparak öğrendiklerini pekiştirme.",
+        "Öğrencinin katılımını artırmak için daha fazla soru-cevap etkinliği düzenleme.",
+        "Öğrencinin zorlandığı konuları belirleyip bunlar üzerine yoğunlaşma.",
+        "Ders esnasında daha fazla görsel materyal kullanarak konuları somutlaştırma."
+      ],
+      "coordinatorTips": [
+        "Yeni nesil sorularda zorlanan öğrenciler için uygun bir öğretmen.",
+        "Ders sırasında bolca hikaye ve deneyim paylaşarak öğrenciyi motive edebilir.",
+        "Geometri ve LGS konularında rehberlik arayan öğrenciler için ideal.",
+        "Öğrencinin günlük yaşamıyla ders konularını ilişkilendirme yeteneği sayesinde, günlük yaşamdan örneklerle öğrenmeyi seven öğrenciler için uygun.",
+        "Görsel materyal kullanımı ile dikkat çeken öğretim tarzı, görsel öğrenen öğrenciler için ideal.",
+        "LGS stresini yönetmekte zorlanan öğrenciler için destek sağlayabilir.",
+        "Öğrencinin motivasyonunu artırmak için spor ve diğer ilgi alanlarından örnekler vermesi, sporla ilgilenen öğrenciler için avantajlı."
+      ],
+      "notableQuotes": [
+        {
+          "text": "yeni nesil sorularda batırıyorum hocam.",
+          "time": "25:34"
+        },
+        {
+          "text": "Bizim de yeni nesil sorular içerisinde gitmemiz gereken bazı bilgiler var.",
+          "time": "27:12"
+        },
+        {
+          "text": "O bilgiyi bir kere kullanmak yetmeyecek, iki kere kullanmak yetmeyecek.",
+          "time": "30:15"
+        },
+        {
+          "text": "Bir soruyu yapamadım",
+          "time": "30:29"
+        },
+        {
+          "text": "Şimdi bunu nasıl kullanacağız? Bizim kafamızda",
+          "time": "27:54"
+        },
+        {
+          "text": "soruların üzerine biraz çaba harcamamız gerekiyor.",
+          "time": "29:20"
+        },
+        {
+          "text": "Top istediğin yere gitmiyor değil mi? Evet hocam.",
+          "time": "29:51"
+        },
+        {
+          "text": "Yüzlerce binlerce deneme yaptın değil mi? Evet hocam.",
+          "time": "30:08"
+        },
+        {
+          "text": "ne alakası var? Özellikle yenilmesi sorularla.",
+          "time": "26:42"
+        }
+      ],
+      "studentTypeMatches": [
+        {
+          "studentType": "Yeni nesil sorularda zorlanan öğrenci",
+          "matchScore": 92,
+          "reason": "Öğretmen, yeni nesil sorulara dair hikayeler ve örneklerle öğrenciye rehberlik edebilir.",
+          "traits": [
+            "zorlanma",
+            "rehberlik arayışı",
+            "hikaye ile öğrenme",
+            "motivasyon ihtiyacı"
+          ],
+          "caution": "Farklı öğretim metotlarına açık olunması gerekebilir."
+        },
+        {
+          "studentType": "Görsel materyal ile öğrenen öğrenci",
+          "matchScore": 88,
+          "reason": "Ders sırasında görsel materyal kullanımı ve öğrencinin dikkatini çekmesi.",
+          "traits": [
+            "görsel öğrenme",
+            "dikkat çekici materyal",
+            "somutlaştırma",
+            "görsel hafıza"
+          ]
+        },
+        {
+          "studentType": "LGS stresini yönetmekte zorlanan öğrenci",
+          "matchScore": 85,
+          "reason": "Öğrencinin psikolojik durumunu göz önünde bulundurarak ders planı oluşturma yeteneği.",
+          "traits": [
+            "stres",
+            "psikolojik destek",
+            "planlama",
+            "rehberlik"
+          ]
+        },
+        {
+          "studentType": "Sporla ilgilenen öğrenci",
+          "matchScore": 81,
+          "reason": "Öğrencinin motivasyonunu artırmak için spor ve diğer ilgi alanlarından örnekler verme.",
+          "traits": [
+            "spor ilgisi",
+            "motivasyon",
+            "örnekleme",
+            "ilgi alanları"
+          ]
+        },
+        {
+          "studentType": "Geometri konularında güçlük çeken öğrenci",
+          "matchScore": 76,
+          "reason": "Geometri konularında rehberlik arayan öğrenciler için uygun.",
+          "traits": [
+            "geometri",
+            "rehberlik",
+            "konu zorluğu",
+            "öğrenme isteği"
+          ]
+        },
+        {
+          "studentType": "Günlük yaşamla ders konularını ilişkilendiren öğrenci",
+          "matchScore": 71,
+          "reason": "Öğrencinin günlük yaşamından örneklerle ders konularını ilişkilendirme yeteneği.",
+          "traits": [
+            "günlük yaşam",
+            "ilişkilendirme",
+            "örnekleme",
+            "uygulamalı öğrenme"
+          ]
+        }
+      ],
+      "excelsWith": [
+        {
+          "type": "Yeni nesil sorulara odaklanan öğrenci",
+          "reason": "Öğretmen, yeni nesil sorulara dair hikayeler ve deneyimler paylaşarak öğrenciyi motive edebilir.",
+          "example": "Yeni nesil sorularla ilgili benim bir hikayem var. Hikayem dediğim deneyimiz var. (25:38)"
+        },
+        {
+          "type": "Görsel materyalden faydalanmak isteyen öğrenci",
+          "reason": "Ders sırasında görsel materyal kullanarak öğrencinin dikkatini çekmeyi başarır.",
+          "example": "Öğrenciyle etkili iletişim kurma ve onu rahatlatma kapasitesi."
+        },
+        {
+          "type": "Motivasyon ihtiyacı olan öğrenci",
+          "reason": "Öğrencinin motivasyonunu artırmak için spor ve diğer ilgi alanlarından örnekler verir.",
+          "example": "Sporla ilgileniyor musun? (29:30)"
+        },
+        {
+          "type": "LGS hazırlığındaki öğrenci",
+          "reason": "LGS konularında rehberlik arayan ve stresi yönetmekte zorlanan öğrencilere destek sağlar.",
+          "example": "Öğrencilerin sorumlu olduğu, üslü ifadelerse, (27:19)"
+        },
+        {
+          "type": "Günlük yaşamla dersleri ilişkilendiren öğrenci",
+          "reason": "Öğrencinin günlük yaşamından örneklerle ders konularını ilişkilendirir.",
+          "example": "Bizim de yeni nesil sorular içerisinde gitmemiz gereken bazı bilgiler var. (27:12)"
+        }
+      ],
+      "lessSuitedFor": [
+        {
+          "type": "Detaylı açıklama bekleyen öğrenci",
+          "reason": "Öğrencinin sorduğu sorulara daha fazla zaman ayırarak detaylı açıklamalar yapma ihtiyacı görülüyor.",
+          "alternative": "Detaylı açıklama yapabilen ve daha fazla zaman ayırabilen öğretmenler."
+        },
+        {
+          "type": "Hızlı ilerlemek isteyen öğrenci",
+          "reason": "Daha fazla görsel materyal kullanarak konuları somutlaştırma ihtiyacı var.",
+          "alternative": "Hızlı ilerleyen ve daha az görsel materyal kullanan öğretmenler."
+        },
+        {
+          "type": "Soru-cevap etkinliği arayan öğrenci",
+          "reason": "Öğrencinin katılımını artırmak için daha fazla soru-cevap etkinliği düzenlenmeli.",
+          "alternative": "Soru-cevap etkinliğini daha sık yapan öğretmenler."
+        },
+        {
+          "type": "Kısa özetlerle öğrenmeyi pekiştiren öğrenci",
+          "reason": "Dersin sonunda öğrenciye konuyla ilgili kısa bir özet yaparak öğrendiklerini pekiştirme ihtiyacı var.",
+          "alternative": "Ders sonunda özet yaparak konuları pekiştiren öğretmenler."
+        }
+      ],
+      "matchingGuide": [
+        {
+          "when": "Öğrenci yeni nesil sorularda zorlanıyorsa",
+          "recommend": "Mustafa Enes Kırtış",
+          "because": "Öğrenciye yeni nesil sorulara dair hikayeler ve örneklerle rehberlik edebilir."
+        },
+        {
+          "when": "Öğrenci görsel materyal ile öğrenmek istiyorsa",
+          "recommend": "Mustafa Enes Kırtış",
+          "because": "Ders sırasında görsel materyal kullanarak öğrencinin dikkatini çekmeyi başarır."
+        },
+        {
+          "when": "Öğrenci LGS stresini yönetmekte zorlanıyorsa",
+          "recommend": "Mustafa Enes Kırtış",
+          "because": "Öğrencinin psikolojik durumunu göz önünde bulundurarak ders planı oluşturabilir."
+        },
+        {
+          "when": "Öğrenci sporla ilgileniyorsa ve motivasyon arıyorsa",
+          "recommend": "Mustafa Enes Kırtış",
+          "because": "Öğrencinin motivasyonunu artırmak için spor ve diğer ilgi alanlarından örnekler verir."
+        },
+        {
+          "when": "Öğrenci geometri konularında güçlük çekiyorsa",
+          "recommend": "Mustafa Enes Kırtış",
+          "because": "Geometri konularında rehberlik arayan öğrenciler için uygun."
+        },
+        {
+          "when": "Öğrenci günlük yaşamla ders konularını ilişkilendirmek istiyorsa",
+          "recommend": "Mustafa Enes Kırtış",
+          "because": "Öğrencinin günlük yaşamından örneklerle ders konularını ilişkilendirir."
+        }
+      ],
+      "overview": "Mustafa Enes Kırtış, matematik derslerinde öğrenciyle etkili iletişim kurarak ve hikaye anlatımıyla motivasyon sağlayarak dikkat çeken bir öğretim tarzı sergiliyor. Görsel materyal kullanımı ve günlük yaşamdan örneklerle konuları daha anlaşılır kılıyor. LGS hazırlığında olan ve yeni nesil sorularda zorlanan öğrenciler için ideal bir rehber olan Kırtış, aynı zamanda öğrencinin psikolojik durumunu göz önünde bulundurarak ders planı oluşturuyor. Öğrencinin motivasyonunu artırmak için spor ve diğer ilgi alanlarından örnekler veriyor.",
+      "generatedAt": "2026-07-27T00:28:36.249Z"
+    },
+    "dve-naye-uxc": {
+      "meetCode": "dve-naye-uxc",
+      "tags": [
+        "görselMateryal",
+        "fiilimsiKavramı",
+        "çekimliFiiller",
+        "konuAnlatımı",
+        "dersNotları"
+      ],
+      "strengths": [
+        "Öğretmen, ders planını esnek bir şekilde öğrenciye göre ayarlayabiliyor ve eksiklikleri kapatma teklifinde bulunuyor. (5:11)",
+        "Fiilimsi ve çekimli fiil konularında detaylı açıklamalar yaparak öğrencinin anlamadığı noktaları sabırla açıklıyor. (31:26)",
+        "Ders notlarını öğrencinin daha iyi anlaması için paylaşarak öğrenme sürecini destekliyor. (11:04)",
+        "Öğrencinin anlamadığı yerlerde duraksayıp konuyu tekrar açıklayarak anlamasını sağlıyor. (50:48)",
+        "Görsel materyaller kullanarak konunun daha iyi anlaşılmasını sağlıyor. (7:44)",
+        "Öğrenciyi aktif katılıma teşvik ederek sorularla düşünmeye yönlendiriyor. (23:18)"
+      ],
+      "developmentAreas": [
+        "Öğrencinin daha fazla soru sorması ve katılım sağlaması için teşvik edici yöntemler geliştirilmeli.",
+        "Dersin başında daha net bir giriş yaparak konulara hızlı bir başlangıç yapılabilir.",
+        "Konular arasında geçiş yaparken daha belirgin bağlantılar kurulmalı.",
+        "Öğrencinin dikkatini dağıtmadan dersin tamamına odaklanmasını sağlamak için daha etkili bir zaman yönetimi uygulanabilir."
+      ],
+      "coordinatorTips": [
+        "Öğretmen, fiilimsi ve çekimli fiil konularında derinlemesine bilgi sunuyor, bu konularda eksiklik yaşayan öğrenciler için ideal.",
+        "Görsel materyaller kullanarak konuları somutlaştırdığı için görsel öğrenmeye yatkın öğrencilerle iyi sonuçlar elde edebilir.",
+        "Ders notları paylaşarak öğrencinin kendi başına tekrar yapmasına olanak tanıyor, bu da not tutma konusunda zorluk yaşayan öğrenciler için faydalı olabilir.",
+        "Dersin akışını öğrencinin ihtiyaçlarına göre uyarlayabilmesi, esnek bir öğrenme ortamı arayan öğrenciler için avantaj sağlar.",
+        "Öğrenci katılımını teşvik eden bir yaklaşımı var, daha çekingen öğrencilerin bu ortamda daha rahat hissetmesi sağlanabilir."
+      ],
+      "notableQuotes": [
+        {
+          "text": "varsa yedideki eksiklikleri kapatalım. Eğer dersen ki hocam aslında ben iyiyim, görsem hatırlarım, sekize başlasak ben şu an tamamım mı diyebilirsin?",
+          "time": "5:11"
+        },
+        {
+          "text": "Ders bitiminden sonra hemen onu tekrar ediyorsunuz, arkasına test atıyorum, onu çözüyorsunuz ki kafamızdakileri cilalamış oluyoruz.",
+          "time": "11:04"
+        },
+        {
+          "text": "Ben bunları nasıl ayırt edeceğim? Aslında fiilimsinin bütün konusu neredeyse burada özetliyor sana.",
+          "time": "31:26"
+        },
+        {
+          "text": "Şimdi ben bir kelimede anlamadığım bir yer olursa bana hemen sor, gerekirse cümlemi böl yani sözümü kes tamam mı?",
+          "time": "23:18"
+        },
+        {
+          "text": "Adı üstünde bu bir fiil. Görüyorsun değil mi bu arada ekranı net görüyorsun belki. Şekimli fiilse",
+          "time": "7:44"
+        },
+        {
+          "text": "almadığı için bu bir fiilimsi mi? Evet, fiilimsi ama başka bir fiilimsi türü. İsim fiil değil.",
+          "time": "50:48"
+        }
+      ],
+      "studentTypeMatches": [
+        {
+          "studentType": "Fiilimsilerde Zorlanan Öğrenci",
+          "matchScore": 96,
+          "reason": "Öğretmen fiilimsi konusunu detaylı ve anlaşılır şekilde açıklıyor. Öğrencinin anlamadığı noktaları sabırla ele alıyor.",
+          "traits": [
+            "detaylı açıklama ihtiyacı",
+            "soru sormaktan kaçınan",
+            "fiilimsi kavramında eksiklik",
+            "sabırlı öğretmen arayışı"
+          ]
+        },
+        {
+          "studentType": "Görsel Materyal İhtiyacı Olan Öğrenci",
+          "matchScore": 90,
+          "reason": "Öğretmen, derslerde görsel materyaller kullanarak konuları daha anlaşılır hale getiriyor.",
+          "traits": [
+            "görsel öğrenme",
+            "matematikte görsellik arayışı",
+            "etkileşimli ders",
+            "somut örneklerle öğrenme"
+          ]
+        },
+        {
+          "studentType": "Ders Notlarıyla Çalışan Öğrenci",
+          "matchScore": 85,
+          "reason": "Öğretmen, ders notlarını öğrencilerle paylaşarak tekrar yapmalarını destekliyor.",
+          "traits": [
+            "not tutma isteği",
+            "tekrar yapma alışkanlığı",
+            "yazılı materyal ihtiyacı",
+            "bağımsız çalışma arzusu"
+          ]
+        },
+        {
+          "studentType": "Esnek Ders İsteyen Öğrenci",
+          "matchScore": 75,
+          "reason": "Öğretmen dersin akışını öğrencinin ihtiyaçlarına göre ayarlayabiliyor.",
+          "traits": [
+            "esnek öğrenme ortamı",
+            "kişiselleştirilmiş ders",
+            "ihtiyaca göre konu",
+            "dinamik ders işleyişi"
+          ]
+        },
+        {
+          "studentType": "Soru Sorma Konusunda Çekingen Öğrenci",
+          "matchScore": 70,
+          "reason": "Öğretmen, öğrenciyi soru sormaya teşvik ediyor ve anlamadığı yerlerde duraksıyor.",
+          "traits": [
+            "çekingen",
+            "düşük katılım",
+            "soru sorma isteği",
+            "destekleyici öğretmen arayışı"
+          ],
+          "caution": "Öğrencinin katılımını artırmak için ek stratejiler gerekebilir."
+        },
+        {
+          "studentType": "LGS'ye Hazırlanan Öğrenci",
+          "matchScore": 65,
+          "reason": "Öğretmen, LGS konularına yönelik dersler sunuyor ve öğrenciye uygun kaynaklar öneriyor.",
+          "traits": [
+            "sınav odaklı",
+            "LGS hazırlığı",
+            "kaynak arayışı",
+            "sistemli çalışma ihtiyacı"
+          ],
+          "caution": "Öğrencinin sınav stresi yönetimi konusunda ek yardıma ihtiyacı olabilir."
+        }
+      ],
+      "excelsWith": [
+        {
+          "type": "Fiilimsi Konularında Derinleşmek İsteyen Öğrenci",
+          "reason": "Öğretmen, fiilimsi konularında kapsamlı bilgi veriyor ve öğrenciye detaylı açıklamalar sunuyor.",
+          "example": "Ben bunları nasıl ayırt edeceğim? Aslında fiilimsinin bütün konusu neredeyse burada özetliyor sana. (31:26)"
+        },
+        {
+          "type": "Görsel Öğrenmeye Yatkın Öğrenci",
+          "reason": "Görsel materyaller kullanarak konuları daha anlaşılır hale getiriyor.",
+          "example": "Adı üstünde bu bir fiil. Görüyorsun değil mi bu arada ekranı net görüyorsun belki. Şekimli fiilse (7:44)"
+        },
+        {
+          "type": "Özelleştirilmiş Ders İsteyen Öğrenci",
+          "reason": "Ders akışını öğrencinin ihtiyaçlarına göre ayarlayabiliyor.",
+          "example": "varsayalım yedideki eksiklikleri kapatalım. (5:11)"
+        },
+        {
+          "type": "Notlarla Çalışmayı Seven Öğrenci",
+          "reason": "Ders notlarını paylaşarak öğrencinin tekrar yapmasına olanak tanıyor.",
+          "example": "Ders bitiminden sonra hemen onu tekrar ediyorsunuz, arkasına test atıyorum. (11:04)"
+        }
+      ],
+      "lessSuitedFor": [
+        {
+          "type": "Yüksek Katılım Bekleyen Öğrenci",
+          "reason": "Öğrenci ders süresince soru sormadı ve öğretmen daha fazla katılımı teşvik edemedi.",
+          "alternative": "Daha etkileşimli bir ders ortamı sağlayan öğretmenler."
+        },
+        {
+          "type": "Net ve Hızlı Konu Geçişi Arayan Öğrenci",
+          "reason": "Konular arasında daha belirgin bağlantılar kurulabilir.",
+          "alternative": "Daha yapılandırılmış ders planı sunan öğretmenler."
+        },
+        {
+          "type": "Zaman Yönetimi Beklentisi Olan Öğrenci",
+          "reason": "Dersin sonunda zaman yönetimi konusunda eksiklik görüldü.",
+          "alternative": "Ders süresini daha etkin kullanan öğretmenler."
+        },
+        {
+          "type": "Sürekli Destek İsteyen Öğrenci",
+          "reason": "Öğrencinin sorulara katılımı düşük kaldı ve öğretmen sürekli destek sağlayamadı.",
+          "alternative": "Daha sık geri bildirim veren ve destek sunan öğretmenler."
+        }
+      ],
+      "matchingGuide": [
+        {
+          "when": "Öğrenci fiilimsi konularında zorlanıyorsa",
+          "recommend": "Fatma Nur Yıldırım'ı öner",
+          "because": "Fiilimsi konularını detaylı ve anlaşılır şekilde açıklıyor."
+        },
+        {
+          "when": "Öğrenci görsel materyal ihtiyacı duyuyorsa",
+          "recommend": "Fatma Nur Yıldırım'ı öner",
+          "because": "Görsel materyaller kullanarak konuları daha anlaşılır hale getiriyor."
+        },
+        {
+          "when": "Öğrenci ders notlarıyla çalışmayı seviyorsa",
+          "recommend": "Fatma Nur Yıldırım'ı öner",
+          "because": "Ders notlarını paylaşarak öğrencinin kendi başına tekrar yapmasına olanak tanıyor."
+        },
+        {
+          "when": "Öğrenci esnek ders planı istiyorsa",
+          "recommend": "Fatma Nur Yıldırım'ı öner",
+          "because": "Ders akışını öğrencinin ihtiyaçlarına göre ayarlayabiliyor."
+        },
+        {
+          "when": "Öğrenci soru sormakta çekingen davranıyorsa",
+          "recommend": "Fatma Nur Yıldırım'ı öner",
+          "because": "Öğrenciyi soru sormaya teşvik eden bir yaklaşımı var."
+        },
+        {
+          "when": "Öğrenci LGS'ye hazırlanıyorsa",
+          "recommend": "Fatma Nur Yıldırım'ı öner",
+          "because": "LGS konularına yönelik dersler sunuyor ve öğrenciye uygun kaynaklar öneriyor."
+        }
+      ],
+      "overview": "Fatma Nur Yıldırım, derslerini esnek bir şekilde öğrencinin ihtiyaçlarına göre ayarlayarak etkili bir öğretim sunuyor. Görsel materyaller ve detaylı konu anlatımları ile fiilimsi ve çekimli fiil konularında derinlemesine bilgi sağlıyor. Ders notlarını paylaşarak öğrencilere kendi başlarına tekrar yapma imkanı tanıyor. Öğrenciyi aktif katılıma teşvik etmek için çaba gösteriyor, ancak öğrencinin katılımını artırmak için ek stratejilere ihtiyaç duyulabilir.",
+      "generatedAt": "2026-07-27T00:29:31.287Z"
+    },
+    "eks-qgow-why": {
+      "meetCode": "eks-qgow-why",
+      "tags": [
+        "rasyonel_sayılar",
+        "çift_tek_sayılar",
+        "faktöriyel",
+        "sayı_kümeleri",
+        "öğrenci_iletişimi",
+        "matematik_temelleri",
+        "problem_çözme"
+      ],
+      "strengths": [
+        "Öğretmen Mehmet Alioğlu, dersin başında öğrenciyle etkili bir iletişim kurarak onun durumunu ve ihtiyaçlarını anlamaya çalıştı. (6:00)",
+        "Rasyonel sayılar konusunu detaylı bir şekilde anlatarak kavramların netleşmesini sağladı. (9:04)",
+        "Öğrenciye çift ve tek sayılarla ilgili sorular sorarak konunun pekişmesini sağladı. (15:15)",
+        "Sayı kümeleri ve faktöriyel konularına değinerek öğrenciye geniş bir perspektif sunmayı başardı. (16:39)",
+        "Öğrencinin yanlış anlamalarını düzelterek doğru yolda ilerlemesini sağladı. (23:49)",
+        "Öğrenciye problem çözme sırasında çeşitli stratejiler önerdi ve bunları uygulamalı olarak gösterdi. (38:19)"
+      ],
+      "developmentAreas": [
+        "Öğrencinin sorulara daha uzun yanıtlar vermesi için teşvik edici yöntemler geliştirilmeli.",
+        "Ders sırasında daha fazla görsel materyal kullanılabilir.",
+        "Öğrenciye daha fazla katılım fırsatı verilerek dersin interaktifliği artırılabilir.",
+        "Öğrencinin motivasyonunu artırmak için daha fazla olumlu geri bildirim verilmeli."
+      ],
+      "coordinatorTips": [
+        "Mehmet Alioğlu, temel matematik konularını detaylı ve sabırlı bir şekilde açıklayabilen bir öğretmen.",
+        "Öğrencilerin temel matematik kavramlarında zorlandığı durumlarda bu öğretmen tercih edilebilir.",
+        "Öğrencilerin problem çözme yeteneklerini geliştirmek isteyenler için uygun bir seçenek.",
+        "Derslerde interaktiviteyi artırmak isteyen öğrenciler için Mehmet Hoca'nın yaklaşımı uygun olmayabilir.",
+        "Öğrencilerin kendi başına çözüm üretmesini teşvik eden bir öğretmen arayanlar için uygun.",
+        "Rasyonel ve irrasyonel sayılar gibi konularda derinlemesine bilgi arayan öğrenciler için ideal."
+      ],
+      "notableQuotes": [
+        {
+          "text": "Mehmet Hoca ben matematik öğretmeniyim.",
+          "time": "6:00"
+        },
+        {
+          "text": "B sıfıra eşit değil yani. Eşit değil. Niye eşit değil peki?",
+          "time": "9:04"
+        },
+        {
+          "text": "Çarpımlarını bir de bilmemiz gerekiyor. Tekle teki çarparsak sonuç ne olur?",
+          "time": "15:15"
+        },
+        {
+          "text": "Beş faktöriyel dediğimiz şey saç olacak? Yüz yirmi.",
+          "time": "16:39"
+        },
+        {
+          "text": "Eksi dört olur. Bir tek parantez varsa ve parantezin üstü çiftse sonuç pozitif olur.",
+          "time": "23:49"
+        },
+        {
+          "text": "Değer vererek daha kolay olur bu soru yani şurada değer versem hemen zaten",
+          "time": "38:19"
+        }
+      ],
+      "studentTypeMatches": [
+        {
+          "studentType": "Detaycı ve Sabırlı Öğrenciler",
+          "matchScore": 92,
+          "reason": "Mehmet Hoca, konuları detaylı bir şekilde ele alarak öğrencilerin anlamasına yardımcı oluyor. Sabırlı bir öğretim tarzı var.",
+          "traits": [
+            "sabırlı",
+            "detaycı",
+            "derinlemesine öğrenen"
+          ],
+          "caution": "Öğrencinin ders sırasında dikkatini toplaması sağlanmalı."
+        },
+        {
+          "studentType": "Problem Çözme Stratejileri Arayan",
+          "matchScore": 90,
+          "reason": "Öğrencilere problem çözme stratejileri sunarak, matematik problemlerine farklı açılardan yaklaşmalarını sağlıyor.",
+          "traits": [
+            "strateji arayan",
+            "problem çözücü",
+            "analitik"
+          ],
+          "caution": "Öğrencinin stratejileri uygularken aktif olması sağlanmalı."
+        },
+        {
+          "studentType": "Matematik Temellerinde Eksik",
+          "matchScore": 88,
+          "reason": "Temel matematik kavramlarını detaylı ve anlaşılır bir şekilde işliyor. Öğrencinin temel konularda eksiklikleri varsa bu dersler faydalı olabilir.",
+          "traits": [
+            "temel bilgileri eksik",
+            "detaycı",
+            "soru soran"
+          ],
+          "caution": "Öğrencinin temel bilgileri pekiştirmesi için düzenli tekrar yapması teşvik edilmeli."
+        },
+        {
+          "studentType": "Rasyonel sayılarda zorlanan Emine",
+          "matchScore": 85,
+          "reason": "Mehmet Hoca, rasyonel sayılar konusunu detaylı ve açıklayıcı bir şekilde ele alıyor. Öğrencinin konuyu anlaması için çeşitli örnekler sunuyor.",
+          "traits": [
+            "detaycı",
+            "soru soran",
+            "açıklama isteyen"
+          ],
+          "caution": "Öğrencinin aktif katılımı düşükse, motivasyonunu artırmak için ekstra çaba gerekebilir."
+        },
+        {
+          "studentType": "Çift-Tek Sayılarda Takılan",
+          "matchScore": 78,
+          "reason": "Çift ve tek sayılarla ilgili detaylı açıklamalar ve problem çözme stratejileri sunarak öğrencinin kavramları pekiştirmesine yardımcı oluyor.",
+          "traits": [
+            "detaycı",
+            "problem çözücü",
+            "soru soran"
+          ],
+          "caution": "Öğrencinin sık sık soru sorması teşvik edilmeli."
+        },
+        {
+          "studentType": "İnteraktif Ders Arayan",
+          "matchScore": 55,
+          "reason": "Dersin daha interaktif hale gelmesi için öğrencinin daha fazla katılımı teşvik edilmeli. Mehmet Hoca'nın dersleri genellikle açıklayıcı ama öğrencinin katılımı düşük.",
+          "traits": [
+            "katılımcı",
+            "soru soran",
+            "aktif"
+          ],
+          "caution": "Ders sırasında daha fazla etkileşim ve öğrenci katılımı sağlanmalı."
+        }
+      ],
+      "excelsWith": [
+        {
+          "type": "Rasyonel Sayılarla İlgilenenler",
+          "reason": "Rasyonel sayılar konusunda derinlemesine bilgi veriyor ve öğrencilerin anlamasını sağlıyor.",
+          "example": "B sıfıra eşit değil yani. Eşit değil. Niye eşit değil peki? (9:04)"
+        },
+        {
+          "type": "Problem Çözme Odaklılar",
+          "reason": "Öğrencilere problem çözme sırasında çeşitli stratejiler sunuyor ve bunları uygulamalı olarak gösteriyor.",
+          "example": "Değer vererek daha kolay olur bu soru yani şurada değer versem hemen zaten (38:19)"
+        },
+        {
+          "type": "Detaylı Anlatım Sevenler",
+          "reason": "Konuları detaylı bir şekilde ele alarak öğrencilerin anlamasına yardımcı oluyor.",
+          "example": "Öğretmen Mehmet Alioğlu, dersin başında öğrenciyle etkili bir iletişim kurarak onun durumunu ve ihtiyaçlarını anlamaya çalıştı. (6:00)"
+        },
+        {
+          "type": "Çift-Tek Sayılarda Yardım Arayanlar",
+          "reason": "Çift ve tek sayılarla ilgili detaylı açıklamalar sunarak öğrencinin kavramları pekiştirmesine yardımcı oluyor.",
+          "example": "Çarpımlarını bir de bilmemiz gerekiyor. Tekle teki çarparsak sonuç ne olur? (15:15)"
+        },
+        {
+          "type": "Sayı Kümeleri Üzerine Yoğunlaşmak İsteyenler",
+          "reason": "Sayı kümeleri ve faktöriyel konularına değinerek öğrenciye geniş bir perspektif sunmayı başarıyor.",
+          "example": "Beş faktöriyel dediğimiz şey saç olacak? Yüz yirmi. (16:39)"
+        },
+        {
+          "type": "Motivasyona İhtiyacı Olanlar",
+          "reason": "Öğrencinin yanlış anlamalarını düzelterek doğru yolda ilerlemesini sağlıyor.",
+          "example": "Eksi dört olur. Bir tek parantez varsa ve parantezin üstü çiftse sonuç pozitif olur. (23:49)"
+        }
+      ],
+      "lessSuitedFor": [
+        {
+          "type": "Yüksek Katılım Arayanlar",
+          "reason": "Ders sırasında öğrencinin katılımı düşük kalıyor, daha fazla etkileşim sağlanması gerekiyor.",
+          "alternative": "Daha interaktif dersler sunan bir öğretmen tercih edilebilir."
+        },
+        {
+          "type": "Hızlı İlerlemek İsteyenler",
+          "reason": "Ders konuları detaylı bir şekilde ele alınıyor, bu da daha yavaş ilerlemeye neden olabilir.",
+          "alternative": "Daha hızlı ilerleyen bir öğretmenle çalışmak uygun olabilir."
+        },
+        {
+          "type": "Tekrar Yapmayı Sevmeyenler",
+          "reason": "Öğrencinin temel bilgileri pekiştirmesi için düzenli tekrar yapması teşvik ediliyor.",
+          "alternative": "Tekrar yapmayı sevmeyen öğrenciler için daha pratik odaklı bir öğretmen tercih edilebilir."
+        },
+        {
+          "type": "Sadece Test Çözmek İsteyenler",
+          "reason": "Dersler daha çok kavramların anlaşılmasına yönelik işleniyor, test çözmeye odaklanılmıyor.",
+          "alternative": "Sadece test çözmeye odaklanan bir öğretmenle çalışmak daha uygun olabilir."
+        }
+      ],
+      "matchingGuide": [
+        {
+          "when": "Öğrenci rasyonel sayılar konusunda zorluk çekiyorsa",
+          "recommend": "Mehmet Alioğlu ile çalışmasını öner",
+          "because": "Rasyonel sayılar konusunu detaylı ve açıklayıcı bir şekilde ele alıyor."
+        },
+        {
+          "when": "Öğrenci problem çözme stratejileri arıyorsa",
+          "recommend": "Mehmet Alioğlu ile çalışmasını öner",
+          "because": "Öğrencilere problem çözme sırasında çeşitli stratejiler sunuyor."
+        },
+        {
+          "when": "Öğrenci temel matematik kavramlarında eksiklik yaşıyorsa",
+          "recommend": "Mehmet Alioğlu ile çalışmasını öner",
+          "because": "Temel matematik kavramlarını detaylı ve anlaşılır bir şekilde işliyor."
+        },
+        {
+          "when": "Öğrenci çift-tek sayılar konusunda yardıma ihtiyaç duyuyorsa",
+          "recommend": "Mehmet Alioğlu ile çalışmasını öner",
+          "because": "Çift ve tek sayılarla ilgili detaylı açıklamalar sunuyor."
+        },
+        {
+          "when": "Öğrenci detaylı anlatım ve sabırlı öğretim istiyorsa",
+          "recommend": "Mehmet Alioğlu ile çalışmasını öner",
+          "because": "Konuları detaylı bir şekilde ele alarak öğrencilerin anlamasına yardımcı oluyor."
+        },
+        {
+          "when": "Öğrenci motivasyona ihtiyaç duyuyorsa",
+          "recommend": "Mehmet Alioğlu ile çalışmasını öner",
+          "because": "Öğrencinin yanlış anlamalarını düzelterek doğru yolda ilerlemesini sağlıyor."
+        }
+      ],
+      "overview": "Mehmet Alioğlu, matematik derslerinde detaylı ve sabırlı bir öğretim tarzı benimsemektedir. Rasyonel sayılar, çift-tek sayılar ve sayı kümeleri gibi konulara derinlemesine odaklanarak öğrencilerin kavramları anlamasına yardımcı olmaktadır. Problem çözme stratejileri sunarak, öğrencilerin matematik problemlerine farklı açılardan yaklaşmalarını sağlamaktadır. Ancak dersler sırasında öğrenci katılımını artırmak için daha fazla etkileşim sağlanması gerekmektedir.",
+      "generatedAt": "2026-07-27T00:30:19.933Z"
+    },
+    "epj-hinw-dng": {
+      "meetCode": "epj-hinw-dng",
+      "tags": [
+        "trigonometri",
+        "birim_çember",
+        "hipotenüs",
+        "tanjant",
+        "görsel_materyal"
+      ],
+      "strengths": [
+        "Öğrencinin mevcut bilgi seviyesini anlamak için derinlemesine sorular sordu. (5:22)",
+        "Trigonometri konularında görsel materyal kullanarak açıklamalar yaptı. (10:06)",
+        "Öğrencinin anlamadığı yerlerde geri dönüp detaylı açıklamalar yaptı. (9:12)",
+        "Birim çemberi kullanarak trigonometri kavramlarını somutlaştırdı. (10:48)",
+        "Öğrencinin ses ve bağlantı problemlerine karşı sabırlı ve anlayışlı davrandı. (15:57)",
+        "Öğrenciyi aktif katılım için cesaretlendirdi ve doğru cevaplar için övgüde bulundu. (9:49)",
+        "Materyal eksikliğine rağmen yaratıcı çözümler sundu. (6:04)",
+        "Öğrencinin yanlış anlamalarını düzeltmek için sabırla tekrar yaptı. (9:34)"
+      ],
+      "developmentAreas": [
+        "Dersin başında daha fazla öğrenci katılımı sağlamak için daha fazla soru sorabilir.",
+        "Öğrencinin anlamadığı yerlerde daha fazla örnek sunarak konuyu pekiştirebilir.",
+        "Öğrencinin daha fazla soru sormasını teşvik etmek için açık uçlu sorular kullanabilir.",
+        "Öğrencinin dikkatini canlı tutmak için ders süresini daha etkili yönetebilir."
+      ],
+      "coordinatorTips": [
+        "Öğrencinin trigonometri konularında zorlandığını belirttiği durumlarda Mehmet Hoca'nın birim çember ve görsel materyal kullanımı faydalı olacaktır.",
+        "Görsel materyal ve somut örneklerle öğrenmeye eğilimli öğrenciler için uygun bir seçim olacaktır.",
+        "Öğrencinin matematik konularında temel eksiklikleri varsa, Mehmet Hoca'nın sabırlı yaklaşımı yardımcı olabilir.",
+        "Öğrencinin aktif katılımda bulunmakta zorlandığı durumlarda Mehmet Hoca'nın teşvik edici tarzı etkili olabilir.",
+        "Öğrencinin bağlantı sorunları yaşadığı derslerde Mehmet Hoca'nın sabırlı ve anlayışlı yaklaşımı önemlidir.",
+        "Öğrencinin materyal eksikliği yaşadığı durumlarda Mehmet Hoca'nın yaratıcı çözümleri faydalı olabilir.",
+        "Öğrencinin daha fazla pratik yapması gerektiği durumlarda Mehmet Hoca'nın detaylı geri bildirimleri destekleyici olabilir.",
+        "Öğrencinin sorulara yanıt verirken tereddüt ettiği durumlarda Mehmet Hoca'nın teşvik edici tarzı güven verici olabilir."
+      ],
+      "notableQuotes": [
+        {
+          "text": "aran nasıl? Matematik durumu nasıl? Bir onu sorayım ilk önce. Yavaş yavaş başlayalım istersen.",
+          "time": "5:24"
+        },
+        {
+          "text": "diyeyim. Tamam. Biz şöyle yapalım. Şimdi maarif modele geçildiği için biliyorsun, maarif modelde şu anda çok fazla kitap ve kaynak maalesef yayınlanmamış.",
+          "time": "6:04"
+        },
+        {
+          "text": "elimizde şöyle bir dik üçgen olsa şu an ekranı görebiliyor musun? Paylaştık mı Görüyorum.",
+          "time": "6:51"
+        },
+        {
+          "text": "bak şöyle birim çember üzerinden anlatayım bunu ben. Bir saniye şöyle çizeceğim birim çemberi.",
+          "time": "10:06"
+        },
+        {
+          "text": "yatay olan eksene kosinüs diyoruz, dik olan eksene sinüs ekseni diyoruz. O zaman Oh uzunluğu aslında kosinüs alfa uzunluğudur.",
+          "time": "11:16"
+        },
+        {
+          "text": "Ekranınız da dondu, sesiniz de dondu.",
+          "time": "15:58"
+        },
+        {
+          "text": "Tamam. Şimdi bundan sonra yapacağımız şey ne biliyor musun? Sin'leri bir tarafa, cos'ları bir tarafa toplamak.",
+          "time": "40:50"
+        },
+        {
+          "text": "kitap yok. Ne PDF bulabiliyoruz ne Milli Eğitim'in kitabı var, hiçbir şey yok şu anda piyasada.",
+          "time": "55:01"
+        }
+      ],
+      "studentTypeMatches": [
+        {
+          "studentType": "Görsel Materyal ile Öğrenen",
+          "matchScore": 90,
+          "reason": "Mehmet Hoca, ders sırasında görsel materyal kullanarak konuları anlattı. Öğrenci, görselleştirme ile daha iyi anladı.",
+          "traits": [
+            "Görsel öğrenme",
+            "Materyal kullanımı",
+            "Somut örnekler",
+            "Detaylı açıklama"
+          ]
+        },
+        {
+          "studentType": "Trigonometri Temelinde Eksiklik Yaşayan",
+          "matchScore": 85,
+          "reason": "Öğrenci trigonometri konularında eksiklik yaşadığını belirtti. Mehmet Hoca, birim çember ve görsel materyallerle konuyu pekiştirdi.",
+          "traits": [
+            "Görsel öğrenme isteği",
+            "Temel eksiklik",
+            "Somut örnek ihtiyacı",
+            "Aktif katılım isteği"
+          ]
+        },
+        {
+          "studentType": "Materyal Eksikliği Yaşayan",
+          "matchScore": 82,
+          "reason": "Öğrenci, materyal eksikliği yaşadığını belirtti. Mehmet Hoca, kaynak sıkıntısına rağmen yaratıcı çözümler sundu.",
+          "traits": [
+            "Kaynak eksikliği",
+            "Yaratıcı çözümler",
+            "Esneklik",
+            "Problem çözme"
+          ],
+          "caution": "Materyal eksikliği devam ederse, öğrenci ilerlemekte zorlanabilir."
+        },
+        {
+          "studentType": "Bağlantı Sorunu Yaşayan",
+          "matchScore": 78,
+          "reason": "Öğrenci ders sırasında bağlantı sorunları yaşadı. Mehmet Hoca, sabırlı ve anlayışlı bir şekilde süreci yönetti.",
+          "traits": [
+            "Teknik sorunlar",
+            "Sabır ihtiyacı",
+            "Anlayışlı yaklaşım",
+            "Esnek ders yönetimi"
+          ],
+          "caution": "Ders sırasında bağlantı sorunları devam ederse, dersin verimliliği düşebilir."
+        },
+        {
+          "studentType": "Temel Matematik Konularında Zorlanan",
+          "matchScore": 70,
+          "reason": "Öğrenci, temel matematik konularında zorlandığını belirtti. Mehmet Hoca, sabırlı bir şekilde konuları tekrar etti.",
+          "traits": [
+            "Temel eksiklik",
+            "Sabır ihtiyacı",
+            "Detaylı açıklama",
+            "Tekrar gereksinimi"
+          ]
+        },
+        {
+          "studentType": "Aktif Katılımda Zorlanan",
+          "matchScore": 65,
+          "reason": "Öğrenci, ders sırasında aktif katılımda zorlandı. Mehmet Hoca, teşvik edici bir yaklaşımla katılımı artırmaya çalıştı.",
+          "traits": [
+            "Katılım eksikliği",
+            "Teşvik ihtiyacı",
+            "Cesaretlendirme",
+            "Destekleyici yaklaşım"
+          ]
+        }
+      ],
+      "excelsWith": [
+        {
+          "type": "Görsel Materyal Kullanımı",
+          "reason": "Görsel materyallerle konuları somutlaştırarak anlattı.",
+          "example": "bak şöyle birim çember üzerinden anlatayım bunu ben. (10:06)"
+        },
+        {
+          "type": "Sabırlı ve Anlayışlı Yaklaşım",
+          "reason": "Öğrencinin bağlantı sorunlarına karşı sabırlı ve anlayışlı davrandı.",
+          "example": "Ekranınız da dondu, sesiniz de dondu. (15:58)"
+        },
+        {
+          "type": "Yaratıcı Çözüm Üretme",
+          "reason": "Materyal eksikliğine rağmen yaratıcı çözümler sundu.",
+          "example": "maarif modelde şu anda çok fazla kitap ve kaynak maalesef yayınlanmamış. (6:04)"
+        },
+        {
+          "type": "Detaylı ve Açıklayıcı Anlatım",
+          "reason": "Konuları detaylı bir şekilde açıklayarak pekiştirdi.",
+          "example": "Tanjant fonksiyonumuz aslında sinüs alfa bölü kosinüs alfa mıdır? (9:03)"
+        },
+        {
+          "type": "Öğrenci Katılımını Teşvik Etme",
+          "reason": "Öğrenciyi aktif katılım için cesaretlendirdi.",
+          "example": "aran nasıl? Matematik durumu nasıl? Bir onu sorayım ilk önce. (5:24)"
+        },
+        {
+          "type": "Geri Bildirim Verme",
+          "reason": "Öğrencinin doğru cevaplarına övgüde bulundu.",
+          "example": "B güzel. (9:49)"
+        }
+      ],
+      "lessSuitedFor": [
+        {
+          "type": "Hızlı İlerlemek İsteyen",
+          "reason": "Ders genellikle detaylı açıklamalar ve tekrarlarla ilerledi.",
+          "alternative": "Daha hızlı ilerlemek isteyen öğrenciler için kısa ve öz anlatım tercih edilebilir."
+        },
+        {
+          "type": "Sınırlı Zamanı Olan",
+          "reason": "Dersin uzunluğu ve detaylı anlatımlar zaman alıcı olabilir.",
+          "alternative": "Zamanı kısıtlı olan öğrenciler için daha kısa ve odaklanmış dersler uygun olabilir."
+        },
+        {
+          "type": "Bağımsız Çalışmayı Tercih Eden",
+          "reason": "Ders boyunca öğrenciye sürekli rehberlik ve geri bildirim sağladı.",
+          "alternative": "Daha fazla bağımsız çalışma isteyen öğrenciler için daha az müdahaleci bir yaklaşım tercih edilebilir."
+        },
+        {
+          "type": "Sadece Teorik Bilgi İsteyen",
+          "reason": "Ders, görsel materyaller ve somut örneklerle zenginleştirildi.",
+          "alternative": "Sadece teorik bilgi isteyen öğrenciler için daha az görsel içerik kullanılabilir."
+        }
+      ],
+      "matchingGuide": [
+        {
+          "when": "Öğrenci trigonometri konularında zorluk yaşıyorsa",
+          "recommend": "Mehmet Hoca",
+          "because": "Birim çember ve görsel materyal kullanarak konuları somutlaştırıyor."
+        },
+        {
+          "when": "Öğrenci materyal eksikliği yaşıyorsa",
+          "recommend": "Mehmet Hoca",
+          "because": "Kaynak sıkıntısına rağmen yaratıcı çözümler sunuyor."
+        },
+        {
+          "when": "Öğrencinin aktif katılımı teşvik edilmesi gerekiyorsa",
+          "recommend": "Mehmet Hoca",
+          "because": "Teşvik edici ve cesaretlendirici bir yaklaşımı var."
+        },
+        {
+          "when": "Öğrenci bağlantı sorunları yaşıyorsa",
+          "recommend": "Mehmet Hoca",
+          "because": "Sabırlı ve anlayışlı bir şekilde süreci yönetiyor."
+        },
+        {
+          "when": "Öğrenci detaylı açıklamalara ihtiyaç duyuyorsa",
+          "recommend": "Mehmet Hoca",
+          "because": "Detaylı ve açıklayıcı anlatımlar yapıyor."
+        },
+        {
+          "when": "Öğrenci görsel materyallerle daha iyi öğreniyorsa",
+          "recommend": "Mehmet Hoca",
+          "because": "Görsel materyallerle konuları zenginleştiriyor."
+        }
+      ],
+      "overview": "Mehmet Alioğlu, matematik derslerinde görsel materyal ve birim çember kullanarak konuları somutlaştıran bir öğretim tarzına sahiptir. Öğrencinin katılımını teşvik eden ve sabırlı bir yaklaşım sergileyen Mehmet Hoca, özellikle trigonometri konularında detaylı açıklamalar yaparak öğrencinin anlamasını sağlamaktadır. Materyal eksikliği durumlarında yaratıcı çözümler üretebilen bir öğretmendir. Ders boyunca öğrencinin aktif katılımını sağlamak için teşvik edici bir tutum sergiler ve bağlantı sorunlarına karşı anlayışlıdır.",
+      "generatedAt": "2026-07-27T00:31:06.027Z"
+    },
+    "gvk-iyie-ood": {
+      "meetCode": "gvk-iyie-ood",
+      "tags": [
+        "kimya",
+        "öğrenci_soruları",
+        "müfredat_planlama",
+        "temel_konular",
+        "öğretmen_yönlendirme"
+      ],
+      "strengths": [
+        "Öğretmen Ahmet, öğrencinin kimya konusundaki eksikliklerini belirlemek için detaylı sorular sordu ve bu konulara odaklanmayı önerdi (örn. 6:37).",
+        "Ahmet öğretmen, ders boyunca öğrenciyi aktif olarak katılım sağlamaya teşvik etti ve sık sık geri bildirim aldı (örn. 10:45).",
+        "Öğretmenin, konuları öğrencinin mevcut bilgi düzeyine göre uyarlama yeteneği dikkat çekiciydi; gereksiz detaylardan kaçınarak önemli konulara odaklandı (örn. 24:31).",
+        "Derse esprili ve samimi bir yaklaşımı vardı, bu da öğrencinin rahatlamasına ve derse daha fazla katılım göstermesine olanak sağladı (örn. 15:14).",
+        "Ahmet öğretmen, öğrenciye konuları daha iyi kavraması için gerçek dünya örnekleri ve günlük hayattan bağlantılar sundu (örn. 13:25).",
+        "Öğretmen, öğrenciye kişiselleştirilmiş ödevler ve çalışma planları sunarak öğrenme sürecini destekledi (örn. 39:28).",
+        "Ahmet öğretmen, öğrencinin anlamadığı noktaları sabırla tekrar açıkladı ve anlamadığını düşündüğü yerlerde detaylı açıklamalar yaptı (örn. 27:06)."
+      ],
+      "developmentAreas": [
+        "Öğretmenin, dersin sonunda genel bir özet yaparak konuları pekiştirmesi faydalı olabilir.",
+        "Ahmet öğretmen, teknik terimleri daha fazla görsel materyalle destekleyerek öğrencinin daha iyi anlamasına yardımcı olabilir.",
+        "Öğretmenin, ders sırasında daha az 'tamam mı?' gibi tekrarlayan ifadeler kullanması, dersin akışını daha pürüzsüz hale getirebilir.",
+        "Öğretmen, daha fazla interaktif etkinlik ve deney önerisi sunarak öğrencinin pratik yapma fırsatlarını artırabilir."
+      ],
+      "coordinatorTips": [
+        "Ahmet öğretmen, temel kimya konularında eksiklikleri olan ve bu konuları yeniden öğrenmek isteyen öğrenciler için ideal bir seçimdir.",
+        "Öğrencinin aktif katılımını teşvik eden bir öğretmen arayanlar Ahmet öğretmeni tercih edebilir.",
+        "Öğrencinin derslerde sıkılmadan eğlenmesini isteyen veliler, Ahmet öğretmenin esprili ve samimi yaklaşımından memnun kalacaktır.",
+        "Öğrencinin günlük hayatla bağlantı kurarak öğrenme sürecini daha anlamlı hale getirmek isteyenler için Ahmet öğretmen uygundur.",
+        "Öğrencinin bireysel çalışma planı ve ödevlerle desteklenmesini isteyen veliler, Ahmet öğretmeni değerlendirebilir.",
+        "Daha önce kimya derslerinde zorluk yaşamış ve temel konuları tekrar gözden geçirmek isteyen öğrenciler için Ahmet öğretmen doğru bir tercihtir.",
+        "Öğrencinin konuları derinlemesine anlamasını ve özümsemesini isteyenler Ahmet öğretmeni tercih edebilir.",
+        "Ahmet öğretmen, öğrenciye düzenli geri bildirim sağlayarak öğrenme sürecini optimize etmek isteyenler için uygundur."
+      ],
+      "notableQuotes": [
+        {
+          "text": "Mesela sana yazar, der ki, şöyle bir bileşik yazar, der ki bu iyonik midir kovalent midir diye sorsan ne dersin? Bir şey diyebilir misin? Yapacağım.",
+          "time": "9:08"
+        },
+        {
+          "text": "Misimleri Türkçe zaten bunların metal olduğunu günlük hayattan da biliyoruz. Tamam. Metalleri anladın mı? Yumla bitiyorlar. Şu potasyum hariç tek harfli bu,",
+          "time": "13:25"
+        },
+        {
+          "text": "He, CHP sınıfta brokoli yedi. Yedi artık şey hani kafiye uysun diye anlatabiliyor muyum? Anlattım hocam. Şey",
+          "time": "15:14"
+        },
+        {
+          "text": "ya aşırı önemli olmayan şeyleri ya önem sırasına göre ben sana anlatacağım. Tamam mı? Yani çok işine yarayacak olan. Mesela o baştaki simya kimya hikaye onlar. Onları bilmesen de olur yani. Anlatabiliyor muyum? Hıhı. Dediğim gibi yani.",
+          "time": "24:31"
+        },
+        {
+          "text": "Anladım hocam. Şimdi tipine baktığın zaman metali metali ayırt edebiliyorsun değil mi? İonik kovalent ayırt edebiliyorsun. Bu niye önemli biliyor musun? Bu şundan önemli. Birçok konuda bu var. Şimdi bu normalde iyonik kovalent bağlı bileşiğin tamamen olayı değil. Mesela çözelti konusu gördünüz.",
+          "time": "27:06"
+        },
+        {
+          "text": "Yani şu anki Tamam, tabii tamam bundan faydasız mı? Tamam, faydası var. Hani o balını yemek için şu an odun kemirecek vaktimiz yok, tamam mı? Şu an bizim kanımıza acil şeker girmesi lazım. Anlatabiliyor muyum? Evet. O yüzden daha acil konulara döneceğim.",
+          "time": "38:12"
+        }
+      ],
+      "studentTypeMatches": [
+        {
+          "studentType": "Detaylı Anlatım İsteyen Öğrenci",
+          "matchScore": 92,
+          "reason": "Öğretmen, konuları derinlemesine ve detaylı bir şekilde anlatarak öğrencinin anlamasını sağladı.",
+          "traits": [
+            "detay isteği",
+            "derinlemesine öğrenme",
+            "sabırlı dinleyici",
+            "soru sorma"
+          ],
+          "caution": "Detaylı anlatım sırasında dikkat dağılabilir."
+        },
+        {
+          "studentType": "Kimya Temelinde Eksik Olan Ulaş Profili",
+          "matchScore": 90,
+          "reason": "Ahmet öğretmen, Ulaş'ın dokuzuncu sınıf kimya konularında eksik olduğunu belirledi ve bu konulara özel odaklanmayı önerdi.",
+          "traits": [
+            "temel eksiklik",
+            "öğrenme isteği",
+            "aktif katılım",
+            "detaylı soru sorma"
+          ],
+          "caution": "Öğrencinin geçmişteki eksikliklerini kapatmak için ekstra çaba gerekebilir."
+        },
+        {
+          "studentType": "Ödev ve Planla Desteklenen Öğrenci",
+          "matchScore": 88,
+          "reason": "Ahmet öğretmen, öğrenciye kişiselleştirilmiş ödevler ve çalışma planları sunarak öğrenme sürecini destekledi.",
+          "traits": [
+            "planlı çalışma",
+            "ödev odaklı",
+            "kişisel destek",
+            "öğrenme disiplini"
+          ]
+        },
+        {
+          "studentType": "Günlük Hayatla Bağlantı Arayan Öğrenci",
+          "matchScore": 85,
+          "reason": "Ahmet öğretmen, kimya konularını günlük hayatla ilişkilendirerek daha anlaşılır hale getirdi.",
+          "traits": [
+            "günlük bağlantı",
+            "anlamlı öğrenme",
+            "esprili yaklaşım",
+            "öğrenme motivasyonu"
+          ],
+          "caution": "Günlük hayatla bağlantı kurmakta zorlanan öğrenciler için farklı yöntemler gerekebilir."
+        },
+        {
+          "studentType": "Esprili ve Samimi Öğretmen Arayan Öğrenci",
+          "matchScore": 80,
+          "reason": "Ahmet öğretmenin esprili ve samimi yaklaşımı, öğrencinin derslere daha fazla katılım göstermesine olanak sağladı.",
+          "traits": [
+            "samimi ortam",
+            "esprili yaklaşım",
+            "rahat öğrenme",
+            "katılım isteği"
+          ]
+        },
+        {
+          "studentType": "Konuları Tekrar Etmek İsteyen Öğrenci",
+          "matchScore": 75,
+          "reason": "Öğretmen, öğrencinin anlamadığı konuları tekrar ederek pekiştirdi.",
+          "traits": [
+            "tekrar ihtiyacı",
+            "pekiştirme isteği",
+            "soru sorma",
+            "anlamada güçlük"
+          ]
+        }
+      ],
+      "excelsWith": [
+        {
+          "type": "Temel Bilgi Eksikliği Olan Öğrenciler",
+          "reason": "Ahmet öğretmen, temel konularda eksiklikleri olan öğrencilere yönelik kişiselleştirilmiş ders planları sunuyor.",
+          "example": "Öğrencinin dokuzuncu sınıf kimya konularında eksiklik olduğunu belirleyerek bu konulara odaklandı (6:37)."
+        },
+        {
+          "type": "Aktif Katılım Sağlayan Öğrenciler",
+          "reason": "Öğretmen, ders boyunca öğrenciyi aktif katılıma teşvik ediyor ve sık sık geri bildirim alıyor.",
+          "example": "Öğrenciye sık sık sorular sorarak katılımını arttırdı (10:45)."
+        },
+        {
+          "type": "Günlük Hayatla Bağlantı Kurmak İsteyen Öğrenciler",
+          "reason": "Ahmet öğretmen, kimya konularını günlük hayatla ilişkilendirerek daha anlaşılır hale getiriyor.",
+          "example": "Metallerin günlük hayattan bilindiğini belirtti (13:25)."
+        },
+        {
+          "type": "Detaylı Anlatım Seven Öğrenciler",
+          "reason": "Öğretmen, konuları derinlemesine ve detaylı bir şekilde anlatarak öğrencinin anlamasını sağlıyor.",
+          "example": "İyonik ve kovalent bağların önemini detaylıca açıkladı (27:06)."
+        },
+        {
+          "type": "Esprili Ortamda Rahat Öğrenen Öğrenciler",
+          "reason": "Ahmet öğretmenin esprili ve samimi yaklaşımı, öğrencinin derslere daha fazla katılım göstermesine olanak sağlıyor.",
+          "example": "CHP sınıfta brokoli yedi örneği ile esprili bir yaklaşım sergiledi (15:14)."
+        },
+        {
+          "type": "Ödev ve Planla Desteklenmek İsteyen Öğrenciler",
+          "reason": "Ahmet öğretmen, öğrenciye kişiselleştirilmiş ödevler ve çalışma planları sunarak öğrenme sürecini destekliyor.",
+          "example": "Öğrenciye kişisel ödevler ve çalışma planı sundu (39:28)."
+        }
+      ],
+      "lessSuitedFor": [
+        {
+          "type": "Hızlı İlerleme İsteyen Öğrenciler",
+          "reason": "Ahmet öğretmen, konuları detaylı olarak işlemeyi tercih ediyor, bu da hızlı ilerlemek isteyen öğrenciler için uygun olmayabilir.",
+          "alternative": "Daha hızlı ve yüzeysel ilerleyen bir öğretmen tercih edilebilir."
+        },
+        {
+          "type": "Görsel Materyal İle Öğrenen Öğrenciler",
+          "reason": "Ders sırasında daha fazla görsel materyal kullanılabilir, bu nedenle görsel öğrenme stiline sahip öğrenciler için uygun olmayabilir.",
+          "alternative": "Daha fazla görsel içerik sunan bir öğretmen tercih edilebilir."
+        },
+        {
+          "type": "Teknik Terimlerden Kaçınan Öğrenciler",
+          "reason": "Ahmet öğretmen, ders sırasında teknik terimleri sıkça kullanıyor, bu da bazı öğrenciler için kafa karıştırıcı olabilir.",
+          "alternative": "Daha basit bir dil kullanan bir öğretmen tercih edilebilir."
+        },
+        {
+          "type": "Sessiz ve Pasif Öğrenciler",
+          "reason": "Ahmet öğretmen, öğrencinin aktif katılımını teşvik ediyor, bu da sessiz ve pasif öğrenciler için zorlayıcı olabilir.",
+          "alternative": "Daha az etkileşimli bir öğretmen tercih edilebilir."
+        }
+      ],
+      "matchingGuide": [
+        {
+          "when": "Öğrenci kimya dersinde temel eksiklikler yaşıyorsa",
+          "recommend": "Ahmet öğretmeni öner",
+          "because": "Temel konularda eksiklikleri olan öğrencilere yönelik kişiselleştirilmiş ders planları sunuyor."
+        },
+        {
+          "when": "Öğrenci derslere aktif katılım sağlamak istiyorsa",
+          "recommend": "Ahmet öğretmeni öner",
+          "because": "Öğrenciyi aktif katılıma teşvik ediyor ve sık sık geri bildirim alıyor."
+        },
+        {
+          "when": "Öğrenci kimya konularını günlük hayatla daha iyi anlamak istiyorsa",
+          "recommend": "Ahmet öğretmeni öner",
+          "because": "Kimya konularını günlük hayatla ilişkilendirerek daha anlaşılır hale getiriyor."
+        },
+        {
+          "when": "Öğrenci detaylı anlatım ve derinlemesine öğrenme istiyorsa",
+          "recommend": "Ahmet öğretmeni öner",
+          "because": "Konuları derinlemesine ve detaylı bir şekilde anlatarak öğrencinin anlamasını sağlıyor."
+        },
+        {
+          "when": "Öğrenci esprili ve samimi bir ders ortamı istiyorsa",
+          "recommend": "Ahmet öğretmeni öner",
+          "because": "Esprili ve samimi yaklaşımı, öğrencinin derslere daha fazla katılım göstermesine olanak sağlıyor."
+        },
+        {
+          "when": "Öğrenci kişiselleştirilmiş ödev ve çalışma planı istiyorsa",
+          "recommend": "Ahmet öğretmeni öner",
+          "because": "Öğrenciye kişiselleştirilmiş ödevler ve çalışma planları sunarak öğrenme sürecini destekliyor."
+        }
+      ],
+      "overview": "Ahmet Baştuğ, kimya dersinde öğrenci merkezli bir yaklaşım sergileyerek, öğrencinin eksik olduğu konulara odaklanıyor. Esprili ve samimi bir ders ortamı sunarak öğrencinin rahatlamasını sağlıyor. Dersleri günlük hayatla ilişkilendirerek konuları daha anlaşılır hale getiriyor ve detaylı anlatımıyla öğrenciye derinlemesine bir öğrenme fırsatı sunuyor. Ahmet öğretmen, kişiselleştirilmiş ödev ve çalışma planları ile öğrencinin öğrenme sürecini destekliyor.",
+      "generatedAt": "2026-07-27T00:31:42.767Z"
+    },
+    "hin-dqah-qpb": {
+      "meetCode": "hin-dqah-qpb",
+      "tags": [
+        "geometri",
+        "görsel materyal",
+        "öğrenci katılımı",
+        "deneme sınavları",
+        "ders planı"
+      ],
+      "strengths": [
+        "Öğretmen, öğrencinin akademik performansını detaylı olarak sorguladı ve notlar hakkında bilgi aldı (6:02).",
+        "Öğrencinin dersle ilgili beklentilerini netleştirmek için sorular sordu (11:14).",
+        "Ekran paylaşımı ve görsel materyal kullanarak dersin anlaşılmasını kolaylaştırdı (12:28).",
+        "Öğrencinin katılımını teşvik eden olumlu geri bildirimlerde bulundu, örneğin 'aferin sana' (20:11).",
+        "Öğrencinin derse katılımını artırmak için sorular sordu ve öğrencinin yanıtlarını değerlendirdi (50:59).",
+        "Öğrenci ile iletişimi samimi ve açık bir şekilde sürdürdü, örneğin 'Nasılsın bakalım, nasıl gidiyor?' (4:28)."
+      ],
+      "developmentAreas": [
+        "Öğrencinin daha fazla soru sormasını teşvik edebilir, çünkü öğrenci hiç soru sormadı.",
+        "Daha fazla öğrenci katılımını sağlamak için daha fazla interaktif etkinlik eklenebilir.",
+        "Öğrencinin ders sırasında daha fazla söz alması için fırsatlar yaratılabilir.",
+        "Öğrencinin ilgisini çekecek farklı öğretim yöntemleri denenebilir."
+      ],
+      "coordinatorTips": [
+        "Öğrencinin akademik geçmişini detaylıca öğrenmek isteyen öğretmenler için uygun.",
+        "Görsel materyallerle desteklenen dersler isteyen öğrenciler için önerilir.",
+        "Öğrenci ile birebir ve samimi bir iletişim kurabilen öğretmenler için uygun.",
+        "Öğrencinin motivasyonunu artırmak için olumlu geri bildirimler veren öğretmenler için uygundur.",
+        "Öğrencinin beklentilerini netleştiren ve dersin başında bunları konuşan öğretmenler için ideal.",
+        "Dersin başında ve sonunda öğrenciye geri bildirim veren öğretmenler için uygun."
+      ],
+      "notableQuotes": [
+        {
+          "text": "Nasılsın bakalım, nasıl gidiyor?",
+          "time": "4:28"
+        },
+        {
+          "text": "Bu derste peki benden ne bekliyorsun?",
+          "time": "11:14"
+        },
+        {
+          "text": "Şimdi bir ekran paylaşımı yapacağım.",
+          "time": "12:28"
+        },
+        {
+          "text": "aferin sana.",
+          "time": "20:11"
+        },
+        {
+          "text": "Sen harikasın ya. Tebrik ediyorum seni.",
+          "time": "22:48"
+        },
+        {
+          "text": "Evet. Çok güzel. Dersin başında oluşan yanılgıyı şu an düzeltmiş olduk artık dersin sonunda. Doğru mu?",
+          "time": "50:59"
+        }
+      ],
+      "studentTypeMatches": [
+        {
+          "studentType": "Görsel Materyal İle Öğrenmeyi Seven Öğrenci",
+          "matchScore": 92,
+          "reason": "Öğretmen, ders sırasında ekran paylaşımı ve görsel materyaller kullanarak konuları işliyor.",
+          "traits": [
+            "görsel öğrenme",
+            "teknolojik araç kullanımı",
+            "dikkatli dinleyici",
+            "aktif katılım"
+          ],
+          "caution": "Görsel materyallerin teknik sorunları olabileceği için hazırlıklı olunmalı."
+        },
+        {
+          "studentType": "Geometri Temel Kavramlarda Destek Arayan Öğrenci",
+          "matchScore": 85,
+          "reason": "Öğretmen, geometri konularında görsel materyal kullanarak ders işliyor ve temel kavramları pekiştiriyor.",
+          "traits": [
+            "görsel öğrenme",
+            "temel kavram eksikliği",
+            "dikkatli dinleyici",
+            "aktif katılım"
+          ],
+          "caution": "Öğrencinin aktif soru sorması teşvik edilmeli."
+        },
+        {
+          "studentType": "Ders Başında Motivasyon Arayan Öğrenci",
+          "matchScore": 80,
+          "reason": "Öğretmen, dersin başında ve sonunda öğrenciyi motive edici sözler kullanıyor.",
+          "traits": [
+            "motivasyon ihtiyacı",
+            "pozitif geri bildirim",
+            "öğrenme isteği",
+            "aktif katılım"
+          ],
+          "caution": "Motivasyonun sürekliliği için düzenli geri bildirim sağlanmalı."
+        },
+        {
+          "studentType": "Deneme Sınavlarıyla Başarıyı Ölçen Öğrenci",
+          "matchScore": 78,
+          "reason": "Öğretmen, öğrencinin deneme sınavlarındaki performansını değerlendiriyor ve geri bildirim sağlıyor.",
+          "traits": [
+            "performans odaklı",
+            "analitik düşünce",
+            "sınav deneyimi",
+            "düzenli çalışma"
+          ],
+          "caution": "Öğrencinin sınav kaygısı varsa, bunu yönetmek için ek destek gerekebilir."
+        }
+      ],
+      "excelsWith": [
+        {
+          "type": "Görsel Materyallerle Desteklenen Öğrenciler",
+          "reason": "Öğretmen, ders materyallerini görsel olarak sunarak öğrencinin konuları anlamasını kolaylaştırıyor.",
+          "example": "Şimdi bir ekran paylaşımı yapacağım. (12:28)"
+        },
+        {
+          "type": "Deneme Sınavı Odaklı Öğrenciler",
+          "reason": "Öğrencinin deneme sınavlarındaki performansını değerlendiriyor ve gelişim alanlarını belirliyor.",
+          "example": "Matematikten kaç soru işaretliyordun? (5:08)"
+        },
+        {
+          "type": "Motivasyona İhtiyacı Olan Öğrenciler",
+          "reason": "Öğrenciye moral ve motivasyon sağlayarak öğrenme sürecini destekliyor.",
+          "example": "Sen harikasın ya. Tebrik ediyorum seni. (22:48)"
+        },
+        {
+          "type": "İletişim Kurmayı Seven Öğrenciler",
+          "reason": "Öğretmen, öğrenci ile samimi ve açık bir iletişim kurarak dersin atmosferini yumuşatıyor.",
+          "example": "Nasılsın bakalım, nasıl gidiyor? (4:28)"
+        }
+      ],
+      "lessSuitedFor": [
+        {
+          "type": "Sadece Soru Çözmek İsteyen Öğrenciler",
+          "reason": "Öğretmen, dersin büyük kısmını konuşarak geçiriyor ve öğrenciye az söz hakkı tanıyor.",
+          "alternative": "Daha fazla soru çözümüne odaklanan bir öğretmen tercih edilmeli."
+        },
+        {
+          "type": "Kendi Soru Sormayı Seven Öğrenciler",
+          "reason": "Öğrenci derste hiç soru sormadı ve öğretmen bu konuda teşvik edici olmadı.",
+          "alternative": "Soru sormayı teşvik eden bir öğretmen daha uygun olabilir."
+        }
+      ],
+      "matchingGuide": [
+        {
+          "when": "Öğrenci geometri konularında temel bilgileri öğrenmek istiyorsa",
+          "recommend": "Emine Nur Pınar'ı öner",
+          "because": "Görsel materyallerle temel kavramları pekiştiriyor."
+        },
+        {
+          "when": "Öğrenci deneme sınavlarına hazırlanıyorsa",
+          "recommend": "Emine Nur Pınar'ı öner",
+          "because": "Deneme sınav performansını değerlendirip geri bildirim sağlıyor."
+        },
+        {
+          "when": "Öğrenci ders sırasında motivasyon arıyorsa",
+          "recommend": "Emine Nur Pınar'ı öner",
+          "because": "Öğrenciye moral ve motivasyon sağlayıcı sözler kullanıyor."
+        },
+        {
+          "when": "Öğrenci görsel materyallerle desteklenmiş bir ders istiyorsa",
+          "recommend": "Emine Nur Pınar'ı öner",
+          "because": "Görsel materyallerle ders işliyor ve konuları daha anlaşılır hale getiriyor."
+        }
+      ],
+      "overview": "Emine Nur Pınar, derslerinde öğrencinin akademik geçmişini detaylıca sorgulayan, görsel materyallerle destekleyen ve öğrenciyi motive eden bir öğretim tarzına sahiptir. Öğrencinin katılımını teşvik eden ve dersin başında ve sonunda geri bildirim sağlayan bir yapıya sahiptir. Ancak, öğrencinin daha fazla soru sormasını teşvik etmek ve katılımını artırmak için ek yöntemler geliştirmesi gerekebilir.",
+      "generatedAt": "2026-07-27T00:32:05.045Z"
+    },
+    "hph-xevo-ggx": {
+      "meetCode": "hph-xevo-ggx",
+      "tags": [
+        "geometri",
+        "görsel materyal",
+        "ders planı",
+        "öğretmen-öğrenci diyaloğu",
+        "tanışma dersi"
+      ],
+      "strengths": [
+        "Osman öğretmen, Bahar'ın ilgi alanlarını ve beklentilerini anlamak için dersin başında detaylı sorular sordu.",
+        "Ders boyunca görsel materyaller kullanarak konuları daha anlaşılır hale getirdi.",
+        "Öğrenciye İngilizce pratiği yapma fırsatı sundu ve telaffuz çalışmaları yaptırdı.",
+        "Derse başlamadan önce Bahar'ın seviyesini belirlemek için çeşitli kontrol soruları sordu.",
+        "Bahar'ın katılımını teşvik etmek için sık sık sorular yöneltti.",
+        "Ders planını Bahar'ın geri bildirimine göre esnek bir şekilde ayarladı."
+      ],
+      "developmentAreas": [
+        "Öğrenciye daha fazla uzun yanıt verme fırsatı tanıyarak katılımını artırabilir.",
+        "Dersin başında daha net bir yapı sunarak öğrencinin beklentilerini daha iyi yönetebilir.",
+        "Öğrencinin ilgisini sürekli canlı tutmak için daha fazla etkileşimli etkinlik ekleyebilir.",
+        "Ders boyunca daha fazla geri bildirim vererek öğrenciye kendini değerlendirme fırsatı tanıyabilir."
+      ],
+      "coordinatorTips": [
+        "Osman öğretmen, geometri ve görsel materyallerle desteklenen dersler için uygun bir seçimdir.",
+        "İngilizce pratiği yapmak isteyen öğrenciler için ideal bir öğretmendir.",
+        "Öğrencinin katılımını teşvik eden bir yaklaşımı vardır, bu nedenle aktif öğrenme isteyen öğrencilerle iyi çalışabilir.",
+        "Derslerini öğrencinin geri bildirimine göre esnek bir şekilde ayarlayabilir.",
+        "Öğrencinin seviyesini belirlemek ve ders planını buna göre uyarlamak konusunda yetkindir.",
+        "Öğrencinin ilgisini çekmek için çeşitli yöntemler kullanmaktadır."
+      ],
+      "notableQuotes": [
+        {
+          "text": "Tamam nasıl nasıl bir ders bekliyorsun onu bana söylersen ben de ona göre hareket edeyim olur mu?",
+          "time": "11:53"
+        },
+        {
+          "text": "Şuradan ekran paylaşacağım.",
+          "time": "14:05"
+        },
+        {
+          "text": "zora doğru gidelim ne diyorsun?",
+          "time": "14:12"
+        },
+        {
+          "text": "bir yeri aramak durumunda kalırsın, ismini söyler misin der. Bahar dediğini anlamayacak tabii ki. Çünkü onlar için senin ismin bir yabancı bir isim.",
+          "time": "19:43"
+        },
+        {
+          "text": "Herkes yani bir Türk bir Rusla İngilizce konuşarak anlaşıyor değil mi? Rusya'ya da Türkçe konuşmuyor.",
+          "time": "27:21"
+        },
+        {
+          "text": "ve saat planlarız seninle tamam mı? Tamam hocam görüşürüz.",
+          "time": "56:19"
+        }
+      ],
+      "studentTypeMatches": [
+        {
+          "studentType": "Görsel Materyal İle Destek Arayan Öğrenci",
+          "matchScore": 92,
+          "reason": "Osman öğretmen, ders boyunca görsel materyaller kullanarak konuları daha anlaşılır hale getirdi.",
+          "traits": [
+            "görsel öğrenme",
+            "etkileşimli materyal",
+            "konu anlama",
+            "aktif katılım"
+          ]
+        },
+        {
+          "studentType": "Katılımı Teşvik Edilen Öğrenci",
+          "matchScore": 90,
+          "reason": "Bahar'ın katılımını teşvik etmek için sık sık sorular yöneltti.",
+          "traits": [
+            "aktif katılım",
+            "soru-cevap",
+            "etkileşim",
+            "öğrenci motivasyonu"
+          ]
+        },
+        {
+          "studentType": "İngilizce Pratiği Yapmak İsteyen Öğrenci",
+          "matchScore": 88,
+          "reason": "Öğrenciye İngilizce pratiği yapma fırsatı sundu ve telaffuz çalışmaları yaptırdı.",
+          "traits": [
+            "dil pratiği",
+            "telaffuz çalışması",
+            "dil öğrenme",
+            "konuşma pratiği"
+          ]
+        },
+        {
+          "studentType": "Seviye Belirleme İhtiyacı Olan Öğrenci",
+          "matchScore": 86,
+          "reason": "Derse başlamadan önce Bahar'ın seviyesini belirlemek için çeşitli kontrol soruları sordu.",
+          "traits": [
+            "seviye belirleme",
+            "kontrol soruları",
+            "öğrenci analizi",
+            "başlangıç değerlendirmesi"
+          ]
+        },
+        {
+          "studentType": "Esnek Ders Planı Arayan Öğrenci",
+          "matchScore": 85,
+          "reason": "Ders planını Bahar'ın geri bildirimine göre esnek bir şekilde ayarladı.",
+          "traits": [
+            "esneklik",
+            "öğrenci geri bildirimi",
+            "uyarlanabilirlik",
+            "kişiselleştirilmiş eğitim"
+          ]
+        }
+      ],
+      "excelsWith": [
+        {
+          "type": "Görsel Öğrenmeyi Tercih Eden Öğrenciler",
+          "reason": "Ders boyunca görsel materyaller kullanarak konuları daha anlaşılır hale getirdi.",
+          "example": "Şuradan ekran paylaşacağım. (14:05)"
+        },
+        {
+          "type": "İngilizce Pratiği Yapmak İsteyen Öğrenciler",
+          "reason": "Öğrenciye İngilizce pratiği yapma fırsatı sundu ve telaffuz çalışmaları yaptırdı.",
+          "example": "I 10 years old? (16:08)"
+        },
+        {
+          "type": "Esnek Ders Planı Arayan Öğrenciler",
+          "reason": "Ders planını Bahar'ın geri bildirimine göre esnek bir şekilde ayarladı.",
+          "example": "Tamam nasıl nasıl bir ders bekliyorsun onu bana söylersen ben de ona göre hareket edeyim olur mu? (11:53)"
+        },
+        {
+          "type": "Katılımı Teşvik Edilen Öğrenciler",
+          "reason": "Bahar'ın katılımını teşvik etmek için sık sık sorular yöneltti.",
+          "example": "Tamam mı? Buraya kadar anlaşıldı mı? (36:03)"
+        },
+        {
+          "type": "Seviye Belirleme İhtiyacı Olan Öğrenciler",
+          "reason": "Derse başlamadan önce Bahar'ın seviyesini belirlemek için çeşitli kontrol soruları sordu.",
+          "example": "Harfler, rakamlar onlarda iyi misin? (12:55)"
+        }
+      ],
+      "lessSuitedFor": [
+        {
+          "type": "Uzun Yanıtlar Veren Öğrenciler",
+          "reason": "Öğrenciye daha fazla uzun yanıt verme fırsatı tanımadı.",
+          "alternative": "Daha fazla öğrenci odaklı konuşmalar içeren dersler."
+        },
+        {
+          "type": "Net Yapı Arayan Öğrenciler",
+          "reason": "Dersin başında daha net bir yapı sunmadı.",
+          "alternative": "Dersin başında net bir plan sunan öğretmenler."
+        },
+        {
+          "type": "Sürekli Etkileşim Arayan Öğrenciler",
+          "reason": "Öğrencinin ilgisini sürekli canlı tutmak için daha fazla etkileşimli etkinlik eklemelidir.",
+          "alternative": "Etkileşimli etkinlikler içeren dersler."
+        }
+      ],
+      "matchingGuide": [
+        {
+          "when": "Öğrenci görsel materyallerle öğrenmek istiyorsa",
+          "recommend": "Osman öğretmeni öner",
+          "because": "Osman öğretmen derslerinde görsel materyalleri etkin bir şekilde kullanıyor."
+        },
+        {
+          "when": "Öğrenci İngilizce pratiği yapmak istiyorsa",
+          "recommend": "Osman öğretmeni öner",
+          "because": "Ders sırasında İngilizce konuşma pratiği ve telaffuz çalışmaları yapıyor."
+        },
+        {
+          "when": "Öğrenci esnek bir ders planı arıyorsa",
+          "recommend": "Osman öğretmeni öner",
+          "because": "Ders planını öğrencinin geri bildirimine göre ayarlayabiliyor."
+        },
+        {
+          "when": "Öğrenci aktif katılım sağlamak istiyorsa",
+          "recommend": "Osman öğretmeni öner",
+          "because": "Öğrencinin katılımını teşvik etmek için sık sık sorular yöneltiyor."
+        },
+        {
+          "when": "Öğrencinin seviyesini belirlemek gerekiyorsa",
+          "recommend": "Osman öğretmeni öner",
+          "because": "Derse başlamadan önce seviye belirlemek için çeşitli kontrol soruları soruyor."
+        }
+      ],
+      "overview": "Osman öğretmen, derslerinde görsel materyaller kullanarak konuları daha anlaşılır hale getiren ve öğrencinin katılımını teşvik eden bir öğretim tarzına sahiptir. İngilizce pratiği yapma fırsatları sunarak, öğrencinin dil becerilerini geliştirmesine de olanak tanır. Ders planını öğrencinin geri bildirimine göre esnek bir şekilde ayarlayarak, öğrenciye uygun bir öğrenme deneyimi sunar. Osman öğretmen, öğrencinin seviyesini belirlemek için çeşitli kontrol soruları kullanarak, dersin başlangıcında öğrenci hakkında bilgi edinir.",
+      "generatedAt": "2026-07-27T00:32:37.789Z"
+    }
+  }
+}

@@ -3,14 +3,26 @@ export interface RoadmapTest {
   description: string;
   questionCount: number;
   passScore: number;
+  partialScore?: number;
   format: string;
 }
 
-export interface RoadmapBranch {
-  weakArea: string;
-  temperamentNote: string;
-  teacherAction: string;
-  studentRetry: string[];
+export interface RoadmapHomework {
+  title: string;
+  description: string;
+  quantity: string;
+  estimatedMinutes?: number;
+}
+
+export interface RoadmapOutcome {
+  condition: string;
+  headline: string;
+  detail: string;
+  teacherSteps: string[];
+  studentSteps: string[];
+  nextCheckpointId?: string;
+  nextCheckpointTitle?: string;
+  temperamentNote?: string;
 }
 
 export interface RoadmapCheckpoint {
@@ -18,14 +30,16 @@ export interface RoadmapCheckpoint {
   title: string;
   weekRange: string;
   status: "foundation" | "core" | "exam";
+  transcriptContext?: string;
   teacherFocus: string[];
   studentTasks: string[];
+  homework: RoadmapHomework;
   test: RoadmapTest;
-  onPass: {
-    headline: string;
-    detail: string;
+  outcomes: {
+    pass: RoadmapOutcome;
+    partial?: RoadmapOutcome;
+    fail: RoadmapOutcome;
   };
-  onFail: RoadmapBranch;
 }
 
 export interface RoadmapPhase {

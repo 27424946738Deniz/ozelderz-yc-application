@@ -1,6 +1,5 @@
 "use client";
 
-import { useEffect, useState } from "react";
 import Link from "next/link";
 import {
   ArrowDown,
@@ -10,13 +9,11 @@ import {
   Sparkles,
 } from "lucide-react";
 import Header from "@/components/Header";
-import { fetchUser } from "@/lib/api";
-import { mockUser } from "@/lib/mock-data";
-import type { UserData } from "@/types";
-
-/** Fill these in before sharing with YC reviewers */
-const ADMIN_USERNAME = "";
-const ADMIN_PASSWORD = "";
+import {
+  ADMIN_PANEL_URL,
+  AUTH_PASSWORD,
+  AUTH_USERNAME,
+} from "@/lib/auth";
 
 const showcaseLinks = [
   {
@@ -64,7 +61,7 @@ function LivePanelSection() {
 
       <div className="relative mt-10 flex flex-col gap-6 lg:flex-row lg:items-stretch">
         <a
-          href="https://panel.ozelderz.com/admin"
+          href={ADMIN_PANEL_URL}
           target="_blank"
           rel="noopener noreferrer"
           className="group flex flex-1 flex-col justify-between rounded-2xl border border-white/20 bg-white p-6 shadow-lg transition-transform hover:scale-[1.01] sm:p-8"
@@ -76,8 +73,8 @@ function LivePanelSection() {
             <p className="text-xs font-bold uppercase tracking-widest text-red-600">
               Live admin panel
             </p>
-            <p className="mt-2 text-2xl font-bold text-stone-900 sm:text-3xl">
-              panel.ozelderz.com/admin
+            <p className="mt-2 text-lg font-bold text-stone-900 sm:text-xl">
+              panel.ozelderz.com/admin/giris
             </p>
             <p className="mt-3 text-base leading-relaxed text-stone-600">
               Sales cycle, revenue, customers, and ops — the same dashboard our
@@ -102,8 +99,8 @@ function LivePanelSection() {
               </span>
               <input
                 type="text"
-                defaultValue={ADMIN_USERNAME}
-                placeholder="Enter username"
+                readOnly
+                value={AUTH_USERNAME}
                 className="w-full rounded-xl border-2 border-stone-200 bg-white px-4 py-3.5 text-base font-mono text-stone-900 placeholder:text-stone-300 focus:border-red-400 focus:outline-none focus:ring-4 focus:ring-red-100"
               />
             </label>
@@ -113,8 +110,8 @@ function LivePanelSection() {
               </span>
               <input
                 type="text"
-                defaultValue={ADMIN_PASSWORD}
-                placeholder="Enter password"
+                readOnly
+                value={AUTH_PASSWORD}
                 className="w-full rounded-xl border-2 border-stone-200 bg-white px-4 py-3.5 text-base font-mono text-stone-900 placeholder:text-stone-300 focus:border-red-400 focus:outline-none focus:ring-4 focus:ring-red-100"
               />
             </label>
@@ -126,25 +123,9 @@ function LivePanelSection() {
 }
 
 export default function LandingPage() {
-  const [user, setUser] = useState<UserData | null>(null);
-
-  useEffect(() => {
-    fetchUser()
-      .then(setUser)
-      .catch(() => setUser(mockUser));
-  }, []);
-
-  if (!user) {
-    return (
-      <div className="flex min-h-screen items-center justify-center bg-white">
-        <div className="h-7 w-7 animate-spin rounded-full border-2 spinner-brand border-t-transparent" />
-      </div>
-    );
-  }
-
   return (
     <div className="min-h-screen bg-white">
-      <Header user={user} />
+      <Header />
 
       <a
         href="#live-panel"

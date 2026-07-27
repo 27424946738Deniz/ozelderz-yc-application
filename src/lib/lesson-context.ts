@@ -1,6 +1,8 @@
 import type { StudentProfile } from "@/types";
 import type { TranscriptData, TranscriptSegment } from "@/types/transcript";
 import type { LessonMeta } from "@/lib/lesson-registry";
+import { getLessonManifestEntry } from "@/lib/lessons-manifest";
+import { resolveTeacherAvatar } from "@/lib/teacher-photos";
 import { isQuestion } from "@/lib/transcript-analytics";
 
 const TEACHER = "SPEAKER_00";
@@ -102,12 +104,91 @@ function cleanName(raw: string): string {
     .join(" ");
 }
 
+const INVALID_NAME_WORDS = new Set([
+  "hocam",
+  "öğretmen",
+  "öğrenci",
+  "ama",
+  "tamam",
+  "evet",
+  "merhaba",
+  "merhabalar",
+  "ben",
+  "siz",
+  "sen",
+  "de",
+  "ki",
+  "yani",
+  "bir",
+  "bunları",
+  "var",
+  "işte",
+  "şimdi",
+  "pekala",
+  "tabii",
+  "hayır",
+  "güzel",
+  "sesini",
+  "sesim",
+  "hoş",
+  "bulduk",
+  "daha",
+  "sana",
+  "bu",
+  "şu",
+  "ile",
+  "için",
+  "ela",
+  "matematik",
+  "fizik",
+  "kimya",
+  "tarih",
+  "türkçe",
+  "fen",
+  "seviyorum",
+  "değil",
+  "zaten",
+  "kadarıyla",
+  "çevrenizde",
+  "başlamamıştım",
+  "çizmiyorum",
+  "yapmayacağım",
+]);
+
+export function isPlausiblePersonName(name: string): boolean {
+  const trimmed = name.trim();
+  if (!trimmed || trimmed.length < 2 || trimmed.length > 40) return false;
+  const words = trimmed.split(/\s+/);
+  if (words.length > 4) return false;
+  const first = words[0]?.toLowerCase();
+  if (!first || INVALID_NAME_WORDS.has(first)) return false;
+  if (/^(daha|ben|sana|bu|şu|ki|ile|için|geriye|sesini)/i.test(trimmed)) {
+    return false;
+  }
+  return true;
+}
+
+function introSegments(
+  segments: TranscriptSegment[],
+  maxSeconds = 600
+): TranscriptSegment[] {
+  return segments.filter((s) => s.start < maxSeconds);
+}
+
+function fallbackStudentName(meetCode: string): string {
+  return `Öğrenci (${meetCode})`;
+}
+
+function fallbackTeacherName(meetCode: string): string {
+  return `Öğretmen (${meetCode})`;
+}
+
 function inferTeacherName(segments: TranscriptSegment[]): string | null {
-  const teacherSegs = segments.filter((s) => s.speaker === TEACHER);
+  const teacherSegs = introSegments(segments).filter((s) => s.speaker === TEACHER);
   const patterns = [
-    /ben\s+([a-zçğıöşü]+)\s+hoca/i,
-    /ismim\s+([a-zçğıöşü\s]+?)(?:\.|,|$)/i,
-    /adım\s+([a-zçğıöşü\s]+?)(?:\.|,|$)/i,
+    /ismim\s+([a-zçğıöşü\s]{2,35}?)(?:\s+ve\b|\.|,|$)/i,
+    /adım\s+([a-zçğıöşü\s]{2,35}?)(?:\.|,|$)/i,
+    /ben\s+([a-zçğıöşü]{2,20})\s*,?\s*(?:hoca|öğretmen)(?!iyim)/i,
   ];
 
   for (const seg of teacherSegs) {
@@ -115,7 +196,7 @@ function inferTeacherName(segments: TranscriptSegment[]): string | null {
       const m = seg.text.match(re);
       if (m?.[1]) {
         const name = cleanName(m[1]);
-        if (name.length >= 3 && !/mustafa kemal/i.test(name)) return name;
+        if (isPlausiblePersonName(name) && !/mustafa kemal/i.test(name)) return name;
       }
     }
   }
@@ -124,12 +205,13 @@ function inferTeacherName(segments: TranscriptSegment[]): string | null {
 }
 
 function inferStudentName(segments: TranscriptSegment[]): string | null {
-  const studentSegs = segments.filter((s) => s.speaker === STUDENT);
+  const studentSegs = introSegments(segments).filter((s) => s.speaker === STUDENT);
   const patterns = [
     /ben\s+(?:inci\s+)?nisa/i,
     /ben\s+kayra/i,
-    /adım\s+([a-zçğıöşü\s]+?)(?:\.|,|$)/i,
-    /ismim\s+([a-zçğıöşü\s]+?)(?:\.|,|$)/i,
+    /ben\s+([a-zçğıöşü]{2,20})(?:[.,!?]|$|\s+(?:ve|de|da)\b)/i,
+    /adım\s+([a-zçğıöşü\s]{2,30}?)(?:\.|,|$)/i,
+    /ismim\s+([a-zçğıöşü\s]{2,30}?)(?:\.|,|$)/i,
   ];
 
   for (const seg of studentSegs) {
@@ -139,12 +221,12 @@ function inferStudentName(segments: TranscriptSegment[]): string | null {
       const m = seg.text.match(re);
       if (m?.[1]) {
         const name = cleanName(m[1]);
-        if (name.length >= 2) return name.split(" ")[0];
+        if (isPlausiblePersonName(name)) return name.split(" ")[0];
       }
     }
   }
 
-  for (const seg of segments) {
+  for (const seg of introSegments(segments)) {
     if (/^nisa[.,!?]?$/i.test(seg.text.trim())) return "Nisa";
   }
 
@@ -304,7 +386,7 @@ function inferTeacherProfile(
   return {
     name,
     title: teacherTitle,
-    avatar: `https://api.dicebear.com/7.x/avataaars/svg?seed=${encodeURIComponent(first)}`,
+    avatar: resolveTeacherAvatar(name, first),
   };
 }
 
@@ -313,14 +395,10 @@ const MANUAL_OVERRIDES: Record<
   Partial<{ teacherName: string; studentName: string; title: string; subject: string }>
 > = {
   "wty-msyi-khr": {
-    teacherName: "Mustafa Arda Andirlik",
-    studentName: "Kayra Mete Özcan",
     title: "Tanışma Dersi — İnkılap Tarihi",
     subject: "İnkılap Tarihi ve Atatürkçülük",
   },
   "cqi-brqh-evi": {
-    teacherName: "Ceren",
-    studentName: "Nisa",
     title: "Demo Ders — Rasyonel Sayılar",
     subject: "Matematik",
   },
@@ -330,6 +408,7 @@ export function inferLessonContext(
   transcript: TranscriptData,
   meta: LessonMeta
 ): LessonContext {
+  const manifest = getLessonManifestEntry(meta.id);
   const override = MANUAL_OVERRIDES[meta.id];
   const { subject, teacherTitle } = override?.subject
     ? { subject: override.subject, teacherTitle: subjectToTitle(override.subject) }
@@ -338,25 +417,26 @@ export function inferLessonContext(
   const lessonType = inferLessonType(transcript);
 
   const teacherName =
+    manifest?.teacherName ??
     override?.teacherName ??
     inferTeacherName(transcript.segments) ??
-    "Öğretmen";
+    fallbackTeacherName(meta.id);
 
   const studentRawName =
+    manifest?.studentName ??
     override?.studentName ??
     inferStudentName(transcript.segments) ??
-    "Öğrenci";
+    fallbackStudentName(meta.id);
 
-  const studentName =
-    studentRawName === "Kayra" ? "Kayra Mete Özcan" : studentRawName;
+  const studentName = studentRawName;
 
   const title =
     override?.title ?? inferLessonTitle(meta, transcript, subject, lessonType);
 
   const student =
-    meta.id === "wty-msyi-khr"
+    meta.id === "wty-msyi-khr" && !manifest
       ? {
-          name: "Kayra Mete Özcan",
+          name: studentName,
           grade: "8. Sınıf",
           avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Kayra",
           learningStyle: "Sorgulayıcı-Görsel Öğrenen",

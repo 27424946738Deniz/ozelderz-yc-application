@@ -67,9 +67,9 @@ export interface LearningStyleAnalysis {
   understandsBetter: Array<{ area: string; reason: string; example?: string }>;
   understandsLess: Array<{ area: string; reason: string; alternative: string }>;
   approachGuide: Array<{
-    when: string;
-    doThis: string;
-    because: string;
+    title: string;
+    gap: string;
+    tactic: string;
   }>;
 }
 
@@ -144,6 +144,10 @@ export interface LessonCatalogItem {
   meetCode: string;
   title: string;
   subject: string;
+  teacherName: string;
+  teacherTitle: string;
+  teacherAvatar: string;
+  studentName: string;
   duration: number;
   durationMin: number;
   transcriptSource: string;

@@ -4,29 +4,20 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { ArrowRight, Map } from "lucide-react";
 import type { RoadmapCatalogItem } from "@/types/roadmap";
-import { fetchUser } from "@/lib/api";
-import { mockUser } from "@/lib/mock-data";
-import type { UserData } from "@/types";
 import Header from "@/components/Header";
 
 export default function RoadmapListPage() {
-  const [user, setUser] = useState<UserData | null>(null);
   const [roadmaps, setRoadmaps] = useState<RoadmapCatalogItem[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    Promise.all([
-      fetchUser().catch(() => mockUser),
-      fetch("/api/roadmap").then((r) => r.json()),
-    ])
-      .then(([userData, roadmapData]) => {
-        setUser(userData);
-        setRoadmaps(roadmapData);
-      })
+    fetch("/api/roadmap")
+      .then((r) => r.json())
+      .then(setRoadmaps)
       .finally(() => setLoading(false));
   }, []);
 
-  if (loading || !user) {
+  if (loading) {
     return (
       <div className="flex min-h-screen items-center justify-center page-shell">
         <div className="h-7 w-7 animate-spin rounded-full border-2 spinner-brand border-t-transparent" />
@@ -36,7 +27,7 @@ export default function RoadmapListPage() {
 
   return (
     <div className="min-h-screen page-shell">
-      <Header user={user} activeNav="Yol Haritası" />
+      <Header activeNav="Yol Haritası" />
 
       <main className="mx-auto max-w-3xl px-4 py-6 sm:px-6">
         <div className="mb-6">
@@ -51,8 +42,14 @@ export default function RoadmapListPage() {
           </h1>
           <p className="mt-2 text-sm leading-relaxed text-stone-600">
             Tanışma dersinden çıkarılan mizaç ve müfredat sinyallerine göre ay
-            ay checkpoint&apos;ler. Her testte skor gir — geçersen ilerle,
-            geçemezsen mizaç bazlı retry branch açılır.
+            ay checkpoint&apos;ler. Her adımda ödev + test + what-if dalları
+            görünür — geçerse, kısmen geçerse veya geçemezse hangi yola
+            gidileceği önceden planlanmış.
+            {!loading && roadmaps.length > 0 && (
+              <span className="mt-1 block text-stone-400">
+                {roadmaps.length} ders için transkript tabanlı yol haritası
+              </span>
+            )}
           </p>
         </div>
 

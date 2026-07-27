@@ -3,8 +3,8 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { Map } from "lucide-react";
-import type { LessonData, UserData } from "@/types";
-import { fetchLesson, fetchLessonById, fetchUser } from "@/lib/api";
+import type { LessonData } from "@/types";
+import { fetchLesson, fetchLessonById } from "@/lib/api";
 import { VideoSeekProvider } from "@/context/VideoSeekContext";
 import Header from "@/components/Header";
 import VideoSection from "@/components/VideoSection";
@@ -19,20 +19,13 @@ interface DashboardProps {
 
 export default function Dashboard({ lessonId }: DashboardProps) {
   const [lesson, setLesson] = useState<LessonData | null>(null);
-  const [user, setUser] = useState<UserData | null>(null);
   const [loading, setLoading] = useState(true);
   const [mainTab, setMainTab] = useState("coaching");
   const [hasRoadmap, setHasRoadmap] = useState(false);
 
   useEffect(() => {
-    Promise.all([
-      lessonId ? fetchLessonById(lessonId) : fetchLesson(),
-      fetchUser(),
-    ])
-      .then(([lessonData, userData]) => {
-        setLesson(lessonData);
-        setUser(userData);
-      })
+    (lessonId ? fetchLessonById(lessonId) : fetchLesson())
+      .then(setLesson)
       .finally(() => setLoading(false));
   }, [lessonId]);
 
@@ -57,7 +50,7 @@ export default function Dashboard({ lessonId }: DashboardProps) {
     );
   }
 
-  if (!lesson || !user) {
+  if (!lesson) {
     return (
       <div className="flex min-h-screen items-center justify-center">
         <p className="text-sm text-red-500">Veri yüklenemedi.</p>
@@ -65,10 +58,12 @@ export default function Dashboard({ lessonId }: DashboardProps) {
     );
   }
 
+  const profileLessonId = lessonId ?? lesson.id;
+
   return (
     <VideoSeekProvider>
       <div className="min-h-screen page-shell">
-        <Header user={user} activeNav="Dersler" />
+        <Header activeNav="Dersler" />
 
         <div className="border-b border-stone-200/60 bg-white">
           <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-3 px-4 py-4 sm:px-6">
@@ -102,7 +97,7 @@ export default function Dashboard({ lessonId }: DashboardProps) {
                 </Link>
               )}
               <Link
-                href="/hocalar"
+                href={`/hocalar/teacher-${profileLessonId}`}
                 className="hidden items-center gap-2 rounded-full border border-stone-200 bg-stone-50 px-3 py-1.5 text-sm text-stone-700 transition-colors hover:border-red-200 hover:bg-red-50 sm:flex"
               >
                 <img
@@ -113,7 +108,7 @@ export default function Dashboard({ lessonId }: DashboardProps) {
                 {lesson.teacher.name.split(" ")[0]}
               </Link>
               <Link
-                href="/ogrenciler"
+                href={`/ogrenciler/student-${profileLessonId}`}
                 className="flex items-center gap-2 rounded-full border border-stone-200 bg-stone-50 px-3 py-1.5 text-sm text-stone-700 transition-colors hover:border-red-200 hover:bg-red-50"
               >
                 <img

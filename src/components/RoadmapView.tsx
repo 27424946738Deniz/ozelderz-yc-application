@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import Link from "next/link";
 import {
   ArrowRight,
@@ -9,12 +9,12 @@ import {
   GitBranch,
   Map,
   RotateCcw,
-  User,
 } from "lucide-react";
-import type { LessonRoadmap, RoadmapCheckpoint } from "@/types/roadmap";
-import { fetchUser } from "@/lib/api";
-import { mockUser } from "@/lib/mock-data";
-import type { UserData } from "@/types";
+import type {
+  LessonRoadmap,
+  RoadmapCheckpoint,
+  RoadmapOutcome,
+} from "@/types/roadmap";
 import Header from "@/components/Header";
 import { Panel } from "@/components/ui/Tabs";
 
@@ -22,7 +22,7 @@ interface RoadmapViewProps {
   roadmap: LessonRoadmap;
 }
 
-type CheckpointResult = "pending" | "pass" | "fail";
+type OutcomeKind = "pass" | "partial" | "fail";
 
 function statusColor(status: RoadmapCheckpoint["status"]) {
   if (status === "foundation") return "bg-sky-100 text-sky-700";
@@ -30,256 +30,346 @@ function statusColor(status: RoadmapCheckpoint["status"]) {
   return "bg-stone-100 text-stone-700";
 }
 
-function CheckpointCard({
-  checkpoint,
-  index,
-  result,
-  score,
-  onScoreChange,
-  onEvaluate,
-  unlocked,
-}: {
-  checkpoint: RoadmapCheckpoint;
-  index: number;
-  result: CheckpointResult;
-  score: number | null;
-  onScoreChange: (v: number) => void;
-  onEvaluate: () => void;
-  unlocked: boolean;
-}) {
-  const [open, setOpen] = useState(index === 0);
-
-  if (!unlocked) {
-    return (
-      <div className="rounded-xl border border-dashed border-stone-200 bg-stone-50/50 px-4 py-3 opacity-60">
-        <p className="text-sm text-stone-400">
-          🔒 {checkpoint.title} — önceki checkpoint&apos;i geç
-        </p>
-      </div>
-    );
+function outcomeStyles(kind: OutcomeKind) {
+  if (kind === "pass") {
+    return {
+      border: "border-green-200",
+      bg: "bg-green-50/70",
+      badge: "bg-green-600 text-white",
+      title: "text-green-800",
+      text: "text-green-700",
+      label: "Geçerse",
+    };
   }
+  if (kind === "partial") {
+    return {
+      border: "border-amber-200",
+      bg: "bg-amber-50/70",
+      badge: "bg-amber-500 text-white",
+      title: "text-amber-900",
+      text: "text-amber-800",
+      label: "Kısmen",
+    };
+  }
+  return {
+    border: "border-orange-200",
+    bg: "bg-orange-50/70",
+    badge: "bg-orange-500 text-white",
+    title: "text-orange-900",
+    text: "text-orange-800",
+    label: "Geçemezse",
+  };
+}
+
+function OutcomeBranch({
+  outcome,
+  kind,
+  active,
+}: {
+  outcome: RoadmapOutcome;
+  kind: OutcomeKind;
+  active: boolean;
+}) {
+  const styles = outcomeStyles(kind);
 
   return (
     <div
-      className={`rounded-2xl border transition-colors ${
-        result === "pass"
-          ? "border-green-200 bg-green-50/30"
-          : result === "fail"
-            ? "border-orange-200 bg-orange-50/20"
-            : "border-red-100 bg-white"
+      className={`rounded-xl border p-4 transition-all ${styles.border} ${styles.bg} ${
+        active ? "ring-2 ring-offset-1 ring-stone-300" : ""
       }`}
     >
-      <button
-        type="button"
-        onClick={() => setOpen(!open)}
-        className="flex w-full items-start justify-between gap-3 p-4 text-left sm:p-5"
-      >
-        <div className="flex gap-3">
-          <span
-            className={`mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-xs font-bold ${
-              result === "pass"
-                ? "bg-green-600 text-white"
-                : result === "fail"
-                  ? "bg-orange-500 text-white"
-                  : "bg-red-100 text-red-700"
-            }`}
-          >
-            {result === "pass" ? <CheckCircle2 size={16} /> : index + 1}
-          </span>
-          <div>
-            <div className="flex flex-wrap items-center gap-2">
-              <p className="font-semibold text-stone-900">{checkpoint.title}</p>
-              <span
-                className={`rounded-full px-2 py-0.5 text-[10px] font-medium uppercase ${statusColor(checkpoint.status)}`}
-              >
-                {checkpoint.status}
-              </span>
-            </div>
-            <p className="mt-0.5 text-xs text-stone-500">{checkpoint.weekRange}</p>
-          </div>
+      <div className="flex flex-wrap items-center gap-2">
+        <span
+          className={`rounded-full px-2 py-0.5 text-[10px] font-bold uppercase ${styles.badge}`}
+        >
+          {styles.label}
+        </span>
+        <span className="font-mono text-xs text-stone-600">{outcome.condition}</span>
+      </div>
+
+      <p className={`mt-2 flex items-center gap-1.5 text-sm font-semibold ${styles.title}`}>
+        <GitBranch size={14} />
+        {outcome.headline}
+      </p>
+      <p className={`mt-1 text-sm ${styles.text}`}>{outcome.detail}</p>
+
+      {outcome.nextCheckpointTitle && (
+        <p className="mt-2 text-xs font-medium text-stone-500">
+          Sonraki adım: {outcome.nextCheckpointTitle}
+        </p>
+      )}
+
+      <div className="mt-3 grid gap-3 sm:grid-cols-2">
+        <div>
+          <p className="text-[10px] font-bold uppercase tracking-wide text-stone-500">
+            Hoca
+          </p>
+          <ul className="bullet-list stone mt-1 text-xs">
+            {outcome.teacherSteps.map((s) => (
+              <li key={s}>{s}</li>
+            ))}
+          </ul>
         </div>
-        <ChevronDown
-          size={18}
-          className={`mt-1 shrink-0 text-stone-400 transition-transform ${open ? "rotate-180" : ""}`}
-        />
-      </button>
-
-      {open && (
-        <div className="border-t border-stone-100 px-4 pb-5 pt-4 sm:px-5">
-          <div className="grid gap-4 sm:grid-cols-2">
-            <div>
-              <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-red-600">
-                Hoca odak
-              </p>
-              <ul className="bullet-list stone text-sm">
-                {checkpoint.teacherFocus.map((t) => (
-                  <li key={t}>{t}</li>
-                ))}
-              </ul>
-            </div>
-            <div>
-              <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-sky-600">
-                Öğrenci görevleri
-              </p>
-              <ul className="bullet-list sky text-sm">
-                {checkpoint.studentTasks.map((t) => (
-                  <li key={t}>{t}</li>
-                ))}
-              </ul>
-            </div>
-          </div>
-
-          <div className="mt-5 rounded-xl border border-red-100 bg-red-50/40 p-4">
-            <p className="text-xs font-bold uppercase tracking-wide text-red-700">
-              Checkpoint testi
-            </p>
-            <p className="mt-1 font-medium text-stone-900">
-              {checkpoint.test.label}
-            </p>
-            <p className="mt-1 text-sm text-stone-600">
-              {checkpoint.test.description}
-            </p>
-            <p className="mt-2 text-xs text-stone-500">
-              {checkpoint.test.questionCount} soru · Geçiş: ≥
-              {checkpoint.test.passScore} doğru · {checkpoint.test.format}
-            </p>
-
-            <div className="mt-4 flex flex-wrap items-end gap-3">
-              <label className="flex-1 min-w-[140px]">
-                <span className="mb-1 block text-xs font-medium text-stone-600">
-                  Doğru sayısı (simülasyon)
-                </span>
-                <input
-                  type="number"
-                  min={0}
-                  max={checkpoint.test.questionCount}
-                  value={score ?? ""}
-                  onChange={(e) =>
-                    onScoreChange(
-                      Math.min(
-                        checkpoint.test.questionCount,
-                        Math.max(0, Number(e.target.value) || 0)
-                      )
-                    )
-                  }
-                  className="w-full rounded-lg border border-stone-200 bg-white px-3 py-2 text-sm font-mono focus:border-red-300 focus:outline-none focus:ring-2 focus:ring-red-100"
-                  placeholder={`0–${checkpoint.test.questionCount}`}
-                />
-              </label>
-              <button
-                type="button"
-                onClick={onEvaluate}
-                className="rounded-lg bg-red-600 px-4 py-2 text-sm font-medium text-white hover:bg-red-700"
-              >
-                Değerlendir
-              </button>
-            </div>
-          </div>
-
-          {result === "pass" && (
-            <div className="mt-4 rounded-xl border border-green-200 bg-green-50 p-4">
-              <p className="flex items-center gap-2 text-sm font-semibold text-green-800">
-                <ArrowRight size={16} />
-                {checkpoint.onPass.headline}
-              </p>
-              <p className="mt-2 text-sm text-green-700">
-                {checkpoint.onPass.detail}
-              </p>
-            </div>
-          )}
-
-          {result === "fail" && (
-            <div className="mt-4 space-y-3 rounded-xl border border-orange-200 bg-orange-50/60 p-4">
-              <p className="flex items-center gap-2 text-sm font-semibold text-orange-800">
-                <GitBranch size={16} />
-                Retry branch — geçemedi
-              </p>
-              <div className="rounded-lg bg-white/80 p-3 text-sm">
-                <p className="font-medium text-stone-800">
-                  Zayıf alan: {checkpoint.onFail.weakArea}
-                </p>
-                <p className="mt-2 text-stone-600">
-                  <User size={12} className="mr-1 inline" />
-                  Mizaç notu: {checkpoint.onFail.temperamentNote}
-                </p>
-                <p className="mt-2 text-stone-600">
-                  Hoca: {checkpoint.onFail.teacherAction}
-                </p>
-              </div>
-              <div>
-                <p className="mb-2 text-xs font-semibold uppercase text-orange-700">
-                  Öğrenci tekrar planı
-                </p>
-                <ul className="bullet-list orange text-sm">
-                  {checkpoint.onFail.studentRetry.map((t) => (
-                    <li key={t}>{t}</li>
-                  ))}
-                </ul>
-              </div>
-              <button
-                type="button"
-                onClick={onEvaluate}
-                className="inline-flex items-center gap-1.5 text-xs font-medium text-orange-700 hover:underline"
-              >
-                <RotateCcw size={12} />
-                Tekrar değerlendir
-              </button>
-            </div>
-          )}
+        <div>
+          <p className="text-[10px] font-bold uppercase tracking-wide text-stone-500">
+            Öğrenci
+          </p>
+          <ul className="bullet-list sky mt-1 text-xs">
+            {outcome.studentSteps.map((s) => (
+              <li key={s}>{s}</li>
+            ))}
+          </ul>
         </div>
+      </div>
+
+      {outcome.temperamentNote && (
+        <p className="mt-3 rounded-lg bg-white/70 px-3 py-2 text-xs text-stone-600">
+          Mizaç notu: {outcome.temperamentNote}
+        </p>
       )}
     </div>
   );
 }
 
+function CheckpointCard({
+  checkpoint,
+  index,
+  activeOutcome,
+  score,
+  onScoreChange,
+  onEvaluate,
+}: {
+  checkpoint: RoadmapCheckpoint;
+  index: number;
+  activeOutcome: OutcomeKind | null;
+  score: number | null;
+  onScoreChange: (v: number) => void;
+  onEvaluate: () => void;
+}) {
+  const [open, setOpen] = useState(index < 2);
+
+  return (
+    <div className="relative">
+      {index > 0 && (
+        <div className="absolute -top-3 left-6 h-3 w-px bg-stone-200" aria-hidden />
+      )}
+
+      <div className="rounded-2xl border border-red-100 bg-white">
+        <button
+          type="button"
+          onClick={() => setOpen(!open)}
+          className="flex w-full items-start justify-between gap-3 p-4 text-left sm:p-5"
+        >
+          <div className="flex gap-3">
+            <span className="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-red-100 text-xs font-bold text-red-700">
+              {index + 1}
+            </span>
+            <div>
+              <div className="flex flex-wrap items-center gap-2">
+                <p className="font-semibold text-stone-900">{checkpoint.title}</p>
+                <span
+                  className={`rounded-full px-2 py-0.5 text-[10px] font-medium uppercase ${statusColor(checkpoint.status)}`}
+                >
+                  {checkpoint.status}
+                </span>
+              </div>
+              <p className="mt-0.5 text-xs text-stone-500">{checkpoint.weekRange}</p>
+              {checkpoint.transcriptContext && (
+                <p className="mt-1 text-xs italic text-stone-400">
+                  {checkpoint.transcriptContext}
+                </p>
+              )}
+            </div>
+          </div>
+          <ChevronDown
+            size={18}
+            className={`mt-1 shrink-0 text-stone-400 transition-transform ${open ? "rotate-180" : ""}`}
+          />
+        </button>
+
+        {open && (
+          <div className="border-t border-stone-100 px-4 pb-5 pt-4 sm:px-5">
+            <div className="grid gap-4 sm:grid-cols-2">
+              <div>
+                <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-red-600">
+                  Hoca odak
+                </p>
+                <ul className="bullet-list stone text-sm">
+                  {checkpoint.teacherFocus.map((t) => (
+                    <li key={t}>{t}</li>
+                  ))}
+                </ul>
+              </div>
+              <div>
+                <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-sky-600">
+                  Öğrenci görevleri
+                </p>
+                <ul className="bullet-list sky text-sm">
+                  {checkpoint.studentTasks.map((t) => (
+                    <li key={t}>{t}</li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+
+            <div className="mt-5 rounded-xl border border-violet-100 bg-violet-50/40 p-4">
+              <p className="text-xs font-bold uppercase tracking-wide text-violet-700">
+                Ödev
+              </p>
+              <p className="mt-1 font-medium text-stone-900">
+                {checkpoint.homework.title}
+              </p>
+              <p className="mt-1 text-sm text-stone-600">
+                {checkpoint.homework.description}
+              </p>
+              <p className="mt-2 text-xs text-stone-500">
+                {checkpoint.homework.quantity}
+                {checkpoint.homework.estimatedMinutes
+                  ? ` · ~${checkpoint.homework.estimatedMinutes} dk`
+                  : ""}
+              </p>
+            </div>
+
+            <div className="mt-4 rounded-xl border border-red-100 bg-red-50/40 p-4">
+              <p className="text-xs font-bold uppercase tracking-wide text-red-700">
+                Checkpoint testi
+              </p>
+              <p className="mt-1 font-medium text-stone-900">
+                {checkpoint.test.label}
+              </p>
+              <p className="mt-1 text-sm text-stone-600">
+                {checkpoint.test.description}
+              </p>
+              <p className="mt-2 text-xs text-stone-500">
+                {checkpoint.test.questionCount} soru · Geçiş: ≥
+                {checkpoint.test.passScore} doğru
+                {checkpoint.test.partialScore !== undefined
+                  ? ` · Kısmi: ≥${checkpoint.test.partialScore}`
+                  : ""}{" "}
+                · {checkpoint.test.format}
+              </p>
+
+              <div className="mt-4 flex flex-wrap items-end gap-3">
+                <label className="min-w-[140px] flex-1">
+                  <span className="mb-1 block text-xs font-medium text-stone-600">
+                    Doğru sayısı (simülasyon)
+                  </span>
+                  <input
+                    type="number"
+                    min={0}
+                    max={checkpoint.test.questionCount}
+                    value={score ?? ""}
+                    onChange={(e) =>
+                      onScoreChange(
+                        Math.min(
+                          checkpoint.test.questionCount,
+                          Math.max(0, Number(e.target.value) || 0)
+                        )
+                      )
+                    }
+                    className="w-full rounded-lg border border-stone-200 bg-white px-3 py-2 font-mono text-sm focus:border-red-300 focus:outline-none focus:ring-2 focus:ring-red-100"
+                    placeholder={`0–${checkpoint.test.questionCount}`}
+                  />
+                </label>
+                <button
+                  type="button"
+                  onClick={onEvaluate}
+                  className="rounded-lg bg-red-600 px-4 py-2 text-sm font-medium text-white hover:bg-red-700"
+                >
+                  Dalı seç
+                </button>
+              </div>
+            </div>
+
+            <div className="mt-6">
+              <p className="mb-3 flex items-center gap-2 text-xs font-bold uppercase tracking-wide text-stone-500">
+                <GitBranch size={14} />
+                What-if ağacı — tüm yollar görünür
+              </p>
+              <div className="grid gap-3 lg:grid-cols-3">
+                <OutcomeBranch
+                  outcome={checkpoint.outcomes.pass}
+                  kind="pass"
+                  active={activeOutcome === "pass"}
+                />
+                {checkpoint.outcomes.partial && (
+                  <OutcomeBranch
+                    outcome={checkpoint.outcomes.partial}
+                    kind="partial"
+                    active={activeOutcome === "partial"}
+                  />
+                )}
+                <OutcomeBranch
+                  outcome={checkpoint.outcomes.fail}
+                  kind="fail"
+                  active={activeOutcome === "fail"}
+                />
+              </div>
+            </div>
+
+            {activeOutcome && (
+              <div className="mt-4 flex items-center gap-2 rounded-lg border border-stone-200 bg-stone-50 px-3 py-2 text-xs text-stone-600">
+                <CheckCircle2 size={14} className="text-green-600" />
+                Simülasyon:{" "}
+                <span className="font-medium">
+                  {outcomeStyles(activeOutcome).label}
+                </span>{" "}
+                dalı seçildi
+                <button
+                  type="button"
+                  onClick={onEvaluate}
+                  className="ml-auto inline-flex items-center gap-1 text-orange-700 hover:underline"
+                >
+                  <RotateCcw size={12} />
+                  Yeniden değerlendir
+                </button>
+              </div>
+            )}
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
 export default function RoadmapView({ roadmap }: RoadmapViewProps) {
-  const [user, setUser] = useState<UserData | null>(null);
   const [scores, setScores] = useState<Record<string, number | null>>({});
-  const [results, setResults] = useState<Record<string, CheckpointResult>>({});
+  const [activeOutcomes, setActiveOutcomes] = useState<
+    Record<string, OutcomeKind | null>
+  >({});
 
   const allCheckpoints = useMemo(
     () => roadmap.phases.flatMap((p) => p.checkpoints),
     [roadmap]
   );
 
-  useEffect(() => {
-    fetchUser()
-      .then(setUser)
-      .catch(() => setUser(mockUser));
-  }, []);
-
-  function isUnlocked(checkpointId: string) {
-    const idx = allCheckpoints.findIndex((c) => c.id === checkpointId);
-    if (idx === 0) return true;
-    const prev = allCheckpoints[idx - 1];
-    return results[prev.id] === "pass";
-  }
-
   function evaluate(checkpoint: RoadmapCheckpoint) {
     const score = scores[checkpoint.id];
     if (score === null || score === undefined) return;
-    const passed = score >= checkpoint.test.passScore;
-    setResults((prev) => ({
-      ...prev,
-      [checkpoint.id]: passed ? "pass" : "fail",
-    }));
+
+    const { passScore, partialScore = 0, questionCount } = checkpoint.test;
+    let kind: OutcomeKind = "fail";
+
+    if (score >= passScore) {
+      kind = "pass";
+    } else if (partialScore > 0 && score >= partialScore) {
+      kind = "partial";
+    } else if (score === 0) {
+      kind = "fail";
+    } else {
+      kind = score >= partialScore ? "partial" : "fail";
+    }
+
+    setActiveOutcomes((prev) => ({ ...prev, [checkpoint.id]: kind }));
   }
 
-  if (!user) {
-    return (
-      <div className="flex min-h-screen items-center justify-center page-shell">
-        <div className="h-7 w-7 animate-spin rounded-full border-2 spinner-brand border-t-transparent" />
-      </div>
-    );
-  }
-
-  const passedCount = Object.values(results).filter((r) => r === "pass").length;
+  const simulatedCount = Object.values(activeOutcomes).filter(Boolean).length;
 
   return (
     <div className="min-h-screen page-shell">
-      <Header user={user} activeNav="Yol Haritası" />
+      <Header activeNav="Yol Haritası" />
 
-      <main className="mx-auto max-w-4xl px-4 py-6 sm:px-6">
+      <main className="mx-auto max-w-5xl px-4 py-6 sm:px-6">
         <Link
           href="/yol-haritasi"
           className="mb-4 inline-block text-xs text-red-600 hover:underline"
@@ -322,8 +412,13 @@ export default function RoadmapView({ roadmap }: RoadmapViewProps) {
                 </span>
               </div>
               <span className="rounded-full bg-red-100 px-2.5 py-1 text-xs font-medium text-red-700">
-                {passedCount}/{allCheckpoints.length} checkpoint
+                {allCheckpoints.length} checkpoint · what-if ağacı
               </span>
+              {simulatedCount > 0 && (
+                <span className="rounded-full bg-green-100 px-2.5 py-1 text-xs font-medium text-green-700">
+                  {simulatedCount} simülasyon
+                </span>
+              )}
             </div>
           </div>
 
@@ -355,10 +450,7 @@ export default function RoadmapView({ roadmap }: RoadmapViewProps) {
           </ul>
         </Panel>
 
-        <Panel
-          title="Mizaç sinyalleri (retry branch'lerde kullanılır)"
-          className="mt-4"
-        >
+        <Panel title="Mizaç sinyalleri" className="mt-4">
           <ul className="bullet-list orange text-sm">
             {roadmap.student.temperamentSignals.map((s) => (
               <li key={s}>{s}</li>
@@ -379,8 +471,8 @@ export default function RoadmapView({ roadmap }: RoadmapViewProps) {
                   </h2>
                 </div>
               </div>
-              <div className="space-y-3">
-                {phase.checkpoints.map((cp, i) => {
+              <div className="relative space-y-6 border-l-2 border-stone-200 pl-4 sm:pl-6">
+                {phase.checkpoints.map((cp) => {
                   const globalIndex = allCheckpoints.findIndex(
                     (c) => c.id === cp.id
                   );
@@ -389,13 +481,12 @@ export default function RoadmapView({ roadmap }: RoadmapViewProps) {
                       key={cp.id}
                       checkpoint={cp}
                       index={globalIndex}
-                      result={results[cp.id] ?? "pending"}
+                      activeOutcome={activeOutcomes[cp.id] ?? null}
                       score={scores[cp.id] ?? null}
                       onScoreChange={(v) =>
                         setScores((prev) => ({ ...prev, [cp.id]: v }))
                       }
                       onEvaluate={() => evaluate(cp)}
-                      unlocked={isUnlocked(cp.id)}
                     />
                   );
                 })}
@@ -413,13 +504,13 @@ export default function RoadmapView({ roadmap }: RoadmapViewProps) {
             <ArrowRight size={14} />
           </Link>
           <Link
-            href="/ogrenciler"
+            href={`/ogrenciler/student-${roadmap.lessonId}`}
             className="inline-flex items-center gap-2 rounded-full border border-stone-200 bg-white px-4 py-2 text-sm text-stone-700 hover:border-red-200"
           >
             Öğrenci profili
           </Link>
           <Link
-            href="/hocalar"
+            href={`/hocalar/teacher-${roadmap.lessonId}`}
             className="inline-flex items-center gap-2 rounded-full border border-stone-200 bg-white px-4 py-2 text-sm text-stone-700 hover:border-red-200"
           >
             Hoca profili
