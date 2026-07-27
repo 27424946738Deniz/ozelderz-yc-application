@@ -17,7 +17,6 @@ import {
   loadLessonTranscript,
   type LessonMeta,
 } from "@/lib/lesson-registry";
-import { getPresignedMediaUrl, loadEnvFile } from "../../lib/r2";
 
 const DEFAULT_VIDEO_URL =
   "https://customer-1bg7og50siu2vqqq.cloudflarestream.com/b3fdefd7894e97b64445ecbcb52f6ae6/iframe?poster=https%3A%2F%2Fcustomer-1bg7og50siu2vqqq.cloudflarestream.com%2Fb3fdefd7894e97b64445ecbcb52f6ae6%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600";
@@ -85,23 +84,13 @@ export async function buildLessonById(lessonId: string) {
 
   const transcript = loadLessonTranscript(meta);
   let videoUrl = meta.videoUrl ?? DEFAULT_VIDEO_URL;
-  let videoType = meta.videoType;
+  let videoType: "stream" | "mp4" = meta.videoUrl ? meta.videoType : "stream";
 
   if (!meta.videoUrl && meta.r2Key) {
-    try {
-      loadEnvFile();
-      const hasR2 =
-        process.env.R2_ACCOUNT_ID &&
-        process.env.R2_ACCESS_KEY_ID &&
-        process.env.R2_SECRET_ACCESS_KEY &&
-        process.env.R2_BUCKET_NAME;
-      if (hasR2) {
-        videoUrl = await getPresignedMediaUrl(meta.r2Key);
-        videoType = "mp4";
-      }
-    } catch (error) {
-      console.warn(`R2 presign failed for ${lessonId}, using fallback video`, error);
-    }
+    videoUrl = `/api/lessons/${lessonId}/video`;
+    videoType = "mp4";
+  } else if (!meta.videoUrl && !meta.r2Key) {
+    videoType = "stream";
   }
 
   return buildLessonPayload(meta, transcript, videoUrl, videoType);

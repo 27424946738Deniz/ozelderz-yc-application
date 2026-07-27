@@ -25,6 +25,7 @@ import {
   SESSION_COOKIE_NAME,
   SESSION_TOKEN,
 } from "@/lib/auth";
+import { loadEnvFile, streamMediaFromR2 } from "../../lib/r2";
 
 export async function handleApiRequest(
   request: NextRequest,
@@ -79,6 +80,11 @@ export async function handleApiRequest(
     const lessonTranscriptMatch = path.match(/^lessons\/([^/]+)\/transcript$/);
     if (lessonTranscriptMatch) {
       return handleLessonTranscript(lessonTranscriptMatch[1]);
+    }
+
+    const lessonVideoMatch = path.match(/^lessons\/([^/]+)\/video$/);
+    if (lessonVideoMatch) {
+      return await handleLessonVideo(lessonVideoMatch[1], request);
     }
 
     const lessonMatch = path.match(/^lessons\/([^/]+)$/);
@@ -185,6 +191,19 @@ function handleLessonTranscript(id: string) {
     speakers: transcript.speakers,
     source: transcript.source,
   });
+}
+
+async function handleLessonVideo(id: string, request: NextRequest) {
+  const meta = getLessonMeta(id);
+  if (!meta?.r2Key) {
+    return NextResponse.json({ error: "Video bulunamadı" }, { status: 404 });
+  }
+
+  loadEnvFile();
+  const range = request.headers.get("range");
+  const { body, status, headers } = await streamMediaFromR2(meta.r2Key, range);
+
+  return new NextResponse(body, { status, headers });
 }
 
 function handleRoadmapById(id: string) {

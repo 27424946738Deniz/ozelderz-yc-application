@@ -41,6 +41,7 @@ export default function VideoSection({
   const playerRef = useRef<StreamPlayer | null>(null);
   const [sdkReady, setSdkReady] = useState(false);
   const [iframeSrc, setIframeSrc] = useState(videoUrl);
+  const [videoError, setVideoError] = useState(false);
   const { registerPlayer, registerSeekFallback } = useVideoSeek();
 
   const isMp4 = videoType === "mp4";
@@ -48,6 +49,7 @@ export default function VideoSection({
   useEffect(() => {
     baseUrlRef.current = videoUrl;
     setIframeSrc(videoUrl);
+    setVideoError(false);
   }, [videoUrl]);
 
   const bindPlayer = useCallback(() => {
@@ -115,14 +117,22 @@ export default function VideoSection({
         <div className="relative bg-[#1a1a1a]">
           <div className="relative pt-[56.25%]">
             {isMp4 ? (
-              <video
-                ref={videoRef}
-                key={videoUrl}
-                src={videoUrl}
-                controls
-                playsInline
-                className="absolute inset-0 h-full w-full bg-black object-contain"
-              />
+              videoError ? (
+                <div className="absolute inset-0 flex items-center justify-center bg-black px-6 text-center text-sm text-stone-300">
+                  Video yüklenemedi. Sayfayı yenileyip tekrar deneyin.
+                </div>
+              ) : (
+                <video
+                  ref={videoRef}
+                  key={videoUrl}
+                  src={videoUrl}
+                  controls
+                  playsInline
+                  preload="metadata"
+                  className="absolute inset-0 h-full w-full bg-black object-contain"
+                  onError={() => setVideoError(true)}
+                />
+              )
             ) : (
               <iframe
                 ref={iframeRef}

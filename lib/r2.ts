@@ -114,6 +114,58 @@ export async function getPresignedMediaUrl(
   );
 }
 
+export async function streamMediaFromR2(
+  objectKey: string,
+  rangeHeader: string | null
+): Promise<{
+  body: ReadableStream<Uint8Array>;
+  status: number;
+  headers: Record<string, string>;
+}> {
+  const client = getR2Client();
+  const bucket = getR2Bucket();
+
+  const response = await client.send(
+    new GetObjectCommand({
+      Bucket: bucket,
+      Key: objectKey,
+      Range: rangeHeader ?? undefined,
+    })
+  );
+
+  if (!response.Body) {
+    throw new Error(`R2 stream başarısız: ${objectKey}`);
+  }
+
+  const headers: Record<string, string> = {
+    "Content-Type": response.ContentType ?? "video/mp4",
+    "Accept-Ranges": "bytes",
+    "Cache-Control": "private, max-age=3600",
+  };
+
+  if (response.ContentLength !== undefined) {
+    headers["Content-Length"] = String(response.ContentLength);
+  }
+  if (response.ContentRange) {
+    headers["Content-Range"] = response.ContentRange;
+  }
+
+  const sdkBody = response.Body as {
+    transformToWebStream?: () => ReadableStream<Uint8Array>;
+  };
+
+  const body =
+    typeof sdkBody.transformToWebStream === "function"
+      ? sdkBody.transformToWebStream()
+      : (response.Body as unknown as ReadableStream<Uint8Array>);
+
+  return {
+    body,
+    status: rangeHeader ? 206 : 200,
+    headers,
+  };
+}
+
 export async function downloadFromR2(
   objectKey: string,
   localPath: string
