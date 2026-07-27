@@ -36,6 +36,74 @@ const showcaseLinks = [
   },
 ];
 
+const INSTAGRAM_URL = "https://www.instagram.com/ozelderzcom/";
+
+function InstagramIcon({ size = 22 }: { size?: number }) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden
+    >
+      <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+      <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+      <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+    </svg>
+  );
+}
+
+function InstagramReachSection() {
+  return (
+    <section className="relative mt-12 overflow-hidden rounded-3xl border border-stone-200/80 bg-stone-950 px-6 py-12 sm:px-10 sm:py-14">
+      <div className="pointer-events-none absolute -right-20 top-0 h-64 w-64 rounded-full bg-[#dd2a7b]/20 blur-3xl" />
+      <div className="pointer-events-none absolute -bottom-16 -left-16 h-48 w-48 rounded-full bg-[#f58529]/15 blur-3xl" />
+
+      <div className="relative flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
+        <div className="max-w-2xl">
+          <p className="text-xs font-bold uppercase tracking-[0.3em] text-stone-400">
+            On Instagram
+          </p>
+          <p className="mt-6 text-5xl font-bold leading-none tracking-tight text-white sm:text-6xl md:text-7xl">
+            12M+
+            <span className="block text-2xl font-medium tracking-normal text-stone-400 sm:mt-2 sm:text-3xl">
+              views since January
+            </span>
+          </p>
+          <p className="mt-6 text-lg leading-relaxed text-stone-400 sm:text-xl">
+            The account families actually watch — not a side project, our main
+            stage for how ozelderz shows up in the wild.
+          </p>
+        </div>
+
+        <a
+          href={INSTAGRAM_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group relative shrink-0 rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur transition-colors hover:border-white/20 hover:bg-white/10 sm:min-w-[17rem]"
+        >
+          <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-gradient-to-br from-[#f58529] via-[#dd2a7b] to-[#8134af] text-white shadow-lg shadow-[#dd2a7b]/25">
+            <InstagramIcon size={20} />
+          </div>
+          <p className="mt-5 text-2xl font-semibold tracking-tight text-white">
+            @ozelderzcom
+          </p>
+          <p className="mt-2 text-sm text-stone-400">See what 12M looks like</p>
+          <span className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-white/90 group-hover:gap-3">
+            Open profile
+            <ExternalLink size={15} />
+          </span>
+        </a>
+      </div>
+    </section>
+  );
+}
+
 function LivePanelSection() {
   return (
     <section
@@ -217,6 +285,8 @@ export default function LandingPage() {
             <ArrowRight size={16} />
           </Link>
         </div>
+
+        <InstagramReachSection />
 
         <div className="mt-12">
           <LivePanelSection />
