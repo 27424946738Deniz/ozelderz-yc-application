@@ -41,59 +41,16 @@ export default function VideoSection({
   const playerRef = useRef<StreamPlayer | null>(null);
   const [sdkReady, setSdkReady] = useState(false);
   const [iframeSrc, setIframeSrc] = useState(videoUrl);
-  const [videoSrc, setVideoSrc] = useState(videoUrl);
   const [videoError, setVideoError] = useState(false);
   const { registerPlayer, registerSeekFallback } = useVideoSeek();
 
   const isMp4 = videoType === "mp4";
-  const isApiVideo = isMp4 && videoUrl.startsWith("/api/");
 
   useEffect(() => {
     baseUrlRef.current = videoUrl;
     setIframeSrc(videoUrl);
-    setVideoSrc(videoUrl);
     setVideoError(false);
   }, [videoUrl]);
-
-  useEffect(() => {
-    if (!isApiVideo || videoError) return;
-
-    let cancelled = false;
-
-    async function resolveVideoUrl() {
-      try {
-        const res = await fetch(videoUrl, {
-          method: "GET",
-          redirect: "manual",
-          credentials: "include",
-          headers: { Range: "bytes=0-1" },
-        });
-
-        if (cancelled) return;
-
-        if (res.status >= 300 && res.status < 400) {
-          const location = res.headers.get("location");
-          if (location) {
-            setVideoSrc(location);
-            return;
-          }
-        }
-
-        if (res.ok || res.status === 206) {
-          setVideoSrc(`${videoUrl}${videoUrl.includes("?") ? "&" : "?"}mode=proxy`);
-        }
-      } catch {
-        if (!cancelled) {
-          setVideoSrc(`${videoUrl}${videoUrl.includes("?") ? "&" : "?"}mode=proxy`);
-        }
-      }
-    }
-
-    void resolveVideoUrl();
-    return () => {
-      cancelled = true;
-    };
-  }, [isApiVideo, videoUrl, videoError]);
 
   const bindPlayer = useCallback(() => {
     const iframe = iframeRef.current;
@@ -167,21 +124,13 @@ export default function VideoSection({
               ) : (
                 <video
                   ref={videoRef}
-                  key={videoSrc}
-                  src={videoSrc}
+                  key={videoUrl}
+                  src={videoUrl}
                   controls
                   playsInline
                   preload="metadata"
                   className="absolute inset-0 h-full w-full bg-black object-contain"
-                  onError={() => {
-                    if (isApiVideo && !videoSrc.includes("mode=proxy")) {
-                      setVideoSrc(
-                        `${videoUrl}${videoUrl.includes("?") ? "&" : "?"}mode=proxy`
-                      );
-                      return;
-                    }
-                    setVideoError(true);
-                  }}
+                  onError={() => setVideoError(true)}
                 />
               )
             ) : (

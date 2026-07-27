@@ -25,7 +25,7 @@ import {
   SESSION_COOKIE_NAME,
   SESSION_TOKEN,
 } from "@/lib/auth";
-import { loadEnvFile, getMediaRedirectUrl, streamMediaFromR2 } from "../../lib/r2";
+import { loadEnvFile, headMediaFromR2, readMediaChunkFromR2 } from "../../lib/r2";
 
 export async function handleApiRequest(
   request: NextRequest,
@@ -39,7 +39,7 @@ export async function handleApiRequest(
       return await handleLogin(request);
     }
 
-    if (method !== "GET") {
+    if (method !== "GET" && method !== "HEAD") {
       return NextResponse.json({ error: "Method not allowed" }, { status: 405 });
     }
 
@@ -84,7 +84,7 @@ export async function handleApiRequest(
 
     const lessonVideoMatch = path.match(/^lessons\/([^/]+)\/video$/);
     if (lessonVideoMatch) {
-      return await handleLessonVideo(lessonVideoMatch[1], request);
+      return await handleLessonVideo(lessonVideoMatch[1], request, method);
     }
 
     const lessonMatch = path.match(/^lessons\/([^/]+)$/);
@@ -193,7 +193,11 @@ function handleLessonTranscript(id: string) {
   });
 }
 
-async function handleLessonVideo(id: string, request: NextRequest) {
+async function handleLessonVideo(
+  id: string,
+  request: NextRequest,
+  method: string
+) {
   const meta = getLessonMeta(id);
   if (!meta?.r2Key) {
     return NextResponse.json({ error: "Video bulunamadı" }, { status: 404 });
@@ -201,19 +205,18 @@ async function handleLessonVideo(id: string, request: NextRequest) {
 
   loadEnvFile();
 
-  const mode = request.nextUrl.searchParams.get("mode");
-
-  // Default: redirect to presigned R2 URL (no Vercel bandwidth / timeout).
-  // Fallback: ?mode=proxy streams capped byte ranges through our API.
-  if (mode !== "proxy") {
-    const url = await getMediaRedirectUrl(meta.r2Key);
-    return NextResponse.redirect(url, 307);
+  if (method === "HEAD") {
+    const headers = await headMediaFromR2(meta.r2Key);
+    return new NextResponse(null, { status: 200, headers });
   }
 
   const range = request.headers.get("range");
-  const { body, status, headers } = await streamMediaFromR2(meta.r2Key, range);
+  const { body, status, headers } = await readMediaChunkFromR2(
+    meta.r2Key,
+    range
+  );
 
-  return new NextResponse(body, { status, headers });
+  return new NextResponse(Buffer.from(body), { status, headers });
 }
 
 function handleRoadmapById(id: string) {

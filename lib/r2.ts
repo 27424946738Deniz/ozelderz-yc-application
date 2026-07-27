@@ -1,6 +1,5 @@
 import fs from "fs";
 import path from "path";
-import { Readable } from "stream";
 import {
   GetObjectCommand,
   HeadObjectCommand,
@@ -149,18 +148,6 @@ export async function ensureR2VideoCors() {
   corsConfigured = true;
 }
 
-function toWebBody(body: unknown): ReadableStream<Uint8Array> {
-  const sdkBody = body as {
-    transformToWebStream?: () => ReadableStream<Uint8Array>;
-  };
-  if (typeof sdkBody.transformToWebStream === "function") {
-    return sdkBody.transformToWebStream();
-  }
-  return Readable.toWeb(
-    Readable.from(body as AsyncIterable<Uint8Array>)
-  ) as ReadableStream<Uint8Array>;
-}
-
 function parseByteRange(
   rangeHeader: string | null,
   totalSize: number,
@@ -191,12 +178,34 @@ function parseByteRange(
   return { start, end, partial };
 }
 
-export async function streamMediaFromR2(
+export async function headMediaFromR2(
+  objectKey: string
+): Promise<Record<string, string>> {
+  const client = getR2Client();
+  const bucket = getR2Bucket();
+
+  const head = await client.send(
+    new HeadObjectCommand({ Bucket: bucket, Key: objectKey })
+  );
+  const totalSize = head.ContentLength ?? 0;
+  if (totalSize === 0) {
+    throw new Error(`R2 object empty: ${objectKey}`);
+  }
+
+  return {
+    "Content-Type": head.ContentType ?? "video/mp4",
+    "Accept-Ranges": "bytes",
+    "Content-Length": String(totalSize),
+    "Cache-Control": "private, max-age=3600",
+  };
+}
+
+export async function readMediaChunkFromR2(
   objectKey: string,
   rangeHeader: string | null,
   maxChunkSize = 4 * 1024 * 1024
 ): Promise<{
-  body: ReadableStream<Uint8Array>;
+  body: Uint8Array;
   status: number;
   headers: Record<string, string>;
 }> {
@@ -230,6 +239,7 @@ export async function streamMediaFromR2(
     throw new Error(`R2 stream başarısız: ${objectKey}`);
   }
 
+  const body = await response.Body.transformToByteArray();
   const status = partial || rangeHeader ? 206 : 200;
   const headers: Record<string, string> = {
     "Content-Type": head.ContentType ?? "video/mp4",
@@ -242,10 +252,20 @@ export async function streamMediaFromR2(
     headers["Content-Range"] = `bytes ${start}-${end}/${totalSize}`;
   }
 
+  return { body, status, headers };
+}
+
+/** @deprecated Use readMediaChunkFromR2 */
+export async function streamMediaFromR2(
+  objectKey: string,
+  rangeHeader: string | null,
+  maxChunkSize = 4 * 1024 * 1024
+) {
+  const result = await readMediaChunkFromR2(objectKey, rangeHeader, maxChunkSize);
   return {
-    body: toWebBody(response.Body),
-    status,
-    headers,
+    body: result.body,
+    status: result.status,
+    headers: result.headers,
   };
 }
 

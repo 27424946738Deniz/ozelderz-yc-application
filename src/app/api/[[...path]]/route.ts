@@ -10,6 +10,10 @@ async function dispatch(request: NextRequest, context: RouteContext) {
   return handleApiRequest(request, request.method, path);
 }
 
+export async function HEAD(request: NextRequest, context: RouteContext) {
+  return dispatch(request, context);
+}
+
 export async function GET(request: NextRequest, context: RouteContext) {
   return dispatch(request, context);
 }
