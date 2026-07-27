@@ -20,12 +20,20 @@ interface DashboardProps {
 export default function Dashboard({ lessonId }: DashboardProps) {
   const [lesson, setLesson] = useState<LessonData | null>(null);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
   const [mainTab, setMainTab] = useState("coaching");
   const [hasRoadmap, setHasRoadmap] = useState(false);
 
   useEffect(() => {
+    setError(null);
     (lessonId ? fetchLessonById(lessonId) : fetchLesson())
       .then(setLesson)
+      .catch((err: unknown) => {
+        setLesson(null);
+        setError(
+          err instanceof Error ? err.message : "Ders verisi yüklenemedi"
+        );
+      })
       .finally(() => setLoading(false));
   }, [lessonId]);
 
@@ -52,8 +60,16 @@ export default function Dashboard({ lessonId }: DashboardProps) {
 
   if (!lesson) {
     return (
-      <div className="flex min-h-screen items-center justify-center">
-        <p className="text-sm text-red-500">Veri yüklenemedi.</p>
+      <div className="flex min-h-screen flex-col items-center justify-center gap-3 px-4">
+        <p className="text-sm text-red-500">
+          {error ?? "Veri yüklenemedi."}
+        </p>
+        <Link
+          href="/dersler"
+          className="text-sm text-red-600 hover:underline"
+        >
+          ← Derslere dön
+        </Link>
       </div>
     );
   }

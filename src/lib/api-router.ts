@@ -33,64 +33,75 @@ export async function handleApiRequest(
 ): Promise<NextResponse> {
   const path = segments.join("/");
 
-  if (method === "POST" && path === "auth/login") {
-    return handleLogin(request);
-  }
+  try {
+    if (method === "POST" && path === "auth/login") {
+      return await handleLogin(request);
+    }
 
-  if (method !== "GET") {
-    return NextResponse.json({ error: "Method not allowed" }, { status: 405 });
-  }
+    if (method !== "GET") {
+      return NextResponse.json({ error: "Method not allowed" }, { status: 405 });
+    }
 
-  if (path === "lesson") {
-    return NextResponse.json(buildLessonFromTranscript());
-  }
+    if (path === "lesson") {
+      return NextResponse.json(buildLessonFromTranscript());
+    }
 
-  if (path === "lessons") {
-    return handleLessonsList();
-  }
+    if (path === "lessons") {
+      return handleLessonsList();
+    }
 
-  if (path === "transcript") {
-    const transcript = loadTranscript();
-    return NextResponse.json({
-      segments: transcript.segments,
-      duration: transcript.duration,
-      speakers: transcript.speakers,
-    });
-  }
+    if (path === "transcript") {
+      const transcript = loadTranscript();
+      return NextResponse.json({
+        segments: transcript.segments,
+        duration: transcript.duration,
+        speakers: transcript.speakers,
+      });
+    }
 
-  if (path === "user") {
-    await new Promise((resolve) => setTimeout(resolve, 150));
-    return NextResponse.json(mockUser);
-  }
+    if (path === "user") {
+      await new Promise((resolve) => setTimeout(resolve, 150));
+      return NextResponse.json(mockUser);
+    }
 
-  if (path === "students") {
-    return NextResponse.json(buildAllStudentProfiles());
-  }
+    if (path === "students") {
+      return NextResponse.json(buildAllStudentProfiles());
+    }
 
-  if (path === "teachers") {
-    return NextResponse.json(buildAllTeacherProfiles());
-  }
+    if (path === "teachers") {
+      return NextResponse.json(buildAllTeacherProfiles());
+    }
 
-  if (path === "roadmap") {
-    return NextResponse.json(listRoadmaps());
-  }
+    if (path === "roadmap") {
+      return NextResponse.json(listRoadmaps());
+    }
 
-  const lessonTranscriptMatch = path.match(/^lessons\/([^/]+)\/transcript$/);
-  if (lessonTranscriptMatch) {
-    return handleLessonTranscript(lessonTranscriptMatch[1]);
-  }
+    const lessonTranscriptMatch = path.match(/^lessons\/([^/]+)\/transcript$/);
+    if (lessonTranscriptMatch) {
+      return handleLessonTranscript(lessonTranscriptMatch[1]);
+    }
 
-  const lessonMatch = path.match(/^lessons\/([^/]+)$/);
-  if (lessonMatch) {
-    return handleLessonById(lessonMatch[1]);
-  }
+    const lessonMatch = path.match(/^lessons\/([^/]+)$/);
+    if (lessonMatch) {
+      return await handleLessonById(lessonMatch[1]);
+    }
 
-  const roadmapMatch = path.match(/^roadmap\/([^/]+)$/);
-  if (roadmapMatch) {
-    return handleRoadmapById(roadmapMatch[1]);
-  }
+    const roadmapMatch = path.match(/^roadmap\/([^/]+)$/);
+    if (roadmapMatch) {
+      return handleRoadmapById(roadmapMatch[1]);
+    }
 
-  return NextResponse.json({ error: "Not found" }, { status: 404 });
+    return NextResponse.json({ error: "Not found" }, { status: 404 });
+  } catch (error) {
+    console.error(`API error [${method} /api/${path}]:`, error);
+    return NextResponse.json(
+      {
+        error:
+          error instanceof Error ? error.message : "Sunucu hatası",
+      },
+      { status: 500 }
+    );
+  }
 }
 
 async function handleLogin(request: NextRequest) {

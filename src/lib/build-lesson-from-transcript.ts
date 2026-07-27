@@ -88,9 +88,20 @@ export async function buildLessonById(lessonId: string) {
   let videoType = meta.videoType;
 
   if (!meta.videoUrl && meta.r2Key) {
-    loadEnvFile();
-    videoUrl = await getPresignedMediaUrl(meta.r2Key);
-    videoType = "mp4";
+    try {
+      loadEnvFile();
+      const hasR2 =
+        process.env.R2_ACCOUNT_ID &&
+        process.env.R2_ACCESS_KEY_ID &&
+        process.env.R2_SECRET_ACCESS_KEY &&
+        process.env.R2_BUCKET_NAME;
+      if (hasR2) {
+        videoUrl = await getPresignedMediaUrl(meta.r2Key);
+        videoType = "mp4";
+      }
+    } catch (error) {
+      console.warn(`R2 presign failed for ${lessonId}, using fallback video`, error);
+    }
   }
 
   return buildLessonPayload(meta, transcript, videoUrl, videoType);

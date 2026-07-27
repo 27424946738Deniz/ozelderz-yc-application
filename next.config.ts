@@ -1,7 +1,17 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  outputFileTracingIncludes: {
+    "/api/[[...path]]": [
+      "./data/transcripts/**/*",
+      "./data/r2-media-batch.json",
+      "./data/roadmaps.json",
+      "./data/profiles.json",
+      "./data/learning-guides.json",
+      "./data/lessons-manifest.json",
+      "./data/transcript.json",
+    ],
+  },
 };
 
 export default nextConfig;
