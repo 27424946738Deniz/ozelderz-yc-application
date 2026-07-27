@@ -1,0 +1,422 @@
+{
+  "version": 1,
+  "generatedAt": "2026-07-27T13:49:46.790Z",
+  "teachers": [
+    {
+      "id": "teacher-gvk-iyie-ood",
+      "lessonId": "gvk-iyie-ood",
+      "name": "Ahmet Baştuğ",
+      "title": "Fen Bilimleri Öğretmeni",
+      "subject": "Fen Bilimleri",
+      "teachingScore": 6.1
+    },
+    {
+      "id": "teacher-zra-bhzx-krk",
+      "lessonId": "zra-bhzx-krk",
+      "name": "Ayşegül Dinçer",
+      "title": "Matematik Öğretmeni",
+      "subject": "Matematik",
+      "teachingScore": 7.3
+    },
+    {
+      "id": "teacher-jhx-xgqp-uis",
+      "lessonId": "jhx-xgqp-uis",
+      "name": "Barış Öztürk",
+      "title": "Matematik Öğretmeni",
+      "subject": "Matematik",
+      "teachingScore": 5.8
+    },
+    {
+      "id": "teacher-xtv-upso-wve",
+      "lessonId": "xtv-upso-wve",
+      "name": "Barış Öztürk",
+      "title": "Matematik Öğretmeni",
+      "subject": "Matematik",
+      "teachingScore": 4.9
+    },
+    {
+      "id": "teacher-jkd-azne-qjs",
+      "lessonId": "jkd-azne-qjs",
+      "name": "Burak Çınar",
+      "title": "Türkçe Öğretmeni",
+      "subject": "Türkçe",
+      "teachingScore": 6.3
+    },
+    {
+      "id": "teacher-ymz-nxyc-xch",
+      "lessonId": "ymz-nxyc-xch",
+      "name": "Burak Çınar",
+      "title": "Matematik Öğretmeni",
+      "subject": "Matematik",
+      "teachingScore": 7.3
+    },
+    {
+      "id": "teacher-cev-xgmd-fjw",
+      "lessonId": "cev-xgmd-fjw",
+      "name": "Büşra Çelik",
+      "title": "Matematik Öğretmeni",
+      "subject": "Matematik",
+      "teachingScore": 6.5
+    },
+    {
+      "id": "teacher-cqi-brqh-evi",
+      "lessonId": "cqi-brqh-evi",
+      "name": "Ceren Nur Sarıkavak",
+      "title": "Matematik Öğretmeni",
+      "subject": "Matematik",
+      "teachingScore": 7.9
+    },
+    {
+      "id": "teacher-jom-dknn-fdq",
+      "lessonId": "jom-dknn-fdq",
+      "name": "Ceren Nur Sarıkavak",
+      "title": "Matematik Öğretmeni",
+      "subject": "Matematik",
+      "teachingScore": 9.1
+    },
+    {
+      "id": "teacher-tnt-boyu-kvh",
+      "lessonId": "tnt-boyu-kvh",
+      "name": "Ceren Nur Sarıkavak",
+      "title": "Matematik Öğretmeni",
+      "subject": "Matematik",
+      "teachingScore": 8.1
+    },
+    {
+      "id": "teacher-xzd-txvf-rme",
+      "lessonId": "xzd-txvf-rme",
+      "name": "Ceren Nur Sarıkavak",
+      "title": "Matematik Öğretmeni",
+      "subject": "Matematik",
+      "teachingScore": 7.6
+    },
+    {
+      "id": "teacher-nsw-kfoj-mef",
+      "lessonId": "nsw-kfoj-mef",
+      "name": "Elif Ece Kılboz",
+      "title": "Türkçe Öğretmeni",
+      "subject": "Türkçe",
+      "teachingScore": 6.3
+    },
+    {
+      "id": "teacher-dkk-jbjc-uvf",
+      "lessonId": "dkk-jbjc-uvf",
+      "name": "Emine Nur Pınar",
+      "title": "Matematik Öğretmeni",
+      "subject": "Matematik",
+      "teachingScore": 8.4
+    },
+    {
+      "id": "teacher-hin-dqah-qpb",
+      "lessonId": "hin-dqah-qpb",
+      "name": "Emine Nur Pınar",
+      "title": "Matematik Öğretmeni",
+      "subject": "Matematik",
+      "teachingScore": 5.4
+    },
+    {
+      "id": "teacher-dve-naye-uxc",
+      "lessonId": "dve-naye-uxc",
+      "name": "Fatma Nur Yıldırım",
+      "title": "Matematik Öğretmeni",
+      "subject": "Matematik",
+      "teachingScore": 5.4
+    },
+    {
+      "id": "teacher-teo-hopq-atx",
+      "lessonId": "teo-hopq-atx",
+      "name": "Fatma Nur Yıldırım",
+      "title": "Matematik Öğretmeni",
+      "subject": "Matematik",
+      "teachingScore": 5.8
+    },
+    {
+      "id": "teacher-tpk-tohs-mif",
+      "lessonId": "tpk-tohs-mif",
+      "name": "Hasan Karabela",
+      "title": "Matematik Öğretmeni",
+      "subject": "Matematik",
+      "teachingScore": 5.5
+    },
+    {
+      "id": "teacher-juu-zreb-ryf",
+      "lessonId": "juu-zreb-ryf",
+      "name": "İlkay Sevilmiş",
+      "title": "Matematik Öğretmeni",
+      "subject": "Matematik",
+      "teachingScore": 5.3
+    },
+    {
+      "id": "teacher-owt-bvqr-uee",
+      "lessonId": "owt-bvqr-uee",
+      "name": "İlkay Sevilmiş",
+      "title": "Matematik Öğretmeni",
+      "subject": "Matematik",
+      "teachingScore": 5.9
+    },
+    {
+      "id": "teacher-bao-wvxv-ksx",
+      "lessonId": "bao-wvxv-ksx",
+      "name": "Mehmet Alioğlu",
+      "title": "Matematik Öğretmeni",
+      "subject": "Matematik",
+      "teachingScore": 7.5
+    },
+    {
+      "id": "teacher-cup-ebmb-nwm",
+      "lessonId": "cup-ebmb-nwm",
+      "name": "Mehmet Alioğlu",
+      "title": "Matematik Öğretmeni",
+      "subject": "Matematik",
+      "teachingScore": 4.9
+    },
+    {
+      "id": "teacher-eks-qgow-why",
+      "lessonId": "eks-qgow-why",
+      "name": "Mehmet Alioğlu",
+      "title": "Matematik Öğretmeni",
+      "subject": "Matematik",
+      "teachingScore": 6
+    },
+    {
+      "id": "teacher-epj-hinw-dng",
+      "lessonId": "epj-hinw-dng",
+      "name": "Mehmet Alioğlu",
+      "title": "Matematik Öğretmeni",
+      "subject": "Matematik",
+      "teachingScore": 4.9
+    },
+    {
+      "id": "teacher-xmz-affg-ibt",
+      "lessonId": "xmz-affg-ibt",
+      "name": "Mehmet Alioğlu",
+      "title": "Matematik Öğretmeni",
+      "subject": "Matematik",
+      "teachingScore": 5.4
+    },
+    {
+      "id": "teacher-waa-zfkt-ati",
+      "lessonId": "waa-zfkt-ati",
+      "name": "Melisa Kıroğlu",
+      "title": "Matematik Öğretmeni",
+      "subject": "Matematik",
+      "teachingScore": 5.8
+    },
+    {
+      "id": "teacher-iga-bbew-mbw",
+      "lessonId": "iga-bbew-mbw",
+      "name": "Muhammed Bozboğa",
+      "title": "Matematik Öğretmeni",
+      "subject": "Matematik",
+      "teachingScore": 7.1
+    },
+    {
+      "id": "teacher-jwu-bgia-udu",
+      "lessonId": "jwu-bgia-udu",
+      "name": "Muhammed Bozboğa",
+      "title": "Matematik Öğretmeni",
+      "subject": "Matematik",
+      "teachingScore": 7.2
+    },
+    {
+      "id": "teacher-twa-mvgw-acq",
+      "lessonId": "twa-mvgw-acq",
+      "name": "Muhammed Bozboğa",
+      "title": "Matematik Öğretmeni",
+      "subject": "Matematik",
+      "teachingScore": 8.1
+    },
+    {
+      "id": "teacher-jbv-mdzq-cpp",
+      "lessonId": "jbv-mdzq-cpp",
+      "name": "Muhammed Korhan",
+      "title": "Matematik Öğretmeni",
+      "subject": "Matematik",
+      "teachingScore": 5.4
+    },
+    {
+      "id": "teacher-kza-ypin-hfx",
+      "lessonId": "kza-ypin-hfx",
+      "name": "Muhammed Korhan",
+      "title": "Öğretmen",
+      "subject": "Ders kaydı",
+      "teachingScore": 7.8
+    },
+    {
+      "id": "teacher-mvr-ytpo-svh",
+      "lessonId": "mvr-ytpo-svh",
+      "name": "Muhammed Korhan",
+      "title": "Matematik Öğretmeni",
+      "subject": "Matematik",
+      "teachingScore": 6.4
+    },
+    {
+      "id": "teacher-nwo-hbkh-hpq",
+      "lessonId": "nwo-hbkh-hpq",
+      "name": "Muhammed Korhan",
+      "title": "Matematik Öğretmeni",
+      "subject": "Matematik",
+      "teachingScore": 6
+    },
+    {
+      "id": "teacher-bji-jxik-vzq",
+      "lessonId": "bji-jxik-vzq",
+      "name": "Mustafa Ardahan Dirlik",
+      "title": "Matematik Öğretmeni",
+      "subject": "Matematik",
+      "teachingScore": 8.7
+    },
+    {
+      "id": "teacher-wty-msyi-khr",
+      "lessonId": "wty-msyi-khr",
+      "name": "Mustafa Ardahan Dirlik",
+      "title": "İnkılap Tarihi Öğretmeni",
+      "subject": "İnkılap Tarihi ve Atatürkçülük",
+      "teachingScore": 8.1
+    },
+    {
+      "id": "teacher-dpj-rpde-pft",
+      "lessonId": "dpj-rpde-pft",
+      "name": "Mustafa Enes Kırtış",
+      "title": "Matematik Öğretmeni",
+      "subject": "Matematik",
+      "teachingScore": 8.1
+    },
+    {
+      "id": "teacher-yjx-zhms-nws",
+      "lessonId": "yjx-zhms-nws",
+      "name": "Nursima Başaran",
+      "title": "Matematik Öğretmeni",
+      "subject": "Matematik",
+      "teachingScore": 5.3
+    },
+    {
+      "id": "teacher-hph-xevo-ggx",
+      "lessonId": "hph-xevo-ggx",
+      "name": "Osman Kandemir",
+      "title": "Matematik Öğretmeni",
+      "subject": "Matematik",
+      "teachingScore": 5.4
+    },
+    {
+      "id": "teacher-tjn-etkj-qyo",
+      "lessonId": "tjn-etkj-qyo",
+      "name": "Rabia Arife Aslan",
+      "title": "Matematik Öğretmeni",
+      "subject": "Matematik",
+      "teachingScore": 7.6
+    },
+    {
+      "id": "teacher-piy-jwcr-kiw",
+      "lessonId": "piy-jwcr-kiw",
+      "name": "Rümeysa Geçer",
+      "title": "Matematik Öğretmeni",
+      "subject": "Matematik",
+      "teachingScore": 7
+    },
+    {
+      "id": "teacher-syf-qkqp-qms",
+      "lessonId": "syf-qkqp-qms",
+      "name": "Serhat Cinoğlu",
+      "title": "Matematik Öğretmeni",
+      "subject": "Matematik",
+      "teachingScore": 8.6
+    },
+    {
+      "id": "teacher-mzf-bsim-ksc",
+      "lessonId": "mzf-bsim-ksc",
+      "name": "Serpil Çalışkanoğlu",
+      "title": "Türkçe Öğretmeni",
+      "subject": "Türkçe",
+      "teachingScore": 8.1
+    },
+    {
+      "id": "teacher-mmw-ctqj-jrf",
+      "lessonId": "mmw-ctqj-jrf",
+      "name": "Sude Başkaya",
+      "title": "Türkçe Öğretmeni",
+      "subject": "Türkçe",
+      "teachingScore": 6
+    },
+    {
+      "id": "teacher-ckn-yurm-vyd",
+      "lessonId": "ckn-yurm-vyd",
+      "name": "Yaren Yalım",
+      "title": "Matematik Öğretmeni",
+      "subject": "Matematik",
+      "teachingScore": 7.4
+    },
+    {
+      "id": "teacher-tgf-jcpj-bjx",
+      "lessonId": "tgf-jcpj-bjx",
+      "name": "Yaren Yalım",
+      "title": "Matematik Öğretmeni",
+      "subject": "Matematik",
+      "teachingScore": 7.4
+    },
+    {
+      "id": "teacher-qag-zsdi-idx",
+      "lessonId": "qag-zsdi-idx",
+      "name": "Yiğit Sakur",
+      "title": "Matematik Öğretmeni",
+      "subject": "Matematik",
+      "teachingScore": 6.9
+    },
+    {
+      "id": "teacher-viz-bham-jvo",
+      "lessonId": "viz-bham-jvo",
+      "name": "Yiğit Sakur",
+      "title": "Matematik Öğretmeni",
+      "subject": "Matematik",
+      "teachingScore": 6.6
+    },
+    {
+      "id": "teacher-nha-qhny-snz",
+      "lessonId": "nha-qhny-snz",
+      "name": "Zeynep Oral",
+      "title": "Fen Bilimleri Öğretmeni",
+      "subject": "Fen Bilimleri",
+      "teachingScore": 6
+    },
+    {
+      "id": "teacher-qhn-xpvo-jbv",
+      "lessonId": "qhn-xpvo-jbv",
+      "name": "Zeynep Oral",
+      "title": "Matematik Öğretmeni",
+      "subject": "Matematik",
+      "teachingScore": 4.9
+    },
+    {
+      "id": "teacher-iaw-bhar-hai",
+      "lessonId": "iaw-bhar-hai",
+      "name": "Zübeyde Hakyoldaş",
+      "title": "Matematik Öğretmeni",
+      "subject": "Matematik",
+      "teachingScore": 6.4
+    },
+    {
+      "id": "teacher-jqs-amqe-wiq",
+      "lessonId": "jqs-amqe-wiq",
+      "name": "Zübeyde Hakyoldaş",
+      "title": "Matematik Öğretmeni",
+      "subject": "Matematik",
+      "teachingScore": 7.1
+    },
+    {
+      "id": "teacher-msa-sgqe-bqq",
+      "lessonId": "msa-sgqe-bqq",
+      "name": "Zübeyde Hakyoldaş",
+      "title": "Matematik Öğretmeni",
+      "subject": "Matematik",
+      "teachingScore": 5.5
+    },
+    {
+      "id": "teacher-sug-pifs-fyu",
+      "lessonId": "sug-pifs-fyu",
+      "name": "Zübeyde Hakyoldaş",
+      "title": "Matematik Öğretmeni",
+      "subject": "Matematik",
+      "teachingScore": 6.9
+    }
+  ]
+}

@@ -1,11 +1,8 @@
-"use client";
-
-import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
-import type { TeacherProfileDetail } from "@/types";
-import { fetchTeachers } from "@/lib/api";
+import type { TeacherCatalogItem } from "@/types";
 import Header from "@/components/Header";
 import { resolveTeacherAvatar } from "@/lib/teacher-photos";
+import { getTeachersCatalog } from "@/lib/teachers-catalog-store";
 
 interface TeacherGroup {
   name: string;
@@ -17,28 +14,30 @@ interface TeacherGroup {
   profileId: string;
 }
 
-function groupTeachers(teachers: TeacherProfileDetail[]): TeacherGroup[] {
-  const map = new Map<string, TeacherProfileDetail[]>();
+function groupTeachers(teachers: TeacherCatalogItem[]): TeacherGroup[] {
+  const map = new Map<string, TeacherCatalogItem[]>();
 
-  for (const t of teachers) {
-    const list = map.get(t.name) ?? [];
-    list.push(t);
-    map.set(t.name, list);
+  for (const teacher of teachers) {
+    const list = map.get(teacher.name) ?? [];
+    list.push(teacher);
+    map.set(teacher.name, list);
   }
 
   return [...map.entries()]
     .map(([name, items]) => {
-      const scores = items.map((i) => i.teachingScore);
+      const scores = items.map((item) => item.teachingScore);
       const avgScore =
         Math.round((scores.reduce((a, b) => a + b, 0) / scores.length) * 10) /
         10;
-      const best = [...items].sort((a, b) => b.teachingScore - a.teachingScore)[0];
+      const best = [...items].sort(
+        (a, b) => b.teachingScore - a.teachingScore
+      )[0];
 
       return {
         name,
         avatar: resolveTeacherAvatar(name),
         title: best.title,
-        subjects: [...new Set(items.map((i) => i.subject))],
+        subjects: [...new Set(items.map((item) => item.subject))],
         lessonCount: items.length,
         avgScore,
         profileId: best.id,
@@ -51,6 +50,7 @@ function TeacherCard({ group }: { group: TeacherGroup }) {
   return (
     <Link
       href={`/hocalar/${group.profileId}`}
+      prefetch
       className="flex items-center gap-4 rounded-xl border border-stone-100 bg-white p-4 transition-colors hover:border-red-200 hover:bg-red-50/30"
     >
       <img
@@ -76,24 +76,8 @@ function TeacherCard({ group }: { group: TeacherGroup }) {
 }
 
 export default function TeachersPage() {
-  const [teachers, setTeachers] = useState<TeacherProfileDetail[]>([]);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    fetchTeachers()
-      .then(setTeachers)
-      .finally(() => setLoading(false));
-  }, []);
-
-  const groups = useMemo(() => groupTeachers(teachers), [teachers]);
-
-  if (loading) {
-    return (
-      <div className="flex min-h-screen items-center justify-center page-shell">
-        <div className="h-7 w-7 animate-spin rounded-full border-2 border-red-400 border-t-transparent" />
-      </div>
-    );
-  }
+  const teachers = getTeachersCatalog() ?? [];
+  const groups = groupTeachers(teachers);
 
   return (
     <div className="min-h-screen page-shell">
@@ -115,7 +99,9 @@ export default function TeachersPage() {
 
         {groups.length === 0 && (
           <p className="py-12 text-center text-sm text-stone-400">
-            Henüz hoca profili yok.
+            Henüz hoca profili yok.{" "}
+            <code className="text-xs">npm run catalogs:generate</code> ile
+            katalog oluşturun.
           </p>
         )}
       </main>

@@ -128,7 +128,7 @@ export default function VideoSection({
                   src={videoUrl}
                   controls
                   playsInline
-                  preload="metadata"
+                  preload="none"
                   className="absolute inset-0 h-full w-full bg-black object-contain"
                   onError={() => setVideoError(true)}
                 />

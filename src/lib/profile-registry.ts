@@ -29,12 +29,13 @@ export function buildAllTeacherProfiles(): TeacherProfileDetail[] {
   });
 }
 
-function lessonIdFromStudentId(id: string): string {
-  return id.startsWith("student-") ? id.slice("student-".length) : id;
+function lessonIdFromProfileId(id: string, prefix: "student" | "teacher"): string {
+  const token = `${prefix}-`;
+  return id.startsWith(token) ? id.slice(token.length) : id;
 }
 
 export function getStudentProfileById(id: string): StudentProfileDetail | null {
-  const lessonId = lessonIdFromStudentId(id);
+  const lessonId = lessonIdFromProfileId(id, "student");
   const meta = getLessonMeta(lessonId);
   if (!meta) return null;
 
@@ -50,8 +51,19 @@ export function getStudentProfileByLessonId(
   return getStudentProfileById(`student-${lessonId}`);
 }
 
+export function getTeacherProfileById(id: string): TeacherProfileDetail | null {
+  const lessonId = lessonIdFromProfileId(id, "teacher");
+  const meta = getLessonMeta(lessonId);
+  if (!meta) return null;
+
+  const transcript = loadLessonTranscript(meta);
+  const lessonContext = inferLessonContext(transcript, meta);
+  const profileContext = profileContextFromLesson(meta, lessonContext);
+  return buildTeacherProfileFromTranscript(transcript, profileContext);
+}
+
 export function getTeacherProfileByLessonId(
   lessonId: string
 ): TeacherProfileDetail | null {
-  return buildAllTeacherProfiles().find((p) => p.lessonId === lessonId) ?? null;
+  return getTeacherProfileById(`teacher-${lessonId}`);
 }

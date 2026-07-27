@@ -3,6 +3,7 @@ import type {
   LessonData,
   StudentCatalogItem,
   StudentProfileDetail,
+  TeacherCatalogItem,
   TeacherProfileDetail,
   UserData,
 } from "@/types";
@@ -48,8 +49,14 @@ export async function fetchStudentById(id: string): Promise<StudentProfileDetail
   return res.json();
 }
 
-export async function fetchTeachers(): Promise<TeacherProfileDetail[]> {
+export async function fetchTeachers(): Promise<TeacherCatalogItem[]> {
   const res = await fetch("/api/teachers");
   if (!res.ok) throw new Error("Hoca verisi alınamadı");
+  return res.json();
+}
+
+export async function fetchTeacherById(id: string): Promise<TeacherProfileDetail> {
+  const res = await fetch(`/api/teachers/${encodeURIComponent(id)}`);
+  if (!res.ok) return parseApiError(res, "Hoca profili alınamadı");
   return res.json();
 }

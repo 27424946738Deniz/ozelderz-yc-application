@@ -9,17 +9,17 @@ import {
 } from "@/lib/lesson-registry";
 import { mockUser } from "@/lib/mock-data";
 import {
-  buildAllTeacherProfiles,
   getStudentProfileById,
+  getTeacherProfileById,
 } from "@/lib/profile-registry";
 import { getStudentsCatalog } from "@/lib/students-catalog-store";
+import { getTeachersCatalog } from "@/lib/teachers-catalog-store";
 import { getRoadmap, listRoadmaps } from "@/lib/roadmap-registry";
 import {
   isValidCredentials,
   SESSION_COOKIE_NAME,
   SESSION_TOKEN,
 } from "@/lib/auth";
-import { loadEnvFile, headMediaFromR2, readMediaChunkFromR2 } from "../../lib/r2";
 
 export async function handleApiRequest(
   request: NextRequest,
@@ -64,11 +64,16 @@ export async function handleApiRequest(
     }
 
     if (path === "teachers") {
-      return NextResponse.json(buildAllTeacherProfiles());
+      return handleTeachersList();
     }
 
     if (path === "roadmap") {
       return NextResponse.json(listRoadmaps());
+    }
+
+    const teacherMatch = path.match(/^teachers\/([^/]+)$/);
+    if (teacherMatch) {
+      return handleTeacherById(teacherMatch[1]);
     }
 
     const studentMatch = path.match(/^students\/([^/]+)$/);
@@ -79,11 +84,6 @@ export async function handleApiRequest(
     const lessonTranscriptMatch = path.match(/^lessons\/([^/]+)\/transcript$/);
     if (lessonTranscriptMatch) {
       return handleLessonTranscript(lessonTranscriptMatch[1]);
-    }
-
-    const lessonVideoMatch = path.match(/^lessons\/([^/]+)\/video$/);
-    if (lessonVideoMatch) {
-      return await handleLessonVideo(lessonVideoMatch[1], request, method);
     }
 
     const lessonMatch = path.match(/^lessons\/([^/]+)$/);
@@ -157,6 +157,24 @@ function handleStudentsList() {
   return NextResponse.json([]);
 }
 
+function handleTeachersList() {
+  const cached = getTeachersCatalog();
+  if (cached) {
+    return NextResponse.json(cached);
+  }
+
+  console.warn("teachers-catalog.json missing — run npm run catalogs:generate");
+  return NextResponse.json([]);
+}
+
+function handleTeacherById(id: string) {
+  const teacher = getTeacherProfileById(id);
+  if (!teacher) {
+    return NextResponse.json({ error: "Hoca bulunamadı" }, { status: 404 });
+  }
+  return NextResponse.json(teacher);
+}
+
 function handleStudentById(id: string) {
   const student = getStudentProfileById(id);
   if (!student) {
@@ -191,32 +209,6 @@ function handleLessonTranscript(id: string) {
     speakers: transcript.speakers,
     source: transcript.source,
   });
-}
-
-async function handleLessonVideo(
-  id: string,
-  request: NextRequest,
-  method: string
-) {
-  const meta = getLessonMeta(id);
-  if (!meta?.r2Key) {
-    return NextResponse.json({ error: "Video bulunamadı" }, { status: 404 });
-  }
-
-  loadEnvFile();
-
-  if (method === "HEAD") {
-    const headers = await headMediaFromR2(meta.r2Key);
-    return new NextResponse(null, { status: 200, headers });
-  }
-
-  const range = request.headers.get("range");
-  const { body, status, headers } = await readMediaChunkFromR2(
-    meta.r2Key,
-    range
-  );
-
-  return new NextResponse(Buffer.from(body), { status, headers });
 }
 
 function handleRoadmapById(id: string) {

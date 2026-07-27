@@ -11,9 +11,14 @@ const nextConfig: NextConfig = {
       "./data/lessons-manifest.json",
       "./data/lessons-catalog.json",
       "./data/students-catalog.json",
-      "./data/lesson-snapshots.json",
+      "./data/teachers-catalog.json",
       "./data/transcript.json",
     ],
+    "/api/lessons/[id]/video": [
+      "./data/r2-media-batch.json",
+      "./data/lessons-manifest.json",
+    ],
+    "/dersler/[id]": ["./data/lesson-snapshots/**/*"],
   },
 };
 

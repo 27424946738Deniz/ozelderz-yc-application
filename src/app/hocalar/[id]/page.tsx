@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useParams } from "next/navigation";
 import type { TeacherProfileDetail } from "@/types";
-import { fetchTeachers } from "@/lib/api";
+import { fetchTeacherById } from "@/lib/api";
 import Header from "@/components/Header";
 import TeacherProfileView from "@/components/TeacherProfileView";
 import { resolveTeacherAvatar } from "@/lib/teacher-photos";
@@ -16,22 +16,22 @@ export default function TeacherDetailPage() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetchTeachers()
-      .then((teachers) => {
-        const found = teachers.find((t) => t.id === id) ?? null;
-        if (found) {
-          setTeacher({ ...found, avatar: resolveTeacherAvatar(found.name) });
-        } else {
-          setTeacher(null);
-        }
-      })
+    fetchTeacherById(id)
+      .then((profile) =>
+        setTeacher({ ...profile, avatar: resolveTeacherAvatar(profile.name) })
+      )
+      .catch(() => setTeacher(null))
       .finally(() => setLoading(false));
   }, [id]);
 
   if (loading) {
     return (
-      <div className="flex min-h-screen items-center justify-center page-shell">
-        <div className="h-7 w-7 animate-spin rounded-full border-2 border-red-400 border-t-transparent" />
+      <div className="min-h-screen page-shell">
+        <Header activeNav="Hocalar" />
+        <main className="mx-auto max-w-3xl animate-pulse px-4 py-6 sm:px-6">
+          <div className="mb-4 h-4 w-28 rounded bg-stone-100" />
+          <div className="h-32 rounded-xl bg-stone-100" />
+        </main>
       </div>
     );
   }

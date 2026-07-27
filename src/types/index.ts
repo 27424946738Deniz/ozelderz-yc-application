@@ -185,6 +185,16 @@ export interface LessonCatalogItem {
   topSections?: string[];
 }
 
+/** Lightweight row for /hocalar list (precomputed in data/teachers-catalog.json). */
+export interface TeacherCatalogItem {
+  id: string;
+  lessonId: string;
+  name: string;
+  title: string;
+  subject: string;
+  teachingScore: number;
+}
+
 export interface TeacherProfileDetail {
   id: string;
   lessonId?: string;
