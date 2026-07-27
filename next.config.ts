@@ -11,6 +11,7 @@ const nextConfig: NextConfig = {
       "./data/lessons-manifest.json",
       "./data/lessons-catalog.json",
       "./data/students-catalog.json",
+      "./data/lesson-snapshots.json",
       "./data/transcript.json",
     ],
   },

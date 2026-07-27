@@ -1,10 +1,7 @@
-"use client";
-
-import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import type { LessonCatalogItem } from "@/types";
-import { fetchLessons } from "@/lib/api";
 import Header from "@/components/Header";
+import { getLessonsCatalog } from "@/lib/lessons-catalog-store";
 import { resolveTeacherAvatar } from "@/lib/teacher-photos";
 
 function sourceLabel(source: string) {
@@ -54,6 +51,7 @@ function LessonCard({ lesson }: { lesson: LessonCatalogItem }) {
   return (
     <Link
       href={`/dersler/${lesson.id}`}
+      prefetch
       className="block rounded-xl border border-stone-100 bg-white p-4 transition-colors hover:border-red-200 hover:bg-red-50/30"
     >
       <div className="flex items-start justify-between gap-3">
@@ -110,24 +108,8 @@ function LessonCard({ lesson }: { lesson: LessonCatalogItem }) {
 }
 
 export default function LessonsPage() {
-  const [lessons, setLessons] = useState<LessonCatalogItem[]>([]);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    fetchLessons()
-      .then(setLessons)
-      .finally(() => setLoading(false));
-  }, []);
-
-  const teacherGroups = useMemo(() => groupByTeacher(lessons), [lessons]);
-
-  if (loading) {
-    return (
-      <div className="flex min-h-screen items-center justify-center page-shell">
-        <div className="h-7 w-7 animate-spin rounded-full border-2 border-red-400 border-t-transparent" />
-      </div>
-    );
-  }
+  const lessons = getLessonsCatalog() ?? [];
+  const teacherGroups = groupByTeacher(lessons);
 
   return (
     <div className="min-h-screen page-shell">
@@ -185,8 +167,8 @@ export default function LessonsPage() {
         {lessons.length === 0 && (
           <p className="py-12 text-center text-sm text-stone-400">
             Henüz transkript yok.{" "}
-            <code className="text-xs">npm run transcribe:deepgram</code> ile
-            ekleyin.
+            <code className="text-xs">npm run catalogs:generate</code> ile
+            katalog oluşturun.
           </p>
         )}
       </main>

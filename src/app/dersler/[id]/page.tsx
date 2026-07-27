@@ -1,10 +1,21 @@
-"use client";
-
-import { useParams } from "next/navigation";
 import Dashboard from "@/components/Dashboard";
+import { getLessonSnapshot } from "@/lib/lesson-snapshot-store";
+import { getStoredRoadmap } from "@/lib/roadmap-store";
 
-export default function LessonDetailPage() {
-  const params = useParams();
-  const id = params.id as string;
-  return <Dashboard lessonId={id} />;
+type PageProps = {
+  params: Promise<{ id: string }>;
+};
+
+export default async function LessonDetailPage({ params }: PageProps) {
+  const { id } = await params;
+  const initialLesson = getLessonSnapshot(id);
+  const hasRoadmap = Boolean(getStoredRoadmap(id));
+
+  return (
+    <Dashboard
+      lessonId={id}
+      initialLesson={initialLesson}
+      initialHasRoadmap={hasRoadmap}
+    />
+  );
 }

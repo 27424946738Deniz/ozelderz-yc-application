@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { buildLessonById, buildLessonFromTranscript, loadTranscript } from "@/lib/build-lesson-from-transcript";
 import { buildLessonsCatalog } from "@/lib/build-lessons-catalog";
+import { getLessonSnapshot } from "@/lib/lesson-snapshot-store";
 import { getLessonsCatalog } from "@/lib/lessons-catalog-store";
 import {
   getLessonMeta,
@@ -165,6 +166,11 @@ function handleStudentById(id: string) {
 }
 
 async function handleLessonById(id: string) {
+  const cached = getLessonSnapshot(id);
+  if (cached) {
+    return NextResponse.json(cached);
+  }
+
   const lesson = await buildLessonById(id);
   if (!lesson) {
     return NextResponse.json({ error: "Ders bulunamadı" }, { status: 404 });

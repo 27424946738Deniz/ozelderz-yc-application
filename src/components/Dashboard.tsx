@@ -6,6 +6,7 @@ import { Map } from "lucide-react";
 import type { LessonData } from "@/types";
 import { fetchLesson, fetchLessonById } from "@/lib/api";
 import { VideoSeekProvider } from "@/context/VideoSeekContext";
+import LessonDetailLoading from "@/app/dersler/[id]/loading";
 import Header from "@/components/Header";
 import VideoSection from "@/components/VideoSection";
 import CoachingPanel from "@/components/CoachingPanel";
@@ -15,16 +16,25 @@ import Tabs from "@/components/ui/Tabs";
 
 interface DashboardProps {
   lessonId?: string;
+  initialLesson?: LessonData | null;
+  initialHasRoadmap?: boolean;
 }
 
-export default function Dashboard({ lessonId }: DashboardProps) {
-  const [lesson, setLesson] = useState<LessonData | null>(null);
-  const [loading, setLoading] = useState(true);
+export default function Dashboard({
+  lessonId,
+  initialLesson = null,
+  initialHasRoadmap = false,
+}: DashboardProps) {
+  const [lesson, setLesson] = useState<LessonData | null>(initialLesson);
+  const [loading, setLoading] = useState(!initialLesson);
   const [error, setError] = useState<string | null>(null);
   const [mainTab, setMainTab] = useState("coaching");
-  const [hasRoadmap, setHasRoadmap] = useState(false);
+  const [hasRoadmap, setHasRoadmap] = useState(initialHasRoadmap);
 
   useEffect(() => {
+    if (initialLesson) return;
+
+    setLoading(true);
     setError(null);
     (lessonId ? fetchLessonById(lessonId) : fetchLesson())
       .then(setLesson)
@@ -35,27 +45,20 @@ export default function Dashboard({ lessonId }: DashboardProps) {
         );
       })
       .finally(() => setLoading(false));
-  }, [lessonId]);
+  }, [lessonId, initialLesson]);
 
   useEffect(() => {
-    if (!lessonId) return;
+    if (!lessonId || initialHasRoadmap) return;
     fetch("/api/roadmap")
       .then((r) => r.json())
       .then((items: { lessonId: string }[]) =>
         setHasRoadmap(items.some((i) => i.lessonId === lessonId))
       )
       .catch(() => setHasRoadmap(false));
-  }, [lessonId]);
+  }, [lessonId, initialHasRoadmap]);
 
   if (loading) {
-    return (
-      <div className="flex min-h-screen items-center justify-center page-shell">
-        <div className="flex flex-col items-center gap-3">
-          <div className="h-7 w-7 animate-spin rounded-full border-2 spinner-brand border-t-transparent" />
-          <span className="text-sm text-stone-500">Yükleniyor…</span>
-        </div>
-      </div>
-    );
+    return <LessonDetailLoading />;
   }
 
   if (!lesson) {
