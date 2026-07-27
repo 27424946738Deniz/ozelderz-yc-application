@@ -75,8 +75,8 @@ function normalizeCheckpoint(
     outcomes: {
       pass: {
         condition: pass.condition?.trim() || `≥${passScore}/${questionCount} doğru`,
-        headline: pass.headline?.trim() || base?.outcomes.pass.headline,
-        detail: pass.detail?.trim() || base?.outcomes.pass.detail,
+        headline: pass.headline?.trim() || base?.outcomes.pass.headline || "Sonraki adıma geç",
+        detail: pass.detail?.trim() || base?.outcomes.pass.detail || "",
         teacherSteps: (pass.teacherSteps ?? base?.outcomes.pass.teacherSteps ?? [])
           .filter(Boolean)
           .slice(0, 4),
@@ -120,8 +120,8 @@ function normalizeCheckpoint(
         condition:
           fail.condition?.trim() ||
           `<${partialScore}/${questionCount} doğru veya ödev yapılmadı`,
-        headline: fail.headline?.trim() || base?.outcomes.fail.headline,
-        detail: fail.detail?.trim() || base?.outcomes.fail.detail,
+        headline: fail.headline?.trim() || base?.outcomes.fail.headline || "Geri dönüş yolu",
+        detail: fail.detail?.trim() || base?.outcomes.fail.detail || "",
         teacherSteps: (fail.teacherSteps ?? base?.outcomes.fail.teacherSteps ?? [])
           .filter(Boolean)
           .slice(0, 4),
