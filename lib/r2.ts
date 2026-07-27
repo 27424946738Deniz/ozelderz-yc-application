@@ -1,8 +1,10 @@
 import fs from "fs";
 import path from "path";
+import { Readable } from "stream";
 import {
   GetObjectCommand,
   HeadObjectCommand,
+  PutBucketCorsCommand,
   S3Client,
 } from "@aws-sdk/client-s3";
 import { Upload } from "@aws-sdk/lib-storage";
@@ -114,9 +116,85 @@ export async function getPresignedMediaUrl(
   );
 }
 
+let corsConfigured = false;
+
+export async function ensureR2VideoCors() {
+  if (corsConfigured) return;
+
+  const client = getR2Client();
+  const bucket = getR2Bucket();
+
+  await client.send(
+    new PutBucketCorsCommand({
+      Bucket: bucket,
+      CORSConfiguration: {
+        CORSRules: [
+          {
+            AllowedOrigins: ["*"],
+            AllowedMethods: ["GET", "HEAD"],
+            AllowedHeaders: ["*"],
+            ExposeHeaders: [
+              "Content-Length",
+              "Content-Range",
+              "Accept-Ranges",
+              "ETag",
+            ],
+            MaxAgeSeconds: 3600,
+          },
+        ],
+      },
+    })
+  );
+
+  corsConfigured = true;
+}
+
+function toWebBody(body: unknown): ReadableStream<Uint8Array> {
+  const sdkBody = body as {
+    transformToWebStream?: () => ReadableStream<Uint8Array>;
+  };
+  if (typeof sdkBody.transformToWebStream === "function") {
+    return sdkBody.transformToWebStream();
+  }
+  return Readable.toWeb(
+    Readable.from(body as AsyncIterable<Uint8Array>)
+  ) as ReadableStream<Uint8Array>;
+}
+
+function parseByteRange(
+  rangeHeader: string | null,
+  totalSize: number,
+  maxChunkSize: number
+): { start: number; end: number; partial: boolean } {
+  let start = 0;
+  let end = totalSize - 1;
+  let partial = false;
+
+  if (rangeHeader) {
+    const match = rangeHeader.match(/bytes=(\d+)-(\d*)/);
+    if (match) {
+      start = Number.parseInt(match[1], 10);
+      end = match[2] ? Number.parseInt(match[2], 10) : totalSize - 1;
+      partial = true;
+    }
+  }
+
+  if (!Number.isFinite(start) || start < 0) start = 0;
+  if (!Number.isFinite(end) || end >= totalSize) end = totalSize - 1;
+  if (end < start) end = start;
+
+  if (end - start + 1 > maxChunkSize) {
+    end = start + maxChunkSize - 1;
+    partial = true;
+  }
+
+  return { start, end, partial };
+}
+
 export async function streamMediaFromR2(
   objectKey: string,
-  rangeHeader: string | null
+  rangeHeader: string | null,
+  maxChunkSize = 4 * 1024 * 1024
 ): Promise<{
   body: ReadableStream<Uint8Array>;
   status: number;
@@ -125,11 +203,26 @@ export async function streamMediaFromR2(
   const client = getR2Client();
   const bucket = getR2Bucket();
 
+  const head = await client.send(
+    new HeadObjectCommand({ Bucket: bucket, Key: objectKey })
+  );
+  const totalSize = head.ContentLength ?? 0;
+  if (totalSize === 0) {
+    throw new Error(`R2 object empty: ${objectKey}`);
+  }
+
+  const { start, end, partial } = parseByteRange(
+    rangeHeader,
+    totalSize,
+    maxChunkSize
+  );
+  const chunkSize = end - start + 1;
+
   const response = await client.send(
     new GetObjectCommand({
       Bucket: bucket,
       Key: objectKey,
-      Range: rangeHeader ?? undefined,
+      Range: `bytes=${start}-${end}`,
     })
   );
 
@@ -137,33 +230,32 @@ export async function streamMediaFromR2(
     throw new Error(`R2 stream başarısız: ${objectKey}`);
   }
 
+  const status = partial || rangeHeader ? 206 : 200;
   const headers: Record<string, string> = {
-    "Content-Type": response.ContentType ?? "video/mp4",
+    "Content-Type": head.ContentType ?? "video/mp4",
     "Accept-Ranges": "bytes",
+    "Content-Length": String(chunkSize),
     "Cache-Control": "private, max-age=3600",
   };
 
-  if (response.ContentLength !== undefined) {
-    headers["Content-Length"] = String(response.ContentLength);
+  if (status === 206) {
+    headers["Content-Range"] = `bytes ${start}-${end}/${totalSize}`;
   }
-  if (response.ContentRange) {
-    headers["Content-Range"] = response.ContentRange;
-  }
-
-  const sdkBody = response.Body as {
-    transformToWebStream?: () => ReadableStream<Uint8Array>;
-  };
-
-  const body =
-    typeof sdkBody.transformToWebStream === "function"
-      ? sdkBody.transformToWebStream()
-      : (response.Body as unknown as ReadableStream<Uint8Array>);
 
   return {
-    body,
-    status: rangeHeader ? 206 : 200,
+    body: toWebBody(response.Body),
+    status,
     headers,
   };
+}
+
+export async function getMediaRedirectUrl(objectKey: string): Promise<string> {
+  try {
+    await ensureR2VideoCors();
+  } catch (error) {
+    console.warn("R2 CORS setup skipped:", error);
+  }
+  return getPresignedMediaUrl(objectKey, 60 * 60 * 6);
 }
 
 export async function downloadFromR2(

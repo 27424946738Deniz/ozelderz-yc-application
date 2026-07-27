@@ -17,3 +17,6 @@ export async function GET(request: NextRequest, context: RouteContext) {
 export async function POST(request: NextRequest, context: RouteContext) {
   return dispatch(request, context);
 }
+
+export const runtime = "nodejs";
+export const maxDuration = 60;

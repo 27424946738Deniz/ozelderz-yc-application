@@ -25,7 +25,7 @@ import {
   SESSION_COOKIE_NAME,
   SESSION_TOKEN,
 } from "@/lib/auth";
-import { loadEnvFile, streamMediaFromR2 } from "../../lib/r2";
+import { loadEnvFile, getMediaRedirectUrl, streamMediaFromR2 } from "../../lib/r2";
 
 export async function handleApiRequest(
   request: NextRequest,
@@ -200,6 +200,16 @@ async function handleLessonVideo(id: string, request: NextRequest) {
   }
 
   loadEnvFile();
+
+  const mode = request.nextUrl.searchParams.get("mode");
+
+  // Default: redirect to presigned R2 URL (no Vercel bandwidth / timeout).
+  // Fallback: ?mode=proxy streams capped byte ranges through our API.
+  if (mode !== "proxy") {
+    const url = await getMediaRedirectUrl(meta.r2Key);
+    return NextResponse.redirect(url, 307);
+  }
+
   const range = request.headers.get("range");
   const { body, status, headers } = await streamMediaFromR2(meta.r2Key, range);
 
