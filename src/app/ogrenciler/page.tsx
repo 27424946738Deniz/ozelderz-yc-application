@@ -2,11 +2,11 @@
 
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
-import type { StudentProfileDetail } from "@/types";
+import type { StudentCatalogItem } from "@/types";
 import { fetchStudents } from "@/lib/api";
 import Header from "@/components/Header";
 
-function StudentCard({ student }: { student: StudentProfileDetail }) {
+function StudentCard({ student }: { student: StudentCatalogItem }) {
   const subject = student.lessonsSummary.subjects[0] ?? "Ders";
 
   return (
@@ -39,7 +39,7 @@ function StudentCard({ student }: { student: StudentProfileDetail }) {
 }
 
 export default function StudentsPage() {
-  const [students, setStudents] = useState<StudentProfileDetail[]>([]);
+  const [students, setStudents] = useState<StudentCatalogItem[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {

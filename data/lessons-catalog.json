@@ -1,0 +1,2362 @@
+{
+  "version": 1,
+  "generatedAt": "2026-07-27T13:20:50.291Z",
+  "lessons": [
+    {
+      "id": "xzd-txvf-rme",
+      "meetCode": "xzd-txvf-rme",
+      "title": "Demo Ders — Ondalık gösterim",
+      "subject": "Matematik",
+      "teacherName": "Ceren Nur Sarıkavak",
+      "teacherTitle": "Matematik Öğretmeni",
+      "teacherAvatar": "https://images.ozelderz.com/hocalar/temp_1iz4c6_1778957998222.jpg",
+      "studentName": "İkra Bilim",
+      "duration": 3609.194,
+      "durationMin": 60,
+      "transcriptSource": "deepgram-nova-3",
+      "segmentCount": 763,
+      "wordCount": 4395,
+      "speakers": [
+        "SPEAKER_00",
+        "SPEAKER_01",
+        "SPEAKER_02"
+      ],
+      "speakerSplit": {
+        "SPEAKER_00": 224,
+        "SPEAKER_01": 3449,
+        "SPEAKER_02": 722
+      },
+      "evaluationScore": 7.7,
+      "hasVideo": true,
+      "videoType": "mp4",
+      "transcribedAt": "2026-07-26T22:54:16.258Z",
+      "r2Key": "lessons/xzd-txvf-rme.mp4",
+      "summaryBrief": "Ceren Hoca ile İkra arasında Matematik demo ders gerçekleşti (Demo Ders — Ondalık gösterim). Ders 60 dakika sürdü. ondalık gösterim, geometri, problemler, müfredat, test/alıştırma konuları işlendi. 130 gerçek soru tespit edildi.",
+      "evaluationOverview": "Matematik demo dersi, 60 dakika (ondalık gösterim, geometri, problemler). Öğretmen konuşma oranı %4, İkra 552 tur aldı, 130 soru tespit edildi. Genel değerlendirme: 7.7/10 — İyi.",
+      "topStrength": "Demo ders formatı net — öğrencinin seviyesi konuşularak tespit edildi, takılınan noktadan (devirli ondalık vb.) başlanması planlandı.",
+      "topWeakness": "İkra zorlandığı noktayı açıkça belirtti (\"zor geliyor sana?\") — bir sonraki derste bu boşluk öncelikli kapatılmalı.",
+      "questionCount": 130,
+      "partCount": 16,
+      "topTopics": [
+        "ondalık gösterim",
+        "geometri",
+        "problemler",
+        "müfredat"
+      ],
+      "topSections": [
+        "Biz de iyiyiz, teşekkür ederim.",
+        "problemleri diyelim mi o zaman? Mesela bak…",
+        "Büyüktür. Ha,"
+      ]
+    },
+    {
+      "id": "ymz-nxyc-xch",
+      "meetCode": "ymz-nxyc-xch",
+      "title": "Tanışma Dersi — Matematik",
+      "subject": "Matematik",
+      "teacherName": "Burak Çınar",
+      "teacherTitle": "Matematik Öğretmeni",
+      "teacherAvatar": "https://images.ozelderz.com/hocalar/temp_76eobg_1772435855524.jpg",
+      "studentName": "Elif Selçuk",
+      "duration": 3250.901,
+      "durationMin": 54,
+      "transcriptSource": "deepgram-nova-3",
+      "segmentCount": 904,
+      "wordCount": 3832,
+      "speakers": [
+        "SPEAKER_00",
+        "SPEAKER_01",
+        "SPEAKER_02"
+      ],
+      "speakerSplit": {
+        "SPEAKER_00": 2710,
+        "SPEAKER_01": 945,
+        "SPEAKER_02": 177
+      },
+      "evaluationScore": 6.8,
+      "hasVideo": true,
+      "videoType": "mp4",
+      "transcribedAt": "2026-07-26T22:54:07.044Z",
+      "r2Key": "lessons/ymz-nxyc-xch.mp4",
+      "summaryBrief": "Burak Hoca ile Elif arasında Matematik tanışma dersi gerçekleşti (Tanışma Dersi — Matematik). Ders 54 dakika sürdü. geometri, problemler, LGS, test/alıştırma, kaynak/materyal konuları işlendi. 230 gerçek soru tespit edildi.",
+      "evaluationOverview": "Tanışma dersi, 54 dakika (geometri, problemler, LGS). Öğretmen konuşma oranı %70, Elif 311 tur aldı, 230 soru tespit edildi. Genel değerlendirme: 6.8/10 — Orta.",
+      "topStrength": "LGS matematik çerçevesi kuruldu — veri işleme, soru tipleri ve sınav yapısı derse bağlandı.",
+      "topWeakness": "Elif'nın uzun açıklamaları az (2 adet) — çoğunlukla kısa onaylarla geçildi; \"neden?\", \"nasıl düşündün?\" takipleri artırılmalı.",
+      "questionCount": 230,
+      "partCount": 23,
+      "topTopics": [
+        "geometri",
+        "problemler",
+        "LGS",
+        "test/alıştırma"
+      ],
+      "topSections": [
+        "Sesin geliyor mu?",
+        "Gelmiyor hala.",
+        "değil. Benim sesim size geliyor. Mikrofond…"
+      ]
+    },
+    {
+      "id": "xmz-affg-ibt",
+      "meetCode": "xmz-affg-ibt",
+      "title": "Ders — Rasyonel sayılar",
+      "subject": "Matematik",
+      "teacherName": "Mehmet Alioğlu",
+      "teacherTitle": "Matematik Öğretmeni",
+      "teacherAvatar": "https://images.ozelderz.com/hocalar/94_1775012260716.jpg",
+      "studentName": "Toprak Celik",
+      "duration": 3387.818,
+      "durationMin": 56,
+      "transcriptSource": "deepgram-nova-3",
+      "segmentCount": 839,
+      "wordCount": 6255,
+      "speakers": [
+        "SPEAKER_00",
+        "SPEAKER_01"
+      ],
+      "speakerSplit": {
+        "SPEAKER_00": 5782,
+        "SPEAKER_01": 473
+      },
+      "evaluationScore": 5.7,
+      "hasVideo": true,
+      "videoType": "mp4",
+      "transcribedAt": "2026-07-26T22:53:06.699Z",
+      "r2Key": "lessons/xmz-affg-ibt.mp4",
+      "summaryBrief": "Mehmet Hoca ile Toprak arasında Matematik ders gerçekleşti (Ders — Rasyonel sayılar). Ders 56 dakika sürdü. rasyonel sayılar, geometri, test/alıştırma, kaynak/materyal, görsel materyal konuları işlendi. 137 gerçek soru tespit edildi.",
+      "evaluationOverview": "Matematik dersi, 56 dakika (rasyonel sayılar, geometri, test/alıştırma). Öğretmen konuşma oranı %93, Toprak 115 tur aldı, 137 soru tespit edildi. Genel değerlendirme: 5.7/10 — Gelişime açık.",
+      "topStrength": "LGS matematik çerçevesi kuruldu — veri işleme, soru tipleri ve sınav yapısı derse bağlandı.",
+      "topWeakness": "Konuşma süresinin %93'i öğretmende — Toprak 115 tur aldı. Demo/konu derslerinde bile öğrenciyi daha fazla konuşturmak gerekir.",
+      "questionCount": 137,
+      "partCount": 18,
+      "topTopics": [
+        "rasyonel sayılar",
+        "geometri",
+        "test/alıştırma",
+        "kaynak/materyal"
+      ],
+      "topSections": [
+        "Toprak merhabalar, sesimi duyabiliyor musu…",
+        "Yani... Beşin karesinin toplam... Ha, evet…",
+        "bunları kesin bilmemiz lazım. Bak şunları …"
+      ]
+    },
+    {
+      "id": "yjx-zhms-nws",
+      "meetCode": "yjx-zhms-nws",
+      "title": "Ders — Geometri",
+      "subject": "Matematik",
+      "teacherName": "Nursima Başaran",
+      "teacherTitle": "Matematik Öğretmeni",
+      "teacherAvatar": "https://images.ozelderz.com/hocalar/598_1779018885496.jpg",
+      "studentName": "Ali Rıza Bolat",
+      "duration": 3278.357,
+      "durationMin": 55,
+      "transcriptSource": "deepgram-nova-3",
+      "segmentCount": 831,
+      "wordCount": 4310,
+      "speakers": [
+        "SPEAKER_00",
+        "SPEAKER_01"
+      ],
+      "speakerSplit": {
+        "SPEAKER_00": 3774,
+        "SPEAKER_01": 536
+      },
+      "evaluationScore": 4.7,
+      "hasVideo": true,
+      "videoType": "mp4",
+      "transcribedAt": "2026-07-26T22:53:02.786Z",
+      "r2Key": "lessons/yjx-zhms-nws.mp4",
+      "summaryBrief": "Nursima Hoca ile Ali arasında Matematik ders gerçekleşti (Ders — Geometri). Ders 55 dakika sürdü. geometri, problemler, test/alıştırma, ders planı, görsel materyal konuları işlendi. 121 gerçek soru tespit edildi.",
+      "evaluationOverview": "Matematik dersi, 55 dakika (geometri, problemler, test/alıştırma). Öğretmen konuşma oranı %85, Ali 217 tur aldı, 121 soru tespit edildi. Genel değerlendirme: 4.7/10 — Destek gerekli.",
+      "topStrength": "Görsel/uygulamalı anlatım (ekran, sayı doğrusu, tablo) derse yedirildi — 11 materyal referansı.",
+      "topWeakness": "Konuşma süresinin %85'i öğretmende — Ali 217 tur aldı. Demo/konu derslerinde bile öğrenciyi daha fazla konuşturmak gerekir.",
+      "questionCount": 121,
+      "partCount": 19,
+      "topTopics": [
+        "geometri",
+        "problemler",
+        "test/alıştırma",
+        "ders planı"
+      ],
+      "topSections": [
+        "Ali, sizi duyuyor musun?",
+        "Bu arada Ali nasılsın? Tatil nasıl geçiyor…",
+        "özür dilerim."
+      ]
+    },
+    {
+      "id": "zra-bhzx-krk",
+      "meetCode": "zra-bhzx-krk",
+      "title": "Tanışma Dersi — Matematik",
+      "subject": "Matematik",
+      "teacherName": "Ayşegül Dinçer",
+      "teacherTitle": "Matematik Öğretmeni",
+      "teacherAvatar": "https://images.ozelderz.com/hocalar/207_1774961821440.jpg",
+      "studentName": "Fatma Zehra Güneş",
+      "duration": 3223.04,
+      "durationMin": 54,
+      "transcriptSource": "deepgram-nova-3",
+      "segmentCount": 911,
+      "wordCount": 5057,
+      "speakers": [
+        "SPEAKER_00",
+        "SPEAKER_01"
+      ],
+      "speakerSplit": {
+        "SPEAKER_00": 2181,
+        "SPEAKER_01": 2876
+      },
+      "evaluationScore": 6.9,
+      "hasVideo": true,
+      "videoType": "mp4",
+      "transcribedAt": "2026-07-26T22:52:57.555Z",
+      "r2Key": "lessons/zra-bhzx-krk.mp4",
+      "summaryBrief": "Ayşegül Hoca ile Fatma arasında Matematik tanışma dersi gerçekleşti (Tanışma Dersi — Matematik). Ders 54 dakika sürdü. rasyonel sayılar, ondalık gösterim, geometri, problemler, test/alıştırma konuları işlendi. 272 gerçek soru tespit edildi.",
+      "evaluationOverview": "Tanışma dersi, 54 dakika (rasyonel sayılar, ondalık gösterim, geometri). Öğretmen konuşma oranı %45, Fatma 390 tur aldı, 272 soru tespit edildi. Genel değerlendirme: 6.9/10 — Orta.",
+      "topStrength": "Matematik demo akışı somut ilerledi — transkriptte \"Rasyonelse ilave Evet.\" gibi bölümlerde konu örnekle anlatıldı.",
+      "topWeakness": "Anlatım hızı 132 kel/dk — önerilen 150–170 aralığının altında; 54 dk'lık derste tempo düşük kaldı.",
+      "questionCount": 272,
+      "partCount": 23,
+      "topTopics": [
+        "rasyonel sayılar",
+        "ondalık gösterim",
+        "geometri",
+        "problemler"
+      ],
+      "topSections": [
+        "Merhaba. Merhaba.",
+        "Adamdayım desene. Adamdayım, oradan da gid…",
+        "Tam sayılarla ilgili aşağıdaki gibi bir oy…"
+      ]
+    },
+    {
+      "id": "waa-zfkt-ati",
+      "meetCode": "waa-zfkt-ati",
+      "title": "Tanışma Dersi — Matematik",
+      "subject": "Matematik",
+      "teacherName": "Melisa Kıroğlu",
+      "teacherTitle": "Matematik Öğretmeni",
+      "teacherAvatar": "https://pub-e9746fd3c59d479f924589177ae87857.r2.dev/hocalar/12_1767788374144.jpg",
+      "studentName": "Hiranur Sarsık",
+      "duration": 3103.445,
+      "durationMin": 52,
+      "transcriptSource": "deepgram-nova-3",
+      "segmentCount": 1045,
+      "wordCount": 3402,
+      "speakers": [
+        "SPEAKER_00",
+        "SPEAKER_01"
+      ],
+      "speakerSplit": {
+        "SPEAKER_00": 2740,
+        "SPEAKER_01": 662
+      },
+      "evaluationScore": 6.1,
+      "hasVideo": true,
+      "videoType": "mp4",
+      "transcribedAt": "2026-07-26T22:52:50.345Z",
+      "r2Key": "lessons/waa-zfkt-ati.mp4",
+      "summaryBrief": "Melisa Hoca ile Hiranur arasında Matematik tanışma dersi gerçekleşti (Tanışma Dersi — Matematik). Ders 52 dakika sürdü. geometri, problemler, test/alıştırma, ders planı, kaynak/materyal konuları işlendi. 204 gerçek soru tespit edildi.",
+      "evaluationOverview": "Tanışma dersi, 52 dakika (geometri, problemler, test/alıştırma). Öğretmen konuşma oranı %78, Hiranur 298 tur aldı, 204 soru tespit edildi. Genel değerlendirme: 6.1/10 — Orta.",
+      "topStrength": "Görsel/uygulamalı anlatım (ekran, sayı doğrusu, tablo) derse yedirildi — 5 materyal referansı.",
+      "topWeakness": "Konuşma süresinin %78'i öğretmende — Hiranur 298 tur aldı. Demo/konu derslerinde bile öğrenciyi daha fazla konuşturmak gerekir.",
+      "questionCount": 204,
+      "partCount": 24,
+      "topTopics": [
+        "geometri",
+        "problemler",
+        "test/alıştırma",
+        "ders planı"
+      ],
+      "topSections": [
+        "Sesin kapalı şu anda, duyamıyorum.",
+        "Okay. Birazcık İngilizce konuşalım mı?",
+        "Bir tane resim var orada. Sen mi çizdin?"
+      ]
+    },
+    {
+      "id": "xtv-upso-wve",
+      "meetCode": "xtv-upso-wve",
+      "title": "Ders — Denklemler",
+      "subject": "Matematik",
+      "teacherName": "Barış Öztürk",
+      "teacherTitle": "Matematik Öğretmeni",
+      "teacherAvatar": "https://images.ozelderz.com/hocalar/temp_subeyo_1783321715006.jpeg",
+      "studentName": "Muhammed Bulutoğlu",
+      "duration": 3695.402,
+      "durationMin": 62,
+      "transcriptSource": "deepgram-nova-3",
+      "segmentCount": 1145,
+      "wordCount": 5160,
+      "speakers": [
+        "SPEAKER_00",
+        "SPEAKER_01"
+      ],
+      "speakerSplit": {
+        "SPEAKER_00": 4791,
+        "SPEAKER_01": 369
+      },
+      "evaluationScore": 4.9,
+      "hasVideo": true,
+      "videoType": "mp4",
+      "transcribedAt": "2026-07-26T22:52:36.431Z",
+      "r2Key": "lessons/xtv-upso-wve.mp4",
+      "summaryBrief": "Barış Hoca ile Muhammed arasında Matematik ders gerçekleşti (Ders — Denklemler). Ders 62 dakika sürdü. denklemler, geometri, test/alıştırma, kaynak/materyal, görsel materyal konuları işlendi. 245 gerçek soru tespit edildi.",
+      "evaluationOverview": "Matematik dersi, 62 dakika (denklemler, geometri, test/alıştırma). Öğretmen konuşma oranı %93, Muhammed 121 tur aldı, 245 soru tespit edildi. Genel değerlendirme: 4.9/10 — Destek gerekli.",
+      "topStrength": "Görsel/uygulamalı anlatım (ekran, sayı doğrusu, tablo) derse yedirildi — 5 materyal referansı.",
+      "topWeakness": "Konuşma süresinin %93'i öğretmende — Muhammed 121 tur aldı. Demo/konu derslerinde bile öğrenciyi daha fazla konuşturmak gerekir.",
+      "questionCount": 245,
+      "partCount": 28,
+      "topTopics": [
+        "denklemler",
+        "geometri",
+        "test/alıştırma",
+        "kaynak/materyal"
+      ],
+      "topSections": [
+        "Merhaba. Sesim Merhaba. Muhammed?",
+        "Tam sayılarla ilgili bir sıkıntımız var mı…",
+        "Var mıdır bir sıkıntı? Devam ediyorum."
+      ]
+    },
+    {
+      "id": "nwo-hbkh-hpq",
+      "meetCode": "nwo-hbkh-hpq",
+      "title": "Ders — Denklemler",
+      "subject": "Matematik",
+      "teacherName": "Muhammed Korhan",
+      "teacherTitle": "Matematik Öğretmeni",
+      "teacherAvatar": "https://images.ozelderz.com/hocalar/temp_4kcb1b_1772436520284.jpeg",
+      "studentName": "Zeynep Biber",
+      "duration": 3008.234,
+      "durationMin": 50,
+      "transcriptSource": "deepgram-nova-3",
+      "segmentCount": 511,
+      "wordCount": 2523,
+      "speakers": [
+        "SPEAKER_00",
+        "SPEAKER_01"
+      ],
+      "speakerSplit": {
+        "SPEAKER_00": 2162,
+        "SPEAKER_01": 361
+      },
+      "evaluationScore": 6.3,
+      "hasVideo": true,
+      "videoType": "mp4",
+      "transcribedAt": "2026-07-26T22:52:31.478Z",
+      "r2Key": "lessons/nwo-hbkh-hpq.mp4",
+      "summaryBrief": "Muhammed Hoca ile Zeynep arasında Matematik ders gerçekleşti (Ders — Denklemler). Ders 50 dakika sürdü. denklemler, geometri, test/alıştırma, ders planı, kaynak/materyal konuları işlendi. 176 gerçek soru tespit edildi.",
+      "evaluationOverview": "Matematik dersi, 50 dakika (denklemler, geometri, test/alıştırma). Öğretmen konuşma oranı %84, Zeynep 99 tur aldı, 176 soru tespit edildi. Genel değerlendirme: 6.3/10 — Orta.",
+      "topStrength": "Matematik demo akışı somut ilerledi — transkriptte \"sıfıra eşit olan var. Sıfırdan büyük olan var. Herhangi bir parabol denklemi söylemeni ist…\" gibi bölümlerde konu örnekle anlatıldı.",
+      "topWeakness": "Konuşma süresinin %84'i öğretmende — Zeynep 99 tur aldı. Demo/konu derslerinde bile öğrenciyi daha fazla konuşturmak gerekir.",
+      "questionCount": 176,
+      "partCount": 16,
+      "topTopics": [
+        "denklemler",
+        "geometri",
+        "test/alıştırma",
+        "ders planı"
+      ],
+      "topSections": [
+        "Teşekkür ederim. Ben de iyiyim. Nasılsın b…",
+        "Şu an görüyor olman gerekir.",
+        "Şöyle bir grafikti değil mi? Evet."
+      ]
+    },
+    {
+      "id": "tpk-tohs-mif",
+      "meetCode": "tpk-tohs-mif",
+      "title": "Tanışma Dersi — Matematik",
+      "subject": "Matematik",
+      "teacherName": "Hasan Karabela",
+      "teacherTitle": "Matematik Öğretmeni",
+      "teacherAvatar": "https://images.ozelderz.com/hocalar/temp_eqzz5_1769774985871.jpg",
+      "studentName": "Yusuf Salih Elmas",
+      "duration": 2801.109,
+      "durationMin": 47,
+      "transcriptSource": "deepgram-nova-3",
+      "segmentCount": 736,
+      "wordCount": 3694,
+      "speakers": [
+        "SPEAKER_00"
+      ],
+      "speakerSplit": {
+        "SPEAKER_00": 3694
+      },
+      "evaluationScore": 4.6,
+      "hasVideo": true,
+      "videoType": "mp4",
+      "transcribedAt": "2026-07-26T22:52:26.653Z",
+      "r2Key": "lessons/tpk-tohs-mif.mp4",
+      "summaryBrief": "Hasan Hoca ile Yusuf arasında Matematik tanışma dersi gerçekleşti (Tanışma Dersi — Matematik). Ders 47 dakika sürdü. geometri, test/alıştırma, ders planı, görsel materyal konuları işlendi. 46 gerçek soru tespit edildi.",
+      "evaluationOverview": "Tanışma dersi, 47 dakika (geometri, test/alıştırma, ders planı). Öğretmen konuşma oranı %100, Yusuf 0 tur aldı, 46 soru tespit edildi. Genel değerlendirme: 4.6/10 — Destek gerekli.",
+      "topStrength": "Ders planı ve iletişim net konuşuldu (3 kez plan/program vurgusu).",
+      "topWeakness": "Konuşma süresinin %100'i öğretmende — Yusuf 0 tur aldı. Demo/konu derslerinde bile öğrenciyi daha fazla konuşturmak gerekir.",
+      "questionCount": 46,
+      "partCount": 17,
+      "topTopics": [
+        "geometri",
+        "test/alıştırma",
+        "ders planı",
+        "görsel materyal"
+      ],
+      "topSections": [
+        "Merhaba, sesim geliyor mu?",
+        "Azıcık bekleteceğim ben seni ekran paylaşm…",
+        "üçgendi üçgen."
+      ]
+    },
+    {
+      "id": "viz-bham-jvo",
+      "meetCode": "viz-bham-jvo",
+      "title": "Ders — Geometri",
+      "subject": "Matematik",
+      "teacherName": "Yiğit Sakur",
+      "teacherTitle": "Matematik Öğretmeni",
+      "teacherAvatar": "https://images.ozelderz.com/hocalar/temp_v8lik_1781895895665.jpg",
+      "studentName": "Miraç Çelik",
+      "duration": 3104.49,
+      "durationMin": 52,
+      "transcriptSource": "deepgram-nova-3",
+      "segmentCount": 666,
+      "wordCount": 2935,
+      "speakers": [
+        "SPEAKER_00",
+        "SPEAKER_01",
+        "SPEAKER_02"
+      ],
+      "speakerSplit": {
+        "SPEAKER_00": 2353,
+        "SPEAKER_01": 177,
+        "SPEAKER_02": 405
+      },
+      "evaluationScore": 6.2,
+      "hasVideo": true,
+      "videoType": "mp4",
+      "transcribedAt": "2026-07-26T22:52:12.981Z",
+      "r2Key": "lessons/viz-bham-jvo.mp4",
+      "summaryBrief": "Yiğit Hoca ile Miraç arasında Matematik ders gerçekleşti (Ders — Geometri). Ders 52 dakika sürdü. geometri, problemler, LGS, test/alıştırma, görsel materyal konuları işlendi. 122 gerçek soru tespit edildi.",
+      "evaluationOverview": "Matematik dersi, 52 dakika (geometri, problemler, LGS). Öğretmen konuşma oranı %80, Miraç 35 tur aldı, 122 soru tespit edildi. Genel değerlendirme: 6.2/10 — Orta.",
+      "topStrength": "LGS matematik çerçevesi kuruldu — veri işleme, soru tipleri ve sınav yapısı derse bağlandı.",
+      "topWeakness": "Konuşma süresinin %80'i öğretmende — Miraç 35 tur aldı. Demo/konu derslerinde bile öğrenciyi daha fazla konuşturmak gerekir.",
+      "questionCount": 122,
+      "partCount": 23,
+      "topTopics": [
+        "geometri",
+        "problemler",
+        "LGS",
+        "test/alıştırma"
+      ],
+      "topSections": [
+        "Görüntün var mı? Görüntü açabiliyor musun?…",
+        "İki yüz dokuz yazıyor.",
+        "çember yayının"
+      ]
+    },
+    {
+      "id": "tgf-jcpj-bjx",
+      "meetCode": "tgf-jcpj-bjx",
+      "title": "Ders — Ondalık gösterim",
+      "subject": "Matematik",
+      "teacherName": "Yaren Yalım",
+      "teacherTitle": "Matematik Öğretmeni",
+      "teacherAvatar": "https://images.ozelderz.com/hocalar/temp_gudb12c_1780987863703.jpeg",
+      "studentName": "Ali Çelik",
+      "duration": 3381.354,
+      "durationMin": 56,
+      "transcriptSource": "deepgram-nova-3",
+      "segmentCount": 947,
+      "wordCount": 4935,
+      "speakers": [
+        "SPEAKER_00",
+        "SPEAKER_01"
+      ],
+      "speakerSplit": {
+        "SPEAKER_00": 923,
+        "SPEAKER_01": 4012
+      },
+      "evaluationScore": 7.3,
+      "hasVideo": true,
+      "videoType": "mp4",
+      "transcribedAt": "2026-07-26T22:52:04.687Z",
+      "r2Key": "lessons/tgf-jcpj-bjx.mp4",
+      "summaryBrief": "Yaren Hoca ile Ali arasında Matematik ders gerçekleşti (Ders — Ondalık gösterim). Ders 56 dakika sürdü. ondalık gösterim, denklemler, geometri, test/alıştırma, kaynak/materyal konuları işlendi. 248 gerçek soru tespit edildi.",
+      "evaluationOverview": "Matematik dersi, 56 dakika (ondalık gösterim, denklemler, geometri). Öğretmen konuşma oranı %20, Ali 650 tur aldı, 248 soru tespit edildi. Genel değerlendirme: 7.3/10 — İyi.",
+      "topStrength": "Matematik demo akışı somut ilerledi — transkriptte \"aşağıdaki cinsinden kütlelerin ondalık gösterimlerinin çözümlenmiş halleri verilen tahilla…\" gibi bölümlerde konu örnekle anlatıldı.",
+      "topWeakness": "Anlatım hızı 132 kel/dk — önerilen 150–170 aralığının altında; 56 dk'lık derste tempo düşük kaldı.",
+      "questionCount": 248,
+      "partCount": 25,
+      "topTopics": [
+        "ondalık gösterim",
+        "denklemler",
+        "geometri",
+        "test/alıştırma"
+      ],
+      "topSections": [
+        "Anladım da şunu.",
+        "Koymaya devam ederiz aynı şekilde.",
+        "Gülümsüyor mu?"
+      ]
+    },
+    {
+      "id": "twa-mvgw-acq",
+      "meetCode": "twa-mvgw-acq",
+      "title": "Ders — Geometri",
+      "subject": "Matematik",
+      "teacherName": "Muhammed Bozboğa",
+      "teacherTitle": "Matematik Öğretmeni",
+      "teacherAvatar": "https://images.ozelderz.com/hocalar/temp_b19z3l_1777228582441.png",
+      "studentName": "Efe Yarar",
+      "duration": 3216.981,
+      "durationMin": 54,
+      "transcriptSource": "deepgram-nova-3",
+      "segmentCount": 662,
+      "wordCount": 6672,
+      "speakers": [
+        "SPEAKER_00",
+        "SPEAKER_01"
+      ],
+      "speakerSplit": {
+        "SPEAKER_00": 758,
+        "SPEAKER_01": 5914
+      },
+      "evaluationScore": 8.4,
+      "hasVideo": true,
+      "videoType": "mp4",
+      "transcribedAt": "2026-07-26T22:52:03.920Z",
+      "r2Key": "lessons/twa-mvgw-acq.mp4",
+      "summaryBrief": "Muhammed Hoca ile Efe arasında Matematik ders gerçekleşti (Ders — Geometri). Ders 54 dakika sürdü. geometri, LGS, test/alıştırma, ders planı, kaynak/materyal konuları işlendi. 303 gerçek soru tespit edildi.",
+      "evaluationOverview": "Matematik dersi, 54 dakika (geometri, LGS, test/alıştırma). Öğretmen konuşma oranı %15, Efe 458 tur aldı, 303 soru tespit edildi. Genel değerlendirme: 8.4/10 — Çok iyi.",
+      "topStrength": "LGS matematik çerçevesi kuruldu — veri işleme, soru tipleri ve sınav yapısı derse bağlandı.",
+      "topWeakness": "Anlatım hızı 129 kel/dk — önerilen 150–170 aralığının altında; 54 dk'lık derste tempo düşük kaldı.",
+      "questionCount": 303,
+      "partCount": 21,
+      "topTopics": [
+        "geometri",
+        "LGS",
+        "test/alıştırma",
+        "ders planı"
+      ],
+      "topSections": [
+        "Merhaba hocam. Merhabalar abiciğim.",
+        "X artı beş cebirsel ifadesinin,",
+        "ifadesine uygun söz sözle"
+      ]
+    },
+    {
+      "id": "tjn-etkj-qyo",
+      "meetCode": "tjn-etkj-qyo",
+      "title": "Tanışma Dersi — Matematik",
+      "subject": "Matematik",
+      "teacherName": "Rabia Arife Aslan",
+      "teacherTitle": "Matematik Öğretmeni",
+      "teacherAvatar": "https://images.ozelderz.com/hocalar/temp_nwz95l_1770225772656.jpg",
+      "studentName": "Irmak Kürkçü",
+      "duration": 3239.701,
+      "durationMin": 54,
+      "transcriptSource": "deepgram-nova-3",
+      "segmentCount": 891,
+      "wordCount": 4851,
+      "speakers": [
+        "SPEAKER_00",
+        "SPEAKER_01",
+        "SPEAKER_02"
+      ],
+      "speakerSplit": {
+        "SPEAKER_00": 81,
+        "SPEAKER_01": 159,
+        "SPEAKER_02": 4611
+      },
+      "evaluationScore": 6.5,
+      "hasVideo": true,
+      "videoType": "mp4",
+      "transcribedAt": "2026-07-26T22:51:59.481Z",
+      "r2Key": "lessons/tjn-etkj-qyo.mp4",
+      "summaryBrief": "Rabia Hoca ile Irmak arasında Matematik tanışma dersi gerçekleşti (Tanışma Dersi — Matematik). Ders 54 dakika sürdü. geometri, problemler, müfredat, test/alıştırma, ders planı konuları işlendi. 261 gerçek soru tespit edildi.",
+      "evaluationOverview": "Tanışma dersi, 54 dakika (geometri, problemler, müfredat). Öğretmen konuşma oranı %2, Irmak 54 tur aldı, 261 soru tespit edildi. Genel değerlendirme: 6.5/10 — Orta.",
+      "topStrength": "LGS matematik çerçevesi kuruldu — veri işleme, soru tipleri ve sınav yapısı derse bağlandı.",
+      "topWeakness": "Irmak'nın uzun açıklamaları az (0 adet) — çoğunlukla kısa onaylarla geçildi; \"neden?\", \"nasıl düşündün?\" takipleri artırılmalı.",
+      "questionCount": 261,
+      "partCount": 15,
+      "topTopics": [
+        "geometri",
+        "problemler",
+        "müfredat",
+        "test/alıştırma"
+      ],
+      "topSections": [
+        "Sesimiz açık mı? Ses açık da gelir birazda…",
+        "Burada bekle o Murat, o şeymiş.",
+        "şöyle söyleyeyim, kaçıncı ünite? İnterneti…"
+      ]
+    },
+    {
+      "id": "tnt-boyu-kvh",
+      "meetCode": "tnt-boyu-kvh",
+      "title": "Demo Ders — Ondalık gösterim",
+      "subject": "Matematik",
+      "teacherName": "Ceren Nur Sarıkavak",
+      "teacherTitle": "Matematik Öğretmeni",
+      "teacherAvatar": "https://images.ozelderz.com/hocalar/temp_1iz4c6_1778957998222.jpg",
+      "studentName": "Çınar Ege",
+      "duration": 3451.562,
+      "durationMin": 58,
+      "transcriptSource": "deepgram-nova-3",
+      "segmentCount": 965,
+      "wordCount": 4850,
+      "speakers": [
+        "SPEAKER_00",
+        "SPEAKER_01",
+        "SPEAKER_02"
+      ],
+      "speakerSplit": {
+        "SPEAKER_00": 3239,
+        "SPEAKER_01": 1421,
+        "SPEAKER_02": 190
+      },
+      "evaluationScore": 8,
+      "hasVideo": true,
+      "videoType": "mp4",
+      "transcribedAt": "2026-07-26T22:51:58.978Z",
+      "r2Key": "lessons/tnt-boyu-kvh.mp4",
+      "summaryBrief": "Ceren Hoca ile Çınar arasında Matematik demo ders gerçekleşti (Demo Ders — Ondalık gösterim). Ders 58 dakika sürdü. ondalık gösterim, geometri, problemler, test/alıştırma, ders planı konuları işlendi. 165 gerçek soru tespit edildi.",
+      "evaluationOverview": "Matematik demo dersi, 58 dakika (ondalık gösterim, geometri, problemler). Öğretmen konuşma oranı %65, Çınar 395 tur aldı, 165 soru tespit edildi. Genel değerlendirme: 8/10 — Çok iyi.",
+      "topStrength": "Demo ders formatı net — öğrencinin seviyesi konuşularak tespit edildi, takılınan noktadan (devirli ondalık vb.) başlanması planlandı.",
+      "topWeakness": "Anlatım hızı 137 kel/dk — önerilen 150–170 aralığının altında; 58 dk'lık derste tempo düşük kaldı.",
+      "questionCount": 165,
+      "partCount": 24,
+      "topTopics": [
+        "ondalık gösterim",
+        "geometri",
+        "problemler",
+        "test/alıştırma"
+      ],
+      "topSections": [
+        "İki ayrı giriş mi yaptık?",
+        "Peki bir şey soracağım.",
+        "Hı, İzmir Urla. Bayılırım oraya biliyor mu…"
+      ]
+    },
+    {
+      "id": "teo-hopq-atx",
+      "meetCode": "teo-hopq-atx",
+      "title": "Tanışma Dersi — Matematik",
+      "subject": "Matematik",
+      "teacherName": "Fatma Nur Yıldırım",
+      "teacherTitle": "Matematik Öğretmeni",
+      "teacherAvatar": "https://images.ozelderz.com/hocalar/temp_ymrmgg_1772391627146.png",
+      "studentName": "Kuzey Kara",
+      "duration": 3281.578,
+      "durationMin": 55,
+      "transcriptSource": "deepgram-nova-3",
+      "segmentCount": 638,
+      "wordCount": 4114,
+      "speakers": [
+        "SPEAKER_00",
+        "SPEAKER_01"
+      ],
+      "speakerSplit": {
+        "SPEAKER_00": 3899,
+        "SPEAKER_01": 215
+      },
+      "evaluationScore": 5.7,
+      "hasVideo": true,
+      "videoType": "mp4",
+      "transcribedAt": "2026-07-26T22:51:21.133Z",
+      "r2Key": "lessons/teo-hopq-atx.mp4",
+      "summaryBrief": "Fatma Hoca ile Kuzey arasında Matematik tanışma dersi gerçekleşti (Tanışma Dersi — Matematik). Ders 55 dakika sürdü. geometri, problemler, LGS, test/alıştırma, ders planı konuları işlendi. 134 gerçek soru tespit edildi.",
+      "evaluationOverview": "Tanışma dersi, 55 dakika (geometri, problemler, LGS). Öğretmen konuşma oranı %95, Kuzey 72 tur aldı, 134 soru tespit edildi. Genel değerlendirme: 5.7/10 — Gelişime açık.",
+      "topStrength": "Ders planı ve iletişim net konuşuldu (2 kez plan/program vurgusu).",
+      "topWeakness": "Konuşma süresinin %95'i öğretmende — Kuzey 72 tur aldı. Demo/konu derslerinde bile öğrenciyi daha fazla konuşturmak gerekir.",
+      "questionCount": 134,
+      "partCount": 13,
+      "topTopics": [
+        "geometri",
+        "problemler",
+        "LGS",
+        "test/alıştırma"
+      ],
+      "topSections": [
+        "Kuzey merhaba, sesimi alabiliyor musun?",
+        "Yani biraz daha iyi. Nereden katılıyorsun …",
+        "Ki peki deyince aklına ne geliyor peki Kuz…"
+      ]
+    },
+    {
+      "id": "syf-qkqp-qms",
+      "meetCode": "syf-qkqp-qms",
+      "title": "Ders — Geometri",
+      "subject": "Matematik",
+      "teacherName": "Serhat Cinoğlu",
+      "teacherTitle": "Matematik Öğretmeni",
+      "teacherAvatar": "https://images.ozelderz.com/hocalar/temp_lyt91_1778525930168.jpg",
+      "studentName": "Ahmet Pekşen",
+      "duration": 3778.069,
+      "durationMin": 63,
+      "transcriptSource": "deepgram-nova-3",
+      "segmentCount": 1152,
+      "wordCount": 5745,
+      "speakers": [
+        "SPEAKER_00",
+        "SPEAKER_01",
+        "SPEAKER_02"
+      ],
+      "speakerSplit": {
+        "SPEAKER_00": 508,
+        "SPEAKER_01": 41,
+        "SPEAKER_02": 5196
+      },
+      "evaluationScore": 7.5,
+      "hasVideo": true,
+      "videoType": "mp4",
+      "transcribedAt": "2026-07-26T22:50:52.238Z",
+      "r2Key": "lessons/syf-qkqp-qms.mp4",
+      "summaryBrief": "Serhat Hoca ile Ahmet arasında Matematik ders gerçekleşti (Ders — Geometri). Ders 63 dakika sürdü. geometri, problemler, LGS, test/alıştırma, ders planı konuları işlendi. 206 gerçek soru tespit edildi.",
+      "evaluationOverview": "Matematik dersi, 63 dakika (geometri, problemler, LGS). Öğretmen konuşma oranı %9, Ahmet 9 tur aldı, 206 soru tespit edildi. Genel değerlendirme: 7.5/10 — İyi.",
+      "topStrength": "Ders planı ve iletişim net konuşuldu (9 kez plan/program vurgusu).",
+      "topWeakness": "Ahmet'nın uzun açıklamaları az (0 adet) — çoğunlukla kısa onaylarla geçildi; \"neden?\", \"nasıl düşündün?\" takipleri artırılmalı.",
+      "questionCount": 206,
+      "partCount": 25,
+      "topTopics": [
+        "geometri",
+        "problemler",
+        "LGS",
+        "test/alıştırma"
+      ],
+      "topSections": [
+        "Ben oturayım.",
+        "Seviyor musun adamı diye? Ya seviyorum ama…",
+        "Şimdi ben ekranımı açacağım Ahmet."
+      ]
+    },
+    {
+      "id": "piy-jwcr-kiw",
+      "meetCode": "piy-jwcr-kiw",
+      "title": "Tanışma Dersi — Matematik",
+      "subject": "Matematik",
+      "teacherName": "Rümeysa Geçer",
+      "teacherTitle": "Matematik Öğretmeni",
+      "teacherAvatar": "https://images.ozelderz.com/hocalar/temp_6mmwpq_1772899843363.jpeg",
+      "studentName": "Ceren Şule",
+      "duration": 3954.581,
+      "durationMin": 66,
+      "transcriptSource": "deepgram-nova-3",
+      "segmentCount": 1118,
+      "wordCount": 5162,
+      "speakers": [
+        "SPEAKER_00",
+        "SPEAKER_01"
+      ],
+      "speakerSplit": {
+        "SPEAKER_00": 4007,
+        "SPEAKER_01": 1155
+      },
+      "evaluationScore": 7.3,
+      "hasVideo": true,
+      "videoType": "mp4",
+      "transcribedAt": "2026-07-26T22:50:50.278Z",
+      "r2Key": "lessons/piy-jwcr-kiw.mp4",
+      "summaryBrief": "Rümeysa Hoca ile Ceren arasında Matematik tanışma dersi gerçekleşti (Tanışma Dersi — Matematik). Ders 66 dakika sürdü. denklemler, geometri, problemler, müfredat, test/alıştırma konuları işlendi. 147 gerçek soru tespit edildi.",
+      "evaluationOverview": "Tanışma dersi, 66 dakika (denklemler, geometri, problemler). Öğretmen konuşma oranı %77, Ceren 281 tur aldı, 147 soru tespit edildi. Genel değerlendirme: 7.3/10 — İyi.",
+      "topStrength": "Matematik demo akışı somut ilerledi — transkriptte \"giriş yapılacak, sonra denklemler,\" gibi bölümlerde konu örnekle anlatıldı.",
+      "topWeakness": "Konuşma süresinin %77'i öğretmende — Ceren 281 tur aldı. Demo/konu derslerinde bile öğrenciyi daha fazla konuşturmak gerekir.",
+      "questionCount": 147,
+      "partCount": 28,
+      "topTopics": [
+        "denklemler",
+        "geometri",
+        "problemler",
+        "müfredat"
+      ],
+      "topSections": [
+        "Merhaba Ceren sesim geliyor mu?",
+        "Biraz göz gezdirmek ister misin benimle bi…",
+        "Değil mi? Sanki öyle yaparız. Mesela yüz y…"
+      ]
+    },
+    {
+      "id": "mzf-bsim-ksc",
+      "meetCode": "mzf-bsim-ksc",
+      "title": "Tanışma Dersi — Türkçe",
+      "subject": "Türkçe",
+      "teacherName": "Serpil Çalışkanoğlu",
+      "teacherTitle": "Türkçe Öğretmeni",
+      "teacherAvatar": "https://images.ozelderz.com/hocalar/temp_amyyoh_1773243955204.png",
+      "studentName": "Çınar Özer",
+      "duration": 3378.858,
+      "durationMin": 56,
+      "transcriptSource": "deepgram-nova-3",
+      "segmentCount": 1024,
+      "wordCount": 5834,
+      "speakers": [
+        "SPEAKER_00",
+        "SPEAKER_01"
+      ],
+      "speakerSplit": {
+        "SPEAKER_00": 1206,
+        "SPEAKER_01": 4628
+      },
+      "evaluationScore": 8.3,
+      "hasVideo": true,
+      "videoType": "mp4",
+      "transcribedAt": "2026-07-26T22:50:35.564Z",
+      "r2Key": "lessons/mzf-bsim-ksc.mp4",
+      "summaryBrief": "Serpil Hoca ile Çınar arasında Türkçe tanışma dersi gerçekleşti (Tanışma Dersi — Türkçe). Ders 56 dakika sürdü. müfredat, test/alıştırma, ders planı, görsel materyal konuları işlendi. 231 gerçek soru tespit edildi.",
+      "evaluationOverview": "Tanışma dersi, 56 dakika (müfredat, test/alıştırma, ders planı). Öğretmen konuşma oranı %19, Çınar 824 tur aldı, 231 soru tespit edildi. Genel değerlendirme: 8.3/10 — Çok iyi.",
+      "topStrength": "LGS odaklı çerçeve iyi kuruldu: soru dağılımı ve sınav yapısı anlatıldı.",
+      "questionCount": 231,
+      "partCount": 22,
+      "topTopics": [
+        "müfredat",
+        "test/alıştırma",
+        "ders planı",
+        "görsel materyal"
+      ],
+      "topSections": [
+        "Benim sesim geliyor mu? Gayet net geliyor.",
+        "mı? Tamamdır.",
+        "Hıhı. Evet. Işığın"
+      ]
+    },
+    {
+      "id": "nsw-kfoj-mef",
+      "meetCode": "nsw-kfoj-mef",
+      "title": "Tanışma Dersi — Türkçe",
+      "subject": "Türkçe",
+      "teacherName": "Elif Ece Kılboz",
+      "teacherTitle": "Türkçe Öğretmeni",
+      "teacherAvatar": "https://images.ozelderz.com/hocalar/temp_zotmdt_1772392093589.jpg",
+      "studentName": "Eslem Bekret",
+      "duration": 3407.701,
+      "durationMin": 57,
+      "transcriptSource": "deepgram-nova-3",
+      "segmentCount": 918,
+      "wordCount": 3240,
+      "speakers": [
+        "SPEAKER_00",
+        "SPEAKER_01"
+      ],
+      "speakerSplit": {
+        "SPEAKER_00": 2467,
+        "SPEAKER_01": 773
+      },
+      "evaluationScore": 6.3,
+      "hasVideo": true,
+      "videoType": "mp4",
+      "transcribedAt": "2026-07-26T22:50:33.367Z",
+      "r2Key": "lessons/nsw-kfoj-mef.mp4",
+      "summaryBrief": "Elif Hoca ile Eslem arasında Türkçe tanışma dersi gerçekleşti (Tanışma Dersi — Türkçe). Ders 57 dakika sürdü. LGS, test/alıştırma, ders planı, kaynak/materyal, görsel materyal konuları işlendi. 186 gerçek soru tespit edildi.",
+      "evaluationOverview": "Tanışma dersi, 57 dakika (LGS, test/alıştırma, ders planı). Öğretmen konuşma oranı %72, Eslem 348 tur aldı, 186 soru tespit edildi. Genel değerlendirme: 6.3/10 — Orta.",
+      "topStrength": "LGS odaklı çerçeve iyi kuruldu: soru dağılımı ve sınav yapısı anlatıldı.",
+      "topWeakness": "Konuşma süresinin %72'i öğretmende — Eslem 348 tur aldı. Demo/konu derslerinde bile öğrenciyi daha fazla konuşturmak gerekir.",
+      "questionCount": 186,
+      "partCount": 26,
+      "topTopics": [
+        "LGS",
+        "test/alıştırma",
+        "ders planı",
+        "kaynak/materyal"
+      ],
+      "topSections": [
+        "Merhaba Esselam, sesim geliyor mu? Merhaba…",
+        "Mesela öznemizin ay olduğunu düşünelim. So…",
+        "mi o hocam? Evet, o ismi."
+      ]
+    },
+    {
+      "id": "sug-pifs-fyu",
+      "meetCode": "sug-pifs-fyu",
+      "title": "Tanışma Dersi — Matematik",
+      "subject": "Matematik",
+      "teacherName": "Zübeyde Hakyoldaş",
+      "teacherTitle": "Matematik Öğretmeni",
+      "teacherAvatar": "https://images.ozelderz.com/hocalar/27_1767967501069.jpeg",
+      "studentName": "Ebru Gülçelik",
+      "duration": 3019.776,
+      "durationMin": 50,
+      "transcriptSource": "deepgram-nova-3",
+      "segmentCount": 770,
+      "wordCount": 4332,
+      "speakers": [
+        "SPEAKER_00",
+        "SPEAKER_01",
+        "SPEAKER_02"
+      ],
+      "speakerSplit": {
+        "SPEAKER_00": 94,
+        "SPEAKER_01": 783,
+        "SPEAKER_02": 3455
+      },
+      "evaluationScore": 7,
+      "hasVideo": true,
+      "videoType": "mp4",
+      "transcribedAt": "2026-07-26T22:50:32.941Z",
+      "r2Key": "lessons/sug-pifs-fyu.mp4",
+      "summaryBrief": "Zübeyde Hoca ile Ebru arasında Matematik tanışma dersi gerçekleşti (Tanışma Dersi — Matematik). Ders 50 dakika sürdü. geometri, problemler, test/alıştırma, ders planı, kaynak/materyal konuları işlendi. 167 gerçek soru tespit edildi.",
+      "evaluationOverview": "Tanışma dersi, 50 dakika (geometri, problemler, test/alıştırma). Öğretmen konuşma oranı %2, Ebru 206 tur aldı, 167 soru tespit edildi. Genel değerlendirme: 7/10 — İyi.",
+      "topStrength": "LGS matematik çerçevesi kuruldu — veri işleme, soru tipleri ve sınav yapısı derse bağlandı.",
+      "topWeakness": "Anlatım hızı 122 kel/dk — önerilen 150–170 aralığının altında; 50 dk'lık derste tempo düşük kaldı.",
+      "questionCount": 167,
+      "partCount": 20,
+      "topTopics": [
+        "geometri",
+        "problemler",
+        "test/alıştırma",
+        "ders planı"
+      ],
+      "topSections": [
+        "Türkiye nerede?",
+        "Açılalım mı? Hayır.",
+        "katıldık hocam."
+      ]
+    },
+    {
+      "id": "qhn-xpvo-jbv",
+      "meetCode": "qhn-xpvo-jbv",
+      "title": "Tanışma Dersi — Matematik",
+      "subject": "Matematik",
+      "teacherName": "Zeynep Oral",
+      "teacherTitle": "Matematik Öğretmeni",
+      "teacherAvatar": "https://images.ozelderz.com/hocalar/temp_8rd6xn_1772391166170.png",
+      "studentName": "Beren Ulusan",
+      "duration": 3439.36,
+      "durationMin": 57,
+      "transcriptSource": "deepgram-nova-3",
+      "segmentCount": 620,
+      "wordCount": 2445,
+      "speakers": [
+        "SPEAKER_00",
+        "SPEAKER_01"
+      ],
+      "speakerSplit": {
+        "SPEAKER_00": 1987,
+        "SPEAKER_01": 458
+      },
+      "evaluationScore": 4.9,
+      "hasVideo": true,
+      "videoType": "mp4",
+      "transcribedAt": "2026-07-26T22:50:32.453Z",
+      "r2Key": "lessons/qhn-xpvo-jbv.mp4",
+      "summaryBrief": "Zeynep Hoca ile Beren arasında Matematik tanışma dersi gerçekleşti (Tanışma Dersi — Matematik). Ders 57 dakika sürdü. geometri, problemler, test/alıştırma, kaynak/materyal, görsel materyal konuları işlendi. 110 gerçek soru tespit edildi.",
+      "evaluationOverview": "Tanışma dersi, 57 dakika (geometri, problemler, test/alıştırma). Öğretmen konuşma oranı %81, Beren 139 tur aldı, 110 soru tespit edildi. Genel değerlendirme: 4.9/10 — Destek gerekli.",
+      "topStrength": "Anlık geri bildirim güçlü — \"Tamam mı?\", \"Ne dersin?\" gibi 17 kontrol anı kullanıldı.",
+      "topWeakness": "Konuşma süresinin %81'i öğretmende — Beren 139 tur aldı. Demo/konu derslerinde bile öğrenciyi daha fazla konuşturmak gerekir.",
+      "questionCount": 110,
+      "partCount": 22,
+      "topTopics": [
+        "geometri",
+        "problemler",
+        "test/alıştırma",
+        "kaynak/materyal"
+      ],
+      "topSections": [
+        "Berenciğim sesim geliyor mu hayatım?",
+        "Şöyle bir yeni bir sayfa açalım.",
+        "Nedir bu basit kesir bir tanem?"
+      ]
+    },
+    {
+      "id": "owt-bvqr-uee",
+      "meetCode": "owt-bvqr-uee",
+      "title": "Tanışma Dersi — Matematik",
+      "subject": "Matematik",
+      "teacherName": "İlkay Sevilmiş",
+      "teacherTitle": "Matematik Öğretmeni",
+      "teacherAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=%C4%B0lkay",
+      "studentName": "Elif Selçuk",
+      "duration": 3371.605,
+      "durationMin": 56,
+      "transcriptSource": "deepgram-nova-3",
+      "segmentCount": 905,
+      "wordCount": 5605,
+      "speakers": [
+        "SPEAKER_00",
+        "SPEAKER_01",
+        "SPEAKER_02"
+      ],
+      "speakerSplit": {
+        "SPEAKER_00": 4525,
+        "SPEAKER_01": 870,
+        "SPEAKER_02": 210
+      },
+      "evaluationScore": 6.2,
+      "hasVideo": true,
+      "videoType": "mp4",
+      "transcribedAt": "2026-07-26T22:50:31.970Z",
+      "r2Key": "lessons/owt-bvqr-uee.mp4",
+      "summaryBrief": "İlkay Hoca ile Elif arasında Matematik tanışma dersi gerçekleşti (Tanışma Dersi — Matematik). Ders 56 dakika sürdü. geometri, LGS, test/alıştırma, ders planı, kaynak/materyal konuları işlendi. 236 gerçek soru tespit edildi.",
+      "evaluationOverview": "Tanışma dersi, 56 dakika (geometri, LGS, test/alıştırma). Öğretmen konuşma oranı %81, Elif 217 tur aldı, 236 soru tespit edildi. Genel değerlendirme: 6.2/10 — Orta.",
+      "topStrength": "LGS matematik çerçevesi kuruldu — veri işleme, soru tipleri ve sınav yapısı derse bağlandı.",
+      "topWeakness": "Konuşma süresinin %81'i öğretmende — Elif 217 tur aldı. Demo/konu derslerinde bile öğrenciyi daha fazla konuşturmak gerekir.",
+      "questionCount": 236,
+      "partCount": 22,
+      "topTopics": [
+        "geometri",
+        "LGS",
+        "test/alıştırma",
+        "ders planı"
+      ],
+      "topSections": [
+        "A, Elifciğim gelmiş.",
+        "Evet, çok yüksek.",
+        "Başaracaksın güzel kızım benim, hiç merak …"
+      ]
+    },
+    {
+      "id": "nha-qhny-snz",
+      "meetCode": "nha-qhny-snz",
+      "title": "Tanışma Dersi — Fen",
+      "subject": "Fen Bilimleri",
+      "teacherName": "Zeynep Oral",
+      "teacherTitle": "Fen Bilimleri Öğretmeni",
+      "teacherAvatar": "https://images.ozelderz.com/hocalar/temp_8rd6xn_1772391166170.png",
+      "studentName": "Hazal Berra Sancak",
+      "duration": 3307.456,
+      "durationMin": 55,
+      "transcriptSource": "deepgram-nova-3",
+      "segmentCount": 975,
+      "wordCount": 4232,
+      "speakers": [
+        "SPEAKER_00",
+        "SPEAKER_01"
+      ],
+      "speakerSplit": {
+        "SPEAKER_00": 3692,
+        "SPEAKER_01": 540
+      },
+      "evaluationScore": 6.5,
+      "hasVideo": true,
+      "videoType": "mp4",
+      "transcribedAt": "2026-07-26T22:50:29.742Z",
+      "r2Key": "lessons/nha-qhny-snz.mp4",
+      "summaryBrief": "Zeynep Hoca ile Hazal arasında Fen Bilimleri tanışma dersi gerçekleşti (Tanışma Dersi — Fen). Ders 55 dakika sürdü. test/alıştırma, ders planı, kaynak/materyal, görsel materyal konuları işlendi. 158 gerçek soru tespit edildi.",
+      "evaluationOverview": "Tanışma dersi, 55 dakika (test/alıştırma, ders planı, kaynak/materyal). Öğretmen konuşma oranı %87, Hazal 144 tur aldı, 158 soru tespit edildi. Genel değerlendirme: 6.5/10 — Orta.",
+      "topStrength": "Anlık geri bildirim güçlü — \"Tamam mı?\", \"Ne dersin?\" gibi 39 kontrol anı kullanıldı.",
+      "topWeakness": "Konuşma süresinin %87'i öğretmende — Hazal 144 tur aldı. Demo/konu derslerinde bile öğrenciyi daha fazla konuşturmak gerekir.",
+      "questionCount": 158,
+      "partCount": 24,
+      "topTopics": [
+        "test/alıştırma",
+        "ders planı",
+        "kaynak/materyal",
+        "görsel materyal"
+      ],
+      "topSections": [
+        "Merhaba canım.",
+        "Fizik bilimine girişine başlıyoruz o halde…",
+        "Sesini alamadım."
+      ]
+    },
+    {
+      "id": "qag-zsdi-idx",
+      "meetCode": "qag-zsdi-idx",
+      "title": "Tanışma Dersi — Matematik",
+      "subject": "Matematik",
+      "teacherName": "Yiğit Sakur",
+      "teacherTitle": "Matematik Öğretmeni",
+      "teacherAvatar": "https://images.ozelderz.com/hocalar/temp_v8lik_1781895895665.jpg",
+      "studentName": "Ali Yiğit Mutlu",
+      "duration": 3433.28,
+      "durationMin": 57,
+      "transcriptSource": "deepgram-nova-3",
+      "segmentCount": 859,
+      "wordCount": 3933,
+      "speakers": [
+        "SPEAKER_00",
+        "SPEAKER_01"
+      ],
+      "speakerSplit": {
+        "SPEAKER_00": 1780,
+        "SPEAKER_01": 2153
+      },
+      "evaluationScore": 6.9,
+      "hasVideo": true,
+      "videoType": "mp4",
+      "transcribedAt": "2026-07-26T22:50:20.927Z",
+      "r2Key": "lessons/qag-zsdi-idx.mp4",
+      "summaryBrief": "Yiğit Hoca ile Ali arasında Matematik tanışma dersi gerçekleşti (Tanışma Dersi — Matematik). Ders 57 dakika sürdü. ondalık gösterim, geometri, problemler, test/alıştırma, kaynak/materyal konuları işlendi. 140 gerçek soru tespit edildi.",
+      "evaluationOverview": "Tanışma dersi, 57 dakika (ondalık gösterim, geometri, problemler). Öğretmen konuşma oranı %47, Ali 447 tur aldı, 140 soru tespit edildi. Genel değerlendirme: 6.9/10 — Orta.",
+      "topStrength": "Anlık geri bildirim güçlü — \"Tamam mı?\", \"Ne dersin?\" gibi 19 kontrol anı kullanıldı.",
+      "topWeakness": "Anlatım hızı 126 kel/dk — önerilen 150–170 aralığının altında; 57 dk'lık derste tempo düşük kaldı.",
+      "questionCount": 140,
+      "partCount": 18,
+      "topTopics": [
+        "ondalık gösterim",
+        "geometri",
+        "problemler",
+        "test/alıştırma"
+      ],
+      "topSections": [
+        "Selam hocam merhaba.",
+        "Hocam ben şu an tarafsızım. Yani sürekli",
+        "Hocama ben önceden yani altıncı sınıfta il…"
+      ]
+    },
+    {
+      "id": "mvr-ytpo-svh",
+      "meetCode": "mvr-ytpo-svh",
+      "title": "Tanışma Dersi — Matematik",
+      "subject": "Matematik",
+      "teacherName": "Muhammed Korhan",
+      "teacherTitle": "Matematik Öğretmeni",
+      "teacherAvatar": "https://images.ozelderz.com/hocalar/temp_4kcb1b_1772436520284.jpeg",
+      "studentName": "Ecesu Öztürk",
+      "duration": 2738.112,
+      "durationMin": 46,
+      "transcriptSource": "deepgram-nova-3",
+      "segmentCount": 597,
+      "wordCount": 3567,
+      "speakers": [
+        "SPEAKER_00",
+        "SPEAKER_01"
+      ],
+      "speakerSplit": {
+        "SPEAKER_00": 2720,
+        "SPEAKER_01": 847
+      },
+      "evaluationScore": 6.6,
+      "hasVideo": true,
+      "videoType": "mp4",
+      "transcribedAt": "2026-07-26T22:47:30.437Z",
+      "r2Key": "lessons/mvr-ytpo-svh.mp4",
+      "summaryBrief": "Muhammed Hoca ile Ecesu arasında Matematik tanışma dersi gerçekleşti (Tanışma Dersi — Matematik). Ders 46 dakika sürdü. geometri, müfredat, test/alıştırma, kaynak/materyal, görsel materyal konuları işlendi. 180 gerçek soru tespit edildi.",
+      "evaluationOverview": "Tanışma dersi, 46 dakika (geometri, müfredat, test/alıştırma). Öğretmen konuşma oranı %78, Ecesu 197 tur aldı, 180 soru tespit edildi. Genel değerlendirme: 6.6/10 — Orta.",
+      "topStrength": "LGS matematik çerçevesi kuruldu — veri işleme, soru tipleri ve sınav yapısı derse bağlandı.",
+      "topWeakness": "Konuşma süresinin %78'i öğretmende — Ecesu 197 tur aldı. Demo/konu derslerinde bile öğrenciyi daha fazla konuşturmak gerekir.",
+      "questionCount": 180,
+      "partCount": 18,
+      "topTopics": [
+        "geometri",
+        "müfredat",
+        "test/alıştırma",
+        "kaynak/materyal"
+      ],
+      "topSections": [
+        "Ece merhabalar.",
+        "Şu an ekranımı görüyor olman gerekiyor.",
+        "Oldu, Bakarak tabii ki yapamayız. Bakarak …"
+      ]
+    },
+    {
+      "id": "msa-sgqe-bqq",
+      "meetCode": "msa-sgqe-bqq",
+      "title": "Tanışma Dersi — Matematik",
+      "subject": "Matematik",
+      "teacherName": "Zübeyde Hakyoldaş",
+      "teacherTitle": "Matematik Öğretmeni",
+      "teacherAvatar": "https://images.ozelderz.com/hocalar/27_1767967501069.jpeg",
+      "studentName": "Aysu Ela Erzincanlı",
+      "duration": 3032.424,
+      "durationMin": 51,
+      "transcriptSource": "deepgram-nova-3",
+      "segmentCount": 781,
+      "wordCount": 4461,
+      "speakers": [
+        "SPEAKER_00",
+        "SPEAKER_01"
+      ],
+      "speakerSplit": {
+        "SPEAKER_00": 3906,
+        "SPEAKER_01": 555
+      },
+      "evaluationScore": 5.4,
+      "hasVideo": true,
+      "videoType": "mp4",
+      "transcribedAt": "2026-07-26T22:21:12.812Z",
+      "r2Key": "lessons/msa-sgqe-bqq.mp4",
+      "summaryBrief": "Zübeyde Hoca ile Aysu arasında Matematik tanışma dersi gerçekleşti (Tanışma Dersi — Matematik). Ders 51 dakika sürdü. geometri, problemler, müfredat, test/alıştırma, ders planı konuları işlendi. 185 gerçek soru tespit edildi.",
+      "evaluationOverview": "Tanışma dersi, 51 dakika (geometri, problemler, müfredat). Öğretmen konuşma oranı %86, Aysu 193 tur aldı, 185 soru tespit edildi. Genel değerlendirme: 5.4/10 — Gelişime açık.",
+      "topStrength": "Ders planı ve iletişim net konuşuldu (3 kez plan/program vurgusu).",
+      "topWeakness": "Konuşma süresinin %86'i öğretmende — Aysu 193 tur aldı. Demo/konu derslerinde bile öğrenciyi daha fazla konuşturmak gerekir.",
+      "questionCount": 185,
+      "partCount": 22,
+      "topTopics": [
+        "geometri",
+        "problemler",
+        "müfredat",
+        "test/alıştırma"
+      ],
+      "topSections": [
+        "Merhabalar, sesim geliyor mu?",
+        "Ben de İstanbul Avcılar tarafındayım.",
+        "Ama senin full olarak bende olmanı ve görü…"
+      ]
+    },
+    {
+      "id": "mmw-ctqj-jrf",
+      "meetCode": "mmw-ctqj-jrf",
+      "title": "Tanışma Dersi — Türkçe",
+      "subject": "Türkçe",
+      "teacherName": "Sude Başkaya",
+      "teacherTitle": "Türkçe Öğretmeni",
+      "teacherAvatar": "https://images.ozelderz.com/hocalar/162_1781030474777.jpeg",
+      "studentName": "Mete Kenan Çalış",
+      "duration": 2726.712,
+      "durationMin": 45,
+      "transcriptSource": "deepgram-nova-3",
+      "segmentCount": 739,
+      "wordCount": 4311,
+      "speakers": [
+        "SPEAKER_00",
+        "SPEAKER_01"
+      ],
+      "speakerSplit": {
+        "SPEAKER_00": 3637,
+        "SPEAKER_01": 674
+      },
+      "evaluationScore": 6.3,
+      "hasVideo": true,
+      "videoType": "mp4",
+      "transcribedAt": "2026-07-26T22:20:16.835Z",
+      "r2Key": "lessons/mmw-ctqj-jrf.mp4",
+      "summaryBrief": "Sude Hoca ile Mete arasında Türkçe tanışma dersi gerçekleşti (Tanışma Dersi — Türkçe). Ders 45 dakika sürdü. test/alıştırma, ders planı, kaynak/materyal, görsel materyal konuları işlendi. 168 gerçek soru tespit edildi.",
+      "evaluationOverview": "Tanışma dersi, 45 dakika (test/alıştırma, ders planı, kaynak/materyal). Öğretmen konuşma oranı %85, Mete 189 tur aldı, 168 soru tespit edildi. Genel değerlendirme: 6.3/10 — Orta.",
+      "topStrength": "Ders planı ve iletişim net konuşuldu (3 kez plan/program vurgusu).",
+      "topWeakness": "Konuşma süresinin %85'i öğretmende — Mete 189 tur aldı. Demo/konu derslerinde bile öğrenciyi daha fazla konuşturmak gerekir.",
+      "questionCount": 168,
+      "partCount": 17,
+      "topTopics": [
+        "test/alıştırma",
+        "ders planı",
+        "kaynak/materyal",
+        "görsel materyal"
+      ],
+      "topSections": [
+        "Siz? İyiyim ben de teşekkür ederim. Hemen …",
+        "Şimdi zaten genelde sekizinci sınıfta öğre…",
+        "Ya da mesela şu olabilir mi? Onun sözleri …"
+      ]
+    },
+    {
+      "id": "kza-ypin-hfx",
+      "meetCode": "kza-ypin-hfx",
+      "title": "Ders — LGS",
+      "subject": "Ders kaydı",
+      "teacherName": "Muhammed Korhan",
+      "teacherTitle": "Öğretmen",
+      "teacherAvatar": "https://images.ozelderz.com/hocalar/temp_4kcb1b_1772436520284.jpeg",
+      "studentName": "Öğrenci (kza-ypin-hfx)",
+      "duration": 2643.228,
+      "durationMin": 44,
+      "transcriptSource": "deepgram-nova-3",
+      "segmentCount": 520,
+      "wordCount": 2577,
+      "speakers": [
+        "SPEAKER_00",
+        "SPEAKER_01"
+      ],
+      "speakerSplit": {
+        "SPEAKER_00": 395,
+        "SPEAKER_01": 2182
+      },
+      "evaluationScore": 7.5,
+      "hasVideo": true,
+      "videoType": "mp4",
+      "transcribedAt": "2026-07-26T22:19:23.399Z",
+      "r2Key": "lessons/kza-ypin-hfx.mp4",
+      "summaryBrief": "Muhammed Hoca ile Öğrenci arasında Ders kaydı ders gerçekleşti (Ders — LGS). Ders 44 dakika sürdü. LGS, test/alıştırma, görsel materyal konuları işlendi. 178 gerçek soru tespit edildi.",
+      "evaluationOverview": "Ders kaydı, 44 dakika (LGS, test/alıştırma, görsel materyal). Öğretmen konuşma oranı %17, Öğrenci 370 tur aldı, 178 soru tespit edildi. Genel değerlendirme: 7.5/10 — İyi.",
+      "topStrength": "LGS odaklı çerçeve iyi kuruldu: soru dağılımı ve sınav yapısı anlatıldı.",
+      "topWeakness": "Anlatım hızı 132 kel/dk — önerilen 150–170 aralığının altında; 44 dk'lık derste tempo düşük kaldı.",
+      "questionCount": 178,
+      "partCount": 18,
+      "topTopics": [
+        "LGS",
+        "test/alıştırma",
+        "görsel materyal"
+      ],
+      "topSections": [
+        "Biri var mı?",
+        "İyiyim siz nasılsınız?",
+        "Hatırlamıyorum."
+      ]
+    },
+    {
+      "id": "jom-dknn-fdq",
+      "meetCode": "jom-dknn-fdq",
+      "title": "Tanışma Dersi — Matematik",
+      "subject": "Matematik",
+      "teacherName": "Ceren Nur Sarıkavak",
+      "teacherTitle": "Matematik Öğretmeni",
+      "teacherAvatar": "https://images.ozelderz.com/hocalar/temp_1iz4c6_1778957998222.jpg",
+      "studentName": "Duru Yurdumetin",
+      "duration": 3195.72,
+      "durationMin": 53,
+      "transcriptSource": "deepgram-nova-3",
+      "segmentCount": 1009,
+      "wordCount": 4798,
+      "speakers": [
+        "SPEAKER_00",
+        "SPEAKER_01",
+        "SPEAKER_02"
+      ],
+      "speakerSplit": {
+        "SPEAKER_00": 346,
+        "SPEAKER_01": 813,
+        "SPEAKER_02": 3639
+      },
+      "evaluationScore": 9.1,
+      "hasVideo": true,
+      "videoType": "mp4",
+      "transcribedAt": "2026-07-26T22:18:36.542Z",
+      "r2Key": "lessons/jom-dknn-fdq.mp4",
+      "summaryBrief": "Ceren Hoca ile Duru arasında Matematik tanışma dersi gerçekleşti (Tanışma Dersi — Matematik). Ders 53 dakika sürdü. geometri, problemler, test/alıştırma, ders planı, kaynak/materyal konuları işlendi. 253 gerçek soru tespit edildi.",
+      "evaluationOverview": "Tanışma dersi, 53 dakika (geometri, problemler, test/alıştırma). Öğretmen konuşma oranı %7, Duru 272 tur aldı, 253 soru tespit edildi. Genel değerlendirme: 9.1/10 — Mükemmel.",
+      "topStrength": "Ders planı ve iletişim net konuşuldu (5 kez plan/program vurgusu).",
+      "topWeakness": "Anlatım hızı 124 kel/dk — önerilen 150–170 aralığının altında; 53 dk'lık derste tempo düşük kaldı.",
+      "questionCount": 253,
+      "partCount": 23,
+      "topTopics": [
+        "geometri",
+        "problemler",
+        "test/alıştırma",
+        "ders planı"
+      ],
+      "topSections": [
+        "Şey getireyim mi benim?",
+        "Çok sevindim. Nasıl geçiyor peki tatil?",
+        "Deneme olmadı. Deneme olmadı."
+      ]
+    },
+    {
+      "id": "jkd-azne-qjs",
+      "meetCode": "jkd-azne-qjs",
+      "title": "Tanışma Dersi — Türkçe",
+      "subject": "Türkçe",
+      "teacherName": "Burak Çınar",
+      "teacherTitle": "Türkçe Öğretmeni",
+      "teacherAvatar": "https://images.ozelderz.com/hocalar/temp_76eobg_1772435855524.jpg",
+      "studentName": "Yavuz Selim Birinci",
+      "duration": 3180.06,
+      "durationMin": 53,
+      "transcriptSource": "deepgram-nova-3",
+      "segmentCount": 884,
+      "wordCount": 3888,
+      "speakers": [
+        "SPEAKER_00",
+        "SPEAKER_01"
+      ],
+      "speakerSplit": {
+        "SPEAKER_00": 2825,
+        "SPEAKER_01": 1063
+      },
+      "evaluationScore": 7.1,
+      "hasVideo": true,
+      "videoType": "mp4",
+      "transcribedAt": "2026-07-26T22:17:28.205Z",
+      "r2Key": "lessons/jkd-azne-qjs.mp4",
+      "summaryBrief": "Burak Hoca ile Yavuz arasında Türkçe tanışma dersi gerçekleşti (Tanışma Dersi — Türkçe). Ders 53 dakika sürdü. test/alıştırma, kaynak/materyal, görsel materyal konuları işlendi. 216 gerçek soru tespit edildi.",
+      "evaluationOverview": "Tanışma dersi, 53 dakika (test/alıştırma, kaynak/materyal, görsel materyal). Öğretmen konuşma oranı %71, Yavuz 330 tur aldı, 216 soru tespit edildi. Genel değerlendirme: 7.1/10 — İyi.",
+      "topStrength": "LGS odaklı çerçeve iyi kuruldu: soru dağılımı ve sınav yapısı anlatıldı.",
+      "topWeakness": "Konuşma süresinin %71'i öğretmende — Yavuz 330 tur aldı. Demo/konu derslerinde bile öğrenciyi daha fazla konuşturmak gerekir.",
+      "questionCount": 216,
+      "partCount": 23,
+      "topTopics": [
+        "test/alıştırma",
+        "kaynak/materyal",
+        "görsel materyal"
+      ],
+      "topSections": [
+        "Merhaba nasılsın?",
+        "Eş anlamlı kelimelerde nasılsın?",
+        "Oradan yakınlaştırabilirsin."
+      ]
+    },
+    {
+      "id": "jhx-xgqp-uis",
+      "meetCode": "jhx-xgqp-uis",
+      "title": "Ders — Geometri",
+      "subject": "Matematik",
+      "teacherName": "Barış Öztürk",
+      "teacherTitle": "Matematik Öğretmeni",
+      "teacherAvatar": "https://images.ozelderz.com/hocalar/temp_subeyo_1783321715006.jpeg",
+      "studentName": "Muhammed Mir Eren",
+      "duration": 4294.26,
+      "durationMin": 72,
+      "transcriptSource": "deepgram-nova-3",
+      "segmentCount": 1252,
+      "wordCount": 5166,
+      "speakers": [
+        "SPEAKER_00",
+        "SPEAKER_01"
+      ],
+      "speakerSplit": {
+        "SPEAKER_00": 4049,
+        "SPEAKER_01": 1117
+      },
+      "evaluationScore": 6,
+      "hasVideo": true,
+      "videoType": "mp4",
+      "transcribedAt": "2026-07-26T22:16:20.938Z",
+      "r2Key": "lessons/jhx-xgqp-uis.mp4",
+      "summaryBrief": "Barış Hoca ile Muhammed arasında Matematik ders gerçekleşti (Ders — Geometri). Ders 72 dakika sürdü. geometri, müfredat, test/alıştırma, ders planı, görsel materyal konuları işlendi. 187 gerçek soru tespit edildi.",
+      "evaluationOverview": "Matematik dersi, 72 dakika (geometri, müfredat, test/alıştırma). Öğretmen konuşma oranı %77, Muhammed 341 tur aldı, 187 soru tespit edildi. Genel değerlendirme: 6/10 — Orta.",
+      "topStrength": "Görsel/uygulamalı anlatım (ekran, sayı doğrusu, tablo) derse yedirildi — 7 materyal referansı.",
+      "topWeakness": "Konuşma süresinin %77'i öğretmende — Muhammed 341 tur aldı. Demo/konu derslerinde bile öğrenciyi daha fazla konuşturmak gerekir.",
+      "questionCount": 187,
+      "partCount": 30,
+      "topTopics": [
+        "geometri",
+        "müfredat",
+        "test/alıştırma",
+        "ders planı"
+      ],
+      "topSections": [
+        "Muhammed merhaba.",
+        "Görebiliyorsun değil mi ekranımı?",
+        "şu örneğe bakıyorum."
+      ]
+    },
+    {
+      "id": "jbv-mdzq-cpp",
+      "meetCode": "jbv-mdzq-cpp",
+      "title": "Ders — Geometri",
+      "subject": "Matematik",
+      "teacherName": "Muhammed Korhan",
+      "teacherTitle": "Matematik Öğretmeni",
+      "teacherAvatar": "https://images.ozelderz.com/hocalar/temp_4kcb1b_1772436520284.jpeg",
+      "studentName": "Mert Eymen Deniz",
+      "duration": 3051.72,
+      "durationMin": 51,
+      "transcriptSource": "deepgram-nova-3",
+      "segmentCount": 577,
+      "wordCount": 2917,
+      "speakers": [
+        "SPEAKER_00",
+        "SPEAKER_01"
+      ],
+      "speakerSplit": {
+        "SPEAKER_00": 2094,
+        "SPEAKER_01": 823
+      },
+      "evaluationScore": 5.6,
+      "hasVideo": true,
+      "videoType": "mp4",
+      "transcribedAt": "2026-07-26T22:15:16.205Z",
+      "r2Key": "lessons/jbv-mdzq-cpp.mp4",
+      "summaryBrief": "Muhammed Hoca ile Mert arasında Matematik ders gerçekleşti (Ders — Geometri). Ders 51 dakika sürdü. geometri, problemler, test/alıştırma, ders planı, görsel materyal konuları işlendi. 176 gerçek soru tespit edildi.",
+      "evaluationOverview": "Matematik dersi, 51 dakika (geometri, problemler, test/alıştırma). Öğretmen konuşma oranı %71, Mert 222 tur aldı, 176 soru tespit edildi. Genel değerlendirme: 5.6/10 — Gelişime açık.",
+      "topStrength": "Görsel/uygulamalı anlatım (ekran, sayı doğrusu, tablo) derse yedirildi — 9 materyal referansı.",
+      "topWeakness": "Konuşma süresinin %71'i öğretmende — Mert 222 tur aldı. Demo/konu derslerinde bile öğrenciyi daha fazla konuşturmak gerekir.",
+      "questionCount": 176,
+      "partCount": 20,
+      "topTopics": [
+        "geometri",
+        "problemler",
+        "test/alıştırma",
+        "ders planı"
+      ],
+      "topSections": [
+        "Eğmen sesimi duyabiliyor musun?",
+        "Sana bunu yansıtamıyorum.",
+        "Evet ne düşünüyorsun? Sıralamayı nasıl yap…"
+      ]
+    },
+    {
+      "id": "iga-bbew-mbw",
+      "meetCode": "iga-bbew-mbw",
+      "title": "Ders — Denklemler",
+      "subject": "Matematik",
+      "teacherName": "Muhammed Bozboğa",
+      "teacherTitle": "Matematik Öğretmeni",
+      "teacherAvatar": "https://images.ozelderz.com/hocalar/temp_b19z3l_1777228582441.png",
+      "studentName": "Zeynep Başoğul",
+      "duration": 3502.98,
+      "durationMin": 58,
+      "transcriptSource": "deepgram-nova-3",
+      "segmentCount": 805,
+      "wordCount": 7050,
+      "speakers": [
+        "SPEAKER_00",
+        "SPEAKER_01"
+      ],
+      "speakerSplit": {
+        "SPEAKER_00": 5130,
+        "SPEAKER_01": 1920
+      },
+      "evaluationScore": 7.6,
+      "hasVideo": true,
+      "videoType": "mp4",
+      "transcribedAt": "2026-07-26T22:14:27.254Z",
+      "r2Key": "lessons/iga-bbew-mbw.mp4",
+      "summaryBrief": "Muhammed Hoca ile Zeynep arasında Matematik ders gerçekleşti (Ders — Denklemler). Ders 58 dakika sürdü. denklemler, geometri, LGS, test/alıştırma, ders planı konuları işlendi. 279 gerçek soru tespit edildi.",
+      "evaluationOverview": "Matematik dersi, 58 dakika (denklemler, geometri, LGS). Öğretmen konuşma oranı %71, Zeynep 306 tur aldı, 279 soru tespit edildi. Genel değerlendirme: 7.6/10 — İyi.",
+      "topStrength": "LGS matematik çerçevesi kuruldu — veri işleme, soru tipleri ve sınav yapısı derse bağlandı.",
+      "topWeakness": "Konuşma süresinin %71'i öğretmende — Zeynep 306 tur aldı. Demo/konu derslerinde bile öğrenciyi daha fazla konuşturmak gerekir.",
+      "questionCount": 279,
+      "partCount": 21,
+      "topTopics": [
+        "denklemler",
+        "geometri",
+        "LGS",
+        "test/alıştırma"
+      ],
+      "topSections": [
+        "Merhabalar abiciğim nasılsın, iyi misin?",
+        "bazılarını ordayım, genellikle yolluyorum.…",
+        "Ne diyor bana bu soruda? Ne anlatmaya çalı…"
+      ]
+    },
+    {
+      "id": "iaw-bhar-hai",
+      "meetCode": "iaw-bhar-hai",
+      "title": "Tanışma Dersi — Matematik",
+      "subject": "Matematik",
+      "teacherName": "Zübeyde Hakyoldaş",
+      "teacherTitle": "Matematik Öğretmeni",
+      "teacherAvatar": "https://images.ozelderz.com/hocalar/27_1767967501069.jpeg",
+      "studentName": "Azra Ulukuş",
+      "duration": 2931.624,
+      "durationMin": 49,
+      "transcriptSource": "deepgram-nova-3",
+      "segmentCount": 783,
+      "wordCount": 4739,
+      "speakers": [
+        "SPEAKER_00",
+        "SPEAKER_01",
+        "SPEAKER_02"
+      ],
+      "speakerSplit": {
+        "SPEAKER_00": 3599,
+        "SPEAKER_01": 1009,
+        "SPEAKER_02": 131
+      },
+      "evaluationScore": 6.4,
+      "hasVideo": true,
+      "videoType": "mp4",
+      "transcribedAt": "2026-07-26T22:13:24.499Z",
+      "r2Key": "lessons/iaw-bhar-hai.mp4",
+      "summaryBrief": "Zübeyde Hoca ile Azra arasında Matematik tanışma dersi gerçekleşti (Tanışma Dersi — Matematik). Ders 49 dakika sürdü. rasyonel sayılar, geometri, problemler, LGS, müfredat konuları işlendi. 136 gerçek soru tespit edildi.",
+      "evaluationOverview": "Tanışma dersi, 49 dakika (rasyonel sayılar, geometri, problemler). Öğretmen konuşma oranı %74, Azra 241 tur aldı, 136 soru tespit edildi. Genel değerlendirme: 6.4/10 — Orta.",
+      "topStrength": "LGS matematik çerçevesi kuruldu — veri işleme, soru tipleri ve sınav yapısı derse bağlandı.",
+      "topWeakness": "Konuşma süresinin %74'i öğretmende — Azra 241 tur aldı. Demo/konu derslerinde bile öğrenciyi daha fazla konuşturmak gerekir.",
+      "questionCount": 136,
+      "partCount": 20,
+      "topTopics": [
+        "rasyonel sayılar",
+        "geometri",
+        "problemler",
+        "LGS"
+      ],
+      "topSections": [
+        "Ben de iyiyim. Teşekkür ederim. Tanışabili…",
+        "Geldi mi ekranına?",
+        "E c şıkkına eşittir. Çok güzel, c şıkkına …"
+      ]
+    },
+    {
+      "id": "hph-xevo-ggx",
+      "meetCode": "hph-xevo-ggx",
+      "title": "Tanışma Dersi — Matematik",
+      "subject": "Matematik",
+      "teacherName": "Osman Kandemir",
+      "teacherTitle": "Matematik Öğretmeni",
+      "teacherAvatar": "https://pub-e9746fd3c59d479f924589177ae87857.r2.dev/hocalar/95_1767781268551.jpeg",
+      "studentName": "Bahar Çelik",
+      "duration": 3391.236,
+      "durationMin": 57,
+      "transcriptSource": "deepgram-nova-3",
+      "segmentCount": 888,
+      "wordCount": 2914,
+      "speakers": [
+        "SPEAKER_00",
+        "SPEAKER_01"
+      ],
+      "speakerSplit": {
+        "SPEAKER_00": 2528,
+        "SPEAKER_01": 386
+      },
+      "evaluationScore": 5.2,
+      "hasVideo": true,
+      "videoType": "mp4",
+      "transcribedAt": "2026-07-26T22:12:36.438Z",
+      "r2Key": "lessons/hph-xevo-ggx.mp4",
+      "summaryBrief": "Osman Hoca ile Bahar arasında Matematik tanışma dersi gerçekleşti (Tanışma Dersi — Matematik). Ders 57 dakika sürdü. geometri, test/alıştırma, ders planı, kaynak/materyal, görsel materyal konuları işlendi. 114 gerçek soru tespit edildi.",
+      "evaluationOverview": "Tanışma dersi, 57 dakika (geometri, test/alıştırma, ders planı). Öğretmen konuşma oranı %84, Bahar 177 tur aldı, 114 soru tespit edildi. Genel değerlendirme: 5.2/10 — Gelişime açık.",
+      "topStrength": "LGS matematik çerçevesi kuruldu — veri işleme, soru tipleri ve sınav yapısı derse bağlandı.",
+      "topWeakness": "Konuşma süresinin %84'i öğretmende — Bahar 177 tur aldı. Demo/konu derslerinde bile öğrenciyi daha fazla konuşturmak gerekir.",
+      "questionCount": 114,
+      "partCount": 22,
+      "topTopics": [
+        "geometri",
+        "test/alıştırma",
+        "ders planı",
+        "kaynak/materyal"
+      ],
+      "topSections": [
+        "Merhaba Bahar değil mi? Hıhı.",
+        "seviye belirleme",
+        "Tamam o zaman baştan bir başlayalım isters…"
+      ]
+    },
+    {
+      "id": "hin-dqah-qpb",
+      "meetCode": "hin-dqah-qpb",
+      "title": "Tanışma Dersi — Matematik",
+      "subject": "Matematik",
+      "teacherName": "Emine Nur Pınar",
+      "teacherTitle": "Matematik Öğretmeni",
+      "teacherAvatar": "https://pub-e9746fd3c59d479f924589177ae87857.r2.dev/hocalar/28_1767728146429.jpg",
+      "studentName": "Arşin Yakut",
+      "duration": 3213.756,
+      "durationMin": 54,
+      "transcriptSource": "deepgram-nova-3",
+      "segmentCount": 747,
+      "wordCount": 2668,
+      "speakers": [
+        "SPEAKER_00"
+      ],
+      "speakerSplit": {
+        "SPEAKER_00": 2668
+      },
+      "evaluationScore": 4.3,
+      "hasVideo": true,
+      "videoType": "mp4",
+      "transcribedAt": "2026-07-26T22:11:37.640Z",
+      "r2Key": "lessons/hin-dqah-qpb.mp4",
+      "summaryBrief": "Emine Hoca ile Arşin arasında Matematik tanışma dersi gerçekleşti (Tanışma Dersi — Matematik). Ders 54 dakika sürdü. geometri, problemler, test/alıştırma, ders planı, kaynak/materyal konuları işlendi. 136 gerçek soru tespit edildi.",
+      "evaluationOverview": "Tanışma dersi, 54 dakika (geometri, problemler, test/alıştırma). Öğretmen konuşma oranı %100, Arşin 0 tur aldı, 136 soru tespit edildi. Genel değerlendirme: 4.3/10 — Destek gerekli.",
+      "topStrength": "Ders planı ve iletişim net konuşuldu (2 kez plan/program vurgusu).",
+      "topWeakness": "Konuşma süresinin %100'i öğretmende — Arşin 0 tur aldı. Demo/konu derslerinde bile öğrenciyi daha fazla konuşturmak gerekir.",
+      "questionCount": 136,
+      "partCount": 23,
+      "topTopics": [
+        "geometri",
+        "problemler",
+        "test/alıştırma",
+        "ders planı"
+      ],
+      "topSections": [
+        "İyisin, nasılsınız?",
+        "Bu bir deneme dersi, sen de biliyorsun. Ön…",
+        "Okul döneminde herhangi bir kursa falan gi…"
+      ]
+    },
+    {
+      "id": "gvk-iyie-ood",
+      "meetCode": "gvk-iyie-ood",
+      "title": "Ders — Müfredat",
+      "subject": "Fen Bilimleri",
+      "teacherName": "Ahmet Baştuğ",
+      "teacherTitle": "Fen Bilimleri Öğretmeni",
+      "teacherAvatar": "https://images.ozelderz.com/hocalar/temp_w83ex_1775159190124.jpg",
+      "studentName": "Ulaş Karadoğan",
+      "duration": 3418.812,
+      "durationMin": 57,
+      "transcriptSource": "deepgram-nova-3",
+      "segmentCount": 922,
+      "wordCount": 6045,
+      "speakers": [
+        "SPEAKER_00",
+        "SPEAKER_01"
+      ],
+      "speakerSplit": {
+        "SPEAKER_00": 5178,
+        "SPEAKER_01": 867
+      },
+      "evaluationScore": 6.1,
+      "hasVideo": true,
+      "videoType": "mp4",
+      "transcribedAt": "2026-07-26T22:10:45.589Z",
+      "r2Key": "lessons/gvk-iyie-ood.mp4",
+      "summaryBrief": "Ahmet Hoca ile Ulaş arasında Fen Bilimleri ders gerçekleşti (Ders — Müfredat). Ders 57 dakika sürdü. müfredat, test/alıştırma, ders planı, kaynak/materyal, görsel materyal konuları işlendi. 240 gerçek soru tespit edildi.",
+      "evaluationOverview": "Ders kaydı, 57 dakika (müfredat, test/alıştırma, ders planı). Öğretmen konuşma oranı %87, Ulaş 128 tur aldı, 240 soru tespit edildi. Genel değerlendirme: 6.1/10 — Orta.",
+      "topStrength": "Ders planı ve iletişim net konuşuldu (2 kez plan/program vurgusu).",
+      "topWeakness": "Konuşma süresinin %87'i öğretmende — Ulaş 128 tur aldı. Demo/konu derslerinde bile öğrenciyi daha fazla konuşturmak gerekir.",
+      "questionCount": 240,
+      "partCount": 21,
+      "topTopics": [
+        "müfredat",
+        "test/alıştırma",
+        "ders planı",
+        "kaynak/materyal"
+      ],
+      "topSections": [
+        "Benimki bana bağlandı.",
+        "Efendim hocam? Sesim geliyor değil mi? Gel…",
+        "Şöyle bir şurayı açayım."
+      ]
+    },
+    {
+      "id": "epj-hinw-dng",
+      "meetCode": "epj-hinw-dng",
+      "title": "Tanışma Dersi — Matematik",
+      "subject": "Matematik",
+      "teacherName": "Mehmet Alioğlu",
+      "teacherTitle": "Matematik Öğretmeni",
+      "teacherAvatar": "https://images.ozelderz.com/hocalar/94_1775012260716.jpg",
+      "studentName": "Tuğkan Ayaroğlu",
+      "duration": 3347.1,
+      "durationMin": 56,
+      "transcriptSource": "deepgram-nova-3",
+      "segmentCount": 849,
+      "wordCount": 5440,
+      "speakers": [
+        "SPEAKER_00",
+        "SPEAKER_01"
+      ],
+      "speakerSplit": {
+        "SPEAKER_00": 5169,
+        "SPEAKER_01": 271
+      },
+      "evaluationScore": 4,
+      "hasVideo": true,
+      "videoType": "mp4",
+      "transcribedAt": "2026-07-26T22:10:03.583Z",
+      "r2Key": "lessons/epj-hinw-dng.mp4",
+      "summaryBrief": "Mehmet Hoca ile Tuğkan arasında Matematik tanışma dersi gerçekleşti (Tanışma Dersi — Matematik). Ders 56 dakika sürdü. denklemler, geometri, test/alıştırma, kaynak/materyal, görsel materyal konuları işlendi. 146 gerçek soru tespit edildi.",
+      "evaluationOverview": "Tanışma dersi, 56 dakika (denklemler, geometri, test/alıştırma). Öğretmen konuşma oranı %96, Tuğkan 66 tur aldı, 146 soru tespit edildi. Genel değerlendirme: 4/10 — Destek gerekli.",
+      "topStrength": "Görsel/uygulamalı anlatım (ekran, sayı doğrusu, tablo) derse yedirildi — 6 materyal referansı.",
+      "topWeakness": "Konuşma süresinin %96'i öğretmende — Tuğkan 66 tur aldı. Demo/konu derslerinde bile öğrenciyi daha fazla konuşturmak gerekir.",
+      "questionCount": 146,
+      "partCount": 21,
+      "topTopics": [
+        "denklemler",
+        "geometri",
+        "test/alıştırma",
+        "kaynak/materyal"
+      ],
+      "topSections": [
+        "Merhabalar sesimi duyabiliyor musun?",
+        "Güzel. Şimdi tanjanta geldiğimiz zaman tan…",
+        "toplamı birdir."
+      ]
+    },
+    {
+      "id": "eks-qgow-why",
+      "meetCode": "eks-qgow-why",
+      "title": "Tanışma Dersi — Matematik",
+      "subject": "Matematik",
+      "teacherName": "Mehmet Alioğlu",
+      "teacherTitle": "Matematik Öğretmeni",
+      "teacherAvatar": "https://images.ozelderz.com/hocalar/94_1775012260716.jpg",
+      "studentName": "Emine Gül İkbal",
+      "duration": 3480.084,
+      "durationMin": 58,
+      "transcriptSource": "deepgram-nova-3",
+      "segmentCount": 784,
+      "wordCount": 5934,
+      "speakers": [
+        "SPEAKER_00",
+        "SPEAKER_01"
+      ],
+      "speakerSplit": {
+        "SPEAKER_00": 5609,
+        "SPEAKER_01": 325
+      },
+      "evaluationScore": 6.2,
+      "hasVideo": true,
+      "videoType": "mp4",
+      "transcribedAt": "2026-07-26T22:09:14.339Z",
+      "r2Key": "lessons/eks-qgow-why.mp4",
+      "summaryBrief": "Mehmet Hoca ile Emine arasında Matematik tanışma dersi gerçekleşti (Tanışma Dersi — Matematik). Ders 58 dakika sürdü. rasyonel sayılar, problemler, test/alıştırma, kaynak/materyal, görsel materyal konuları işlendi. 175 gerçek soru tespit edildi.",
+      "evaluationOverview": "Tanışma dersi, 58 dakika (rasyonel sayılar, problemler, test/alıştırma). Öğretmen konuşma oranı %96, Emine 80 tur aldı, 175 soru tespit edildi. Genel değerlendirme: 6.2/10 — Orta.",
+      "topStrength": "Matematik demo akışı somut ilerledi — transkriptte \"Rasyonel.\" gibi bölümlerde konu örnekle anlatıldı.",
+      "topWeakness": "Konuşma süresinin %96'i öğretmende — Emine 80 tur aldı. Demo/konu derslerinde bile öğrenciyi daha fazla konuşturmak gerekir.",
+      "questionCount": 175,
+      "partCount": 22,
+      "topTopics": [
+        "rasyonel sayılar",
+        "problemler",
+        "test/alıştırma",
+        "kaynak/materyal"
+      ],
+      "topSections": [
+        "Merhabalar sesimi duyabiliyor musunuz?",
+        "Nötr artı ya da eksi değil güzel. Sıfır nö…",
+        "aşağıdakilerden"
+      ]
+    },
+    {
+      "id": "dve-naye-uxc",
+      "meetCode": "dve-naye-uxc",
+      "title": "Ders — Problemler",
+      "subject": "Matematik",
+      "teacherName": "Fatma Nur Yıldırım",
+      "teacherTitle": "Matematik Öğretmeni",
+      "teacherAvatar": "https://images.ozelderz.com/hocalar/temp_ymrmgg_1772391627146.png",
+      "studentName": "Eslem Bekret",
+      "duration": 3448.836,
+      "durationMin": 57,
+      "transcriptSource": "deepgram-nova-3",
+      "segmentCount": 848,
+      "wordCount": 6522,
+      "speakers": [
+        "SPEAKER_00"
+      ],
+      "speakerSplit": {
+        "SPEAKER_00": 6522
+      },
+      "evaluationScore": 4.3,
+      "hasVideo": true,
+      "videoType": "mp4",
+      "transcribedAt": "2026-07-26T22:08:12.308Z",
+      "r2Key": "lessons/dve-naye-uxc.mp4",
+      "summaryBrief": "Fatma Hoca ile Eslem arasında Matematik ders gerçekleşti (Ders — Problemler). Ders 57 dakika sürdü. problemler, LGS, test/alıştırma, ders planı, kaynak/materyal konuları işlendi. 146 gerçek soru tespit edildi.",
+      "evaluationOverview": "Matematik dersi, 57 dakika (problemler, LGS, test/alıştırma). Öğretmen konuşma oranı %100, Eslem 0 tur aldı, 146 soru tespit edildi. Genel değerlendirme: 4.3/10 — Destek gerekli.",
+      "topStrength": "LGS matematik çerçevesi kuruldu — veri işleme, soru tipleri ve sınav yapısı derse bağlandı.",
+      "topWeakness": "Konuşma süresinin %100'i öğretmende — Eslem 0 tur aldı. Demo/konu derslerinde bile öğrenciyi daha fazla konuşturmak gerekir.",
+      "questionCount": 146,
+      "partCount": 18,
+      "topTopics": [
+        "problemler",
+        "LGS",
+        "test/alıştırma",
+        "ders planı"
+      ],
+      "topSections": [
+        "Sesimi alabiliyor musun?",
+        "Almıştık da hatırlamıyorum.",
+        "hangi şehirden katılıyorsun bu arada ensem…"
+      ]
+    },
+    {
+      "id": "dpj-rpde-pft",
+      "meetCode": "dpj-rpde-pft",
+      "title": "Tanışma Dersi — Matematik",
+      "subject": "Matematik",
+      "teacherName": "Mustafa Enes Kırtış",
+      "teacherTitle": "Matematik Öğretmeni",
+      "teacherAvatar": "https://images.ozelderz.com/hocalar/temp_bxvz1_1775159185002.jpeg",
+      "studentName": "Muhammed Miraç Günay",
+      "duration": 4379.688,
+      "durationMin": 73,
+      "transcriptSource": "deepgram-nova-3",
+      "segmentCount": 906,
+      "wordCount": 4234,
+      "speakers": [
+        "SPEAKER_00",
+        "SPEAKER_01"
+      ],
+      "speakerSplit": {
+        "SPEAKER_00": 296,
+        "SPEAKER_01": 3938
+      },
+      "evaluationScore": 8.6,
+      "hasVideo": true,
+      "videoType": "mp4",
+      "transcribedAt": "2026-07-26T22:07:10.438Z",
+      "r2Key": "lessons/dpj-rpde-pft.mp4",
+      "summaryBrief": "Mustafa Hoca ile Muhammed arasında Matematik tanışma dersi gerçekleşti (Tanışma Dersi — Matematik). Ders 73 dakika sürdü. geometri, LGS, test/alıştırma, ders planı, kaynak/materyal konuları işlendi. 148 gerçek soru tespit edildi.",
+      "evaluationOverview": "Tanışma dersi, 73 dakika (geometri, LGS, test/alıştırma). Öğretmen konuşma oranı %6, Muhammed 841 tur aldı, 148 soru tespit edildi. Genel değerlendirme: 8.6/10 — Çok iyi.",
+      "topStrength": "Ders planı ve iletişim net konuşuldu (2 kez plan/program vurgusu).",
+      "topWeakness": "Muhammed zorlandığı noktayı açıkça belirtti (\"deniyorlar olmuyorlar. Sopalar da tabii uzun kısa diye ilk önce karma karışık deniyorlar. …\") — bir sonraki derste bu boşluk öncelikli kapatılmalı.",
+      "questionCount": 148,
+      "partCount": 19,
+      "topTopics": [
+        "geometri",
+        "LGS",
+        "test/alıştırma",
+        "ders planı"
+      ],
+      "topSections": [
+        "Hoş bulduk. İyi akşamlar. İyi",
+        "Miraç'ı kullanıyorum.",
+        "Anladım. Şimdi yeni nesil sorularla ilgili…"
+      ]
+    },
+    {
+      "id": "dkk-jbjc-uvf",
+      "meetCode": "dkk-jbjc-uvf",
+      "title": "Tanışma Dersi — Matematik",
+      "subject": "Matematik",
+      "teacherName": "Emine Nur Pınar",
+      "teacherTitle": "Matematik Öğretmeni",
+      "teacherAvatar": "https://pub-e9746fd3c59d479f924589177ae87857.r2.dev/hocalar/28_1767728146429.jpg",
+      "studentName": "Zeynep Sude Mercanlı",
+      "duration": 3617.028,
+      "durationMin": 60,
+      "transcriptSource": "deepgram-nova-3",
+      "segmentCount": 1007,
+      "wordCount": 4173,
+      "speakers": [
+        "SPEAKER_00",
+        "SPEAKER_01"
+      ],
+      "speakerSplit": {
+        "SPEAKER_00": 829,
+        "SPEAKER_01": 3344
+      },
+      "evaluationScore": 8,
+      "hasVideo": true,
+      "videoType": "mp4",
+      "transcribedAt": "2026-07-26T22:06:00.338Z",
+      "r2Key": "lessons/dkk-jbjc-uvf.mp4",
+      "summaryBrief": "Emine Hoca ile Zeynep arasında Matematik tanışma dersi gerçekleşti (Tanışma Dersi — Matematik). Ders 60 dakika sürdü. rasyonel sayılar, ondalık gösterim, denklemler, geometri, problemler konuları işlendi. 134 gerçek soru tespit edildi.",
+      "evaluationOverview": "Tanışma dersi, 60 dakika (rasyonel sayılar, ondalık gösterim, denklemler). Öğretmen konuşma oranı %21, Zeynep 695 tur aldı, 134 soru tespit edildi. Genel değerlendirme: 8/10 — Çok iyi.",
+      "topStrength": "Matematik demo akışı somut ilerledi — transkriptte \"ondalık gösterim falan hepsine\" gibi bölümlerde konu örnekle anlatıldı.",
+      "topWeakness": "Anlatım hızı 119 kel/dk — önerilen 150–170 aralığının altında; 60 dk'lık derste tempo düşük kaldı.",
+      "questionCount": 134,
+      "partCount": 26,
+      "topTopics": [
+        "rasyonel sayılar",
+        "ondalık gösterim",
+        "denklemler",
+        "geometri"
+      ],
+      "topSections": [
+        "gidiyor mu acaba?",
+        "Dört sene önce",
+        "LGS'ye girmiyoruz."
+      ]
+    },
+    {
+      "id": "ckn-yurm-vyd",
+      "meetCode": "ckn-yurm-vyd",
+      "title": "Ders — Ondalık gösterim",
+      "subject": "Matematik",
+      "teacherName": "Yaren Yalım",
+      "teacherTitle": "Matematik Öğretmeni",
+      "teacherAvatar": "https://images.ozelderz.com/hocalar/temp_gudb12c_1780987863703.jpeg",
+      "studentName": "Hiranur Ayşe Kaya",
+      "duration": 3757.896,
+      "durationMin": 63,
+      "transcriptSource": "deepgram-nova-3",
+      "segmentCount": 1073,
+      "wordCount": 6063,
+      "speakers": [
+        "SPEAKER_00",
+        "SPEAKER_01"
+      ],
+      "speakerSplit": {
+        "SPEAKER_00": 4033,
+        "SPEAKER_01": 2030
+      },
+      "evaluationScore": 7.2,
+      "hasVideo": true,
+      "videoType": "mp4",
+      "transcribedAt": "2026-07-26T22:05:08.384Z",
+      "r2Key": "lessons/ckn-yurm-vyd.mp4",
+      "summaryBrief": "Yaren Hoca ile Hiranur arasında Matematik ders gerçekleşti (Ders — Ondalık gösterim). Ders 63 dakika sürdü. ondalık gösterim, geometri, LGS, test/alıştırma, görsel materyal konuları işlendi. 235 gerçek soru tespit edildi.",
+      "evaluationOverview": "Matematik dersi, 63 dakika (ondalık gösterim, geometri, LGS). Öğretmen konuşma oranı %68, Hiranur 414 tur aldı, 235 soru tespit edildi. Genel değerlendirme: 7.2/10 — İyi.",
+      "topStrength": "LGS matematik çerçevesi kuruldu — veri işleme, soru tipleri ve sınav yapısı derse bağlandı.",
+      "topWeakness": "Anlatım hızı 138 kel/dk — önerilen 150–170 aralığının altında; 63 dk'lık derste tempo düşük kaldı.",
+      "questionCount": 235,
+      "partCount": 25,
+      "topTopics": [
+        "ondalık gösterim",
+        "geometri",
+        "LGS",
+        "test/alıştırma"
+      ],
+      "topSections": [
+        "Mikrofonum kapalı, Hira'mer.",
+        "O zaman başlayalım mı derse?",
+        "Bunu şöyle de yapıyorduk. Bunun kısa bir y…"
+      ]
+    },
+    {
+      "id": "cup-ebmb-nwm",
+      "meetCode": "cup-ebmb-nwm",
+      "title": "Tanışma Dersi — Matematik",
+      "subject": "Matematik",
+      "teacherName": "Mehmet Alioğlu",
+      "teacherTitle": "Matematik Öğretmeni",
+      "teacherAvatar": "https://images.ozelderz.com/hocalar/94_1775012260716.jpg",
+      "studentName": "Muhammed Said Kayalı",
+      "duration": 3404.988,
+      "durationMin": 57,
+      "transcriptSource": "deepgram-nova-3",
+      "segmentCount": 840,
+      "wordCount": 5688,
+      "speakers": [
+        "SPEAKER_00",
+        "SPEAKER_01"
+      ],
+      "speakerSplit": {
+        "SPEAKER_00": 5230,
+        "SPEAKER_01": 458
+      },
+      "evaluationScore": 4.9,
+      "hasVideo": true,
+      "videoType": "mp4",
+      "transcribedAt": "2026-07-26T22:04:00.877Z",
+      "r2Key": "lessons/cup-ebmb-nwm.mp4",
+      "summaryBrief": "Mehmet Hoca ile Muhammed arasında Matematik tanışma dersi gerçekleşti (Tanışma Dersi — Matematik). Ders 57 dakika sürdü. denklemler, geometri, problemler, test/alıştırma, kaynak/materyal konuları işlendi. 161 gerçek soru tespit edildi.",
+      "evaluationOverview": "Tanışma dersi, 57 dakika (denklemler, geometri, problemler). Öğretmen konuşma oranı %94, Muhammed 95 tur aldı, 161 soru tespit edildi. Genel değerlendirme: 4.9/10 — Destek gerekli.",
+      "topStrength": "Matematik demo akışı somut ilerledi — transkriptte \"Denklem kursam belki bulma şansımız olabilir mi bilmiyorum. Mesela buna h desem, buna k de…\" gibi bölümlerde konu örnekle anlatıldı.",
+      "topWeakness": "Konuşma süresinin %94'i öğretmende — Muhammed 95 tur aldı. Demo/konu derslerinde bile öğrenciyi daha fazla konuşturmak gerekir.",
+      "questionCount": 161,
+      "partCount": 22,
+      "topTopics": [
+        "denklemler",
+        "geometri",
+        "problemler",
+        "test/alıştırma"
+      ],
+      "topSections": [
+        "Merhabalar sesimi alabiliyor musunuz?",
+        "ve kotanjant.",
+        "Bir altındakine bakalım."
+      ]
+    },
+    {
+      "id": "jwu-bgia-udu",
+      "meetCode": "jwu-bgia-udu",
+      "title": "Ders — Geometri",
+      "subject": "Matematik",
+      "teacherName": "Muhammed Bozboğa",
+      "teacherTitle": "Matematik Öğretmeni",
+      "teacherAvatar": "https://images.ozelderz.com/hocalar/temp_b19z3l_1777228582441.png",
+      "studentName": "Musa Çağan Taş",
+      "duration": 3900.744,
+      "durationMin": 65,
+      "transcriptSource": "deepgram-nova-3",
+      "segmentCount": 1084,
+      "wordCount": 6779,
+      "speakers": [
+        "SPEAKER_00",
+        "SPEAKER_01",
+        "SPEAKER_02"
+      ],
+      "speakerSplit": {
+        "SPEAKER_00": 263,
+        "SPEAKER_01": 4966,
+        "SPEAKER_02": 1550
+      },
+      "evaluationScore": 7.4,
+      "hasVideo": true,
+      "videoType": "mp4",
+      "transcribedAt": "2026-07-26T22:02:28.877Z",
+      "r2Key": "lessons/jwu-bgia-udu.mp4",
+      "summaryBrief": "Muhammed Hoca ile Musa arasında Matematik ders gerçekleşti (Ders — Geometri). Ders 65 dakika sürdü. geometri, test/alıştırma, kaynak/materyal, görsel materyal konuları işlendi. 394 gerçek soru tespit edildi.",
+      "evaluationOverview": "Matematik dersi, 65 dakika (geometri, test/alıştırma, kaynak/materyal). Öğretmen konuşma oranı %4, Musa 677 tur aldı, 394 soru tespit edildi. Genel değerlendirme: 7.4/10 — İyi.",
+      "topStrength": "Anlık geri bildirim güçlü — \"Tamam mı?\", \"Ne dersin?\" gibi 55 kontrol anı kullanıldı.",
+      "topWeakness": "Musa zorlandığı noktayı açıkça belirtti (\"öğretmenlerin tamamen değişecek. Şu an bir tane öğretmenin var değil mi? Evet. Evet. Beşte…\") — bir sonraki derste bu boşluk öncelikli kapatılmalı.",
+      "questionCount": 394,
+      "partCount": 26,
+      "topTopics": [
+        "geometri",
+        "test/alıştırma",
+        "kaynak/materyal",
+        "görsel materyal"
+      ],
+      "topSections": [
+        "Üç yüz seksen net. Mikrofonu açtım ben. Ta…",
+        "Tamam mı? Yok yapmayacağım.",
+        "on sekiz, yirmi beş, yirmi dört."
+      ]
+    },
+    {
+      "id": "juu-zreb-ryf",
+      "meetCode": "juu-zreb-ryf",
+      "title": "Ders — Test/alıştırma",
+      "subject": "Matematik",
+      "teacherName": "İlkay Sevilmiş",
+      "teacherTitle": "Matematik Öğretmeni",
+      "teacherAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=%C4%B0lkay",
+      "studentName": "Kerem Cihaner",
+      "duration": 2096.532,
+      "durationMin": 35,
+      "transcriptSource": "deepgram-nova-3",
+      "segmentCount": 572,
+      "wordCount": 3344,
+      "speakers": [
+        "SPEAKER_00",
+        "SPEAKER_01"
+      ],
+      "speakerSplit": {
+        "SPEAKER_00": 2850,
+        "SPEAKER_01": 494
+      },
+      "evaluationScore": 5.6,
+      "hasVideo": true,
+      "videoType": "mp4",
+      "transcribedAt": "2026-07-26T22:01:50.153Z",
+      "r2Key": "lessons/juu-zreb-ryf.mp4",
+      "summaryBrief": "İlkay Hoca ile Kerem arasında Matematik ders gerçekleşti (Ders — Test/alıştırma). Ders 35 dakika sürdü. test/alıştırma, ders planı, görsel materyal konuları işlendi. 159 gerçek soru tespit edildi.",
+      "evaluationOverview": "Matematik dersi, 35 dakika (test/alıştırma, ders planı, görsel materyal). Öğretmen konuşma oranı %85, Kerem 141 tur aldı, 159 soru tespit edildi. Genel değerlendirme: 5.6/10 — Gelişime açık.",
+      "topStrength": "Görsel/uygulamalı anlatım (ekran, sayı doğrusu, tablo) derse yedirildi — 5 materyal referansı.",
+      "topWeakness": "Konuşma süresinin %85'i öğretmende — Kerem 141 tur aldı. Demo/konu derslerinde bile öğrenciyi daha fazla konuşturmak gerekir.",
+      "questionCount": 159,
+      "partCount": 15,
+      "topTopics": [
+        "test/alıştırma",
+        "ders planı",
+        "görsel materyal"
+      ],
+      "topSections": [
+        "Efendim hocam.",
+        "Sen görebiliyor musun ekranı Keremciğim?",
+        "da dokuz, şuraya da dokuz,"
+      ]
+    },
+    {
+      "id": "jqs-amqe-wiq",
+      "meetCode": "jqs-amqe-wiq",
+      "title": "Tanışma Dersi — Matematik",
+      "subject": "Matematik",
+      "teacherName": "Zübeyde Hakyoldaş",
+      "teacherTitle": "Matematik Öğretmeni",
+      "teacherAvatar": "https://images.ozelderz.com/hocalar/27_1767967501069.jpeg",
+      "studentName": "Ela Ayvalı",
+      "duration": 3068.964,
+      "durationMin": 51,
+      "transcriptSource": "deepgram-nova-3",
+      "segmentCount": 773,
+      "wordCount": 4846,
+      "speakers": [
+        "SPEAKER_00",
+        "SPEAKER_01",
+        "SPEAKER_02"
+      ],
+      "speakerSplit": {
+        "SPEAKER_00": 4061,
+        "SPEAKER_01": 101,
+        "SPEAKER_02": 684
+      },
+      "evaluationScore": 6.4,
+      "hasVideo": true,
+      "videoType": "mp4",
+      "transcribedAt": "2026-07-26T22:01:26.190Z",
+      "r2Key": "lessons/jqs-amqe-wiq.mp4",
+      "summaryBrief": "Zübeyde Hoca ile Ela arasında Matematik tanışma dersi gerçekleşti (Tanışma Dersi — Matematik). Ders 51 dakika sürdü. geometri, problemler, test/alıştırma, ders planı, kaynak/materyal konuları işlendi. 172 gerçek soru tespit edildi.",
+      "evaluationOverview": "Tanışma dersi, 51 dakika (geometri, problemler, test/alıştırma). Öğretmen konuşma oranı %85, Ela 16 tur aldı, 172 soru tespit edildi. Genel değerlendirme: 6.4/10 — Orta.",
+      "topStrength": "Ders planı ve iletişim net konuşuldu (3 kez plan/program vurgusu).",
+      "topWeakness": "Konuşma süresinin %85'i öğretmende — Ela 16 tur aldı. Demo/konu derslerinde bile öğrenciyi daha fazla konuşturmak gerekir.",
+      "questionCount": 172,
+      "partCount": 20,
+      "topTopics": [
+        "geometri",
+        "problemler",
+        "test/alıştırma",
+        "ders planı"
+      ],
+      "topSections": [
+        "Merhabalar, sesim geliyor mu?",
+        "Neler yapmayı seversin Ela?",
+        "Heh, şuradan."
+      ]
+    },
+    {
+      "id": "cev-xgmd-fjw",
+      "meetCode": "cev-xgmd-fjw",
+      "title": "Ders — Rasyonel sayılar",
+      "subject": "Matematik",
+      "teacherName": "Büşra Çelik",
+      "teacherTitle": "Matematik Öğretmeni",
+      "teacherAvatar": "https://images.ozelderz.com/hocalar/temp_wvnbkd_1777221370324.jpg",
+      "studentName": "İlke İlke",
+      "duration": 3912.084,
+      "durationMin": 65,
+      "transcriptSource": "deepgram-nova-3",
+      "segmentCount": 944,
+      "wordCount": 6117,
+      "speakers": [
+        "SPEAKER_00",
+        "SPEAKER_01"
+      ],
+      "speakerSplit": {
+        "SPEAKER_00": 5327,
+        "SPEAKER_01": 790
+      },
+      "evaluationScore": 6.5,
+      "hasVideo": true,
+      "videoType": "mp4",
+      "transcribedAt": "2026-07-26T21:56:03.381Z",
+      "r2Key": "lessons/cev-xgmd-fjw.mp4",
+      "summaryBrief": "Büşra Hoca ile İlke arasında Matematik ders gerçekleşti (Ders — Rasyonel sayılar). Ders 65 dakika sürdü. rasyonel sayılar, ondalık gösterim, denklemler, geometri, problemler konuları işlendi. 265 gerçek soru tespit edildi.",
+      "evaluationOverview": "Matematik dersi, 65 dakika (rasyonel sayılar, ondalık gösterim, denklemler). Öğretmen konuşma oranı %90, İlke 142 tur aldı, 265 soru tespit edildi. Genel değerlendirme: 6.5/10 — Orta.",
+      "topStrength": "Matematik demo akışı somut ilerledi — transkriptte \"iki bilinmeyenli denklem olmaz mı ama böyle?\" gibi bölümlerde konu örnekle anlatıldı.",
+      "topWeakness": "Konuşma süresinin %90'i öğretmende — İlke 142 tur aldı. Demo/konu derslerinde bile öğrenciyi daha fazla konuşturmak gerekir.",
+      "questionCount": 265,
+      "partCount": 23,
+      "topTopics": [
+        "rasyonel sayılar",
+        "ondalık gösterim",
+        "denklemler",
+        "geometri"
+      ],
+      "topSections": [
+        "İkraydı değil mi İkracığım?",
+        "Bu arada İlkeciğim biraz hızlı. Baş İlkeyd…",
+        "Değil mi? Evet."
+      ]
+    },
+    {
+      "id": "bji-jxik-vzq",
+      "meetCode": "bji-jxik-vzq",
+      "title": "Tanışma Dersi — Matematik",
+      "subject": "Matematik",
+      "teacherName": "Mustafa Ardahan Dirlik",
+      "teacherTitle": "Matematik Öğretmeni",
+      "teacherAvatar": "https://images.ozelderz.com/hocalar/temp_p9m377_1775383413595.jpg",
+      "studentName": "Muhammed Bingöl",
+      "duration": 3022.632,
+      "durationMin": 50,
+      "transcriptSource": "deepgram-nova-3",
+      "segmentCount": 763,
+      "wordCount": 5360,
+      "speakers": [
+        "SPEAKER_00",
+        "SPEAKER_01",
+        "SPEAKER_02"
+      ],
+      "speakerSplit": {
+        "SPEAKER_00": 3360,
+        "SPEAKER_01": 1675,
+        "SPEAKER_02": 325
+      },
+      "evaluationScore": 8,
+      "hasVideo": true,
+      "videoType": "mp4",
+      "transcribedAt": "2026-07-26T21:54:27.531Z",
+      "r2Key": "lessons/bji-jxik-vzq.mp4",
+      "summaryBrief": "Mustafa Hoca ile Muhammed arasında Matematik tanışma dersi gerçekleşti (Tanışma Dersi — Matematik). Ders 50 dakika sürdü. geometri, problemler, LGS, test/alıştırma, ders planı konuları işlendi. 113 gerçek soru tespit edildi.",
+      "evaluationOverview": "Tanışma dersi, 50 dakika (geometri, problemler, LGS). Öğretmen konuşma oranı %66, Muhammed 144 tur aldı, 113 soru tespit edildi. Genel değerlendirme: 8/10 — Çok iyi.",
+      "topStrength": "Ders planı ve iletişim net konuşuldu (10 kez plan/program vurgusu).",
+      "topWeakness": "Anlatım hızı 134 kel/dk — önerilen 150–170 aralığının altında; 50 dk'lık derste tempo düşük kaldı.",
+      "questionCount": 113,
+      "partCount": 19,
+      "topTopics": [
+        "geometri",
+        "problemler",
+        "LGS",
+        "test/alıştırma"
+      ],
+      "topSections": [
+        "İyi akşamlar.",
+        "Tamam. O zaman ben böyle birkaç soru soray…",
+        "stres atıyorsun hani günün stresini atabil…"
+      ]
+    },
+    {
+      "id": "bao-wvxv-ksx",
+      "meetCode": "bao-wvxv-ksx",
+      "title": "Tanışma Dersi — Matematik",
+      "subject": "Matematik",
+      "teacherName": "Mehmet Alioğlu",
+      "teacherTitle": "Matematik Öğretmeni",
+      "teacherAvatar": "https://images.ozelderz.com/hocalar/94_1775012260716.jpg",
+      "studentName": "Ali Kayra Karataş",
+      "duration": 3445.452,
+      "durationMin": 57,
+      "transcriptSource": "deepgram-nova-3",
+      "segmentCount": 793,
+      "wordCount": 6202,
+      "speakers": [
+        "SPEAKER_00",
+        "SPEAKER_01"
+      ],
+      "speakerSplit": {
+        "SPEAKER_00": 555,
+        "SPEAKER_01": 5647
+      },
+      "evaluationScore": 7.5,
+      "hasVideo": true,
+      "videoType": "mp4",
+      "transcribedAt": "2026-07-26T21:53:21.077Z",
+      "r2Key": "lessons/bao-wvxv-ksx.mp4",
+      "summaryBrief": "Mehmet Hoca ile Ali arasında Matematik tanışma dersi gerçekleşti (Tanışma Dersi — Matematik). Ders 57 dakika sürdü. rasyonel sayılar, denklemler, geometri, test/alıştırma, ders planı konuları işlendi. 157 gerçek soru tespit edildi.",
+      "evaluationOverview": "Tanışma dersi, 57 dakika (rasyonel sayılar, denklemler, geometri). Öğretmen konuşma oranı %6, Ali 723 tur aldı, 157 soru tespit edildi. Genel değerlendirme: 7.5/10 — İyi.",
+      "topStrength": "Matematik demo akışı somut ilerledi — transkriptte \"Sonra rasyonel sayılar var. Rasyonel sayılar Q'yla gösteriliyor. Bak Q harfi ile gösterili…\" gibi bölümlerde konu örnekle anlatıldı.",
+      "topWeakness": "Ali zorlandığı noktayı açıkça belirtti (\"eğer kesirli bir şey görürsen yapman gereken şey ne biliyor musun? İlk önce kesirden kurtu…\") — bir sonraki derste bu boşluk öncelikli kapatılmalı.",
+      "questionCount": 157,
+      "partCount": 23,
+      "topTopics": [
+        "rasyonel sayılar",
+        "denklemler",
+        "geometri",
+        "test/alıştırma"
+      ],
+      "topSections": [
+        "Merhaba, hocam. Merhaba, bir",
+        "Kök iki kök dışına çıkmaz.",
+        "Faktöriyel sıfır sıfırdı."
+      ]
+    },
+    {
+      "id": "wty-msyi-khr",
+      "meetCode": "wty-msyi-khr",
+      "title": "Tanışma Dersi — İnkılap Tarihi",
+      "subject": "İnkılap Tarihi ve Atatürkçülük",
+      "teacherName": "Mustafa Ardahan Dirlik",
+      "teacherTitle": "İnkılap Tarihi Öğretmeni",
+      "teacherAvatar": "https://images.ozelderz.com/hocalar/temp_p9m377_1775383413595.jpg",
+      "studentName": "Kayra Mete Özcan",
+      "duration": 3219.084,
+      "durationMin": 54,
+      "transcriptSource": "deepgram-nova-3",
+      "segmentCount": 814,
+      "wordCount": 5667,
+      "speakers": [
+        "SPEAKER_00",
+        "SPEAKER_01"
+      ],
+      "speakerSplit": {
+        "SPEAKER_00": 5164,
+        "SPEAKER_01": 503
+      },
+      "evaluationScore": 8.4,
+      "hasVideo": true,
+      "videoType": "stream",
+      "transcribedAt": "2026-07-25T05:15:18.517Z",
+      "r2Key": "lessons/wty-msyi-khr.mp4",
+      "summaryBrief": "Mustafa Hoca ile Kayra arasında İnkılap Tarihi ve Atatürkçülük tanışma dersi gerçekleşti (Tanışma Dersi — İnkılap Tarihi). Ders 54 dakika sürdü. İnkılap Tarihi, Atatürk, LGS, ünite planı, müfredat konuları işlendi. 135 gerçek soru tespit edildi.",
+      "evaluationOverview": "Tanışma dersi, 54 dakika (İnkılap Tarihi, Atatürk, LGS). Öğretmen konuşma oranı %91, Kayra 121 tur aldı, 135 soru tespit edildi. Genel değerlendirme: 8.4/10 — Çok iyi.",
+      "topStrength": "Ders planı ve iletişim net konuşuldu (5 kez plan/program vurgusu).",
+      "topWeakness": "Konuşma süresinin %91'i öğretmende — Kayra 121 tur aldı. Demo/konu derslerinde bile öğrenciyi daha fazla konuşturmak gerekir.",
+      "questionCount": 135,
+      "partCount": 18,
+      "topTopics": [
+        "İnkılap Tarihi",
+        "Atatürk",
+        "LGS",
+        "ünite planı"
+      ],
+      "topSections": [
+        "Merhaba sesim net geliyor değil mi?",
+        "Süper. Hangi takımlısın peki?",
+        "Şimdi donuk mu ekran?"
+      ]
+    },
+    {
+      "id": "cqi-brqh-evi",
+      "meetCode": "cqi-brqh-evi",
+      "title": "Demo Ders — Rasyonel Sayılar",
+      "subject": "Matematik",
+      "teacherName": "Ceren Nur Sarıkavak",
+      "teacherTitle": "Matematik Öğretmeni",
+      "teacherAvatar": "https://images.ozelderz.com/hocalar/temp_1iz4c6_1778957998222.jpg",
+      "studentName": "Nisa Kurtuldu",
+      "duration": 3450.24,
+      "durationMin": 58,
+      "transcriptSource": "deepgram-nova-3",
+      "segmentCount": 899,
+      "wordCount": 4879,
+      "speakers": [
+        "SPEAKER_00",
+        "SPEAKER_01"
+      ],
+      "speakerSplit": {
+        "SPEAKER_00": 3991,
+        "SPEAKER_01": 888
+      },
+      "evaluationScore": 7.9,
+      "hasVideo": true,
+      "videoType": "mp4",
+      "transcribedAt": "2026-07-25T05:14:42.058Z",
+      "r2Key": "lessons/cqi-brqh-evi.mp4",
+      "summaryBrief": "Ceren Hoca ile Nisa arasında Matematik demo ders gerçekleşti (Demo Ders — Rasyonel Sayılar). Ders 58 dakika sürdü. rasyonel sayılar, ondalık gösterim, denklemler, veri işleme, geometri konuları işlendi. 153 gerçek soru tespit edildi.",
+      "evaluationOverview": "Matematik demo dersi, 58 dakika (rasyonel sayılar, ondalık gösterim, denklemler). Öğretmen konuşma oranı %81, Nisa 232 tur aldı, 153 soru tespit edildi. Genel değerlendirme: 7.9/10 — İyi.",
+      "topStrength": "Matematik demo akışı somut ilerledi — transkriptte \"aramız nasıl ya da denklemlerle\" gibi bölümlerde konu örnekle anlatıldı.",
+      "topWeakness": "Konuşma süresinin %81'i öğretmende — Nisa 232 tur aldı. Demo/konu derslerinde bile öğrenciyi daha fazla konuşturmak gerekir.",
+      "questionCount": 153,
+      "partCount": 25,
+      "topTopics": [
+        "rasyonel sayılar",
+        "ondalık gösterim",
+        "denklemler",
+        "veri işleme"
+      ],
+      "topSections": [
+        "Tamam, üç dakikaya önce geleyim.",
+        "şöyle söyleyelim şimdi bir saniye.",
+        "o zaman şeylerden başlayalım mı? Devir ned…"
+      ]
+    }
+  ]
+}

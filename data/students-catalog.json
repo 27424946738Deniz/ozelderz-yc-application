@@ -1,0 +1,786 @@
+{
+  "version": 1,
+  "generatedAt": "2026-07-27T13:20:50.747Z",
+  "students": [
+    {
+      "id": "student-syf-qkqp-qms",
+      "lessonId": "syf-qkqp-qms",
+      "name": "Ahmet Pekşen",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Ahmet%20Pek%C5%9Fen",
+      "grade": "8. Sınıf",
+      "school": "Ortaokul",
+      "comprehensionScore": 55,
+      "lessonsSummary": {
+        "subjects": [
+          "Matematik"
+        ],
+        "lastLessonTitle": "Ders — Geometri"
+      }
+    },
+    {
+      "id": "student-tgf-jcpj-bjx",
+      "lessonId": "tgf-jcpj-bjx",
+      "name": "Ali Çelik",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Ali%20%C3%87elik",
+      "grade": "7. Sınıf",
+      "school": "Ortaokul",
+      "comprehensionScore": 92,
+      "lessonsSummary": {
+        "subjects": [
+          "Matematik"
+        ],
+        "lastLessonTitle": "Ders — Ondalık gösterim"
+      }
+    },
+    {
+      "id": "student-bao-wvxv-ksx",
+      "lessonId": "bao-wvxv-ksx",
+      "name": "Ali Kayra Karataş",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Ali%20Kayra%20Karata%C5%9F",
+      "grade": "8. Sınıf",
+      "school": "Ortaokul",
+      "comprehensionScore": 92,
+      "lessonsSummary": {
+        "subjects": [
+          "Matematik"
+        ],
+        "lastLessonTitle": "Tanışma Dersi — Matematik"
+      }
+    },
+    {
+      "id": "student-yjx-zhms-nws",
+      "lessonId": "yjx-zhms-nws",
+      "name": "Ali Rıza Bolat",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Ali%20R%C4%B1za%20Bolat",
+      "grade": "7. Sınıf",
+      "school": "kelime okuyorum",
+      "comprehensionScore": 92,
+      "lessonsSummary": {
+        "subjects": [
+          "Matematik"
+        ],
+        "lastLessonTitle": "Ders — Geometri"
+      }
+    },
+    {
+      "id": "student-qag-zsdi-idx",
+      "lessonId": "qag-zsdi-idx",
+      "name": "Ali Yiğit Mutlu",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Ali%20Yi%C4%9Fit%20Mutlu",
+      "grade": "8. Sınıf",
+      "school": "şu anda ortaokuldan",
+      "comprehensionScore": 92,
+      "lessonsSummary": {
+        "subjects": [
+          "Matematik"
+        ],
+        "lastLessonTitle": "Tanışma Dersi — Matematik"
+      }
+    },
+    {
+      "id": "student-hin-dqah-qpb",
+      "lessonId": "hin-dqah-qpb",
+      "name": "Arşin Yakut",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Ar%C5%9Fin%20Yakut",
+      "grade": "8. Sınıf",
+      "school": "Ortaokul",
+      "comprehensionScore": 50,
+      "lessonsSummary": {
+        "subjects": [
+          "Matematik"
+        ],
+        "lastLessonTitle": "Tanışma Dersi — Matematik"
+      }
+    },
+    {
+      "id": "student-msa-sgqe-bqq",
+      "lessonId": "msa-sgqe-bqq",
+      "name": "Aysu Ela Erzincanlı",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Aysu%20Ela%20Erzincanl%C4%B1",
+      "grade": "8. Sınıf",
+      "school": "Ortaokul",
+      "comprehensionScore": 82,
+      "lessonsSummary": {
+        "subjects": [
+          "Matematik"
+        ],
+        "lastLessonTitle": "Tanışma Dersi — Matematik"
+      }
+    },
+    {
+      "id": "student-iaw-bhar-hai",
+      "lessonId": "iaw-bhar-hai",
+      "name": "Azra Ulukuş",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Azra%20Uluku%C5%9F",
+      "grade": "8. Sınıf",
+      "school": "Ortaokul",
+      "comprehensionScore": 92,
+      "lessonsSummary": {
+        "subjects": [
+          "Matematik"
+        ],
+        "lastLessonTitle": "Tanışma Dersi — Matematik"
+      }
+    },
+    {
+      "id": "student-hph-xevo-ggx",
+      "lessonId": "hph-xevo-ggx",
+      "name": "Bahar Çelik",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Bahar%20%C3%87elik",
+      "grade": "8. Sınıf",
+      "school": "Ortaokul",
+      "comprehensionScore": 68,
+      "lessonsSummary": {
+        "subjects": [
+          "Matematik"
+        ],
+        "lastLessonTitle": "Tanışma Dersi — Matematik"
+      }
+    },
+    {
+      "id": "student-qhn-xpvo-jbv",
+      "lessonId": "qhn-xpvo-jbv",
+      "name": "Beren Ulusan",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Beren%20Ulusan",
+      "grade": "8. Sınıf",
+      "school": "Zafer Sarıyer Ortaokulu",
+      "comprehensionScore": 85,
+      "lessonsSummary": {
+        "subjects": [
+          "Matematik"
+        ],
+        "lastLessonTitle": "Tanışma Dersi — Matematik"
+      }
+    },
+    {
+      "id": "student-piy-jwcr-kiw",
+      "lessonId": "piy-jwcr-kiw",
+      "name": "Ceren Şule",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Ceren%20%C5%9Eule",
+      "grade": "8. Sınıf",
+      "school": "Ortaokul",
+      "comprehensionScore": 92,
+      "lessonsSummary": {
+        "subjects": [
+          "Matematik"
+        ],
+        "lastLessonTitle": "Tanışma Dersi — Matematik"
+      }
+    },
+    {
+      "id": "student-tnt-boyu-kvh",
+      "lessonId": "tnt-boyu-kvh",
+      "name": "Çınar Ege",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=%C3%87%C4%B1nar%20Ege",
+      "grade": "7. Sınıf",
+      "school": "Ortaokul",
+      "comprehensionScore": 92,
+      "lessonsSummary": {
+        "subjects": [
+          "Matematik"
+        ],
+        "lastLessonTitle": "Demo Ders — Ondalık gösterim"
+      }
+    },
+    {
+      "id": "student-mzf-bsim-ksc",
+      "lessonId": "mzf-bsim-ksc",
+      "name": "Çınar Özer",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=%C3%87%C4%B1nar%20%C3%96zer",
+      "grade": "7. Sınıf",
+      "school": "Torunoglu Ortaokulu",
+      "comprehensionScore": 92,
+      "lessonsSummary": {
+        "subjects": [
+          "Türkçe"
+        ],
+        "lastLessonTitle": "Tanışma Dersi — Türkçe"
+      }
+    },
+    {
+      "id": "student-jom-dknn-fdq",
+      "lessonId": "jom-dknn-fdq",
+      "name": "Duru Yurdumetin",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Duru%20Yurdumetin",
+      "grade": "8. Sınıf",
+      "school": "okuyorum.",
+      "comprehensionScore": 92,
+      "lessonsSummary": {
+        "subjects": [
+          "Matematik"
+        ],
+        "lastLessonTitle": "Tanışma Dersi — Matematik"
+      }
+    },
+    {
+      "id": "student-sug-pifs-fyu",
+      "lessonId": "sug-pifs-fyu",
+      "name": "Ebru Gülçelik",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Ebru%20G%C3%BCl%C3%A7elik",
+      "grade": "7. Sınıf",
+      "school": "Çok sevdim, onu okuyorum şimdiden.",
+      "comprehensionScore": 92,
+      "lessonsSummary": {
+        "subjects": [
+          "Matematik"
+        ],
+        "lastLessonTitle": "Tanışma Dersi — Matematik"
+      }
+    },
+    {
+      "id": "student-mvr-ytpo-svh",
+      "lessonId": "mvr-ytpo-svh",
+      "name": "Ecesu Öztürk",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Ecesu%20%C3%96zt%C3%BCrk",
+      "grade": "8. Sınıf",
+      "school": "Chedbatuhan",
+      "comprehensionScore": 92,
+      "lessonsSummary": {
+        "subjects": [
+          "Matematik"
+        ],
+        "lastLessonTitle": "Tanışma Dersi — Matematik"
+      }
+    },
+    {
+      "id": "student-twa-mvgw-acq",
+      "lessonId": "twa-mvgw-acq",
+      "name": "Efe Yarar",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Efe%20Yarar",
+      "grade": "8. Sınıf",
+      "school": "ortaokullar için, tamam mı, yalan söylemeyeyim.",
+      "comprehensionScore": 92,
+      "lessonsSummary": {
+        "subjects": [
+          "Matematik"
+        ],
+        "lastLessonTitle": "Ders — Geometri"
+      }
+    },
+    {
+      "id": "student-jqs-amqe-wiq",
+      "lessonId": "jqs-amqe-wiq",
+      "name": "Ela Ayvalı",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Ela%20Ayval%C4%B1",
+      "grade": "8. Sınıf",
+      "school": "Ortaokul",
+      "comprehensionScore": 67,
+      "lessonsSummary": {
+        "subjects": [
+          "Matematik"
+        ],
+        "lastLessonTitle": "Tanışma Dersi — Matematik"
+      }
+    },
+    {
+      "id": "student-owt-bvqr-uee",
+      "lessonId": "owt-bvqr-uee",
+      "name": "Elif Selçuk",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Elif%20Sel%C3%A7uk",
+      "grade": "8. Sınıf",
+      "school": "Ortaokul",
+      "comprehensionScore": 92,
+      "lessonsSummary": {
+        "subjects": [
+          "Matematik"
+        ],
+        "lastLessonTitle": "Tanışma Dersi — Matematik"
+      }
+    },
+    {
+      "id": "student-ymz-nxyc-xch",
+      "lessonId": "ymz-nxyc-xch",
+      "name": "Elif Selçuk",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Elif%20Sel%C3%A7uk",
+      "grade": "8. Sınıf",
+      "school": "Ortaokul",
+      "comprehensionScore": 92,
+      "lessonsSummary": {
+        "subjects": [
+          "Matematik"
+        ],
+        "lastLessonTitle": "Tanışma Dersi — Matematik"
+      }
+    },
+    {
+      "id": "student-eks-qgow-why",
+      "lessonId": "eks-qgow-why",
+      "name": "Emine Gül İkbal",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Emine%20G%C3%BCl%20%C4%B0kbal",
+      "grade": "8. Sınıf",
+      "school": "Ortaokul",
+      "comprehensionScore": 70,
+      "lessonsSummary": {
+        "subjects": [
+          "Matematik"
+        ],
+        "lastLessonTitle": "Tanışma Dersi — Matematik"
+      }
+    },
+    {
+      "id": "student-dve-naye-uxc",
+      "lessonId": "dve-naye-uxc",
+      "name": "Eslem Bekret",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Eslem%20Bekret",
+      "grade": "8. Sınıf",
+      "school": "Ortaokul",
+      "comprehensionScore": 50,
+      "lessonsSummary": {
+        "subjects": [
+          "Matematik"
+        ],
+        "lastLessonTitle": "Ders — Problemler"
+      }
+    },
+    {
+      "id": "student-nsw-kfoj-mef",
+      "lessonId": "nsw-kfoj-mef",
+      "name": "Eslem Bekret",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Eslem%20Bekret",
+      "grade": "8. Sınıf",
+      "school": "Torunoglu Ortaokulu",
+      "comprehensionScore": 92,
+      "lessonsSummary": {
+        "subjects": [
+          "Türkçe"
+        ],
+        "lastLessonTitle": "Tanışma Dersi — Türkçe"
+      }
+    },
+    {
+      "id": "student-zra-bhzx-krk",
+      "lessonId": "zra-bhzx-krk",
+      "name": "Fatma Zehra Güneş",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Fatma%20Zehra%20G%C3%BCne%C5%9F",
+      "grade": "8. Sınıf",
+      "school": "Tamam. Artık birazcık daha fazla... Okuyorum.",
+      "comprehensionScore": 92,
+      "lessonsSummary": {
+        "subjects": [
+          "Matematik"
+        ],
+        "lastLessonTitle": "Tanışma Dersi — Matematik"
+      }
+    },
+    {
+      "id": "student-nha-qhny-snz",
+      "lessonId": "nha-qhny-snz",
+      "name": "Hazal Berra Sancak",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Hazal%20Berra%20Sancak",
+      "grade": "8. Sınıf",
+      "school": "Akçaabathane Lisesi",
+      "comprehensionScore": 92,
+      "lessonsSummary": {
+        "subjects": [
+          "Fen Bilimleri"
+        ],
+        "lastLessonTitle": "Tanışma Dersi — Fen"
+      }
+    },
+    {
+      "id": "student-ckn-yurm-vyd",
+      "lessonId": "ckn-yurm-vyd",
+      "name": "Hiranur Ayşe Kaya",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Hiranur%20Ay%C5%9Fe%20Kaya",
+      "grade": "8. Sınıf",
+      "school": "ilçesinde oturuyoruz İsrail diye. Oradaki pen lisesi var. Or",
+      "comprehensionScore": 92,
+      "lessonsSummary": {
+        "subjects": [
+          "Matematik"
+        ],
+        "lastLessonTitle": "Ders — Ondalık gösterim"
+      }
+    },
+    {
+      "id": "student-waa-zfkt-ati",
+      "lessonId": "waa-zfkt-ati",
+      "name": "Hiranur Sarsık",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Hiranur%20Sars%C4%B1k",
+      "grade": "8. Sınıf",
+      "school": "Ortaokul",
+      "comprehensionScore": 77,
+      "lessonsSummary": {
+        "subjects": [
+          "Matematik"
+        ],
+        "lastLessonTitle": "Tanışma Dersi — Matematik"
+      }
+    },
+    {
+      "id": "student-tjn-etkj-qyo",
+      "lessonId": "tjn-etkj-qyo",
+      "name": "Irmak Kürkçü",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Irmak%20K%C3%BCrk%C3%A7%C3%BC",
+      "grade": "8. Sınıf",
+      "school": "Ortaokul",
+      "comprehensionScore": 59,
+      "lessonsSummary": {
+        "subjects": [
+          "Matematik"
+        ],
+        "lastLessonTitle": "Tanışma Dersi — Matematik"
+      }
+    },
+    {
+      "id": "student-xzd-txvf-rme",
+      "lessonId": "xzd-txvf-rme",
+      "name": "İkra Bilim",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=%C4%B0kra%20Bilim",
+      "grade": "8. Sınıf",
+      "school": "Dediğim gibi, Ceren hoca ben, matematik öğretmeniyim, özelli",
+      "comprehensionScore": 92,
+      "lessonsSummary": {
+        "subjects": [
+          "Matematik"
+        ],
+        "lastLessonTitle": "Demo Ders — Ondalık gösterim"
+      }
+    },
+    {
+      "id": "student-cev-xgmd-fjw",
+      "lessonId": "cev-xgmd-fjw",
+      "name": "İlke İlke",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=%C4%B0lke%20%C4%B0lke",
+      "grade": "8. Sınıf",
+      "school": "Ortaokul",
+      "comprehensionScore": 92,
+      "lessonsSummary": {
+        "subjects": [
+          "Matematik"
+        ],
+        "lastLessonTitle": "Ders — Rasyonel sayılar"
+      }
+    },
+    {
+      "id": "student-wty-msyi-khr",
+      "lessonId": "wty-msyi-khr",
+      "name": "Kayra Mete Özcan",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Kayra%20Mete%20%C3%96zcan",
+      "grade": "8. Sınıf",
+      "school": "Mete Özyön Torunoğlu Ortaokulu",
+      "comprehensionScore": 92,
+      "lessonsSummary": {
+        "subjects": [
+          "İnkılap Tarihi ve Atatürkçülük"
+        ],
+        "lastLessonTitle": "Tanışma Dersi — İnkılap Tarihi"
+      }
+    },
+    {
+      "id": "student-juu-zreb-ryf",
+      "lessonId": "juu-zreb-ryf",
+      "name": "Kerem Cihaner",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Kerem%20Cihaner",
+      "grade": "8. Sınıf",
+      "school": "Ortaokul",
+      "comprehensionScore": 84,
+      "lessonsSummary": {
+        "subjects": [
+          "Matematik"
+        ],
+        "lastLessonTitle": "Ders — Test/alıştırma"
+      }
+    },
+    {
+      "id": "student-teo-hopq-atx",
+      "lessonId": "teo-hopq-atx",
+      "name": "Kuzey Kara",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Kuzey%20Kara",
+      "grade": "8. Sınıf",
+      "school": "Evet, okuyorum.",
+      "comprehensionScore": 74,
+      "lessonsSummary": {
+        "subjects": [
+          "Matematik"
+        ],
+        "lastLessonTitle": "Tanışma Dersi — Matematik"
+      }
+    },
+    {
+      "id": "student-jbv-mdzq-cpp",
+      "lessonId": "jbv-mdzq-cpp",
+      "name": "Mert Eymen Deniz",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Mert%20Eymen%20Deniz",
+      "grade": "8. Sınıf",
+      "school": "Ortaokul",
+      "comprehensionScore": 92,
+      "lessonsSummary": {
+        "subjects": [
+          "Matematik"
+        ],
+        "lastLessonTitle": "Ders — Geometri"
+      }
+    },
+    {
+      "id": "student-mmw-ctqj-jrf",
+      "lessonId": "mmw-ctqj-jrf",
+      "name": "Mete Kenan Çalış",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Mete%20Kenan%20%C3%87al%C4%B1%C5%9F",
+      "grade": "8. Sınıf",
+      "school": "Evet hocam ya kitap okuyorum da artık paragraf daha çok.",
+      "comprehensionScore": 92,
+      "lessonsSummary": {
+        "subjects": [
+          "Türkçe"
+        ],
+        "lastLessonTitle": "Tanışma Dersi — Türkçe"
+      }
+    },
+    {
+      "id": "student-viz-bham-jvo",
+      "lessonId": "viz-bham-jvo",
+      "name": "Miraç Çelik",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Mira%C3%A7%20%C3%87elik",
+      "grade": "8. Sınıf",
+      "school": "Ortaokul",
+      "comprehensionScore": 92,
+      "lessonsSummary": {
+        "subjects": [
+          "Matematik"
+        ],
+        "lastLessonTitle": "Ders — Geometri"
+      }
+    },
+    {
+      "id": "student-bji-jxik-vzq",
+      "lessonId": "bji-jxik-vzq",
+      "name": "Muhammed Bingöl",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Muhammed%20Bing%C3%B6l",
+      "grade": "8. Sınıf",
+      "school": "O kadar kalkıp oraya git buraya git o ödevi bir saat sürer. ",
+      "comprehensionScore": 92,
+      "lessonsSummary": {
+        "subjects": [
+          "Matematik"
+        ],
+        "lastLessonTitle": "Tanışma Dersi — Matematik"
+      }
+    },
+    {
+      "id": "student-xtv-upso-wve",
+      "lessonId": "xtv-upso-wve",
+      "name": "Muhammed Bulutoğlu",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Muhammed%20Buluto%C4%9Flu",
+      "grade": "7. Sınıf",
+      "school": "Ortaokul",
+      "comprehensionScore": 50,
+      "lessonsSummary": {
+        "subjects": [
+          "Matematik"
+        ],
+        "lastLessonTitle": "Ders — Denklemler"
+      }
+    },
+    {
+      "id": "student-jhx-xgqp-uis",
+      "lessonId": "jhx-xgqp-uis",
+      "name": "Muhammed Mir Eren",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Muhammed%20Mir%20Eren",
+      "grade": "8. Sınıf",
+      "school": "Ortaokul",
+      "comprehensionScore": 92,
+      "lessonsSummary": {
+        "subjects": [
+          "Matematik"
+        ],
+        "lastLessonTitle": "Ders — Geometri"
+      }
+    },
+    {
+      "id": "student-dpj-rpde-pft",
+      "lessonId": "dpj-rpde-pft",
+      "name": "Muhammed Miraç Günay",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Muhammed%20Mira%C3%A7%20G%C3%BCnay",
+      "grade": "8. Sınıf",
+      "school": "Ortaokul",
+      "comprehensionScore": 92,
+      "lessonsSummary": {
+        "subjects": [
+          "Matematik"
+        ],
+        "lastLessonTitle": "Tanışma Dersi — Matematik"
+      }
+    },
+    {
+      "id": "student-cup-ebmb-nwm",
+      "lessonId": "cup-ebmb-nwm",
+      "name": "Muhammed Said Kayalı",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Muhammed%20Said%20Kayal%C4%B1",
+      "grade": "8. Sınıf",
+      "school": "Ortaokul",
+      "comprehensionScore": 67,
+      "lessonsSummary": {
+        "subjects": [
+          "Matematik"
+        ],
+        "lastLessonTitle": "Tanışma Dersi — Matematik"
+      }
+    },
+    {
+      "id": "student-jwu-bgia-udu",
+      "lessonId": "jwu-bgia-udu",
+      "name": "Musa Çağan Taş",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Musa%20%C3%87a%C4%9Fan%20Ta%C5%9F",
+      "grade": "8. Sınıf",
+      "school": "Ortaokul",
+      "comprehensionScore": 92,
+      "lessonsSummary": {
+        "subjects": [
+          "Matematik"
+        ],
+        "lastLessonTitle": "Ders — Geometri"
+      }
+    },
+    {
+      "id": "student-cqi-brqh-evi",
+      "lessonId": "cqi-brqh-evi",
+      "name": "Nisa Kurtuldu",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Nisa%20Kurtuldu",
+      "grade": "8. Sınıf",
+      "school": "Ortaokul",
+      "comprehensionScore": 92,
+      "lessonsSummary": {
+        "subjects": [
+          "Matematik"
+        ],
+        "lastLessonTitle": "Demo Ders — Rasyonel Sayılar"
+      }
+    },
+    {
+      "id": "student-kza-ypin-hfx",
+      "lessonId": "kza-ypin-hfx",
+      "name": "Öğrenci (kza-ypin-hfx)",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=%C3%96%C4%9Frenci%20(kza-ypin-hfx)",
+      "grade": "8. Sınıf",
+      "school": "Tamam. Devlet üniversitesi düşünmüyor musun? Pardon devlet l",
+      "comprehensionScore": 92,
+      "lessonsSummary": {
+        "subjects": [
+          "Ders kaydı"
+        ],
+        "lastLessonTitle": "Ders — LGS"
+      }
+    },
+    {
+      "id": "student-xmz-affg-ibt",
+      "lessonId": "xmz-affg-ibt",
+      "name": "Toprak Celik",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Toprak%20Celik",
+      "grade": "8. Sınıf",
+      "school": "Ortaokul",
+      "comprehensionScore": 89,
+      "lessonsSummary": {
+        "subjects": [
+          "Matematik"
+        ],
+        "lastLessonTitle": "Ders — Rasyonel sayılar"
+      }
+    },
+    {
+      "id": "student-epj-hinw-dng",
+      "lessonId": "epj-hinw-dng",
+      "name": "Tuğkan Ayaroğlu",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Tu%C4%9Fkan%20Ayaro%C4%9Flu",
+      "grade": "8. Sınıf",
+      "school": "Ortaokul",
+      "comprehensionScore": 68,
+      "lessonsSummary": {
+        "subjects": [
+          "Matematik"
+        ],
+        "lastLessonTitle": "Tanışma Dersi — Matematik"
+      }
+    },
+    {
+      "id": "student-gvk-iyie-ood",
+      "lessonId": "gvk-iyie-ood",
+      "name": "Ulaş Karadoğan",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Ula%C5%9F%20Karado%C4%9Fan",
+      "grade": "8. Sınıf",
+      "school": "Torunoglu Ortaokulu",
+      "comprehensionScore": 92,
+      "lessonsSummary": {
+        "subjects": [
+          "Fen Bilimleri"
+        ],
+        "lastLessonTitle": "Ders — Müfredat"
+      }
+    },
+    {
+      "id": "student-jkd-azne-qjs",
+      "lessonId": "jkd-azne-qjs",
+      "name": "Yavuz Selim Birinci",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Yavuz%20Selim%20Birinci",
+      "grade": "8. Sınıf",
+      "school": "Torunoglu Ortaokulu",
+      "comprehensionScore": 92,
+      "lessonsSummary": {
+        "subjects": [
+          "Türkçe"
+        ],
+        "lastLessonTitle": "Tanışma Dersi — Türkçe"
+      }
+    },
+    {
+      "id": "student-tpk-tohs-mif",
+      "lessonId": "tpk-tohs-mif",
+      "name": "Yusuf Salih Elmas",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Yusuf%20Salih%20Elmas",
+      "grade": "8. Sınıf",
+      "school": "Ortaokul",
+      "comprehensionScore": 50,
+      "lessonsSummary": {
+        "subjects": [
+          "Matematik"
+        ],
+        "lastLessonTitle": "Tanışma Dersi — Matematik"
+      }
+    },
+    {
+      "id": "student-iga-bbew-mbw",
+      "lessonId": "iga-bbew-mbw",
+      "name": "Zeynep Başoğul",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Zeynep%20Ba%C5%9Fo%C4%9Ful",
+      "grade": "8. Sınıf",
+      "school": "olarak mı yoksa LGS'de lise olarak mı? LGS'de olarak ünivers",
+      "comprehensionScore": 92,
+      "lessonsSummary": {
+        "subjects": [
+          "Matematik"
+        ],
+        "lastLessonTitle": "Ders — Denklemler"
+      }
+    },
+    {
+      "id": "student-nwo-hbkh-hpq",
+      "lessonId": "nwo-hbkh-hpq",
+      "name": "Zeynep Biber",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Zeynep%20Biber",
+      "grade": "8. Sınıf",
+      "school": "Ortaokul",
+      "comprehensionScore": 92,
+      "lessonsSummary": {
+        "subjects": [
+          "Matematik"
+        ],
+        "lastLessonTitle": "Ders — Denklemler"
+      }
+    },
+    {
+      "id": "student-dkk-jbjc-uvf",
+      "lessonId": "dkk-jbjc-uvf",
+      "name": "Zeynep Sude Mercanlı",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Zeynep%20Sude%20Mercanl%C4%B1",
+      "grade": "8. Sınıf",
+      "school": "Yani aslında ortaokulu",
+      "comprehensionScore": 92,
+      "lessonsSummary": {
+        "subjects": [
+          "Matematik"
+        ],
+        "lastLessonTitle": "Tanışma Dersi — Matematik"
+      }
+    }
+  ]
+}

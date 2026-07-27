@@ -1,25 +1,18 @@
 import { NextRequest, NextResponse } from "next/server";
+import { buildLessonById, buildLessonFromTranscript, loadTranscript } from "@/lib/build-lesson-from-transcript";
+import { buildLessonsCatalog } from "@/lib/build-lessons-catalog";
+import { getLessonsCatalog } from "@/lib/lessons-catalog-store";
 import {
-  buildLessonById,
-  buildLessonFromTranscript,
-  loadTranscript,
-} from "@/lib/build-lesson-from-transcript";
-import { evaluateLesson } from "@/lib/lesson-evaluation";
-import { buildLessonPreview } from "@/lib/lesson-insights-builder";
-import { inferLessonContext } from "@/lib/lesson-context";
-import {
-  buildLessonCatalogItem,
-  discoverLessonMetas,
   getLessonMeta,
   loadLessonTranscript,
 } from "@/lib/lesson-registry";
 import { mockUser } from "@/lib/mock-data";
 import {
-  buildAllStudentProfiles,
   buildAllTeacherProfiles,
+  getStudentProfileById,
 } from "@/lib/profile-registry";
+import { getStudentsCatalog } from "@/lib/students-catalog-store";
 import { getRoadmap, listRoadmaps } from "@/lib/roadmap-registry";
-import { analyzeTranscript } from "@/lib/transcript-analytics";
 import {
   isValidCredentials,
   SESSION_COOKIE_NAME,
@@ -66,7 +59,7 @@ export async function handleApiRequest(
     }
 
     if (path === "students") {
-      return NextResponse.json(buildAllStudentProfiles());
+      return handleStudentsList();
     }
 
     if (path === "teachers") {
@@ -75,6 +68,11 @@ export async function handleApiRequest(
 
     if (path === "roadmap") {
       return NextResponse.json(listRoadmaps());
+    }
+
+    const studentMatch = path.match(/^students\/([^/]+)$/);
+    if (studentMatch) {
+      return handleStudentById(studentMatch[1]);
     }
 
     const lessonTranscriptMatch = path.match(/^lessons\/([^/]+)\/transcript$/);
@@ -139,35 +137,31 @@ async function handleLogin(request: NextRequest) {
 }
 
 function handleLessonsList() {
-  const lessons = discoverLessonMetas()
-    .map((meta) => {
-      const transcript = loadLessonTranscript(meta);
-      const context = inferLessonContext(transcript, meta);
-      const analysis = analyzeTranscript(transcript);
-      const evaluation = evaluateLesson(transcript, context.student, context);
-      const preview = buildLessonPreview(
-        context,
-        transcript,
-        evaluation,
-        analysis.partTitles,
-        analysis.parts
-      );
-      return buildLessonCatalogItem(
-        { ...meta, title: context.title, subject: context.subject },
-        transcript,
-        evaluation.score,
-        preview,
-        {
-          teacherName: context.teacher.name,
-          teacherTitle: context.teacher.title,
-          teacherAvatar: context.teacher.avatar,
-          studentName: context.student.name,
-        }
-      );
-    })
-    .sort((a, b) => (b.transcribedAt ?? "").localeCompare(a.transcribedAt ?? ""));
+  const cached = getLessonsCatalog();
+  if (cached) {
+    return NextResponse.json(cached);
+  }
 
-  return NextResponse.json(lessons);
+  console.warn("lessons-catalog.json missing — run npm run catalogs:generate");
+  return NextResponse.json(buildLessonsCatalog());
+}
+
+function handleStudentsList() {
+  const cached = getStudentsCatalog();
+  if (cached) {
+    return NextResponse.json(cached);
+  }
+
+  console.warn("students-catalog.json missing — run npm run catalogs:generate");
+  return NextResponse.json([]);
+}
+
+function handleStudentById(id: string) {
+  const student = getStudentProfileById(id);
+  if (!student) {
+    return NextResponse.json({ error: "Öğrenci bulunamadı" }, { status: 404 });
+  }
+  return NextResponse.json(student);
 }
 
 async function handleLessonById(id: string) {

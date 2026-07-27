@@ -136,6 +136,16 @@ export default function StudentProfileView({ student }: StudentProfileViewProps)
             </Panel>
           </div>
 
+          {student.motivationTriggers.length > 0 && (
+            <Panel title="Motivasyon tetikleyicileri">
+              <ul className="bullet-list stone">
+                {student.motivationTriggers.map((t) => (
+                  <li key={t}>{t}</li>
+                ))}
+              </ul>
+            </Panel>
+          )}
+
           <Panel title={`${firstName} ile çalışma önerileri`}>
             <ul className="bullet-list stone">
               {student.teachingTips.map((t) => (

@@ -17,7 +17,8 @@
     "guides:generate": "tsx scripts/generate-learning-guides.ts",
     "guides:understanding": "tsx scripts/generate-learning-guides.ts --understanding-only",
     "profiles:generate": "tsx scripts/generate-profiles.ts",
-    "roadmaps:generate": "tsx scripts/generate-roadmaps.ts"
+    "roadmaps:generate": "tsx scripts/generate-roadmaps.ts",
+    "catalogs:generate": "tsx scripts/generate-catalogs.ts"
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.1094.0",

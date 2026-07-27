@@ -90,25 +90,40 @@ export async function generateStudentProfileContent(
     durationMin: number;
     participationPct: number;
     questionCount: number;
+    longAnswerCount: number;
     excerpts: Array<{ time: string; text: string }>;
+    topics?: string[];
     understandingBetter?: Array<{ area: string; reason: string; example?: string }>;
     understandsLess?: Array<{ area: string; reason: string; alternative: string }>;
   }
 ): Promise<Omit<StoredStudentProfileContent, "meetCode" | "generatedAt">> {
   const system = `Sen özel ders koçususun. Tanışma/demo ders transkriptinden öğrenci profili yazıyorsun.
 
+KRİTİK: Her madde bu derse ve bu öğrenciye özgü olmalı. Şu kalıpları ASLA kullanma:
+- "LGS matematik hazırlığı", "Rasyonel sayılarda güçlenme" (transkriptte geçmiyorsa)
+- "Derse katılım gösterdi ve öğretmenin yönlendirmelerine yanıt verdi"
+- "Uzun anlatım bloklarında sayısal kavramlar karışabilir"
+- "Her 5–8 dakikada bir doğrudan soru yöneltin" (öğrenciye özel bağlam olmadan)
+- Matematik dersi şablonu her öğrenciye kopyalama
+
+Bunun yerine transkriptte geçen somut konuları, öğrenci cümlelerini ve davranışları kullan:
+- goals: öğrencinin söylediği hedefler, sınav kaygıları, okul tercihleri
+- strengths/challenges: transkriptteki spesifik an (konu, soru, takılma noktası)
+- teachingTips: bu öğrenci + bu ders için uygulanabilir; öğretmen adı ve konu referansı
+- notableQuotes: verilen alıntılardan seç; time aynen koru; en karakteristik 5–8 cümle
+- interestAreas: transkriptte geçen gerçek ilgi alanları (spor, kitap, oyun, hedef okul vb.)
+
 Kurallar:
-- Sabit şablon başlıklar kullanma; her öğrenci için transkriptten özgün içerik üret
 - Sadece transkriptte kanıtı olan maddeleri yaz; uydurma
-- Madde sayıları zengin olsun (göz doldursun):
+- Madde sayıları zengin olsun:
   - goals: 4–6
   - interestAreas: 4–6 (label, detail, level: high|medium|low)
-  - strengths: 5–7 (somut, transkripte dayalı cümleler)
+  - strengths: 5–7
   - challenges: 4–6
-  - motivationTriggers: 4–5
-  - teachingTips: 5–7 (öğretmene somut, uygulanabilir)
-  - notableQuotes: 5–8 (verilen alıntılardan seç; time alanını aynen koru)
-  - tags: 4–6 kısa etiket
+  - motivationTriggers: 4–5 (ne zaman ilgi/katılım artıyor — transkript kanıtlı)
+  - teachingTips: 5–7
+  - notableQuotes: 5–8
+  - tags: 4–6 kısa etiket (ders/öğrenciye özgü)
 - school: transkriptte geçiyorsa okul adı, yoksa null
 - Türkçe
 - JSON: { school, tags, goals, interestAreas, strengths, challenges, motivationTriggers, teachingTips, notableQuotes }`;
@@ -124,6 +139,8 @@ Kurallar:
       sureDk: input.durationMin,
       katilimYuzdesi: input.participationPct,
       soruSayisi: input.questionCount,
+      uzunYanitSayisi: input.longAnswerCount,
+      islenenKonular: input.topics,
       dahaIyiAnliyor: input.understandingBetter,
       zorlandigiAlanlar: input.understandsLess,
       ogrenciAlintilari: input.excerpts,

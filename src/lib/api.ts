@@ -1,6 +1,7 @@
 import type {
   LessonCatalogItem,
   LessonData,
+  StudentCatalogItem,
   StudentProfileDetail,
   TeacherProfileDetail,
   UserData,
@@ -35,9 +36,15 @@ export async function fetchUser(): Promise<UserData> {
   return res.json();
 }
 
-export async function fetchStudents(): Promise<StudentProfileDetail[]> {
+export async function fetchStudents(): Promise<StudentCatalogItem[]> {
   const res = await fetch("/api/students");
   if (!res.ok) throw new Error("Öğrenci verisi alınamadı");
+  return res.json();
+}
+
+export async function fetchStudentById(id: string): Promise<StudentProfileDetail> {
+  const res = await fetch(`/api/students/${encodeURIComponent(id)}`);
+  if (!res.ok) return parseApiError(res, "Öğrenci profili alınamadı");
   return res.json();
 }
 

@@ -3,7 +3,9 @@ import type { LessonContext } from "@/lib/lesson-context";
 import { detectLessonGaps } from "@/lib/lesson-gaps";
 import type { LessonMeta } from "@/lib/lesson-registry";
 import { buildLessonRoadmap } from "@/lib/roadmap-generator";
+import type { StoredStudentProfileContent } from "@/lib/profile-store";
 import { buildTranscriptDigest } from "@/lib/transcript-digest";
+import { selectStudentExcerpts } from "@/lib/understanding-insights";
 import type {
   LessonRoadmap,
   RoadmapCheckpoint,
@@ -22,6 +24,20 @@ function lessonTypeLabel(type: LessonContext["lessonType"]): string {
   if (type === "tanışma") return "Tanışma dersi";
   if (type === "konu") return "Konu dersi";
   return "Ders";
+}
+
+function asStringArray(value: unknown, fallback: string[] = []): string[] {
+  if (Array.isArray(value)) {
+    return value.map((item) => String(item).trim()).filter(Boolean);
+  }
+  if (typeof value === "string" && value.trim()) {
+    return [value.trim()];
+  }
+  return fallback;
+}
+
+function asString(value: unknown, fallback = ""): string {
+  return typeof value === "string" && value.trim() ? value.trim() : fallback;
 }
 
 function normalizeCheckpoint(
@@ -47,13 +63,13 @@ function normalizeCheckpoint(
   if (!pass || !fail) return base ?? null;
 
   return {
-    id: cp.id?.trim() || base?.id || `cp-${index + 1}`,
-    title: (cp.title ?? base?.title)!.trim(),
-    weekRange: cp.weekRange?.trim() || base?.weekRange || `Hafta ${index * 2 + 1}`,
+    id: asString(cp.id, base?.id || `cp-${index + 1}`),
+    title: asString(cp.title, base?.title || "Checkpoint"),
+    weekRange: asString(cp.weekRange, base?.weekRange || `Hafta ${index * 2 + 1}`),
     status: cp.status ?? base?.status ?? "core",
     transcriptContext: cp.transcriptContext?.trim() || base?.transcriptContext,
-    teacherFocus: (cp.teacherFocus ?? base?.teacherFocus ?? []).filter(Boolean).slice(0, 5),
-    studentTasks: (cp.studentTasks ?? base?.studentTasks ?? []).filter(Boolean).slice(0, 5),
+    teacherFocus: asStringArray(cp.teacherFocus, base?.teacherFocus ?? []).slice(0, 5),
+    studentTasks: asStringArray(cp.studentTasks, base?.studentTasks ?? []).slice(0, 5),
     homework: {
       title: cp.homework?.title?.trim() || base?.homework.title || "Haftalık ödev",
       description:
@@ -77,12 +93,14 @@ function normalizeCheckpoint(
         condition: pass.condition?.trim() || `≥${passScore}/${questionCount} doğru`,
         headline: pass.headline?.trim() || base?.outcomes.pass.headline || "Sonraki adıma geç",
         detail: pass.detail?.trim() || base?.outcomes.pass.detail || "",
-        teacherSteps: (pass.teacherSteps ?? base?.outcomes.pass.teacherSteps ?? [])
-          .filter(Boolean)
-          .slice(0, 4),
-        studentSteps: (pass.studentSteps ?? base?.outcomes.pass.studentSteps ?? [])
-          .filter(Boolean)
-          .slice(0, 4),
+        teacherSteps: asStringArray(
+          pass.teacherSteps,
+          base?.outcomes.pass.teacherSteps ?? []
+        ).slice(0, 4),
+        studentSteps: asStringArray(
+          pass.studentSteps,
+          base?.outcomes.pass.studentSteps ?? []
+        ).slice(0, 4),
         nextCheckpointId: pass.nextCheckpointId?.trim() || base?.outcomes.pass.nextCheckpointId,
         nextCheckpointTitle:
           pass.nextCheckpointTitle?.trim() || base?.outcomes.pass.nextCheckpointTitle,
@@ -95,20 +113,14 @@ function normalizeCheckpoint(
               `${partialScore}–${passScore - 1}/${questionCount} doğru`,
             headline: partial.headline?.trim() || base?.outcomes.partial?.headline || "",
             detail: partial.detail?.trim() || base?.outcomes.partial?.detail || "",
-            teacherSteps: (
-              partial.teacherSteps ??
-              base?.outcomes.partial?.teacherSteps ??
-              []
-            )
-              .filter(Boolean)
-              .slice(0, 4),
-            studentSteps: (
-              partial.studentSteps ??
-              base?.outcomes.partial?.studentSteps ??
-              []
-            )
-              .filter(Boolean)
-              .slice(0, 4),
+            teacherSteps: asStringArray(
+              partial.teacherSteps,
+              base?.outcomes.partial?.teacherSteps ?? []
+            ).slice(0, 4),
+            studentSteps: asStringArray(
+              partial.studentSteps,
+              base?.outcomes.partial?.studentSteps ?? []
+            ).slice(0, 4),
             nextCheckpointId: partial.nextCheckpointId?.trim(),
             nextCheckpointTitle:
               partial.nextCheckpointTitle?.trim() ||
@@ -122,12 +134,14 @@ function normalizeCheckpoint(
           `<${partialScore}/${questionCount} doğru veya ödev yapılmadı`,
         headline: fail.headline?.trim() || base?.outcomes.fail.headline || "Geri dönüş yolu",
         detail: fail.detail?.trim() || base?.outcomes.fail.detail || "",
-        teacherSteps: (fail.teacherSteps ?? base?.outcomes.fail.teacherSteps ?? [])
-          .filter(Boolean)
-          .slice(0, 4),
-        studentSteps: (fail.studentSteps ?? base?.outcomes.fail.studentSteps ?? [])
-          .filter(Boolean)
-          .slice(0, 4),
+        teacherSteps: asStringArray(
+          fail.teacherSteps,
+          base?.outcomes.fail.teacherSteps ?? []
+        ).slice(0, 4),
+        studentSteps: asStringArray(
+          fail.studentSteps,
+          base?.outcomes.fail.studentSteps ?? []
+        ).slice(0, 4),
         nextCheckpointId: fail.nextCheckpointId?.trim(),
         nextCheckpointTitle:
           fail.nextCheckpointTitle?.trim() || base?.outcomes.fail.nextCheckpointTitle,
@@ -148,18 +162,33 @@ async function enrichPhase(
     gaps: ReturnType<typeof detectLessonGaps>;
     subject: string;
     lessonType: string;
+    studentExcerpts: Array<{ time: string; text: string }>;
+    profile?: StoredStudentProfileContent | null;
   }
 ): Promise<RoadmapPhase> {
-  const system = `Sen özel ders koçususun. Verilen checkpoint iskeletini transkripte dayalı BENZERSİZ içerikle dolduruyorsun.
+  const system = `Sen özel ders koçusun. Verilen checkpoint iskeletini transkripte dayalı BENZERSİZ içerikle dolduruyorsun.
+
+KRİTİK: Her checkpoint bu derse ve bu öğrenciye özgü olmalı. Şu kalıpları ASLA kullanma:
+- "Haftada 20 X sorusu", "5 örnek çözümü deftere adım adım yaz" (konuya özel bağlam olmadan)
+- "→ Sonraki faz", "→ Temel tekrar döngüsü" (somut konu adı olmadan)
+- "15 dk birebir: 5 kolay + 5 orta soru" (her checkpoint'te aynı)
+- "LGS karışık deneme" (transkriptte geçmeyen konular için)
+- Matematik şablonunu tarih öğrencisine veya tersine kopyalama
+
+Bunun yerine:
+- homework.title/description: transkriptteki gerçek konu, kaynak, takılma noktası
+- test.label/description: işlenen konuya özel soru tipi
+- teacherFocus/studentTasks: öğrencinin adı + transkriptteki spesifik davranış
+- outcomes.pass/partial/fail: üç dal da dolu; condition somut (≥8/12 doğru)
+- headline/detail: bir sonraki checkpoint'in gerçek başlığına referans
+- transcriptContext: hangi transkript sinyaline dayandığını 1 cümle yaz
+- temperamentNote: öğrencinin bu dersteki profiline özel
 
 Kurallar:
-- Her checkpoint için özgün ödev, test ve what-if dalları yaz — şablon tekrarı yok
-- outcomes.pass, outcomes.partial, outcomes.fail üç dalı da doldur
-- condition somut: "≥8/12 doğru" veya "Ödev yapılmadı"
-- transcriptContext: transkriptteki hangi sinyale dayandığını 1 cümle yaz
+- checkpoint id'lerini değiştirme
 - Sadece verilen transkript sinyallerini kullan; uydurma
 - Türkçe
-- JSON: { "checkpoints": [ ...aynı id'lerle... ] }`;
+- JSON: { "label"?: string, "goal"?: string, "checkpoints": [ ...aynı id'lerle... ] }`;
 
   const user = JSON.stringify(
     {
@@ -169,7 +198,14 @@ Kurallar:
       dersTipi: input.lessonType,
       ogrenciIlkIsim: input.fn,
       transkriptOzet: input.digest,
-      eksiklikler: input.gaps.map((g) => g.title),
+      eksiklikler: input.gaps.map((g) => ({
+        baslik: g.title,
+        gozlem: g.observation,
+      })),
+      profilHedefleri: input.profile?.goals?.slice(0, 5),
+      profilZorluklari: input.profile?.challenges?.slice(0, 4),
+      profilGucluYonler: input.profile?.strengths?.slice(0, 4),
+      ogrenciAlintilari: input.studentExcerpts.slice(0, 40),
       checkpointIskeleti: phase.checkpoints.map((cp) => ({
         id: cp.id,
         title: cp.title,
@@ -196,6 +232,8 @@ Kurallar:
   if (!raw) return phase;
 
   const parsed = JSON.parse(raw) as {
+    label?: string;
+    goal?: string;
     checkpoints?: Partial<RoadmapCheckpoint>[];
   };
 
@@ -210,6 +248,8 @@ Kurallar:
   return {
     ...phase,
     id: phase.id || `phase-${phaseIndex + 1}`,
+    label: parsed.label?.trim() || phase.label,
+    goal: parsed.goal?.trim() || phase.goal,
     checkpoints: enriched.length > 0 ? enriched : phase.checkpoints,
   };
 }
@@ -218,7 +258,8 @@ export async function generateLessonRoadmapWithAI(
   openai: OpenAI,
   meta: LessonMeta,
   transcript: TranscriptData,
-  context: LessonContext
+  context: LessonContext,
+  input?: { profile?: StoredStudentProfileContent | null }
 ): Promise<LessonRoadmap> {
   const base = buildLessonRoadmap(meta, transcript, context);
   const digest = buildTranscriptDigest(transcript, {
@@ -237,9 +278,17 @@ export async function generateLessonRoadmapWithAI(
   }).slice(0, 6);
 
   const fn = firstName(context.student.name);
+  const studentExcerpts = selectStudentExcerpts(transcript);
+  const profile = input?.profile ?? null;
 
-  const system = `Sen özel ders koçususun. Tanışma/demo ders transkriptinden öğrenci profili çıkarımları yazıyorsun.
-Kurallar: transkripte dayalı, özgün, Türkçe. JSON: { introLessonInsights: string[], temperamentSignals: string[] }`;
+  const system = `Sen özel ders koçususun. Tanışma/demo ders transkriptinden yol haritası giriş çıkarımları yazıyorsun.
+
+KRİTİK: Her madde bu derse özgü olmalı. Şablon cümleler kullanma.
+- introLessonInsights: 4–6 cümle; transkriptteki somut konu, katılım, hedef, takılma noktası
+- temperamentSignals: 3–5 madde; öğrencinin bu dersteki iletişim tarzı (soru sayısı, kısa/uzun yanıt, kaygı, ilgi alanı)
+
+Sadece transkriptte kanıtı olan maddeler; uydurma yok. Türkçe.
+JSON: { introLessonInsights: string[], temperamentSignals: string[] }`;
 
   const metaResponse = await openai.chat.completions.create({
     model: MODEL,
@@ -252,9 +301,16 @@ Kurallar: transkripte dayalı, özgün, Türkçe. JSON: { introLessonInsights: s
         content: JSON.stringify(
           {
             ogrenci: context.student.name,
+            ogretmen: context.teacher.name,
             brans: context.subject,
+            ders: context.title,
             transkriptOzet: digest,
-            eksiklikler: gaps.map((g) => g.title),
+            eksiklikler: gaps.map((g) => ({
+              baslik: g.title,
+              gozlem: g.observation,
+            })),
+            profilHedefleri: profile?.goals?.slice(0, 5),
+            ogrenciAlintilari: studentExcerpts.slice(0, 25),
           },
           null,
           2
@@ -280,6 +336,8 @@ Kurallar: transkripte dayalı, özgün, Türkçe. JSON: { introLessonInsights: s
         gaps,
         subject: context.subject,
         lessonType: lessonTypeLabel(context.lessonType),
+        studentExcerpts,
+        profile,
       })
     );
   }
@@ -287,13 +345,13 @@ Kurallar: transkripte dayalı, özgün, Türkçe. JSON: { introLessonInsights: s
   return {
     ...base,
     introLessonInsights:
-      metaParsed.introLessonInsights?.filter(Boolean).slice(0, 6) ??
-      base.introLessonInsights,
+      asStringArray(metaParsed.introLessonInsights, base.introLessonInsights).slice(0, 6),
     student: {
       ...base.student,
-      temperamentSignals:
-        metaParsed.temperamentSignals?.filter(Boolean).slice(0, 5) ??
-        base.student.temperamentSignals,
+      temperamentSignals: asStringArray(
+        metaParsed.temperamentSignals,
+        base.student.temperamentSignals
+      ).slice(0, 5),
     },
     phases,
     generatedFrom: `${lessonTypeLabel(context.lessonType)} — ${meta.id} transkripti (AI)`,

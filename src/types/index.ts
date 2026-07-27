@@ -73,6 +73,21 @@ export interface LearningStyleAnalysis {
   }>;
 }
 
+/** Lightweight row for /ogrenciler list (precomputed in data/students-catalog.json). */
+export interface StudentCatalogItem {
+  id: string;
+  lessonId: string;
+  name: string;
+  avatar: string;
+  grade: string;
+  school: string;
+  comprehensionScore: number;
+  lessonsSummary: {
+    subjects: string[];
+    lastLessonTitle: string;
+  };
+}
+
 export interface StudentProfileDetail extends StudentProfile {
   id: string;
   lessonId?: string;

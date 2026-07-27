@@ -9,6 +9,8 @@ const nextConfig: NextConfig = {
       "./data/profiles.json",
       "./data/learning-guides.json",
       "./data/lessons-manifest.json",
+      "./data/lessons-catalog.json",
+      "./data/students-catalog.json",
       "./data/transcript.json",
     ],
   },

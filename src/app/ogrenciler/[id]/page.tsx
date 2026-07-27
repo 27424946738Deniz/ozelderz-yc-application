@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useParams } from "next/navigation";
 import type { StudentProfileDetail } from "@/types";
-import { fetchStudents } from "@/lib/api";
+import { fetchStudentById } from "@/lib/api";
 import Header from "@/components/Header";
 import StudentProfileView from "@/components/StudentProfileView";
 
@@ -15,8 +15,9 @@ export default function StudentDetailPage() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetchStudents()
-      .then((students) => setStudent(students.find((s) => s.id === id) ?? null))
+    fetchStudentById(id)
+      .then(setStudent)
+      .catch(() => setStudent(null))
       .finally(() => setLoading(false));
   }, [id]);
 

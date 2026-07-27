@@ -1,8 +1,8 @@
 "use client";
 
+import { useEffect } from "react";
 import Link from "next/link";
 import {
-  ArrowDown,
   ArrowRight,
   ExternalLink,
   LayoutDashboard,
@@ -123,18 +123,18 @@ function LivePanelSection() {
 }
 
 export default function LandingPage() {
+  useEffect(() => {
+    if (window.location.hash !== "#live-panel") return;
+    const el = document.getElementById("live-panel");
+    if (!el) return;
+    requestAnimationFrame(() => {
+      el.scrollIntoView({ behavior: "smooth" });
+    });
+  }, []);
+
   return (
     <div className="min-h-screen bg-white">
       <Header />
-
-      <a
-        href="#live-panel"
-        className="sticky top-16 z-30 flex items-center justify-center gap-2 border-b border-red-700 bg-red-600 px-4 py-3 text-center text-sm font-semibold text-white shadow-md transition-colors hover:bg-red-700 sm:text-base"
-      >
-        <span className="uppercase tracking-wide">Also, there is more</span>
-        <span className="hidden opacity-90 sm:inline">— live admin panel with real financial data</span>
-        <ArrowDown size={16} className="animate-bounce" />
-      </a>
 
       <main className="mx-auto max-w-4xl px-4 py-10 sm:px-8 sm:py-12">
         <section className="relative overflow-hidden rounded-3xl border border-red-100 bg-gradient-to-br from-white via-red-50/40 to-white px-6 py-10 sm:px-10 sm:py-14">

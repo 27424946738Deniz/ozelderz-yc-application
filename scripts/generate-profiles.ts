@@ -128,6 +128,8 @@ async function processLesson(
             durationMin: Math.round(transcript.duration / 60),
             participationPct,
             questionCount,
+            longAnswerCount: studentLongTurns,
+            topics,
             excerpts: studentExcerpts,
             understandingBetter: understanding?.understandsBetter,
             understandsLess: understanding?.understandsLess,

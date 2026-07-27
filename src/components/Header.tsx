@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import LivePanelBanner from "@/components/LivePanelBanner";
 
 interface HeaderProps {
   activeNav?: "Dersler" | "Öğrenciler" | "Hocalar" | "Yol Haritası";
@@ -19,7 +20,8 @@ const navLinks: Array<{
 
 export default function Header({ activeNav }: HeaderProps) {
   return (
-    <header className="sticky top-0 z-40 flex h-16 shrink-0 items-center border-b border-red-100 bg-white px-4 shadow-sm shadow-red-950/[0.04] sm:px-6">
+    <div className="sticky top-0 z-40">
+      <header className="flex h-16 shrink-0 items-center border-b border-red-100 bg-white px-4 shadow-sm shadow-red-950/[0.04] sm:px-6">
       <div className="flex min-w-0 flex-1 items-center gap-5 sm:gap-8">
         <Link
           href="/"
@@ -71,6 +73,8 @@ export default function Header({ activeNav }: HeaderProps) {
         </nav>
       </div>
       <div className="w-[9.5rem] shrink-0" aria-hidden />
-    </header>
+      </header>
+      <LivePanelBanner />
+    </div>
   );
 }
