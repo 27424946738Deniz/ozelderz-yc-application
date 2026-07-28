@@ -12,6 +12,11 @@ export const metadata: Metadata = {
   title: "ozelderz × Y Combinator — Ders Analiz",
   description:
     "ozelderz ve Y Combinator iş birliğiyle öğretmen-öğrenci ders analizi, öğrenme profili ve koçluk platformu",
+  icons: {
+    icon: [{ url: "/branding/ozelderz-logo.png", type: "image/png" }],
+    apple: "/branding/ozelderz-logo.png",
+    shortcut: "/branding/ozelderz-logo.png",
+  },
 };
 
 export default function RootLayout({
